@@ -34,7 +34,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Muscle Memory | Combat | 1 | start | Stepping stone; after a dodge your next fast attack deals +30% |
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks raise your next strong attack's damage by 15% |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back and, since 5.01, reflects damage |
-| Three Strikes | Combat | 1 | Muscle Memory | Stepping stone to Razor Focus; 20% chance that a third attack empowers the next ones |
+| Three Strikes | Combat | 1 | Muscle Memory | Stepping stone to Razor Focus; 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Crushing Blow | Combat | 1 | Strength Training | 20% chance that a strong attack makes the next two deal +50% |
 | Strength Training | Combat | 2 | — | +30% |
 | Arrow Deflection | Combat | 1 | start | Stepping stone to Resolve; also parries arrows |

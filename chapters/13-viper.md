@@ -32,7 +32,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks power up the strong attack that cashes in the poison |
 | Toxic Shock | Alchemy | 1 | Poisoned Blades | A strong attack on a poisoned target uses up the poison for a burst worth 25% of the hit; once every 5 s |
 | Poisoned Blades | Alchemy | 2 | — | 10% |
-| Three Strikes | Combat | 1 | Muscle Memory | 20% chance that a third attack empowers the next ones |
+| Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Refreshment | Alchemy | 1 | start | Each potion dose heals 10% |
 | Poisoned Blades | Alchemy | 3 | — | 15% per oiled hit |
 | Metabolic Control | General | 1 | Viper School Techniques | +10 max Toxicity; stepping stone to Synergy |

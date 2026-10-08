@@ -2,7 +2,7 @@
 
 *A field guide to patch 5.0*
 
-As of October 8, 2026 · patch 5.0 (Remastered) and 5.01
+As of October 9, 2026 · patch 5.0 (Remastered) and 5.01
 
 Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and three ranks per skill, School Techniques for all six witcher schools, and new skills that tie Signs, swords and poison together. This book explains how the new system works, builds the strongest version of each school from White Orchard to Toussaint, and tracks the gear worth chasing along the way, with the maths behind each choice and links to the sources.
 
@@ -55,8 +55,8 @@ Each school chapter covers its lore, how it plays, a phased skill plan checked a
 
 ## About the numbers
 
-- **Official notes describe the systems, not the numbers.** Skill values come from the community databases at [witcherhour.com](https://witcherhour.com/skills/) and [WitcherDB](https://witcherdb.com/build-planner); item, set and quest data mostly come from pre-5.0 wikis, since no 5.0 note changes them.
-- **Where sources disagree, the book shows both,** and says which it follows. The in-game tooltip always wins.
+- **Chapter 19 separates file evidence from community descriptions.** A local audit of build `5.0.0.1048522` verified baseline crit, Toxicity and outside-combat Stamina values, plus Three Strikes, Melt Armor and Aftershock calculations. [Read the findings and evidence](chapters/19-the-maths.md#file-evidence-and-reproducibility). Other skill values use [witcherhour.com](https://witcherhour.com/skills/) and [WitcherDB](https://witcherdb.com/build-planner); older item, set and quest data remain provisional where not checked.
+- **Where sources disagree, the book shows the uncertainty.** Tooltips describe intended effects; the implementation and controlled tests can reveal differences.
 - **Builds are judgment, the maths is arithmetic.** Every point plan was checked skill by skill against the 5.0 prerequisite links; the rankings in chapter 14 are opinion, and say so.
 
 **Spoilers.** The lore sections avoid main-story spoilers. Chapters 9, 13 and 15 to 18 name quest choices in the expansions, because that's what decides whether you get some of the best gear, and chapter 18 names the main story's points of no return.

@@ -2,7 +2,7 @@
 
 Every chapter ends with the sources it used. This chapter groups the main ones by topic and says how far to trust each.
 
-**How to weigh them.** Patch 5.0 came out on September 29, 2026, and patch 5.01 on October 8, 2026. CD PROJEKT RED's own notes describe the systems but publish almost no numbers, so nearly every 5.0 value in this book comes from community databases and guides written in the first days after release. Item, set and quest data mostly come from pre-5.0 wikis, which is fine as long as no 5.0 note changes them, and none does. Where sources disagree, the chapters give both versions. The in-game tooltip always wins.
+**How to weigh them.** Patch 5.0 came out on September 29, 2026, and patch 5.01 on October 8, 2026. CD PROJEKT RED's own notes describe the systems but publish almost no numbers, so nearly every 5.0 value in this book comes from community databases and guides written in the first days after release. Item, set and quest data mostly come from pre-5.0 wikis, which is fine as long as no 5.0 note changes them, and none does. Where sources disagree, the chapters give both versions. For the audited mechanics, [chapter 19](19-the-maths.md#file-evidence-and-reproducibility) records direct file evidence from build `5.0.0.1048522`. A tooltip describes intended behavior; a controlled test can resolve a conflict with the implementation.
 
 **Era tags:** **5.0** = published on or after September 29, 2026. **Pre-5.0** = older, or undated wiki pages.
 
@@ -68,7 +68,7 @@ Every chapter ends with the sources it used. This chapter groups the main ones b
 
 ## What's missing
 
-Checked for this book and not found in any source: base crit chance and crit damage, the fast-to-strong attack damage ratio, the armor-piercing formula, the 5.0 base Toxicity maximum, the potion Toxicity drain rate, out-of-combat Stamina regeneration, the total skill points in a playthrough, the size of Three Strikes' boost, Melt Armor's armor reduction and Aftershock's damage, and a published Remastered Viper build. Chapter 19 lists the gaps that affect its calculations.
+The local file audit now supplies baseline crit chance and damage, maximum Toxicity, potion Toxicity drain, outside-combat Stamina regeneration, and the Three Strikes, Melt Armor and Aftershock calculations. It also corrects the old crit lower bounds and the Wolven rotation's Three Strikes priority. [Chapter 19](19-the-maths.md#file-evidence-and-reproducibility) records the installed build, definition paths, script locations and validation limits. The highest-priority remaining questions are Euphoria, Delayed Recovery, combat Stamina, damage stacking and mitigation, poison behavior, and the attainable skill-point budget. A published Remastered Viper build was not found in the original source review.
 
 <!-- nav -->
 

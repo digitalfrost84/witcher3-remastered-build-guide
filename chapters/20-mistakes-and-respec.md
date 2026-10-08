@@ -4,7 +4,7 @@ Most build problems in 5.0 come from a handful of traps. Each one below is cheap
 
 ## Skill points
 
-1. **Spreading rank 1s everywhere.** Three ranks of a core skill usually beat three new skills at rank 1. The same five skills add +23% to a combo at rank 1 and +89% at rank 3 (chapter 19).
+1. **Buying ranks without checking activation.** Rank up skills your rotation actually uses, and compare each point with the alternatives it could unlock. More ranks in Three Strikes do not help a repeating three-fast/strong loop, because switching style resets the counter before its fourth-hit check (chapter 19).
 2. **Holding and spending Adrenaline in the same build.** Battle Frenzy, Focus and Mutated Skin reward a full bar; Whirl, Rend, Flood of Anger, Anger Management and the Replenishment runeword spend it. Pick one camp per build (chapter 1). Short Whirls that run on Stamina are the one safe overlap.
 3. **Expecting unslotted skills to work.** Most skills only work while they're in a slot (chapter 2). Stepping stones are fine to leave out; a rank-up on a skill you never slot buys you its branch passive at most (chapter 2).
 4. **Following an old guide's shopping list.** Fixative, Killing Spree, Quen Discharge, Steady Aim and the per-Sign intensity skills are gone; Heightened Tolerance is now High Tolerance and no longer protects you from overdose; Deadly Precision now works only with strong attacks ([witcherhour.com](https://witcherhour.com/skills/)). Some 5.0-era guides still use names like "Precise Blows" that appear in neither of the full 5.0 skill lists (witcherhour and WitcherDB).

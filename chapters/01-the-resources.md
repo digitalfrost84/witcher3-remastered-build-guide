@@ -31,6 +31,8 @@ Stamina is the bar under your health. It refills on its own and pays for:
 
 What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (sources give +0.5% or +0.5 per second each; chapter 2), the Tawny Owl potion, Griffin School Techniques at rank 3, and Sun and Stars at night. Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
 
+**Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses can delay it. That rate uses a separate attribute from combat regeneration, so it does not establish casting speed during fights; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
+
 ## Vitality
 
 Vitality is your health. Armor and resistances decide how much of an enemy's hit reaches it. A widely used rule of thumb is that damage taken equals the attack minus your armor value, reduced again by your resistance percentage ([Witcher wiki: Armor](https://witcher-games.fandom.com/wiki/Armor_(statistic))). Resistances come in three physical types (slashing, piercing, bludgeoning), plus elemental and monster resistance, and separate resistances to bleeding, poison and burning.
@@ -39,7 +41,7 @@ When Vitality hits zero you die, unless something saves you: **Undying** (Combat
 
 ## Toxicity
 
-Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is the exception), and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). Your maximum was 100 in the next-gen version; no source has confirmed the 5.0 value yet.
+Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is the exception), and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). The unmodified maximum is **100**, confirmed in build `5.0.0.1048522`. Potion Toxicity drains at **0.25 points/s in combat** or **0.275 points/s outside combat**, before modifiers; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
 
 Two things make Toxicity a resource rather than just a limit:
 

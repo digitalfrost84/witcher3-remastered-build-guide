@@ -57,7 +57,7 @@ Skills you buy only to unlock something deeper (Sustained Glyphs on the way to M
 
 1. **Pick a destination.** Choose the two or three skills that define the build, such as Battle Frenzy for crits or Catalyst for Signs.
 2. **Trace the prerequisites back.** Count the stepping stones. Some are good in their own right; some you'll never equip.
-3. **Rank up before you branch out.** Rank 3 of a core skill is often worth more than rank 1 of a new one. Chapter 19 shows that ranking the same five skills from 1 to 3 lifts a basic combo's bonus from +23% to +89%.
+3. **Rank the skills your rotation uses.** Additional ranks can strengthen a core skill, but compare them with the new abilities and prerequisites another point could unlock. Chapter 19 explains why the former fixed combo-percentage comparison is not reliable, and why Three Strikes is a poor rank-up for a three-fast/strong loop.
 4. **Match your armor.** Your School Technique only counts armor pieces of its weight class (chapter 3).
 
 The diagram shows one finished route, the Wolven hybrid from chapter 11. Arrows run from a prerequisite to the skill it unlocks; darker boxes are bought earlier.

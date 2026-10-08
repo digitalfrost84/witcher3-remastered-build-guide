@@ -1,6 +1,6 @@
 # 14. Verdict: which school is strongest?
 
-Every school in this book can finish the game on any difficulty. The question here is narrower: in patch 5.0, which one gets the most out of the same skill points, and what does each cost you to get there? Nobody has benchmarked 5.0 yet, so this chapter is a judgment built from the published numbers in chapters 8 to 13 and from what the 5.0 guides report. Read it as a reasoned opinion, not a measurement.
+Every school in this book can finish the game on any difficulty. The question here is narrower: in patch 5.0, which one gets the most out of the same skill points, and what does each cost you to get there? This book has not benchmarked the builds. The ranking combines community descriptions with the limited file audit in [chapter 19](19-the-maths.md). That audit corrects the crit calculation and Wolven skill priorities, but does not establish a new school order. Read the ranking as a playstyle judgment, not a measurement.
 
 ## The ranking
 
@@ -21,11 +21,11 @@ Patch 5.0 gave the Signs tree more new power than any other: Catalyst (+90% to A
 
 ### 2. Manticore: the highest ceiling, the longest wait
 
-With four decoctions, Euphoria and the set's extra charges, a finished Manticore has more damage and more sustain than anything else. FinalBoss calls it the strongest Death March build once assembled, and Hack the Minotaur gives its Euphoria build the highest damage ceiling in the game ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). It ranks second because "once assembled" means level 40 and Blood and Wine, because Acquired Tolerance only reaches its full value after you've learned dozens of recipes, and because two guides report that 5.0 weakened Euphoria. If you judge by the endgame alone, it's first.
+Manticore's proposed damage ceiling depends on four decoctions, Euphoria and the set's extra charges. The file audit confirms the base Toxicity budget, but has not resolved Euphoria's conversion or cap, so superiority over every other build remains unverified. FinalBoss calls it the strongest Death March build once assembled, and Hack the Minotaur gives its Euphoria build the highest damage ceiling in the game ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). It ranks second because "once assembled" means level 40 and Blood and Wine, because Acquired Tolerance only reaches its full value after you've learned dozens of recipes, and because two guides report that 5.0 weakened Euphoria. If Euphoria supports the assumed scaling, it is a candidate for first place in an endgame-only comparison.
 
 ### 3. Feline: the best swordsman
 
-Every Feline skill pays off on the same condition, a full Adrenaline bar, so it scales harder with rank-ups than any other sword build (chapter 8 puts a floor of 0.35 of a normal hit per swing on its crit bonus alone, and about 0.57 against the oiled monster type at a full bar). It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
+Several core Feline skills reward a full Adrenaline bar, which makes the crit plan coherent. The former 0.35/0.57-normal-hit damage floors are withdrawn: the implemented crit bonus adds to the attack-power multiplier, and its relative value depends on the rest of the build and the target. This audit does not prove that Feline scales harder than every other sword build. It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
 
 ### 4. Wolven: the best playthrough build
 
@@ -41,7 +41,7 @@ The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Deat
 
 ## Where it comes down to style
 
-The ranking measures power; how a school feels in your hands matters more for enjoying a 100-hour game.
+The ranking estimates relative power; how a school feels in your hands matters more for enjoying a 100-hour game.
 
 | If you want to… | Pick |
 | --- | --- |
