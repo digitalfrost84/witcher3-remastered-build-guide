@@ -2,6 +2,39 @@
 
 As of Oct 8, 2026 · patch 5.0 (Remastered)
 
+## Index
+
+The expanded guide runs to 18 sections in five parts. Eight are new, and they're built around one question: which gear to chase at each stage, from White Orchard to the Grandmaster sets in Toussaint.
+
+| # | Part | Section | What goes in it | Status |
+| --- | --- | --- | --- | --- |
+| 1 | Start here | Quick start: level 6 | Your 7 points, slot layout, mutagens, and your next gear pickups | Rework |
+| 2 | Start here | How the 5.0 tree works | Prerequisites, ranks, branch passives, slots, mutagen colors | Done |
+| 3 | Start here | Build concept | Hybrid and crit identities side by side; gear detail moves to Part 3 | Rework |
+| 4 | Skills | Leveling roadmap | Phases 1–4 with prerequisites, plus a gear milestone per phase | Rework |
+| 5 | Skills | What to equip | Slot priority and mutagen colors | Done |
+| 6 | Skills | Crit variant: skill swaps | Cat School swaps; the Katakan details move to the Alchemy kit | Rework |
+| 7 | Gear | How gear works in 5.0 | Weight classes and school techniques, tiers from Basic to Grandmaster, 3- and 6-piece set bonuses, who crafts what, Reforge | New |
+| 8 | Gear | Gear path through the playthrough | A drawn route by level and region, White Orchard to Toussaint, with the hybrid and crit lines side by side | New |
+| 9 | Gear | School sets compared | One table: armor weight, matching school technique, best build, tier levels, endgame bonus. Ursine gets a row here only | New |
+| 10 | Gear | Set profiles | Wolven and Forgotten Wolven (hybrid line), Griffin (early bridge), Feline (crit line), Manticore (alchemy-crit endgame), Viper (early swords, Hearts of Stone set): what each tier needs and where its diagrams are | New |
+| 11 | Gear | Relics and legendary weapons | Aerondight, Toussaint Knight's Steel Sword, Iris, Hen Gaidth, Viper Venomous swords: level, effect, source, best build | New |
+| 12 | Gear | Endgame loadouts | Two finished builds: hybrid (Grandmaster Forgotten Wolven, Conductors of Magic) and crit (Feline or Manticore with Katakan) | New |
+| 13 | Gear | Missables | Checklist of one-time gear chances, mostly in Hearts of Stone | New |
+| 14 | Play | Alchemy kit | Potions, oils and decoctions by phase, including Katakan and Ekimmara | New |
+| 15 | Play | Combat loop | No change | Done |
+| 16 | Play | Skip list and respec | No change | Done |
+| 17 | Reference | The maths behind the choices | Existing charts; gear maths only where sources publish numbers | Rework |
+| 18 | Reference | Sources | Add the gear and weapon sources | Rework |
+
+**Open decisions** (my default in brackets):
+
+- [ ] **Account-reward sets.** Armor of a Thousand Flowers (level 7) and White Tiger of the West (level 11) are early medium armor that suits Wolf School. They need a linked CD PROJEKT RED account. \[Include as optional\]
+- [ ] **Ursine.** Comparison-table row only, or a full profile? \[Row only\]
+- [ ] **Hearts of Stone enchanting** (runewords and glyphwords). In or out? \[Out\]
+
+**To check while writing:** Manticore's weight class (KeenGamer's Remastered guide says light with a Levity effect; the Fextralife wiki says medium), tier level requirements in 5.0, and whether Grandmaster set bonuses changed.
+
 ## How the 5.0 tree works
 
 This is a sword-first build that uses Signs to set up hits and Alchemy for healing and poison. It is designed to carry you through the main game and both expansions, not to min/max Death March.
@@ -26,8 +59,8 @@ The point plan below assumes about one point per level, plus whatever Places of 
 | Sustain and poison | Alchemy | Refreshment, Poisoned Blades, Toxic Shock |
 | Glue | General | Wolf School Techniques, then Adrenaline Burst and Synergy |
 
-- **Base game armor:** any medium armor until you get a full witcher set. The Griffin set is the base-game medium witcher set.
-- **Blood and Wine:** the Forgotten Wolven set (quest *In the Eternal Fire's Shadow*) is built for sword-and-Sign play.
+- **Base game armor:** any medium armor until you get a full witcher set. Griffin and Wolven are the base-game medium witcher sets.
+- **From level 20:** the Forgotten Wolven set is built for sword-and-Sign play. Its Basic tier comes from the quest *In the Eternal Fire's Shadow* at Devil's Pit in Velen. The Mastercrafted (level 34) and Grandmaster (level 40) diagrams come from notes in the Kaer Morhen library, and Lazare Lafargue in Beauclair crafts the Grandmaster tier.
 - **Swords:** whatever has the highest damage. Don't hold onto a weak sword just because it matches a set.
 
 ## Spend your 7 points now (level 6)
@@ -150,6 +183,39 @@ The basic rhythm is: Sign, dodge, three fast attacks, then a strong attack to fi
 - **Blood and Wine.** Rebuild around a mutation, either Conductors of Magic for Signs or Euphoria if you want to go full Alchemy.
 - **If a fight style isn't clicking.** Pure Signs (Griffin) and fast-attack Combat (Feline) are the two easy pivots from this tree.
 
+## Crit variant: Cat School and Katakan Decoction
+
+Switch to this once you have a light armor set, and lock it in around level 26, when you can get the Katakan mutagen. It trades Sign power for crit chance and crit damage. Delusion, Quen, and the Alchemy core stay the same.
+
+**Katakan Decoction.** It gives +10% crit chance for 30 minutes and costs 50 Toxicity. Decoction Toxicity stays locked for the full duration. These are the pre-Remastered values, and no source I found lists a change in 5.0, so check the in-game tooltip.
+
+- **Formula:** sold by the herbalist near the signpost in Hierarch Square, Novigrad. Go during the day.
+- **Katakan mutagen:** a reward from the contract *The Oxenfurt Drunk* (level 26) on Oxenfurt's notice board.
+- **Ingredients:** Dwarven Spirit, Katakan mutagen, Verbena, Arenaria.
+
+**Skill swaps from the main plan**
+
+| Tree | Drop | Add (prerequisite path) | Why |
+| --- | --- | --- | --- |
+| General | Wolf School Techniques, Sun and Stars | Cat School Techniques → Battle Frenzy; Cat → Adrenaline Burst → Survival Instinct → Anger Management → Synergy → Metabolic Control | +8% crit damage per light piece, +3% crit chance per Adrenaline point, +10 max Toxicity |
+| Combat | — | Undying → Fleet-Footed → Whirl → Crippling Strike and Counterattack | Fast-attack crits make the target take +10% damage; +33% on the hit after a dodge |
+| Signs | Melt Armor, the Yrden chain (Sustained Glyphs to Resonance) | — | Wolf's Sign bonus is gone, so the Sign capstone pays less |
+| Alchemy | — | Hunter Instinct and Acquired Tolerance move up to Phase 2 | +20% crit damage at full Adrenaline with the right oil, and Toxicity room for the decoction |
+
+Buy Whirl only as a stepping stone. Using it burns the Adrenaline that Battle Frenzy turns into crit chance.
+
+**Toxicity.** The decoction holds 50 Toxicity the whole time, so Acquired Tolerance and Metabolic Control decide how many potions you can still drink on top. The upside is that Frenzy stays switched on, because it only needs Toxicity above 1. A second decoction is possible later; Ekimmara, which heals you from damage dealt, is the usual pick.
+
+**Mutagens:** red and green. Blue only next to Quen and Delusion.
+
+**Optional, risky:** High Tolerance adds crit damage equal to 33% of your current Toxicity. But above 80% Toxicity you take 150% damage, so only take it if you rarely get hit.
+
+### Why Katakan is the crit build's core
+
+![Crit chance by Adrenaline held, with and without Katakan](images/crit-chance.png)
+
+Battle Frenzy scales with the Adrenaline you're holding, so it drops the moment you spend or lose points. Katakan's 10% is there from the first swing of every fight, so the two together keep crit chance high even after a hit knocks your Adrenaline down.
+
 ## The maths behind the choices
 
 At rank 1, this build's bonuses add about 23% to a standard combo, and almost all of that comes from cheap Combat and General picks. Poison only pays off later, once you've ranked it up and fights run longer. The sections below show the working.
@@ -230,3 +296,9 @@ Skill names, prerequisites, and rank-1 values come from WitcherDB's Remastered p
 - [KeenGamer – Remastered Best Builds for Every Playstyle](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/)
 - [KeenGamer – Remastered Skill Tree Guide](https://www.keengamer.com/articles/guides/witcher-3-remastered-skill-tree-guide-best-skills-to-unlock-first/)
 - [Mobalytics – New Skill Trees Explained](https://mobalytics.gg/gamebase/guides/witcher-3-new-skill-tree)
+
+Crit variant:
+
+- [Witcher 3 Wiki (Fextralife) – Katakan Decoction](https://thewitcher3.wiki.fextralife.com/Katakan+Decoction)
+- [Vulkk – Witcher 3 decoctions catalog and locations](https://vulkk.com/2023/01/18/full-witcher-3-decoctions-catalog-and-locations-guide/)
+- [ConsolePulse – All Witcher 3 decoctions ranked](https://consolepulse.com/multiplatform/the-witcher/guides/all-witcher-3-decoctions-ranked) (pre-Remastered)
