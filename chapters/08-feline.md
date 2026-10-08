@@ -29,7 +29,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 1 | start | After a dodge or roll, your next fast attack deals +30% |
-| Cat School Techniques | General | 1 | start | +8% crit damage and +2% fast attack damage per light piece (witcherhour says +1%). The Temerian set from White Orchard is light |
+| Cat School Techniques | General | 1 | start | +2% fast attack damage per light piece, plus a crit-damage bonus published as +8% whose real effect is unresolved (chapter 19). The Temerian set from White Orchard is light |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back, and since patch 5.01 it also reflects damage |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
@@ -50,10 +50,10 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Counterattack | Combat | 1 | Whirl | After a successful counter or dodge, your next attack deals +33% |
 | Crippling Strike | Combat | 1 | Whirl | Critical fast attacks cripple the target, which then takes +10% damage |
 | Hunter Instinct | Alchemy | 1 | Frenzy | At full Adrenaline, +20% crit damage against the monster type your oil targets |
-| Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +1 max Toxicity per known recipe: room for a second decoction |
+| Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned: a little potion room beside a second decoction |
 | Battle Frenzy | General | 3 | — | +9% crit chance per Adrenaline point: +27% at a full bar |
 | Muscle Memory | Combat | 3 | — | Three boosted fast attacks after every dodge |
-| Cat School Techniques | General | 3 | — | +24% crit damage and +6% fast attack damage per light piece |
+| Cat School Techniques | General | 3 | — | +6% fast attack damage per light piece, +24% in all; the crit-damage part is published as +24% per piece |
 | Resolve | Combat | 2 | — | Lose 67% less Adrenaline when hit |
 | Counterattack | Combat | 2 | — | +67% |
 | Crippling Strike | Combat | 2 | — | +20% |
@@ -68,7 +68,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Rank 2:** Undying and Acquired Tolerance. Three Strikes is optional: rank it further only if you regularly reach four consecutive same-style hits.
 - **Mutation:** Deadly Counter, then Bloodbath (below).
 
-**A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out** ([witcherhour.com](https://witcherhour.com/skills/)). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
+**A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out**: 75 / 50 / 37.5 Stamina per second at ranks 1/2/3, then 1 / 0.67 / 0.5 Adrenaline per second, according to the game files (chapter 19). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
 
 ## Slots, mutagens and mutation
 

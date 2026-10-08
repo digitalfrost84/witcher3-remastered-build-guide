@@ -33,7 +33,7 @@ Researching the **whole tree costs 49 Ability Points and 49 greater mutagens** (
 
 The large node in the middle of the panel, **Strengthened Synapses**, is always active and free. It levels up as you research other mutations, and each level opens one extra skill slot.
 
-- **When they open.** Most sources say after **2, 4, 8 and 12** researched mutations. At the cheapest research order, that's 4, 9, 25 and 49 Ability Points ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); [Push Square](https://www.pushsquare.com/guides/the-witcher-3-blood-and-wine-mutation-character-builds)). Gamer Guides says 2, 4, 6 and 8 instead ([Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine)).
+- **When they open.** After **2, 4, 8 and 12** researched mutations, as most sources say and the game files confirm. At the cheapest research order, that's 4, 9, 25 and 49 Ability Points ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); [Push Square](https://www.pushsquare.com/guides/the-witcher-3-blood-and-wine-mutation-character-builds)). Gamer Guides' 2, 4, 6 and 8 doesn't match the files ([Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine)).
 - **Color rule.** The extra slots only take skills that match the **active** mutation's color: red takes Combat skills, blue takes Signs, green takes Alchemy. Two- and three-color mutations accept any of their colors.
 - **Limits.** General skills never fit. The extra slots get no mutagen bonus. Switching to a mutation of another color can eject skills that no longer match.
 
@@ -60,27 +60,27 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | **Deadly Counter** | Red | 2 + 2 red | — | +25% sword damage against monsters and against humans who can't be countered; countering an enemy below 25% Vitality can trigger a finisher |
 | **Bloodbath** | Red | 3 + 3 red | Deadly Counter | +5% attack power per melee hit until combat ends, lost when you're hit; fatal blows dismember or finish |
-| **Magic Sensibilities** | Blue | 2 + 2 blue | — | Signs can crit, with crit chance and damage scaling with Sign intensity; enemies killed by a Sign crit explode |
+| **Magic Sensibilities** | Blue | 2 + 2 blue | — | Signs can crit: 20% plus 10% per point of the Sign's intensity multiplier (30% unboosted), and a crit adds that multiplier again; enemies killed by a Sign crit explode |
 | **Piercing Cold** | Blue | 3 + 3 blue | Magic Sensibilities | Aard can freeze; a frozen enemy that's knocked down dies instantly |
 | **Toxic Blood** | Green | 2 + 2 green | — | Enemies that hit you in melee take damage based on your Toxicity |
-| **Euphoria** | Green | 3 + 3 green | Toxic Blood | +0.75% sword damage and Sign intensity per Toxicity point |
-| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria (per KeenGamer; Gamer Guides lists none) | −15% damage taken per Adrenaline point held, up to −45%; spending Adrenaline lowers it |
+| **Euphoria** | Green | 3 + 3 green | Toxic Blood | In combat, +0.75 percentage points of attack power and Sign intensity per point of current Toxicity, decoctions included, with no cap |
+| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria | −15% damage taken per Adrenaline point held, up to −45%; spending Adrenaline lowers it |
 | **Cat Eyes** | Red + green | 5 + 3 green, 2 red | Bloodbath and Euphoria | Big crossbow damage boost, +50% crossbow crit chance; bolts pierce and knock down |
-| **Metamorphosis** | All three | 7 + 3 green, 2 red, 2 blue | Cat Eyes | Applying a critical effect to an enemy starts a random crafted decoction for 120 s, with no Toxicity cost |
+| **Metamorphosis** | All three | 7 + 3 green, 2 red, 2 blue | Cat Eyes | Applying a critical effect to an enemy, ordinary poison included, starts a random crafted decoction for 120 s with no Toxicity cost, up to five at once |
 | **Adrenaline Rush** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold and Bloodbath | A big attack power and Sign intensity boost at the start of a fight against several enemies, then a dip |
-| **Conductors of Magic** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold | With a magic, unique or witcher sword drawn, Signs add 50% of the sword's damage |
-| **Second Life** | All three | 7 + 3 red, 2 blue, 2 green | Adrenaline Rush | At 0 Vitality: brief invulnerability and a full heal, then a long cooldown |
+| **Conductors of Magic** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold | With a magic, unique or witcher sword drawn, Signs add half the sword's base damage stat before Sign intensity applies |
+| **Second Life** | All three | 7 + 3 red, 2 blue, 2 green | Adrenaline Rush | At 0 Vitality: brief invulnerability and a full heal, then a 120-second cooldown |
 
-Costs are Ability Points plus greater mutagens. Effects and prerequisites from [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); costs match [Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine) and [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-mutation-system-unlock-order-builds).
+Costs, prerequisites, Euphoria, Magic Sensibilities, Conductors, Metamorphosis and Second Life's cooldown match the game files; chapter 19 has the formulas. Costs are Ability Points plus greater mutagens. Other effects from [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); costs match [Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine) and [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-mutation-system-unlock-order-builds).
 
 **Numbers that sources disagree on** (check the tooltip):
 
 - **Toxic Blood:** 1.5% or 3% of the damage dealt per Toxicity point, with caps of 150% up to 387%.
-- **Euphoria:** the cap is given as 75%, 112.5% or 193.5%; KeenGamer says it rises with your maximum Toxicity. FinalBoss and VGTimes say 5.0 weakened Euphoria, though no patch note says so.
+- **Euphoria:** guides give caps of 75%, 112.5% or 193.5%. The game files have no cap at all: the tooltip's maximum is 0.75% of your maximum Toxicity, which is why it seemed to rise with it. FinalBoss and VGTimes say 5.0 weakened Euphoria, though no patch note says so.
 - **Piercing Cold:** a flat 25% freeze chance, 0–25% scaling with Adrenaline, or 30%.
-- **Adrenaline Rush:** one source says the second phase is a penalty, another a smaller bonus.
-- **Second Life:** a 180-second or a 120-second cooldown.
-- **Metamorphosis:** up to 3 or up to 5 decoctions at once.
+- **Adrenaline Rush:** one source says the second phase is a penalty, another a smaller bonus. The game files define a −10% attack power and Sign intensity debuff, which supports the penalty.
+- **Second Life:** guides give a 180-second or a 120-second cooldown; the game files say 120.
+- **Metamorphosis:** guides say up to 3 or up to 5 decoctions at once; the game files cap it at 5.
 
 ## Which mutation for which school
 

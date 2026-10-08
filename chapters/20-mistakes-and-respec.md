@@ -6,10 +6,10 @@ Most build problems in 5.0 come from a handful of traps. Each one below is cheap
 
 1. **Buying ranks without checking activation.** Rank up skills your rotation actually uses, and compare each point with the alternatives it could unlock. More ranks in Three Strikes do not help a repeating three-fast/strong loop, because switching style resets the counter before its fourth-hit check (chapter 19).
 2. **Holding and spending Adrenaline in the same build.** Battle Frenzy, Focus and Mutated Skin reward a full bar; Whirl, Rend, Flood of Anger, Anger Management and the Replenishment runeword spend it. Pick one camp per build (chapter 1). Short Whirls that run on Stamina are the one safe overlap.
-3. **Expecting unslotted skills to work.** Most skills only work while they're in a slot (chapter 2). Stepping stones are fine to leave out; a rank-up on a skill you never slot buys you its branch passive at most (chapter 2).
+3. **Expecting unslotted skills to work.** Most skills only work while they're in a slot (chapter 2). Stepping stones are fine to leave out, but a rank-up on a skill you never slot buys you nothing, not even its branch passive, which only counts equipped skills (chapter 2).
 4. **Following an old guide's shopping list.** Fixative, Killing Spree, Quen Discharge, Steady Aim and the per-Sign intensity skills are gone; Heightened Tolerance is now High Tolerance and no longer protects you from overdose; Deadly Precision now works only with strong attacks ([witcherhour.com](https://witcherhour.com/skills/)). Some 5.0-era guides say "Precise Blows": that is Three Strikes' legacy name in the game files, not a separate skill ([chapter 19](19-the-maths.md#10-three-strikes-a-bonus-to-the-fourth-matching-hit)).
 5. **Taking High Tolerance casually.** At 80% Toxicity or more you take 150% damage. It's for experts who rarely get hit.
-6. **Taking Fast Metabolism with Euphoria without thinking it through.** It drains potion Toxicity faster, which lowers Euphoria's bonus between potions. KeenGamer says to skip it; Hack the Minotaur and VGTimes take it (chapter 12).
+6. **Taking Fast Metabolism or Delayed Recovery with Euphoria without thinking it through.** Fast Metabolism adds 1 point per second per rank to a base drain of 0.25, so even rank 1 empties potion Toxicity five times as fast and lowers Euphoria's bonus between potions; KeenGamer says to skip it, Hack the Minotaur and VGTimes take it. Delayed Recovery can't trigger with two decoctions running unless your maximum Toxicity is above 222 (chapter 12).
 
 ## Armor and mutagens
 
@@ -21,8 +21,8 @@ Most build problems in 5.0 come from a handful of traps. Each one below is cheap
 
 ## Alchemy
 
-12. **Fighting without oils.** Poisoned Blades, Hunter Instinct and Protective Coating all need an oil, and the oil's own damage bonus is up to +50%. The "Automatically Apply Blade Oils" option does the swapping for you, and patch 5.01 fixed a bug in it ([CD PROJEKT RED: Patch 5.01](https://www.thewitcher.com/us/en/news/52085/patch-5-01-for-the-witcher-3-wild-hunt-remastered-is-live)).
-13. **Running out of decoction room.** Each decoction locks 50 Toxicity for its full duration. If you plan on two or more, Acquired Tolerance comes first (chapter 4).
+12. **Fighting without oils.** Poisoned Blades, Potent Sting, Hunter Instinct and Protective Coating all need an oil that matches the target, Poisoned Blades rolls higher with better oils, and the oil's own damage bonus is up to +50%. The "Automatically Apply Blade Oils" option does the swapping for you, and patch 5.01 fixed a bug in it ([CD PROJEKT RED: Patch 5.01](https://www.thewitcher.com/us/en/news/52085/patch-5-01-for-the-witcher-3-wild-hunt-remastered-is-live)).
+13. **Running out of decoction room.** Each decoction locks 50 Toxicity for its full duration, and above half your maximum Toxicity drains your Vitality. If you plan on two or more, raise the maximum first: Metabolic Control gives +10 per point, Acquired Tolerance +0.5 per recipe you've learned, Manticore armor +5 per piece (chapter 4).
 14. **Using up your alcohol.** Meditating with a strong alcohol refills every potion, bomb and decoction; keep White Gull for superior recipes and Alcohest for enhanced ones (chapter 4).
 
 ## Mutations and gear chances

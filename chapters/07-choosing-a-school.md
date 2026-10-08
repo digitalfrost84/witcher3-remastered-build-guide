@@ -15,7 +15,7 @@ The first is available from your first skill point, the third grows over the who
 | | Feline | Griffin | Ursine | Wolven | Manticore | Viper |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Armor** | Light | Medium | Heavy | Medium | Medium | Medium |
-| **Technique, 4 pieces at rank 3** | +96% crit damage, +24% fast attacks | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
+| **Technique, 4 pieces at rank 3** | +24% fast attacks, crit damage (published +96%, unresolved) | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
 | **Leans on** | Held Adrenaline, crits | Stamina, Yrden | Vitality, Quen | A bit of everything | Toxicity, decoctions | Poison, oils |
 | **First set tier** | Level 17 | Level 11 | Level 20 | Level 14 (Kaer Morhen) | Level 40 only | Swords level 1, armor 39 |
 | **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on every alchemy item | None |
@@ -49,7 +49,7 @@ Every chapter in Part II runs in the same order:
 
 1. **Lore:** who the school were, and where you meet them in The Witcher 3.
 2. **How it plays:** the resource loop, in a paragraph.
-3. **Skills by phase:** what to buy, in order, with every prerequisite listed. The phases assume about one point per level; Places of Power give extra points, so you'll usually be a little ahead.
+3. **Skills by phase:** what to buy, in order, with every prerequisite listed. The phases assume about one point per level; each Place of Power gives one more the first time you use it, the Magic Acorn two and Blood and Wine's Golden Egg one, so you'll usually be a little ahead.
 4. **Slots, mutagens and mutation:** the final layout of the 12 slots plus mutation slots.
 5. **Consumables and the fight loop.**
 6. **Gear path:** armor and swords from White Orchard to Toussaint, with links to diagram location guides.

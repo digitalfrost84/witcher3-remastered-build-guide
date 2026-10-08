@@ -14,7 +14,7 @@ The school ended the way it lived: after a failed contract against a vampire cab
 
 ## How it plays
 
-An Ursine build trades speed for staying power. **Heavy armor** feeds Bear School Techniques with extra Vitality and strong attack damage. **Fast attacks charge strong attacks** through Strength Training, Crushing Blow can make the next two strong attacks hit 50% harder, and Sunder Armor strips the target's resistance with every strong hit. **Quen** is the second layer of armor: Active Shield heals you from what it absorbs, and the Grandmaster set recasts it for free.
+An Ursine build trades speed for staying power. **Heavy armor** feeds Bear School Techniques with extra Vitality and strong attack damage. **Fast attacks charge strong attacks** through Strength Training, Crushing Blow can make the next two strong attacks hit 50% harder, and Sunder Armor strips the target's resistance with every strong hit. **Quen** is the second layer of armor: Active Shield heals you from what it absorbs, and the Grandmaster set recasts it for free. Heavy armor's price is Stamina, which regenerates 25% slower in a full heavy set.
 
 Adrenaline has two uses, and the build changes when you get Blood and Wine:
 
@@ -48,10 +48,10 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Undying | Combat | 1 | Resolve | At 0 Vitality, spends Adrenaline to bring you back |
+| Undying | Combat | 1 | Resolve | At 0 Vitality, spends your Adrenaline to bring you back with 10% Vitality per point |
 | Bear School Techniques | General | 1 | start | +2% max Vitality and +2% strong attack damage per heavy piece. Take it as soon as you're in heavy armor; the Undvik set at level 16 is the latest |
 | Bear School Techniques | General | 2 | — | +4% per heavy piece |
-| Rend | Combat | 1 | Crushing Blow | A charged strike that ignores defenses; +10% damage per Adrenaline point |
+| Rend | Combat | 1 | Crushing Blow | A charged strike with 1,000 armor penetration: a full charge multiplies its damage by 2.5, and each Adrenaline point spent adds +10% per rank on top |
 | Strength Training | Combat | 3 | — | +45% |
 | Crushing Blow | Combat | 3 | — | 60% chance |
 | Sunder Armor | Combat | 2 | — | Up to two stacks |
@@ -69,8 +69,8 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance) to rank 3: +300/600/900 max Vitality while any decoction is active.
 - **Survival Instinct** (General, from Anger Management) to rank 3: +8/16/24% max Vitality.
 - **Rank 3:** Sunder Armor (three stacks), Resolve (no Adrenaline lost when hit), Active Shield (no Stamina drain), Synergy.
-- **Rank 2:** Undying, Razor Focus, Rend.
-- **Deadly Precision** (Combat, from Rend): any attack can set up an instant-kill strong attack; enemies immune to it give you Adrenaline instead.
+- **Rank 2:** Undying, Razor Focus, Rend. Undying's rank 2 adds a flat third of your maximum Vitality, so even one Adrenaline point brings you back at 43% instead of 10% (chapter 19).
+- **Deadly Precision** (Combat, from Rend): a strong attack within 3 seconds of any attack has a 5/10/15% chance to kill outright, with a 15-second cooldown after each kill; enemies immune to it give you a little Adrenaline instead.
 - **Mutation:** Toxic Blood → Euphoria → Mutated Skin (below).
 
 ## Slots, mutagens and mutation
@@ -85,7 +85,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Delusion:** if you want Axii's dialogue options, it takes Refreshment's slot.
 
-**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per Adrenaline point held, up to −45%; spending points lowers it. KeenGamer says it needs Euphoria researched first; Gamer Guides lists no prerequisite ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
+**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per Adrenaline point held, up to −45%; spending points lowers it. It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
 
 Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 5). For most players Undying does the same job for one point.
 
@@ -97,7 +97,7 @@ Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but i
 
 1. **Quen first,** Active Shield against groups. Let the shield take hits that would otherwise drain your Adrenaline.
 2. **Fast attacks, then a strong attack.** The fast hits charge Strength Training; the strong hit can trigger Crushing Blow and stacks Sunder Armor.
-3. **Keep Sunder Armor stacked** on the target you're fighting; three stacks strip 30% of its damage resistance.
+3. **Keep Sunder Armor stacked** on the target you're fighting; three stacks strip 30% of its damage resistance against your strong attacks. Melt Armor adds little here: strong attacks and Rend already carry 1,000 armor penetration.
 4. **Spend or hold.** Before Mutated Skin, finish isolated or big enemies with a full-bar Rend. After it, hold three points and let the damage reduction carry you.
 5. **Undying** is the last line, with Razor Focus making sure there's always at least one point in the bar.
 

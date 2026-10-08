@@ -12,7 +12,7 @@ The Viper every player remembers is **Letho of Gulet**, the Kingslayer of *The W
 
 ## How it plays
 
-A Viper wears medium armor, keeps an oil on the blade at all times, and lands **as many hits as possible**, because every oiled hit is a roll for poison. Once the target is poisoned, a **strong attack** cashes it in through Toxic Shock: the poison is used up for a burst of damage, at most once every five seconds. Debilitating Poison makes poisoned enemies hit you more softly, Potent Sting makes your poisoned weapons hit harder, and Viper School Techniques adds Vitality and poison damage for every medium piece.
+A Viper wears medium armor, keeps the right oil on the blade at all times, and lands **as many hits as possible**, because every hit with an oil that matches the target is a roll for poison, and better oils roll higher. Once the target is poisoned, a **strong attack** cashes it in through Toxic Shock: the poison is used up for a burst of damage, at most once every five seconds. Debilitating Poison makes poisoned enemies hit you more softly, Potent Sting makes every hit with the matching oil harder, and Viper School Techniques adds Vitality and poison damage for every medium piece.
 
 Patch 5.0 gave the school a skill line of its own: the four poison skills in the Alchemy tree are new ([witcherhour.com](https://witcherhour.com/skills/)). The research for this book found no published Remastered Viper build: VGTimes names Viper School Techniques but writes no build, and the builds from Gamestegy and Console Pulse predate 5.0 ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). The plan below is built from the 5.0 tree.
 
@@ -27,14 +27,14 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Muscle Memory | Combat | 1 | start | After a dodge, your next fast attack deals +30% |
 | Frenzy | Alchemy | 1 | start | The entry to the poison line; time slows before enemy counters while you have Toxicity |
 | Viper School Techniques | General | 1 | start | +2% max Vitality and poison damage per medium piece |
-| Poisoned Blades | Alchemy | 1 | Frenzy | Oiled hits have a 5% chance to poison |
+| Poisoned Blades | Alchemy | 1 | Frenzy | Hits with an oil matching the target have a 5% chance to poison, plus 10 points with an enhanced oil or 20 with a superior one |
 | Exploding Shield | Signs | 1 | start | Quen; reflects damage since 5.01 |
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks power up the strong attack that cashes in the poison |
 | Toxic Shock | Alchemy | 1 | Poisoned Blades | A strong attack on a poisoned target uses up the poison for a burst worth 25% of the hit; once every 5 s |
 | Poisoned Blades | Alchemy | 2 | — | 10% |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Refreshment | Alchemy | 1 | start | Each potion dose heals 10% |
-| Poisoned Blades | Alchemy | 3 | — | 15% per oiled hit |
+| Poisoned Blades | Alchemy | 3 | — | 15% with a basic oil, 35% with a superior one |
 | Metabolic Control | General | 1 | Viper School Techniques | +10 max Toxicity; stepping stone to Synergy |
 
 ### Mid game: to 28 points (about level 30)
@@ -42,7 +42,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Debilitating Poison | Alchemy | 1 | Toxic Shock | Poisoned enemies deal 5% less damage |
-| Potent Sting | Alchemy | 1 | Debilitating Poison | Poisoned weapons deal +5% damage, double against poison-immune enemies |
+| Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%, double against poison-immune enemies; the target needn't be poisoned |
 | Toxic Shock | Alchemy | 3 | — | The burst grows to 75% of the hit |
 | Hunter Instinct | Alchemy | 1 | Frenzy | +20% crit damage at full Adrenaline against the oiled monster type |
 | Viper School Techniques | General | 3 | — | +6% max Vitality and poison damage per medium piece |
@@ -76,19 +76,19 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Delusion:** if you want Axii's dialogue options, it takes Hunter Instinct's slot.
 
-**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity. No source says whether poison counts as a critical effect, so test it before you spend the points. Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
+**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity, up to five at once. The game files confirm that the ordinary poison you apply triggers it, which makes it a natural fit for this school (chapter 19). Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
 
 ## Consumables and the fight loop
 
-**Oils, always.** Poisoned Blades only rolls on oiled hits, and Hunter Instinct only works against the oiled monster type, so the right oil matters twice. **Potions:** Thunderbolt, Swallow, and Golden Oriole against enemies that poison *you* (the superior version even heals from it). **Decoctions:** Katakan for crits from the Venomous swords, and Ekimmara to heal through long fights.
+**Oils, always.** Poisoned Blades only rolls when the oil matches the target's monster type, its chance grows with the oil's tier, and Hunter Instinct and Potent Sting also need the matching oil, so the right oil, enhanced or superior if you have it, matters three times over. **Potions:** Thunderbolt, Swallow, and Golden Oriole against enemies that poison *you* (the superior version even heals from it). **Decoctions:** Katakan for crits from the Venomous swords, and Ekimmara to heal through long fights.
 
 **The loop:**
 
 1. **Before the fight:** right oil, potions. Drinking anything switches Frenzy on.
 2. **Open:** Quen.
 3. **Roll for poison:** dodge in and land fast attacks. Muscle Memory makes them count.
-4. **Cash it in:** once the target shows the poison effect, finish the string with a strong attack for Toxic Shock.
-5. **Keep it poisoned:** while the poison lasts, Debilitating Poison weakens the enemy and Potent Sting strengthens you.
+4. **Cash it in:** once the target shows the poison effect, finish the string with a strong attack for Toxic Shock. The burst uses the poison up.
+5. **Poison it again:** Debilitating Poison only protects you while the enemy carries your poison, so land fast hits before the next strong attack. Potent Sting adds damage to every hit with the matching oil either way.
 6. **Wait out the cooldown:** Toxic Shock fires at most every five seconds, so use the gap to reposition and roll for the next poison.
 
 ## Gear path
@@ -114,23 +114,24 @@ Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-
 
 ## The maths
 
-![Chance the target is poisoned after a number of oiled hits, at 5%, 15% and 30% per hit](../images/poison-odds.png)
+![Chance the target is poisoned after a number of hits with a matching oil, at 5%, 15%, 35% and 44.75% per hit](../images/poison-odds.png)
 
-**How fast poison lands.** The chance the target is poisoned after `n` oiled hits at chance `p` per hit:
+**How fast poison lands.** The game files set Poisoned Blades' chance at 5% per rank plus 10 points per oil tier above basic, and a poison sword rolls separately ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)):
 
 ```math
+p = 1 - (1 - p_{\mathrm{skill}})(1 - p_{\mathrm{sword}}),\qquad
 P_{\text{poisoned}}(n) = 1 - (1 - p)^n
 ```
 
-At Poisoned Blades rank 1 (5%), even odds take 14 hits, which is why poison is a long-fight tool early on. At rank 3 (15%), three fast hits poison the target 39% of the time and five hits get you past even odds. If the Viper swords' own chance stacks with the skill, a rank-3 Viper with a Venomous sword is near 30% per hit and two hits get past even odds (51%); if they're separate rolls (28%), it takes three (62%). No source confirms how the two combine.
+At rank 1 with a basic oil (5%), even odds take 14 hits, which is why poison is a long-fight tool early on. At rank 3 the oil makes the difference: 15% with a basic oil, but **35% with a superior one**, so three fast hits poison the target 73% of the time. Add a Venomous sword's separate 15% roll and it's 44.75% per hit, 83% after three.
 
-**Why that matters for Toxic Shock.** Toxic Shock can fire only once every five seconds, so the goal is simply to have the target poisoned each time the cooldown ends. At 15% per hit, six hits (two strings) poison the target 62% of the time; at 30%, the same six hits get there 88% of the time. Past that point, extra poison chance only adds the poison's own damage over time, and points do more in Potent Sting or Debilitating Poison.
+**Why that matters for Toxic Shock.** Toxic Shock can fire only once every five seconds and uses the poison up, so the goal is to have the target poisoned again each time the cooldown ends. With a superior oil at rank 3, one string of three fast hits does that about three times in four. The poison itself lasts 5 seconds at base, scaled by your attack power, and deals 1.6% of the target's maximum health per second before resistances, so between bursts it's real damage too. Past that point, points do more in Potent Sting or Debilitating Poison.
 
 ## Verdict
 
 **Strengths.** The only school you can start in White Orchard with its own swords. 5.0's new poison line gives it a clear identity, Debilitating Poison is real defense, and the Venomous swords are among the best crit swords of Hearts of Stone.
 
-**Weaknesses.** No set bonus at all, no Grandmaster tier, and every piece of its Hearts of Stone gear is missable. Poison numbers are modest, so damage leans on rank-ups and the right oil. And by the endgame it looks a lot like a Manticore build with less Toxicity room.
+**Weaknesses.** No set bonus at all, no Grandmaster tier, and every piece of its Hearts of Stone gear is missable. Poison is only reliable with the right oil for every enemy type, enhanced or superior if possible, so preparation is half the build. And by the endgame it looks a lot like a Manticore build with less Toxicity room.
 
 **Who it suits:** players who like the fantasy of the Kingslayers, enjoy prepping oils for each fight, and want a build that's different from every guide out there.
 
