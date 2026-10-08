@@ -58,8 +58,8 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Poisoned Blades | Alchemy | 1 | Frenzy | Oiled blades have a 5% chance to poison |
-| Toxic Shock | Alchemy | 1 | Poisoned Blades | A strong attack on a poisoned target uses up the poison for a burst worth 25% of the hit |
+| Poisoned Blades | Alchemy | 1 | Frenzy | Hits with an oil matching the target have a 5% chance to poison, more with enhanced or superior oils |
+| Toxic Shock | Alchemy | 1 | Poisoned Blades | A strong attack on a poisoned target uses up the poison for a burst worth 25% of the hit's raw damage; once every 5 s |
 | Undying | Combat | 1 | Three Strikes | At 0 Vitality, spends Adrenaline to bring you back |
 | Active Shield | Signs | 1 | Exploding Shield | Hold Quen to keep a shield up that heals you |
 | Supercharged Glyphs | Signs | 1 | Magic Trap | Enemies in Yrden lose Vitality every second |
@@ -72,7 +72,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | --- | --- | --- | --- | --- |
 | Catalyst | Signs | 1 | Supercharged Glyphs | Igni and Aard +30% intensity against enemies inside Yrden |
 | Hunter Instinct | Alchemy | 1 | Refreshment | +20% crit damage at full Adrenaline against the oiled monster type |
-| Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +1 max Toxicity per known recipe |
+| Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned |
 | Sun and Stars | General | 1 | Wolf School Techniques | Regeneration by day and night; mostly a stepping stone |
 | Survival Instinct | General | 1 | Sun and Stars | +8% max Vitality |
 | Adrenaline Burst | General | 1 | Survival Instinct | Signs generate Adrenaline |
@@ -85,7 +85,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance): +300/600/900 max Vitality while a decoction is active.
 - **Anger Management → Synergy** (General, from Survival Instinct): cast Signs with Adrenaline when out of Stamina, then stronger mutagens.
 - **Chain Reaction → Aftershock → Resonance** (Signs, from Catalyst): after you cast a Sign, your next three melee hits deal bonus damage based on your Sign intensity (10/20/30%). This is the hybrid's capstone.
-- **Rank-ups:** Toxic Shock 3 (the burst grows to 75% of the hit), Poisoned Blades 3 (15% per hit), Strength Training 3, Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
+- **Rank-ups:** Toxic Shock 3 (the burst grows to 75% of the hit), Poisoned Blades 3 (15% per hit, 35% with a superior oil), Strength Training 3, Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
 - **Mutation:** Conductors of Magic (below).
 
 Cumulative points after each phase:
@@ -130,7 +130,7 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 | 4 | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
 | Mutation slots (red or blue) | Melt Armor, Undying, Supercharged Glyphs, Aftershock | — |
 
-**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **50% of that sword's damage**. Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
+**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **half of that sword's base damage stat** to their damage before Sign intensity multiplies it; the game files confirm this for every Sign action, Aftershock included (chapter 19). Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
 
 ## Consumables and the fight loop
 
@@ -140,9 +140,9 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 
 1. **Before the fight:** apply the right oil and drink your potions. Drinking anything switches Frenzy on.
 2. **Open:** cast Quen. Against groups or wraiths, lay a Magic Trap; once you have Catalyst, fight inside it.
-3. **Soften up:** hit armored targets with Igni so Melt Armor strips their armor.
+3. **Soften up:** hit armored targets with Igni so Melt Armor strips their armor. That helps your fast attacks; the strong finisher already ignores up to 1,000 points of armor.
 4. **Punish:** dodge or roll, then land three fast attacks. Muscle Memory rank 3 boosts all three. Three Strikes does not activate before switching to the strong finisher.
-5. **Finish:** end the string with a strong attack. It uses the Strength Training stack, and on a poisoned target it also triggers Toxic Shock.
+5. **Finish:** end the string with a strong attack. It uses the Strength Training stack, and if the target was already poisoned before the string ended, it also triggers Toxic Shock, at most once every 5 seconds.
 6. **Recover:** recast Quen when it breaks; drink if you're low (Refreshment heals 10% per dose).
 7. **Late game:** cast a Sign before each string so Resonance powers up the three hits after it, and **hold your Adrenaline**: Undying and Focus both want points banked.
 
@@ -171,9 +171,9 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 
 The previous **+23% / +89%** combo comparison is withdrawn. It assumed a 2:1 strong/fast damage ratio and treated Wolf School Techniques as a separate multiplier on the complete result. The installed damage code does not support that as a general calculation; [chapter 19](19-the-maths.md#1-a-basic-combo-which-skills-actually-activate) explains the limits.
 
-The rotation still fits Muscle Memory, Strength Training and a poison-dependent Toxic Shock finisher. The file audit does change Three Strikes: it checks the fourth matching hit, and switching attack style resets the other counter. Repeating three fast attacks followed by a strong attack never reaches that check. Keep its first point for prerequisites, move the former second point to Wolf School Techniques, and use the active slot for a skill that can activate.
+The rotation still fits Muscle Memory, Strength Training and a poison-dependent Toxic Shock finisher, but Toxic Shock pays only when an earlier hit has already poisoned the target and its 5-second cooldown is ready, so count it per cooldown, not per combo. With a superior oil, Poisoned Blades rank 3 poisons the target within three fast hits about 73% of the time (chapter 19). The file audit does change Three Strikes: it checks the fourth matching hit, and switching attack style resets the other counter. Repeating three fast attacks followed by a strong attack never reaches that check. Keep its first point for prerequisites, move the former second point to Wolf School Techniques, and use the active slot for a skill that can activate.
 
-Melt Armor has a verified intensity-dependent armor-reduction formula, but its damage benefit depends on enemy armor. Aftershock has a verified damage coefficient and a radius of 3 game units, with two power-scaling stages. Neither should be counted as a fixed percentage added to every combo. See [chapter 19](19-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction).
+Melt Armor has a verified intensity-dependent armor-reduction formula, but its damage benefit depends on enemy armor, and it mostly helps the three fast hits: strong attacks carry 1,000 armor penetration of their own. Aftershock has a verified damage coefficient and a radius of 3 game units, with two power-scaling stages. Neither should be counted as a fixed percentage added to every combo. See [chapter 19](19-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction).
 
 ## Verdict
 

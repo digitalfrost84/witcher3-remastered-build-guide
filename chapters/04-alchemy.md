@@ -16,31 +16,31 @@ Charges rise from 3 (basic) to 5 (superior) for most potions. Toxicity is per do
 | --- | --- | --- | --- |
 | **Swallow** | Strong Vitality regeneration for 20 s; superior keeps healing while you're hit | 20 | Everyone |
 | **Thunderbolt** | +30% attack power (+35% superior); superior gives 100% crit chance during storms | 25 | Sword builds |
-| **Tawny Owl** | +5/8/10% Stamina regeneration in combat | 20 | Sign builds |
+| **Tawny Owl** | +5/8/10 Stamina per second in combat, on a base of 10 | 20 | Sign builds |
 | **Petri's Philter** | +15/20/25% Sign intensity; superior makes Signs always trigger their extra effect | 25 | Sign builds |
-| **Blizzard** | Time slows after each kill; superior removes Stamina costs at 3 Adrenaline | 25 | Fights against groups |
-| **Full Moon** | +300 → +1,500 max Vitality; superior also heals Vitality equal to your Toxicity | 25 | Tanks |
-| **White Raffard's** | Instant heal of 35% → 100%; superior adds 3 s of immunity | 30 (15 superior) | Emergencies |
-| **Golden Oriole** | Poison immunity; superior turns poison into healing | 20 | Fights against poisoners |
+| **Blizzard** | Time slows after each kill; superior removes Stamina costs at 3 Adrenaline | 20 | Fights against groups |
+| **Full Moon** | +300 / +650 / +1,000 max Vitality; superior also heals Vitality equal to your Toxicity | 25 | Tanks |
+| **White Raffard's** | Instant heal of 35% → 100%; superior adds 3 s of immunity | 25 | Emergencies |
+| **Golden Oriole** | Poison immunity; superior turns poison into healing | 25 | Fights against poisoners |
 | **Maribor Forest** | Faster Adrenaline gain; superior grants +1 Adrenaline when you drink it | 20 | Adrenaline builds |
 | **White Honey** | Removes all Toxicity and every active potion effect | 0 | Resetting before a hard fight |
 
-Source: [Fextralife: Potions](https://thewitcher3.wiki.fextralife.com/Potions). Sources disagree on some superior values (Swallow, Blizzard, White Raffard's), so treat the superior column as approximate.
+The Toxicity column and the Thunderbolt, Tawny Owl, Petri's Philter and Full Moon numbers come from the installed 5.0 game files (chapter 19). The other effects come from [Fextralife: Potions](https://thewitcher3.wiki.fextralife.com/Potions); sources disagree on some superior values (Swallow, Blizzard, White Raffard's), so treat those as approximate.
 
 ## Oils
 
-An oil adds damage against one monster type: **+10% basic, +25% enhanced, +50% superior**. Before 5.0 an oil lasted 20, 40 or 60 hits, and every hit used a charge, even against enemies it didn't target. Fixative, the skill that made oils last longer, is gone in 5.0, and nothing official says oils became permanent, so assume they still run out ([Fextralife: Oils](https://thewitcher3.wiki.fextralife.com/Oils)). The "Automatically Apply Blade Oils" option, added in patch 4.03, swaps in the right oil for you, and patch 5.01 fixed a bug with it.
+An oil adds damage against one monster type: **+10% basic, +25% enhanced, +50% superior**. An oil holds 20, 40 or 60 charges, and every hit uses one, even against enemies the oil doesn't target; the 5.0 files still work this way, so oils still run out. Fixative, the skill that made oils last longer, is gone in 5.0 ([Fextralife: Oils](https://thewitcher3.wiki.fextralife.com/Oils)). The "Automatically Apply Blade Oils" option, added in patch 4.03, swaps in the right oil for you, and patch 5.01 fixed a bug with it.
 
 Oils matter more in 5.0 because four Alchemy skills key off them, two of them from the new poison line:
 
 | Skill | Effect at rank 1/2/3 |
 | --- | --- |
-| **Poisoned Blades** | Oiled hits have a 5/10/15% chance to poison |
+| **Poisoned Blades** | Hits with an oil matching the target have a 5/10/15% chance to poison, plus 10 points with an enhanced oil or 20 with a superior one |
 | **Protective Coating** | +5/10/15% protection against the oiled monster type |
 | **Hunter Instinct** | At full Adrenaline, +20/40/60% crit damage against the oiled monster type |
-| **Potent Sting** | Poisoned weapons deal +5/10/15% damage |
+| **Potent Sting** | With a matching oil, melee hits deal +5/10/15% (doubled against poison-immune enemies) |
 
-Source: [witcherhour.com](https://witcherhour.com/skills/).
+Sources: [witcherhour.com](https://witcherhour.com/skills/); Poisoned Blades and Potent Sting as the game files implement them (chapter 19).
 
 ## Bombs
 
@@ -59,7 +59,7 @@ Dancing Star, Grapeshot and Samum also destroy monster nests. Builds that throw 
 
 ## Decoctions
 
-Decoctions are the strongest consumables in the game, and the most expensive. Each one is brewed from a monster mutagen, lasts **30 minutes** (Basilisk: 96), and **locks 50 Toxicity** for its whole duration (Basilisk: 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). Adaptability makes them last 33/67/100% longer, and Tissue Transmutation adds +300/600/900 maximum Vitality while any decoction is active.
+Decoctions are the strongest consumables in the game, and the most expensive. Each one is brewed from a monster mutagen, lasts **30 minutes** (Basilisk: 96), and **locks 50 Toxicity** for its whole duration (Basilisk: 40); the game files confirm the 30 minutes and the 50 and 40 ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). Adaptability makes them last 33/67/100% longer, and Tissue Transmutation adds +300/600/900 maximum Vitality while any decoction is active.
 
 | Decoction | Effect | Suits |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Decoctions are the strongest consumables in the game, and the most expensive. Ea
 | **Archgriffin** | Strong attacks spend all Stamina, then remove 5% of the target's Vitality | Bosses with huge health bars |
 | **Forktail** | Three different action types in a row make the next attack or Sign +50% stronger | Sword-and-Sign hybrids |
 | **Wyvern** | +1% attack power per hit landed; resets when you're hit | No-hit and Quen play |
-| **Ancient Leshen** | +2 Stamina regeneration per Sign cast, for the rest of the fight | Long Sign fights |
+| **Ancient Leshen** | +2 Stamina per second for every Sign cast, for the rest of the fight | Long Sign fights |
 | **Griffin** | +1% resistance per hit taken, up to 25% per fight | Tanks |
 | **Troll** | Vitality regeneration, stronger outside combat | Survival |
 | **Nightwraith** | +50 max Vitality per kill until you meditate or fast travel | Long clearing sessions |
@@ -84,11 +84,13 @@ Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoct
 
 ## The Toxicity budget
 
-Decoction Toxicity doesn't drain, so the question is simple: how many 50-point blocks fit under your maximum while leaving room to drink a potion mid-fight? The chart answers it for five setups.
+Decoction Toxicity doesn't drain, so the question is simple: how many 50-point blocks fit under your maximum while leaving room to drink a potion mid-fight? The chart answers it for five setups, all with values from the game files.
 
-![How many decoctions fit at different maximum Toxicity levels: 1 with no skills, 2 with Acquired Tolerance rank 1, and 4 with Acquired Tolerance rank 3 plus Metabolic Control and Manticore armor](../images/toxicity-budget.png)
+![How many decoctions fit at different maximum Toxicity levels: one with no skills or with Acquired Tolerance alone, two with Metabolic Control and Manticore armor added, and four only with about 150 of the game's 173 eligible recipes learned](../images/toxicity-budget.png)
 
-The lesson: **Acquired Tolerance is the skill that decides how many decoctions you can run**, because it scales with every recipe you know. Metabolic Control and Manticore armor top it up: at 40 recipes, rank 3 alone fits three decoctions, and the other two bonuses make it four. The base of 100 is now confirmed for build `5.0.0.1048522` by [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility). The chart's recipe and armor contributions remain separate assumptions.
+The lesson: **no single skill decides it.** Acquired Tolerance adds only 0.5 per recipe you've learned, so 40 recipes give 20, less than rank-3 Metabolic Control's 30. With all three bonuses and four Manticore pieces, the maximum is 170: two decoctions with room to drink, three with almost none. Four need about 150 of the game's 173 eligible recipes ([chapter 19](19-the-maths.md#6-the-toxicity-budget-and-euphoria)).
+
+One more cost to plan for: **above half your maximum, decoctions included, Toxicity drains 0.5% of your maximum Vitality per second** outside meditation. One decoction under a 100 maximum sits right at that line, so any potion on top of it starts the drain, and a second decoction is a trade rather than a free upgrade.
 
 ## Mutagens
 

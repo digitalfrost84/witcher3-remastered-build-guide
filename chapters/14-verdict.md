@@ -21,7 +21,7 @@ Patch 5.0 gave the Signs tree more new power than any other: Catalyst (+90% to A
 
 ### 2. Manticore: the highest ceiling, the longest wait
 
-Manticore's proposed damage ceiling depends on four decoctions, Euphoria and the set's extra charges. The file audit confirms the base Toxicity budget, but has not resolved Euphoria's conversion or cap, so superiority over every other build remains unverified. FinalBoss calls it the strongest Death March build once assembled, and Hack the Minotaur gives its Euphoria build the highest damage ceiling in the game ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). It ranks second because "once assembled" means level 40 and Blood and Wine, because Acquired Tolerance only reaches its full value after you've learned dozens of recipes, and because two guides report that 5.0 weakened Euphoria. If Euphoria supports the assumed scaling, it is a candidate for first place in an endgame-only comparison.
+Manticore's proposed damage ceiling depends on Euphoria, a stack of decoctions and the set's extra charges. The file audits cut both ways: Euphoria has no cap and counts decoction Toxicity, but Acquired Tolerance gives only 0.5 per recipe, so a realistic kit runs two decoctions rather than four, and Toxicity above half your maximum drains Vitality. Superiority over every other build remains unverified. FinalBoss calls it the strongest Death March build once assembled, and Hack the Minotaur gives its Euphoria build the highest damage ceiling in the game ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). It ranks second because "once assembled" means level 40 and Blood and Wine, and because a stack of decoctions costs Vitality unless your maximum Toxicity is very high. Euphoria itself is uncapped, but it adds to the same multiplier as your other bonuses, so whether it beats Griffin's endgame needs a benchmark, not a tooltip.
 
 ### 3. Feline: the best swordsman
 
@@ -37,7 +37,7 @@ The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Deat
 
 ### 6. Viper: the niche
 
-5.0's poison line finally gives Viper a skill identity, and it's the only school with its own swords in White Orchard. But it has no set bonus, no Grandmaster tier, missable Hearts of Stone gear, and modest poison numbers, and by the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
+5.0's poison line finally gives Viper a skill identity, and it's the only school with its own swords in White Orchard. But it has no set bonus, no Grandmaster tier and missable Hearts of Stone gear, its poison is only reliable with the right enhanced or superior oil for each enemy, and by the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
 
 ## Where it comes down to style
 

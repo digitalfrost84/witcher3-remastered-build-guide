@@ -16,16 +16,16 @@ Two consequences matter most:
 | **Alchemy** | Green | Potions, decoctions, bombs, oils and a new poison line | Refreshment, Efficiency, Frenzy |
 | **General** | None | School Techniques, Vitality, Adrenaline helpers, Synergy, Toxicity limits | All six School Techniques: Cat, Wolf, Bear, Griffin, Manticore, Viper |
 
-Every point you spend also earns its tree a small **branch passive**:
+Every rank you **equip** also earns its tree a small **branch passive**. Only skills in your slots count, and the always-on core skills don't, so a point in an unslotted skill gives nothing at all:
 
-| Tree | Per point spent |
+| Tree | Per equipped rank |
 | --- | --- |
-| Combat | +1% Adrenaline gain |
-| Signs | +0.5% combat Stamina regeneration (witcherhour: +0.5 per second) |
+| Combat | +0.01 Adrenaline gain (published as +1%) |
+| Signs | +0.5 Stamina per second in combat (0.5% of maximum Stamina) |
 | Alchemy | +2% potion duration and +2% bomb damage |
-| General | +1% Vitality |
+| General | +1% maximum Vitality |
 
-Source: [Hack the Minotaur: New skill trees](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/) (values), [KeenGamer: Best builds](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/) (the same four bonuses, without values). Sources disagree on one detail: witcherhour says only equipped skills count toward the passives, while Hack the Minotaur counts every point you spend.
+Source: the installed 5.0 game files ([chapter 19](19-the-maths.md#9-branch-passives)). [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/) published the same values but counted every point you spend; witcherhour was right that only equipped skills count.
 
 ## What changed from older guides
 

@@ -29,9 +29,9 @@ Stamina is the bar under your health. It refills on its own and pays for:
 - **Active Shield** (Quen's alternate mode) while you hold it up,
 - sprinting.
 
-What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (sources give +0.5% or +0.5 per second each; chapter 2), the Tawny Owl potion, Griffin School Techniques (per medium piece, more at each rank; chapter 3), and Sun and Stars at night. Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
+**In combat** it refills at 10% of your maximum per second, normally 10 points, and armor weight scales the whole rate: +25% in full light armor, −25% in full heavy. On top of the base come +0.5 per second for every rank of an equipped Signs skill (chapter 2), the Tawny Owl potion (+5/8/10 per second, so the superior version doubles the base rate), Griffin School Techniques (+0.2 per second per rank and medium piece), the Grandmaster Griffin set inside Yrden (+5), the Ancient Leshen decoction (+2 per second for each Sign cast) and Sun and Stars at night ([chapter 19](19-the-maths.md#13-stamina-in-combat)). Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
 
-**Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses can delay it. That rate uses a separate attribute from combat regeneration, so it does not establish casting speed during fights; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
+**Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses delay both rates, and guarding in combat uses a separate, unboosted rate, so neither number is casts per second; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
 
 ## Vitality
 
@@ -46,9 +46,9 @@ Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is t
 Two things make Toxicity a resource rather than just a limit:
 
 1. **Skills and mutations that reward it.** Frenzy only works with Toxicity above 1, Endure Pain adds maximum Vitality above the safe threshold, High Tolerance turns Toxicity into crit damage, and the Euphoria mutation turns every point into sword damage and Sign intensity.
-2. **Skills that raise the ceiling.** Acquired Tolerance adds +1/2/3 maximum Toxicity per alchemy recipe you know, and Metabolic Control adds +10/20/30. Chapter 4 shows how many decoctions each setup can afford.
+2. **Skills that raise the ceiling.** Acquired Tolerance adds +0.5 maximum Toxicity per alchemy recipe you've learned (its rank decides whether enhanced and superior recipes count), and Metabolic Control adds +10/20/30. Chapter 4 shows how many decoctions each setup can afford.
 
-What happens above the safe threshold is one of the places sources disagree. Next-gen guides put the threshold at half your maximum and describe a slow Vitality drain above it ([Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-toxicity-overdose-delayed-recovery-guide)), while others say decoction Toxicity doesn't count toward it at all. White Honey clears all Toxicity, along with every active potion effect.
+**Above half your maximum, Toxicity costs 0.5% of your maximum Vitality per second**, except while you meditate, and decoction Toxicity counts toward that half. The game files confirm the next-gen description ([Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-toxicity-overdose-delayed-recovery-guide)) and rule out the claim that decoctions don't count. White Honey clears all Toxicity, along with every active potion effect.
 
 ## Fast and strong attacks, and crits
 
@@ -57,9 +57,9 @@ Fast attacks are quick and safe; strong attacks are slow and hit harder. Patch 5
 - **Muscle Memory:** after a dodge or roll, your next 1/2/3 fast attacks deal +30%.
 - **Strength Training:** fast attacks boost your next strong attack by +15/30/45%.
 - **Crushing Blow:** a 20/40/60% chance that your next two strong attacks deal +50%.
-- **Sunder Armor:** strong attacks strip 10% of the target's damage resistance per stack, up to 1/2/3 stacks.
+- **Sunder Armor:** strong attacks strip 10% of the target's damage resistance per stack, up to 1/2/3 stacks; only your strong attacks benefit.
 
-The installed 5.0 files give Geralt a **5% base crit chance**, and his base crit bonus adds **0.25 to the attack-power multiplier** rather than multiplying the whole hit by 1.25 ([chapter 19](19-the-maths.md#3-crits-what-chance-is-worth)). Everything else comes on top: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 17). **Armor piercing** is a weapon stat that ignores part of the target's armor; Rend and Superior Grapeshot ignore armor entirely.
+The installed 5.0 files give Geralt a **5% base crit chance**, and his base crit bonus adds **0.25 to the attack-power multiplier** rather than multiplying the whole hit by 1.25 ([chapter 19](19-the-maths.md#3-crits-what-chance-is-worth)). Everything else comes on top: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 17). **Armor piercing** is a weapon stat that ignores part of the target's armor. Every strong attack, Rend included, carries 1,000 points of it, more than any enemy's armor in the game's definitions, so armor mostly blunts fast attacks (chapter 19). Superior Grapeshot ignores armor entirely.
 
 ## Signs and Sign intensity
 
