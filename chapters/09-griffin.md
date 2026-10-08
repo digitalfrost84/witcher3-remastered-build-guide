@@ -16,7 +16,7 @@ Kaer Seren fell to an avalanche, triggered by mages angry that the school wouldn
 
 A Griffin fights **inside Yrden**. Magic Trap, Yrden's alternate mode, damages and slows everything within 14 yards. Supercharged Glyphs makes enemies inside it lose Vitality every second, and Catalyst makes Aard and Igni up to 90% stronger against them. Alternating Signs builds Chain Reaction stacks; holding Adrenaline feeds Focus; Firestream turns Igni into a continuous jet. Quen's Active Shield keeps you alive.
 
-The limit is **Stamina**, which pays for every cast. The school answers it at every level: Griffin School Techniques at rank 3 adds Stamina regeneration per medium piece, Sidestep discounts the Sign after a dodge, Firestream gets cheaper as it ranks up, and the Grandmaster set makes follow-up Signs free and adds +5 Stamina per second inside Yrden.
+The limit is **Stamina**, which pays for every cast. The school answers it at every level: Griffin School Techniques adds Stamina regeneration per medium piece at every rank, Sidestep discounts the Sign after a dodge, Firestream gets cheaper as it ranks up, and the Grandmaster set makes follow-up Signs free and adds +5 Stamina per second inside Yrden.
 
 Patch 5.0 buffed Signs, Yrden most of all, and added Catalyst, Chain Reaction and Focus ([witcherhour.com](https://witcherhour.com/skills/)). No school gained more.
 
@@ -50,7 +50,7 @@ Catalyst at your 11th point is the moment the build comes together: from here on
 | Focus | Signs | 1 | Catalyst | +10% Sign intensity per Adrenaline point held |
 | Chain Reaction | Signs | 1 | Catalyst | Each Sign cast raises the next *different* Sign's intensity by 5%, stacking 5 times |
 | Catalyst | Signs | 3 | — | +90% against enemies in Yrden |
-| Griffin School Techniques | General | 3 | — | +6% Sign intensity and +1 Stamina per second per medium piece |
+| Griffin School Techniques | General | 3 | — | +6% Sign intensity and +0.6 Stamina per second per medium piece (game files; community sources say +1) |
 | Anger Management | General | 1 | Griffin School Techniques | With no Stamina left, cast Signs for 2 Adrenaline instead |
 | Synergy | General | 1 | Anger Management | Mutagens 10% stronger |
 | Survival Instinct | General | 1 | Anger Management | +8% max Vitality |

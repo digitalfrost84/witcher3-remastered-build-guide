@@ -109,7 +109,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 ## The maths
 
-![How many decoctions fit at different maximum Toxicity levels: one with no skills, two with Acquired Tolerance rank 1, up to four with Acquired Tolerance rank 3](../images/toxicity-budget.png)
+![How many decoctions fit at different maximum Toxicity levels: one with no skills, two with Acquired Tolerance rank 1, and four with Acquired Tolerance rank 3 plus Metabolic Control and Manticore armor](../images/toxicity-budget.png)
 
 **The Toxicity budget.** A decoction locks 50 Toxicity until it ends, so the number you can run is your maximum, minus room for a potion or two, divided by 50. Acquired Tolerance is the big lever because it scales with every recipe you know: at 40 recipes, rank 3 adds 120. With Metabolic Control rank 3 (+30) and four Manticore pieces (+20) on top, a maximum around 270 fits four decoctions with 70 to spare. The base of 100 is confirmed by [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility) for build `5.0.0.1048522`; the armor and recipe contributions still need their own file checks.
 
