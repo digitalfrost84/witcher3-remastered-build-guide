@@ -63,7 +63,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Rank 3:** Metabolic Control (+30), Adaptability (decoctions last twice as long: an hour each), Endure Pain (+30%), Tissue Transmutation (+900), Refreshment (30% per dose), Synergy.
 - **Mutation:** Toxic Blood, then Euphoria.
 
-**What to skip.** **Fast Metabolism** drains Toxicity faster, which works against Euphoria, and **Side Effects** can only be reached through it. KeenGamer skips both; Hack the Minotaur's expert Euphoria build takes Fast Metabolism ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). **High Tolerance** adds crit damage from your Toxicity but makes you take 150% damage at 80% Toxicity or more, where a Euphoria build spends its time. It's for experts only.
+**What to skip.** **Fast Metabolism** makes potion Toxicity drain faster, which lowers Euphoria's bonus between potions (decoction Toxicity doesn't drain either way), and **Side Effects** can only be reached through it. KeenGamer says to skip Fast Metabolism, though its build lists Side Effects; Hack the Minotaur's expert Euphoria build and VGTimes take Fast Metabolism ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). **High Tolerance** adds crit damage from your Toxicity but makes you take 150% damage at 80% Toxicity or more, where a Euphoria build spends its time. It's for experts only.
 
 ## Slots, mutagens and mutation
 
@@ -74,6 +74,8 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | 3 | Manticore School Techniques, Metabolic Control, Synergy | Red (base bonus only) |
 | 4 | Muscle Memory, Strength Training, Rend | Red |
 | Mutation slots (green) | Frenzy, Hunter Instinct, Pyrotechnics, Efficiency | — |
+
+**Element of Surprise** (bought early) isn't in the final layout. If you open most fights with a bomb, swap it in for Synergy.
 
 **Delusion:** if you want Axii's dialogue options, it takes Endure Pain's slot.
 
@@ -88,10 +90,10 @@ Buy each table from the top down; every prerequisite is either already owned or 
 **The loop:**
 
 1. **Before the fight:** decoctions running (an hour each with Adaptability at rank 3), oil on the blade, Thunderbolt.
-2. **Open with a bomb.** It sets up Element of Surprise, and with the Grandmaster set it can crit and leaves your hand without delay.
+2. **Open with a bomb.** With the Grandmaster set it can crit and leaves your hand without delay, and if you slot Element of Surprise it powers up your melee for 10 seconds.
 3. **Quen,** then fight with fast attacks into strong attacks.
 4. **Drink freely.** Every dose heals through Refreshment and adds Toxicity, which Euphoria turns into damage. Just stay under your maximum.
-5. **Finish with Rend** once Razor Focus and your hits have filled the bar.
+5. **Finish with Rend** once your hits have filled the bar.
 
 ## Gear path
 
@@ -101,9 +103,9 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | 11–39 | **Griffin**, **Wolven** or **Forgotten Wolven**, whichever tier is newest (chapters 9 and 11). All are medium, so they feed Manticore School Techniques | The matching witcher swords, or **Viper Venomous** at 39 |
 | 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +5% crit chance |
 
-**Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, almost certainly because its screenshot showed a chest enchanted with Levity (chapter 3).
+**Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, probably because its screenshot showed a chest enchanted with Levity (chapter 3).
 
-**Why all six.** Each armor piece adds +5 max Toxicity (+20 for four). The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every alchemy item +1 maximum charge**, so one more Swallow, one more bomb and one more dose of each decoction per meditation ([Witcher wiki: Manticore School Gear](https://witcher.fandom.com/wiki/Manticore_School_Gear)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
+**Why all six.** Each armor piece adds +5 max Toxicity, +20 for four (the next-gen value; older sources give other numbers). The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every alchemy item +1 maximum charge**, so one more Swallow, one more bomb and one more dose of each decoction per meditation ([Witcher wiki: Manticore School Gear](https://witcher.fandom.com/wiki/Manticore_School_Gear)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
 
 ## The maths
 

@@ -14,7 +14,7 @@ The Viper every player remembers is **Letho of Gulet**, the Kingslayer of *The W
 
 A Viper wears medium armor, keeps an oil on the blade at all times, and lands **as many hits as possible**, because every oiled hit is a roll for poison. Once the target is poisoned, a **strong attack** cashes it in through Toxic Shock: the poison is used up for a burst of damage, at most once every five seconds. Debilitating Poison makes poisoned enemies hit you more softly, Potent Sting makes your poisoned weapons hit harder, and Viper School Techniques adds Vitality and poison damage for every medium piece.
 
-Patch 5.0 gave the school a skill line of its own: the four poison skills in the Alchemy tree are new ([witcherhour.com](https://witcherhour.com/skills/)). No guide has published a Remastered Viper build yet; VGTimes names Viper School Techniques but writes no build, and the builds from Gamestegy and Console Pulse predate 5.0 ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). The plan below is built from the 5.0 tree.
+Patch 5.0 gave the school a skill line of its own: the four poison skills in the Alchemy tree are new ([witcherhour.com](https://witcherhour.com/skills/)). The research for this book found no published Remastered Viper build: VGTimes names Viper School Techniques but writes no build, and the builds from Gamestegy and Console Pulse predate 5.0 ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). The plan below is built from the 5.0 tree.
 
 ## Skills by phase
 
@@ -76,7 +76,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Delusion:** if you want Axii's dialogue options, it takes Hunter Instinct's slot.
 
-**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect, poison included, starts a random crafted decoction for 120 seconds without any Toxicity. Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
+**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity. No source says whether poison counts as a critical effect, so test it before you spend the points. Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
 
 ## Consumables and the fight loop
 
@@ -86,7 +86,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 1. **Before the fight:** right oil, potions. Drinking anything switches Frenzy on.
 2. **Open:** Quen.
-3. **Roll for poison:** dodge in and land fast attacks. Muscle Memory and Three Strikes make them count.
+3. **Roll for poison:** dodge in and land fast attacks. Muscle Memory makes them count.
 4. **Cash it in:** once the target shows the poison effect, finish the string with a strong attack for Toxic Shock.
 5. **Keep it poisoned:** while the poison lasts, Debilitating Poison weakens the enemy and Potent Sting strengthens you.
 6. **Wait out the cooldown:** Toxic Shock fires at most every five seconds, so use the gap to reposition and roll for the next poison.
@@ -110,7 +110,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/), [GameBanshee: Open Sesame!](https://www.gamebanshee.com/thewitcher3/walkthrough/opensesame.php), [GameBanshee: Whatsoever a Man Soweth](https://www.gamebanshee.com/thewitcher3/walkthrough/whatsoeveramansoweth.php), [Gamestegy: Viper armor](https://gamestegy.com/witcher-3/wiki/1400/viper-armor-diagram-stats-location).
 
-**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques, trading poison damage for crit damage ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
+**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's crit damage ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
 
 ## The maths
 
@@ -122,7 +122,7 @@ Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-
 P_{\text{poisoned}}(n) = 1 - (1 - p)^n
 ```
 
-At Poisoned Blades rank 1 (5%), even odds take 14 hits, which is why poison is a long-fight tool early on. At rank 3 (15%), three fast hits poison the target 39% of the time and five hits get you past even odds. If the Viper swords' own chance stacks with the skill, a rank-3 Viper with a Venomous sword is near 30% per hit (28% if they're separate rolls), and two hits are enough. No source confirms how the two combine.
+At Poisoned Blades rank 1 (5%), even odds take 14 hits, which is why poison is a long-fight tool early on. At rank 3 (15%), three fast hits poison the target 39% of the time and five hits get you past even odds. If the Viper swords' own chance stacks with the skill, a rank-3 Viper with a Venomous sword is near 30% per hit and two hits get past even odds (51%); if they're separate rolls (28%), it takes three (62%). No source confirms how the two combine.
 
 **Why that matters for Toxic Shock.** Toxic Shock can fire only once every five seconds, so the goal is simply to have the target poisoned each time the cooldown ends. At 15% per hit, six hits (two strings) poison the target 62% of the time; at 30%, the same six hits get there 88% of the time. Past that point, extra poison chance only adds the poison's own damage over time, and points do more in Potent Sting or Debilitating Poison.
 

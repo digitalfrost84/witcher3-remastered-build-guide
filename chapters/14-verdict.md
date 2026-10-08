@@ -8,16 +8,16 @@ Every school in this book can finish the game on any difficulty. The question he
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | **Griffin** | ●●●●○ | ●●●●○ | ●●●●○ | Medium | Around level 11–12 (Magic Trap, Catalyst); peaks with the set at 40 |
 | 2 | **Manticore** | ●●●●● | ●●○○○ | ●●●●○ | High | Level 40 and Blood and Wine |
-| 3 | **Feline** | ●●●●○ | ●●●●○ | ●●○○○ | Medium (skill, not prep) | From White Orchard; peaks around level 30 |
+| 3 | **Feline** | ●●●●○ | ●●●●○ | ●●○○○ | High skill, low prep | From White Orchard; peaks around level 30 |
 | 4 | **Wolven** | ●●●○○ | ●●●●○ | ●●●○○ | Medium | Steadily, all game |
-| 5 | **Ursine** | ●●○○○ | ●●○○○ | ●●●●● | Low | Level 20 (heavy armor and the set) |
+| 5 | **Ursine** | ●●○○○ | ●●○○○ | ●●●●● | Low | Levels 16–20 (Undvik, then the Ursine set) |
 | 6 | **Viper** | ●●○○○ | ●●●○○ | ●●●○○ | High (and missable gear) | Level 39 |
 
 More dots is better. "Effort" covers both preparation (oils, potions, decoctions) and execution (dodging, timing).
 
 ### 1. Griffin: the strongest school in 5.0
 
-Patch 5.0 gave the Signs tree more new power than any other: Catalyst (+90% to Aard and Igni against enemies in Yrden), Focus (+90% at a full bar), Chain Reaction (+75% at five stacks) and Supercharged Glyphs are all new, and Signs, Yrden above all, were buffed ([witcherhour.com](https://witcherhour.com/skills/)). Those bonuses are cheap: Catalyst costs four points from an empty tree. Then the Grandmaster set adds +100% Sign intensity and +5 Stamina per second inside Yrden, exactly where the build already fights. No other school gets that much from both its tree and its set, and the build is strong early, safe in the middle and still scaling at the end. Its weakness, fast enemies that leave the trap, is real but manageable with Aard and a sword.
+Patch 5.0 gave the Signs tree more new power than any other: Catalyst (+90% to Aard and Igni against enemies in Yrden), Focus (+90% at a full bar), Chain Reaction (+75% at five stacks), Aftershock and Resonance are all new, and Signs, Yrden above all, were buffed ([witcherhour.com](https://witcherhour.com/skills/)). Those bonuses are cheap: Catalyst costs four points from an empty tree. Then the Grandmaster set adds +100% Sign intensity and +5 Stamina per second inside Yrden, exactly where the build already fights. No other school gets that much from both its tree and its set, and the build is strong early, safe in the middle and still scaling at the end. Its weakness, fast enemies that leave the trap, is real but manageable with Aard and a sword.
 
 ### 2. Manticore: the highest ceiling, the longest wait
 
@@ -25,7 +25,7 @@ With four decoctions, Euphoria and the set's extra charges, a finished Manticore
 
 ### 3. Feline: the best swordsman
 
-Every Feline skill pays off on the same condition, a full Adrenaline bar, so it scales harder with rank-ups than any other sword build (chapter 8 puts a floor of 0.58 of a normal hit per swing on its crit bonus alone). It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
+Every Feline skill pays off on the same condition, a full Adrenaline bar, so it scales harder with rank-ups than any other sword build (chapter 8 puts a floor of 0.35 of a normal hit per swing on its crit bonus alone, and about 0.57 against the oiled monster type at a full bar). It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
 
 ### 4. Wolven: the best playthrough build
 
@@ -33,11 +33,11 @@ Wolven isn't the best at anything, as VGTimes puts it, but it has no bad fights:
 
 ### 5. Ursine: the safest
 
-The most forgiving school, and the 5.0 guides' pick for a first Death March run ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)). With Mutated Skin it can absorb nearly three times the damage of an unbuffed Geralt (chapter 10). It ranks low on power because its damage ceiling is the lowest, and its best defensive tool asks you to stop using Rend, its best offensive one.
+The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Death March run ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)). With Mutated Skin, Bear School Techniques and Survival Instinct it can absorb about 2.7 times the damage of an unbuffed Geralt (chapter 10). It ranks low on power because its damage ceiling is among the lowest, and its best defensive tool asks you to stop using Rend, its best offensive one.
 
 ### 6. Viper: the niche
 
-5.0's poison line finally gives Viper a skill identity, and its White Orchard swords make it the only school you can play from level 1. But it has no set bonus, no Grandmaster tier, missable Hearts of Stone gear, and modest poison numbers, and by the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
+5.0's poison line finally gives Viper a skill identity, and it's the only school with its own swords in White Orchard. But it has no set bonus, no Grandmaster tier, missable Hearts of Stone gear, and modest poison numbers, and by the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
 
 ## Where it comes down to style
 
@@ -60,8 +60,8 @@ The 5.0 guides don't agree with each other, which is a fair sign that these scho
 | --- | --- |
 | Best for beginners | Feline (KeenGamer, Hack the Minotaur); a Wolf hybrid (Game Overdrive) |
 | Safest on Death March | Ursine (KeenGamer, FinalBoss); Signs (Hack the Minotaur); Manticore (VGTimes) |
-| Highest ceiling | Manticore with Euphoria (Hack the Minotaur, FinalBoss) |
-| Signs after 5.0 | "Sign builds now hit hard" (VGTimes) |
+| Highest ceiling | Manticore with Euphoria (Hack the Minotaur; FinalBoss calls its alchemy build the strongest for Death March once assembled) |
+| Signs after 5.0 | Sign builds now hit hard (VGTimes) |
 
 Sources: [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/), [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/witcher-3-best-builds/), [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle), [VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html), [Game Overdrive](https://gameoverdrive.com.br/melhores-builds-the-witcher-3-remastered/).
 

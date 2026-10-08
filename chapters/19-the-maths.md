@@ -58,11 +58,11 @@ If a crit deals `1 + d` times a normal hit, raising crit chance by `Δc` adds th
 \Delta \bar{D} = \Delta c \times d
 ```
 
-Base crit damage isn't published, but Cat School Techniques at rank 3 on four light pieces guarantees `d ≥ 0.96`. So the Feline stack of +37% crit chance (Battle Frenzy rank 3 at a full bar, plus Katakan) is worth **at least 0.35 of a normal hit per swing**. Against the oiled monster type at full Adrenaline, Hunter Instinct rank 3 raises `d` by another 0.60, and the floor becomes **0.58 of a normal hit**. Crit chance and crit damage multiply each other, which is why a crit build wants both rather than more of one (chapter 8).
+Base crit damage isn't published, but Cat School Techniques at rank 3 on four light pieces guarantees `d ≥ 0.96`. So the Feline stack of +37% crit chance (Battle Frenzy rank 3 at a full bar, plus Katakan) is worth **at least 0.35 of a normal hit per swing**. Against the oiled monster type at full Adrenaline, Hunter Instinct rank 3 raises `d` by another 0.60, and the floor becomes **0.57 of a normal hit**. Crit chance and crit damage multiply each other, which is why a crit build wants both rather than more of one (chapter 8).
 
 ## 4. Adrenaline: the Undying floor
 
-Undying restores 10% Vitality per Adrenaline point when you'd die. Razor Focus guarantees one point at the start of every fight, so Undying is never empty:
+Undying restores 10% Vitality per Adrenaline point when you'd die. Razor Focus guarantees one point at the start of every fight, so Undying has at least that much to work with when a fight opens (hits, Rend and Whirl can still empty the bar later):
 
 | Adrenaline held | Vitality restored by Undying |
 | --- | --- |
@@ -91,7 +91,7 @@ A full bar nearly doubles how long you last compared with an empty one (2.69 aga
 
 ## 6. The Toxicity budget and Euphoria
 
-![How many decoctions fit at different maximum Toxicity levels, from one with no skills to four with Acquired Tolerance rank 3](../images/toxicity-budget.png)
+![How many decoctions fit at different maximum Toxicity levels, from one with no skills to four with Acquired Tolerance rank 3 plus Metabolic Control and Manticore armor](../images/toxicity-budget.png)
 
 Each decoction locks 50 Toxicity until it ends, so:
 
@@ -103,7 +103,7 @@ Each decoction locks 50 Toxicity until it ends, so:
 \text{max Toxicity} = 100 + a \times \text{recipes known} + 10\,k + 5 \times \text{Manticore pieces}
 ```
 
-where `a` is Acquired Tolerance's rank (+1/2/3 per recipe) and `k` is Metabolic Control's rank (+10/20/30). The base of 100 is the next-gen value; 5.0's isn't confirmed. At 40 recipes, rank-3 Acquired Tolerance alone adds 120, more than any other source.
+where `a` is Acquired Tolerance's rank (+1/2/3 per recipe) and `k` is Metabolic Control's rank (+10/20/30). The base of 100 and Manticore's +5 per piece are next-gen values (older sources give other armor numbers); 5.0's aren't confirmed. At 40 recipes, rank-3 Acquired Tolerance alone adds 120, more than any other source.
 
 **Euphoria** adds 0.75% sword damage and Sign intensity per Toxicity point, so each decoction held is worth +37.5% (+75% for two, +150% for four). Sources disagree on the cap (a flat 75%, or rising with your maximum), and two guides report that 5.0 weakened it, so treat those as upper bounds. Chapter 12.
 
@@ -118,7 +118,7 @@ P_{\text{poisoned}}(n) = 1 - (1 - p)^n
 | Chance per hit | After 3 hits | After 6 hits | Hits for even odds |
 | --- | --- | --- | --- |
 | 5% (Poisoned Blades rank 1) | 14% | 26% | 14 |
-| 15% (rank 3, or a Viper sword alone) | 39% | 62% | 5 |
+| 15% (rank 3, or the Viper steel sword alone) | 39% | 62% | 5 |
 | 30% (rank 3 plus a Venomous sword, if they add) | 66% | 88% | 2 |
 
 If the sword's roll and the skill's roll are separate, the combined chance is 1 − 0.85 × 0.85 ≈ 28% rather than 30%; no source confirms which. Toxic Shock fires at most every 5 seconds, so poison chance beyond what you need to have the target poisoned each cooldown only adds damage over time. Chapter 13.
@@ -127,7 +127,7 @@ If the sword's roll and the skill's roll are separate, the combined chance is 1 
 
 ![Sign intensity added by each source, fully upgraded: Griffin set inside Yrden +100%, Catalyst +90%, Focus +90%, Chain Reaction +75%, Petri's Philter +25%, Griffin Techniques +24%, Grandmaster chest +22%, Grandmaster steel sword +21%](../images/sign-intensity.png)
 
-The two largest bonuses only apply to enemies inside Yrden; Focus needs a full bar and Chain Reaction five different Signs in a row. The flat sources (potion, Technique, armor, sword) are what you have in every fight. Chapter 9.
+The two largest bonuses need Yrden: Catalyst only counts against enemies inside it, and the Griffin set bonus only while you stand in your own trap. Focus needs a full bar, and Chain Reaction five casts in a row, each a different Sign from the one before. The flat sources (potion, Technique, armor, sword) are what you have in every fight. Chapter 9.
 
 ## 9. Branch passives
 

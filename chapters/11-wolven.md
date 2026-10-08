@@ -4,11 +4,11 @@
 
 ## Lore
 
-**Kaer Morhen** stands in the Blue Mountains of Kaedwen, by the Gwenllech river, reachable only by a trail the witchers nicknamed "the Killer". The Trials took place in a laboratory beneath the keep, and roughly three boys in ten survived the Trial of the Grasses ([Witcher wiki: Kaer Morhen](https://witcher.fandom.com/wiki/Kaer_Morhen); [Trial of the Grasses](https://witcher.fandom.com/wiki/Trial_of_the_Grasses)). For a time the kings of Kaedwen funded both the Wolf and the Cat schools, with students moving between them, until King Radowit II's soldiers attacked the witchers at a tournament. Later a mob led by mages and priests stormed the keep and killed every witcher inside. The school never recovered: the last boys were trained in the 1230s, and the knowledge of the Trials was lost ([Witcher wiki: School of the Wolf](https://witcher.fandom.com/wiki/School_of_the_Wolf)).
+**Kaer Morhen** stands in the Blue Mountains of Kaedwen, by the Gwenllech river, reachable only by a trail the witchers nicknamed "the Killer". The Trials took place in a laboratory beneath the keep, and roughly three boys in ten survived the Trial of the Grasses ([Witcher wiki: Kaer Morhen](https://witcher.fandom.com/wiki/Kaer_Morhen); [Trial of the Grasses](https://witcher.fandom.com/wiki/Trial_of_the_Grasses)). For a time the kings of Kaedwen funded both the Wolf and the Cat schools, with students moving between them, until King Radowit II's soldiers attacked the witchers at a tournament. A mob led by mages and priests stormed the keep and killed every witcher inside. The school never recovered: the last boys were trained in the 1230s, and the knowledge of the Trials was lost ([Witcher wiki: School of the Wolf](https://witcher.fandom.com/wiki/School_of_the_Wolf)).
 
-What survives is a handful of witchers who still winter at the keep: **Vesemir**, the oldest, a fencing master who can no longer make new witchers; **Lambert**, one of the last trained, known for his sharp tongue; **Eskel**, calm and reliable; and **Geralt**. Wolves are usually described as the most rounded school, with balanced training in swords, Signs, herbalism, bombs and monster lore ([The Games Wiki](https://thegameswiki.com/the-witcher-iv/wiki/witcher-schools)).
+What survives is a handful of witchers who still winter at the keep: **Vesemir**, the oldest, a fencing master who can no longer make new witchers; **Lambert**, one of the last trained, known for his sharp tongue; **Eskel**, calm and reliable; and **Geralt**. One secondary wiki describes the Wolves as the most rounded school, with balanced training in swords, Signs, herbalism, bombs and monster lore ([The Games Wiki](https://thegameswiki.com/the-witcher-iv/wiki/witcher-schools)).
 
-**In The Witcher 3,** the Wolven gear hunt follows the journals of the mage **Hieronymus**, his assistant **Chird**, and **Varin**, who trained young witchers; together they explain how upgraded witcher gear was first made ([Witcher wiki: Scavenger Hunt: Wolf School Gear](https://witcher.fandom.com/wiki/Scavenger_Hunt:_Wolf_School_Gear)). The **Forgotten Wolven** set, added in the 2022 next-gen update with a look based on the Netflix series, comes from the spirit of **Reinald** and from Osmund's notes in the Kaer Morhen library ([Fextralife: Forgotten Wolf School Gear](https://thewitcher3.wiki.fextralife.com/Scavenger+Hunt:+Forgotten+Wolf+School+Gear+Diagrams)).
+**In The Witcher 3,** the Wolven gear hunt follows the journals of the mage **Hieronymus**, his assistant **Chird**, and **Varin**, who trained young witchers; together they explain how upgraded witcher gear was first made ([Witcher wiki: Scavenger Hunt: Wolf School Gear](https://witcher.fandom.com/wiki/Scavenger_Hunt:_Wolf_School_Gear)). The **Forgotten Wolven** set, added in the 2022 next-gen update with a look based on the Netflix series, comes from the spirit of **Reinald** and from Osmund's notes in Kaer Morhen's main hall ([Fextralife: Forgotten Wolf School Gear](https://thewitcher3.wiki.fextralife.com/Scavenger+Hunt:+Forgotten+Wolf+School+Gear+Diagrams)).
 
 ## How it plays
 
@@ -23,7 +23,7 @@ Wolf School Techniques is the only Technique that raises **both** weapon damage 
 
 The rhythm is **Sign, dodge, three fast attacks, a strong finisher**. Quen keeps you safe, Igni strips armor, Yrden controls groups and wraiths, the fast attacks charge the strong one, and an oiled blade sometimes poisons the target so the finisher bursts. Late in the game Catalyst, Focus and Resonance tie the Signs back into the sword: a Sign before every string makes the next three hits deal extra damage.
 
-It's the build this book was first written around, and the one VGTimes calls "the most classic witcher build" and Game Overdrive recommends as the default for a first playthrough ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html); [Game Overdrive](https://gameoverdrive.com.br/melhores-builds-the-witcher-3-remastered/)).
+It's the build this book was first written around, and the one VGTimes calls the most classic witcher build and Game Overdrive recommends as the default for a first playthrough ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html); [Game Overdrive](https://gameoverdrive.com.br/melhores-builds-the-witcher-3-remastered/)).
 
 ## Skills by phase
 
@@ -85,12 +85,12 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance): +300/600/900 max Vitality while a decoction is active.
 - **Anger Management → Synergy** (General, from Survival Instinct): cast Signs with Adrenaline when out of Stamina, then stronger mutagens.
 - **Chain Reaction → Aftershock → Resonance** (Signs, from Catalyst): after you cast a Sign, your next three melee hits deal bonus damage based on your Sign intensity (10/20/30%). This is the hybrid's capstone.
-- **Rank-ups:** Wolf School Techniques 3, Toxic Shock 3 (the burst grows to 75% of the hit), Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
+- **Rank-ups:** Wolf School Techniques 3, Toxic Shock 3 (the burst grows to 75% of the hit), Poisoned Blades 3 (15% per hit), Strength Training 3, Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
 - **Mutation:** Conductors of Magic (below).
 
 ![Skill points per tree in the Wolven plan, cumulative: 6, 13, 20 and 28 points at the end of each phase](../images/points-by-phase.png)
 
-Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, but every point also earns its tree's branch passive (chapter 2), so a stepping stone like Sun and Stars isn't wasted.
+Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every point may also earn its tree's branch passive (chapter 2; sources disagree on whether unslotted skills count).
 
 ## Slots, mutagens and mutation
 
@@ -104,12 +104,14 @@ Early points go where they pay off at once: sword damage and Quen. Alchemy and G
 6. Wolf School Techniques (once you're in medium armor)
 7. Magic Trap
 8. Three Strikes
-9. Toxic Shock
-10. Undying
+9. Poisoned Blades
+10. Toxic Shock (equip it together with Poisoned Blades; it has nothing to burst without poison)
 11. Razor Focus
-12. Catalyst, then Focus or Resonance
+12. Catalyst
 
-**Delusion:** if you use Axii in conversations, Delusion has to stay slotted for its dialogue options. Put it in the group with Quen early on; at the end it takes Melt Armor's slot.
+As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Three Strikes and Melt Armor; Three Strikes, Melt Armor and Undying go into mutation slots once you have them.
+
+**Delusion:** if you use Axii in conversations, Delusion has to stay slotted for its dialogue options. Put it in the group with Quen early on; at the end it takes Synergy's slot.
 
 **The finished layout:**
 
@@ -117,11 +119,11 @@ Early points go where they pay off at once: sword damage and Quen. Alchemy and G
 | --- | --- | --- |
 | 1 | Muscle Memory, Strength Training, Razor Focus | Red |
 | 2 | Active Shield, Magic Trap, Catalyst | Blue |
-| 3 | Focus, Resonance, Melt Armor | Blue |
-| 4 | Wolf School Techniques, Synergy, Toxic Shock | Green |
-| Mutation slots (red or blue) | Three Strikes, Undying, Supercharged Glyphs, Chain Reaction | — |
+| 3 | Focus, Resonance, Synergy | Blue |
+| 4 | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
+| Mutation slots (red or blue) | Melt Armor, Three Strikes, Undying, Supercharged Glyphs | — |
 
-**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **50% of that sword's damage**. Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build, and three researched mutations open the first one. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
+**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **50% of that sword's damage**. Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
 
 ## Consumables and the fight loop
 
@@ -182,7 +184,7 @@ Here `m` = 0.30 is Muscle Memory's bonus on `n` fast attacks (1 at rank 1, 3 at 
 
 **Strengths.** It uses everything the game offers, it's good from the first hour to the last, and it has no hard counter: when Signs don't work, the sword does, and the other way round. It's also the best way to learn the systems before committing to a specialist school.
 
-**Weaknesses.** It's not the best at anything. A pure Griffin out-casts it, a Feline out-crits it, an Ursine out-tanks it ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). It also has the most buttons to press.
+**Weaknesses.** VGTimes calls it not the best at anything ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)), and that matches the numbers in this book: a pure Griffin out-casts it, a Feline out-crits it, an Ursine out-tanks it. It also has the most buttons to press.
 
 **Who it suits:** a first playthrough, players who want to play Geralt the way the books describe him, and anyone who likes every tool to stay useful.
 

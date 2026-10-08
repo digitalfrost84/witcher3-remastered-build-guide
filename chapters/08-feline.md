@@ -4,7 +4,7 @@
 
 ## Lore
 
-The School of the Cat began as a theft. Young defectors from the original Order of Witchers stole its mutagens and alchemical tools and set out to build an order that rich and poor alike would respect. They founded their keep at **Stygga Castle** in Ebbing, and after it fell the survivors became a roaming caravan, the Dyn Marv. Cats dropped the witcher's neutrality and hired out as spies, assassins and bodyguards as well as monster hunters, and over time they earned a reputation for cruelty that made them pariahs among other witchers. They also trained women and non-pureblood humans, which other schools didn't ([Witcher wiki: School of the Cat](https://witcher.fandom.com/wiki/School_of_the_Cat)).
+The School of the Cat began as a theft. Young defectors from the original Order of Witchers stole its mutagens and alchemical tools and set out to build an order that rich and poor alike would respect. They founded their keep at **Stygga Castle** in Ebbing, and after it fell the survivors became a roaming caravan, the Dyn Marv. Cats dropped the witcher's neutrality and hired out as spies, assassins and swords for hire, and over time they earned a reputation for cruelty that made them pariahs among other witchers. The school also trained women and non-pureblood humans ([Witcher wiki: School of the Cat](https://witcher.fandom.com/wiki/School_of_the_Cat)).
 
 Their fighting style, Addan Aenye, came from an elf named Nissail: speed, precision and agility over raw strength. A Cat's blows did little damage on their own, but they found the gaps, and the criticals were deadly. Adepts trained on a tightrope, blindfolded. Their armor was built for full range of motion.
 
@@ -29,7 +29,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 1 | start | After a dodge or roll, your next fast attack deals +30% |
-| Cat School Techniques | General | 1 | start | +8% crit damage and +2% fast attack damage per light piece. The Temerian set from White Orchard is light |
+| Cat School Techniques | General | 1 | start | +8% crit damage and +2% fast attack damage per light piece (witcherhour says +1%). The Temerian set from White Orchard is light |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back, and since patch 5.01 it also reflects damage |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance that a third attack empowers the attacks after it |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
@@ -78,7 +78,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | 2 | Razor Focus, Resolve, Fleet-Footed | Red |
 | 3 | Cat School Techniques, Battle Frenzy, Synergy | Red (General skills match no color, so it gives only its base bonus) |
 | 4 | Hunter Instinct, Acquired Tolerance, Active Shield | Green |
-| Mutation slots (red) | Undying, then Three Strikes | — |
+| Mutation slots (red) | Undying, then Three Strikes or Whirl | — |
 
 **Delusion:** if you want Axii's extra dialogue options, Delusion takes Active Shield's place.
 
@@ -98,12 +98,12 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **The loop:**
 
-1. **Before the fight:** oil the blade, keep Katakan running, drink Thunderbolt. Drinking anything also switches Frenzy on.
+1. **Before the fight:** oil the blade, keep Katakan running, drink Thunderbolt.
 2. **Open:** cast Quen. Razor Focus has already given you one Adrenaline point.
 3. **Dodge the first attack,** then punish with fast attacks: Muscle Memory boosts the first three, Counterattack the first one.
 4. **Build the bar.** Each hit adds Adrenaline, and each point adds 9% crit chance at rank 3.
 5. **Step out before the enemy's next attack.** Fleet-Footed covers mistakes during the dodge; Resolve covers the rest.
-6. **Never spend the bar** except on short Whirls with Stamina to spare. Undying spends it for you if things go wrong.
+6. **Never spend the bar.** If you slot Whirl for crowds, keep the spins short so they run on Stamina. Undying spends the bar for you if things go wrong.
 
 ## Gear path
 
@@ -132,7 +132,7 @@ Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/gu
 \Delta\text{damage per hit} = \Delta c \times d
 ```
 
-With four light pieces at rank 3, Cat School Techniques alone give `d ≥ 0.96`, so +37% crit chance adds **at least 0.35 of a normal hit** to every swing. Against the oiled monster type at full Adrenaline, Hunter Instinct rank 3 adds another 0.60 to `d`, and the floor rises to **0.58 of a normal hit**. Your base crit damage, sword stats and Thunderbolt all come on top. This is why all of Feline's best skills want a full bar at the same moment.
+With four light pieces at rank 3, Cat School Techniques alone give `d ≥ 0.96`, so +37% crit chance adds **at least 0.35 of a normal hit** to every swing. Against the oiled monster type at full Adrenaline, Hunter Instinct rank 3 adds another 0.60 to `d`, and the floor rises to **0.57 of a normal hit**. Your base crit damage, sword stats and Thunderbolt all come on top. This is why all of Feline's best skills want a full bar at the same moment.
 
 ## Verdict
 

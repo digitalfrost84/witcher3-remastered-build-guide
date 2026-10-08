@@ -8,7 +8,7 @@ Every build in The Witcher 3 is a way of turning four resources into damage and 
 
 Adrenaline is a bar of **up to three points** that you build by fighting and lose by getting hurt ([Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-adrenaline-points-explained/)).
 
-- **How you gain it:** landing sword hits, landing crossbow bolts (with Cold Blood), and casting damaging Signs (only once you own the General skill Adrenaline Burst). Razor Focus hands you a free point at the start of every fight.
+- **How you gain it:** landing sword hits, landing crossbow bolts (Cold Blood adds more per bolt), and casting damaging Signs (only once you own the General skill Adrenaline Burst). Razor Focus hands you a free point at the start of every fight.
 - **How you lose it:** taking damage, stopping your attacks, or leaving combat. Resolve cuts the loss from hits by 33/67/100% at ranks 1/2/3.
 
 The interesting part is that patch 5.0 splits Adrenaline skills into two camps, and they pull against each other:
@@ -29,7 +29,7 @@ Stamina is the bar under your health. It refills on its own and pays for:
 - **Active Shield** (Quen's alternate mode) while you hold it up,
 - sprinting.
 
-What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (+0.5% combat Stamina regeneration each), the Tawny Owl potion, Griffin School Techniques at rank 3, and Sun and Stars at night. Sign builds live and die by this bar, which is why the Griffin set's 6-piece bonus is mostly about Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
+What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (sources give +0.5% or +0.5 per second each; chapter 2), the Tawny Owl potion, Griffin School Techniques at rank 3, and Sun and Stars at night. Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
 
 ## Vitality
 
@@ -39,7 +39,7 @@ When Vitality hits zero you die, unless something saves you: **Undying** (Combat
 
 ## Toxicity
 
-Toxicity is the cost of alchemy. Every potion adds some, and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). Your maximum was 100 in the next-gen version; no source has confirmed the 5.0 value yet.
+Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is the exception), and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). Your maximum was 100 in the next-gen version; no source has confirmed the 5.0 value yet.
 
 Two things make Toxicity a resource rather than just a limit:
 
@@ -71,7 +71,7 @@ Sign intensity is the Sign version of attack power. The table shows what it rais
 | **Quen** | How much damage the shield absorbs | Exploding Shield → **Active Shield** (absorbed damage heals you) |
 | **Axii** | Success chance and duration | Delusion → **Puppetmaster** (the target fights for you) |
 
-Sign intensity stacks from armor (Griffin and Wolf School Techniques), potions (Petri's Philter), runestones (Veles) and a family of new 5.0 skills: Focus, Catalyst, Chain Reaction and Flood of Anger. Chapter 9 adds them all up for a Griffin.
+Sign intensity stacks from armor (Griffin and Wolf School Techniques), potions (Petri's Philter), runestones (Veles) new 5.0 skills (Focus, Catalyst, Chain Reaction) and the rebalanced Flood of Anger. Chapter 9 adds them all up for a Griffin.
 
 ## What this means for picking a school
 

@@ -48,7 +48,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | **Melt Armor** | — (start) | 1 | Igni damage reduces armor and can set enemies on fire. Ranks 1/2/3: Burn chance +10% / +20% / +30%. Armor reduction amount: not published. |
 | **Sustained Glyphs** | — (start) | 1 | Yrden lasts longer and covers more area, with more alternate-mode charges and standard-mode traps. Ranks 1/2/3: duration +5 / +10 / +15 s; area +10% / +20% / +30%; charges +2 / +4 / +6; traps +1 / +2 / +3. |
 | **Exploding Shield** | — (start) | 1 | When Quen breaks, it pushes nearby enemies back. Ranks 1/2/3: not published. witcherhour says only "stronger pushback at each rank"; WitcherDB says "Push-back strength increases with skill level". |
-| **Delusion** | — (start) | 1 | Target doesn't move toward Geralt while Axii is being cast; improves Axii in dialogue. Ranks 1/2/3: witcherhour (5.0) says "same effect at every rank"; before 5.0, dialogue options needed rank 1 or 2 ([Witcher wiki](https://witcher.fandom.com/wiki/Delusion)). Keep it slotted for dialogue. |
+| **Delusion** | — (start) | 1 | Target doesn't move toward Geralt while Axii is being cast; improves Axii in dialogue. Ranks 1/2/3: witcherhour (5.0) says "same effect at every rank", and Hack the Minotaur says the dialogue options are available from rank 1; before 5.0, some needed rank 2 ([Witcher wiki](https://witcher.fandom.com/wiki/Delusion)). Keep it slotted for dialogue. |
 | **Aard Sweep** | Far-Reaching Aard | 2 | Alternate Aard: a blast that hits all enemies around you, with a reduced knockdown chance. Ranks 1/2/3: knockdown chance −21% / −17% / not reduced. |
 | **Firestream** | Melt Armor | 2 | Alternate Igni: a continuous stream of fire. Ranks 1/2/3: Stamina cost −0% / −25% / −50%. |
 | **Magic Trap** | Sustained Glyphs | 2 | Alternate Yrden: a discharge that damages and slows enemies within a 14-yard radius. Ranks 1/2/3: damage +0% / +25% / +50%. |
@@ -67,7 +67,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 
 ## Alchemy (green)
 
-**How the tree is built.** Three columns meet at Tissue Transmutation. **Bombs and oils** on the left (Pyrotechnics → Protective Coating → Volatile Compound → Cluster Bombs), **potions and decoctions** in the center (Hunter Instinct → Acquired Tolerance → Tissue Transmutation → Delayed Recovery, High Tolerance → Fast Metabolism → Side Effects), and **poison** on the right (Poisoned Blades → Toxic Shock → Debilitating Poison → Potent Sting). Two shortcuts skip the hub: Protective Coating → Volatile Compound and Toxic Shock → Debilitating Poison, which is why Cluster Bombs and Potent Sting cost 5 points but Side Effects costs 7. Adaptability and Endure Pain are never required for anything. Refreshment alone can't reach the poison column, and Frenzy alone can't reach the bomb column.
+**How the tree is built.** Three columns meet at Tissue Transmutation. **Bombs and oils** on the left (Pyrotechnics → Protective Coating → Volatile Compound → Cluster Bombs), **potions and decoctions** in the center (Hunter Instinct → Acquired Tolerance → Tissue Transmutation → Delayed Recovery, High Tolerance → Fast Metabolism → Side Effects), and **poison** on the right (Poisoned Blades → Toxic Shock → Debilitating Poison → Potent Sting). Two shortcuts skip the hub: Protective Coating → Volatile Compound and Toxic Shock → Debilitating Poison, which is why Cluster Bombs and Potent Sting cost 5 points but Side Effects costs 7. Adaptability and Endure Pain are never required for anything. From Refreshment alone you can't reach Endure Pain, Poisoned Blades or Toxic Shock; from Frenzy alone, not Adaptability, Pyrotechnics or Protective Coating; from Efficiency alone, not Adaptability or Endure Pain.
 
 | Skill | Requires (any one) | Points to reach | Effect, rank 1 / 2 / 3 |
 | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | **Side Effects** | Fast Metabolism | 7 | Drinking a potion can trigger another random potion's effect without adding Toxicity. Ranks 1/2/3: 33% / 67% / 100% chance. |
 | **Potent Sting** | Debilitating Poison | 5 | Poisoned weapons deal extra damage, doubled against poison-immune targets. Ranks 1/2/3: +5% / +10% / +15% (vs poison-immune: +10% / +20% / +30%). |
 
-## General (brown)
+## General
 
 **How the tree is built.** A two-way lattice with the six School Techniques as entry points: Cat at the top, Viper at the bottom, the other four in the middle. A **left rail** runs Battle Frenzy – Strong Back – Gourmand – Elemental Attunement – Advanced Pyrotechnics, a **right rail** runs Adrenaline Burst – Survival Instinct – Anger Management – Synergy – Metabolic Boost, and four cross links tie them together (Attack Is the Best Defense – Strong Back, Sun and Stars – Survival Instinct, Element of Surprise – Elemental Attunement, Metabolic Control – Synergy). **No General skill is more than 3 points away**, counting the School Technique you enter through. Synergy, for example, costs 3 points through Bear or Griffin → Anger Management, through Griffin, Manticore or Viper → Metabolic Control, or through Viper → Metabolic Boost.
 

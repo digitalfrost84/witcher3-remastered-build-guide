@@ -1,6 +1,6 @@
 # 17. Relics and legendary weapons
 
-Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. They count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 3). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
+Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. Most count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 3). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
 
 Most numbers below come from the nukesdragons database, which is labeled for Remastered but is unofficial; where sources disagree, both values are given.
 
@@ -9,18 +9,18 @@ Most numbers below come from the nukesdragons database, which is labeled for Rem
 The legendary silver sword of Blood and Wine, and for most sword builds the silver sword to aim for.
 
 - **How it works.** Each fast hit adds 1 charge and each strong hit adds 2, up to 10. Every charge adds +10% damage, and **at full charge every hit is a critical hit**. A kill at full charge permanently adds +2 damage, up to about +10 per character level. Taking a hit costs you charges: half of them according to nukesdragons, all of them according to the Witcher wiki. Quen protects them ([nukesdragons](https://nukesdragons.com/witcher-3/db/weapons/aerondight); [Witcher wiki](https://witcher.fandom.com/wiki/Aerondight)).
-- **Level.** It scales with you (from level 35, per nukesdragons and KeenGamer); Fextralife shows a fixed level 52.
+- **Level.** It scales with you (from level 35, per nukesdragons; KeenGamer also says it has no fixed level); Fextralife shows a fixed level 52.
 - **How to get it.** The quest *There Can Be Only One* starts from the Beauclair notice "Test Yourself with the Trials of the Virtues!" or by listening to knights at the tourney grounds. Prove five virtues through choices across Toussaint, then beat the Hermit on the isle in Lac Célavy; the Lady of the Lake gives you the sword. If a virtue is still missing, nobody is there when you arrive ([GameBanshee](https://www.gamebanshee.com/thewitcher3/walkthrough/therecanbeonlyone.php); [Witcher wiki](https://witcher.fandom.com/wiki/There_Can_Be_Only_One)).
 
 | Virtue | Some of the ways to earn it |
 | --- | --- |
 | **Compassion** | Spare the shaelmaar in *The Beast of Toussaint*; spare the basilisk in *Mutual of Beauclair's Wild Kingdom*; invite Marlene to Corvo Bianco in *The Hunger Game* |
 | **Generosity** | Tip the boy who brings the letter that starts *Turn and Face the Strange*; pay the bootblack 500 crowns without haggling in *Where Children Toil, Toys Waste Away* |
-| **Honor** | Enter the tourney as Geralt of Rivia and beat Prince Anseis; keep Vivienne's secret; tell Charles Lanzano the truth in *Till Death Do You Part* |
+| **Honor** | Enter the tourney as Geralt of Rivia and beat Prince Anseis; keep Vivienne's secret; return the stones to the curator in *Goodness, Gracious, Great Balls of Granite!* |
 | **Valor** | Win the tourney against Gregoire; kill the slyzards in *Contract: Bovine Blues*; clear all three Hanse bases in *Knight for Hire* |
 | **Wisdom** | Answer "greenhouse" in *The Beast of Toussaint*; settle the brothers' dispute without a fight in *Father Knows Worst*; win the Beauclair Gwent tournament |
 
-Every virtue has several chances, and deeds done before you meet the Hermit count. You can only lose the sword by using up every chance for one virtue, and the quest can still be finished after the main story ([Console Pulse: Aerondight's five virtues](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-aerondight-five-virtues-complete-guide)). Two choices pull in opposite directions: sparing the basilisk counts for Compassion while killing it counts for Valor, and letting Hughes keep the stones in *Goodness, Gracious, Great Balls of Granite!* counts for Compassion while returning them counts for Honor. Once you've talked to the Hermit, the journal shows which virtues are still missing.
+Every virtue has several chances, and deeds done before you meet the Hermit count. You can only lose the sword by using up every chance for one virtue ([Console Pulse: Aerondight's five virtues](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-aerondight-five-virtues-complete-guide)), and the quest can still be finished after the main story ([Witcher wiki](https://witcher.fandom.com/wiki/There_Can_Be_Only_One)). Sources also disagree on one *Till Death Do You Part* choice, so don't count on that quest for Honor. Two choices pull in opposite directions: sparing the basilisk counts for Compassion while killing it counts for Valor, and letting Hughes keep the stones in *Goodness, Gracious, Great Balls of Granite!* counts for Compassion while returning them counts for Honor. Once you've talked to the Hermit, the journal shows which virtues are still missing.
 
 ## The best steel swords
 
@@ -35,7 +35,7 @@ Every virtue has several chances, and deeds done before you meet the Hermit coun
 | **Vitis** | Scales | +20% to all five Signs | With the Toussaint relic armor in the Land of a Thousand Fables | **Yes**, route-locked |
 | **Black Unicorn** (crafted) | 46 | +1–12% Aard, +5–10% bleeding | Diagrams in Harrisi's cave, the Defier's oren pool, and the Arnskrone cellar; Master blacksmith | No |
 | **Beann'Shie** (crafted) | 44 | +20% Aard, +50 armor piercing, frost | Sources disagree on whether a Master or Grandmaster smith makes it | No |
-| **Winter's Blade** | Scales (since 4.0, while you carry it) | +55% crit damage, +40 armor piercing, +10% freeze | A gift from Crach an Craite during *Brothers in Arms: Skellige* | **Yes** |
+| **Winter's Blade** | Scales (since 4.0, while you carry it) | +55% crit damage, +40 armor piercing, +10% freeze | A gift from Crach an Craite during *Brothers in Arms: Skellige* ([Witcher wiki](https://witcher.fandom.com/wiki/Brothers_In_Arms:_Skellige); [GameBanshee](https://www.gamebanshee.com/thewitcher3/walkthrough/brothersinarms.php)) | **Yes** |
 | **Arbitrator** (crafted) | 17 | +10–50% crit damage | Journeyman blacksmith, 185 crowns | No |
 | **Gwyhyr** | — | Yrden, crit damage, armor piercing, +6% bleeding | Cave northwest of Hanged Man's Tree, Velen | No |
 

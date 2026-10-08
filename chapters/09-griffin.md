@@ -72,7 +72,7 @@ Catalyst at your 11th point is the moment the build comes together: from here on
 - **Optional, 2 points:** Hunter Instinct → Acquired Tolerance, for a second decoction.
 - **Mutation:** Magic Sensibilities (below).
 
-**Anger Management is a safety valve, not a habit.** It spends the Adrenaline that Focus wants you to hold. Let it save you when Stamina runs dry; don't plan fights around it.
+**Anger Management is mostly a stepping stone.** It leads to Synergy and Survival Instinct, and it spends the Adrenaline that Focus wants you to hold, so it isn't in the final layout. Slot it only if you keep running out of Stamina, as a safety valve rather than a habit.
 
 ## Slots, mutagens and mutation
 
@@ -86,7 +86,7 @@ Catalyst at your 11th point is the moment the build comes together: from here on
 
 **Delusion:** if you want Axii's dialogue options, it takes Sidestep's slot until you have mutation slots.
 
-**Mutation: Magic Sensibilities** (2 Ability Points, 2 greater blue mutagens). Signs can crit, with crit chance and crit damage that grow with Sign intensity, and enemies killed by a Sign crit explode. Before 5.0, a level-45 character with +111% Sign intensity reached about 38% Sign crit chance and +183% crit damage ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). A Griffin stacks more intensity than any other build, so it gets the most out of it. One researched mutation opens no extra slot; add **Piercing Cold** (3 points; Aard can freeze, and frozen enemies that are knocked down die instantly) to open the first blue slot. FinalBoss and Hack the Minotaur use Piercing Cold as the main pick for Aard-heavy play ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-for-signs-remastered-5-0); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-signs-build/)).
+**Mutation: Magic Sensibilities** (2 Ability Points, 2 greater blue mutagens). Signs can crit, with crit chance and crit damage that grow with Sign intensity, and enemies killed by a Sign crit explode. Before 5.0, a level-45 character with +111% Sign intensity reached about 38% Sign crit chance and +183% crit damage ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). A Griffin stacks more intensity than any other build, so it gets the most out of it. One researched mutation opens no extra slot, but any second one does, and the slot follows the active mutation's color: the cheapest are Toxic Blood or Deadly Counter (2 points). **Piercing Cold** (3 points; Aard can freeze, and frozen enemies that are knocked down die instantly) costs one more but is useful in its own right, and it leads to **Conductors of Magic** (5 more points), which adds 50% of your drawn witcher sword's damage to your Signs, a natural fit for the Grandmaster Griffin swords (chapter 5). FinalBoss and Hack the Minotaur use Piercing Cold as the main pick for Aard-heavy play ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-for-signs-remastered-5-0); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-signs-build/)).
 
 ## Consumables and the fight loop
 
@@ -117,15 +117,15 @@ Location guides: [Mobalytics: Griffin School gear](https://mobalytics.gg/gamebas
 
 **If you're on the Syanna route in Blood and Wine,** **Vitis** (steel) and the found **Gesheft** (silver) each give +20% to all five Signs (chapter 17). They're the best Sign swords outside the set; use them only if you give up the 6-piece bonus, which this book doesn't recommend.
 
-**Enchanting** (chapter 6): three greater Veles runestones in each sword (+15% Sign intensity), and **Entanglement** on the chest so each Magic Trap hit also lays a normal Yrden glyph. If your best chest piece isn't medium, **Balance** fixes that.
+**Enchanting** (chapter 6): three greater Veles runestones in each sword (+15% Sign intensity), and **Entanglement** on the chest so each Magic Trap hit also lays a normal Yrden glyph. A chest takes only one word, so if your best chest piece isn't medium, use **Balance** there instead.
 
 ## The maths
 
 ![Sign intensity added by each source, fully upgraded: Griffin set inside Yrden +100%, Catalyst +90%, Focus +90%, Chain Reaction +75%, Petri's Philter +25%, Griffin Techniques +24%, Grandmaster chest +22%, Grandmaster steel sword +21%](../images/sign-intensity.png)
 
-The two biggest bonuses both need **an enemy inside Yrden**, which is why every Griffin fight starts with a trap. Focus and Chain Reaction come close behind and work anywhere, but each has its own condition: a full Adrenaline bar for Focus, five different Signs in a row for Chain Reaction. The flat sources at the bottom (potion, Technique, gear) are the floor you have in every fight.
+The two biggest bonuses both need **Yrden**: Catalyst only counts against enemies inside it, and the set bonus only while you stand in your own trap. That's why every Griffin fight starts with a trap. Focus and Chain Reaction come close behind and work anywhere, but each has its own condition: a full Adrenaline bar for Focus, five casts in a row for Chain Reaction, each a different Sign from the one before. The flat sources at the bottom (potion, Technique, gear) are the floor you have in every fight.
 
-**The Stamina side.** At the end of the game a Griffin regenerates **+4 Stamina per second** from Technique rank 3 with four medium pieces, plus **+5 per second inside Yrden** from the 6-piece bonus, on top of the Signs tree's branch passive (+0.5% per point, chapter 2) and Ancient Leshen's +2 per cast. Firestream rank 3 halves its own cost, and Sidestep rank 3 takes 60% off the Sign after each dodge.
+**The Stamina side.** At the end of the game a Griffin regenerates **+4 Stamina per second** from Technique rank 3 with four medium pieces, plus **+5 per second inside Yrden** from the 6-piece bonus, on top of the Signs tree's branch passive (+0.5% or +0.5 per second per point, depending on the source; chapter 2) and Ancient Leshen's +2 per cast. Firestream rank 3 halves its own cost, and Sidestep rank 3 takes 60% off the Sign after each dodge.
 
 ## Verdict
 
