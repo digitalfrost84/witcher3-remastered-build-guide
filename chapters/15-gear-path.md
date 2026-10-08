@@ -14,11 +14,11 @@ Levels are pre-5.0 values; no source reports a 5.0 change.
 
 ## Rules for the whole playthrough
 
-1. **Weight class first, set second.** Sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants.
+1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants.
 2. **You can't skip a tier, but you can wait.** Each recipe consumes the piece below it. Collect diagrams as you find them and craft when the upgrade is worth the materials.
 3. **Never sell or dismantle a Mastercrafted piece** you intend to take to Grandmaster.
 4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 6).
-5. **Collect every diagram you pass, even for sets you won't wear.** In 5.0, owning an item or its diagram unlocks its look for **Reforge** at Yoana (armor) or Hattori (weapons), so you can wear the stats you need under the look you like ([KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).
+5. **Collect every diagram you pass, even for sets you won't wear.** In 5.0, owning an item or its diagram unlocks its look for **Reforge** at Yoana or Hattori, so you can wear the stats you need under the look you like ([KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).
 
 ## White Orchard (levels 1–4)
 
@@ -36,16 +36,16 @@ Right after White Orchard, the Royal Palace in Vizima has a chest with your **CD
 | **Nilfgaardian** set (free DLC, medium) | 10 | Crow's Perch quartermaster | Every medium school until Griffin |
 | **Griffin** Basic, Enhanced | 11, 18 | Velen; Enhanced also in the Novigrad outskirts | Griffin, Wolven, Manticore, Viper (any medium build) |
 | **Feline** Basic, Enhanced, Superior | 17, 23, 29 | Velen, Novigrad, Oxenfurt; Mad Kiyan guards the Basic diagrams | Feline |
-| **Forgotten Wolven** Basic (all six diagrams) | 20 | Reward for *In the Eternal Fire's Shadow*, from the Eternal Fire priest at Devil's Pit (quest level 15) | Wolven |
+| **Forgotten Wolven** Basic (all six diagrams) | 20 | *In the Eternal Fire's Shadow* starts with the Eternal Fire priest at Devil's Pit (quest level 15); the spirit Reinald hands over the diagrams. Finish it before the Isle of Mists to be safe (chapter 18) | Wolven |
 | **Ursine** Superior, Mastercrafted | 30, 34 | Velen | Ursine (after Skellige's Basic and Enhanced) |
 | **Moonblade** (relic silver: Yrden, crit damage, 3 slots) | scales | Underwater chest in the Pontar, southwest of Mulbrydale | Early Sign or crit builds |
 | **Gwyhyr** (relic steel: Yrden, crit damage, armor piercing, bleed) | — | Cave northwest of Hanged Man's Tree | A stopgap; not top-tier |
-| **Arbitrator** (crafted relic steel, +10–50% crit damage) | 17 | Journeyman blacksmith | Early crit builds |
+| **Arbitrator** (crafted relic steel, +10–50% crit damage) | 17 | Crafted by a Journeyman blacksmith; the diagram's location isn't confirmed | Early crit builds |
 | **Bloodsword** (relic silver, crit and bleed) | — | Chest at the end of *Inheritance* | Crit builds |
 
-**Unlock your Master crafters at level 24.** **Yoana**, the armorer at Crow's Perch, after *Master Armorers*, and **Hattori**, the Novigrad blacksmith, after *Of Swords and Dumplings*. They're the only ones who can make Mastercrafted gear, and the only ones who offer Reforge ([Gamertagmythras](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-crafting-guide)).
+**Unlock your Master crafters at level 24.** **Yoana**, the armorer at Crow's Perch, after *Master Armorers*, and **Hattori**, the Novigrad blacksmith, after *Of Swords and Dumplings*. They're the only Master crafters (later, Lazare Lafargue can make any tier) and the only ones who offer Reforge ([Gamertagmythras](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-crafting-guide); [KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).
 
-Location guides for every school's diagrams: [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-cat-school-gear-set) (one page per school, linked from each school chapter) and [Console Pulse](https://www.consolepulse.com/multiplatform/the-witcher/guides/witcher-3-griffin-gear-guide).
+Location guides: Mobalytics has one for each of Cat, Griffin, Ursine, Wolven and Manticore gear (linked from those chapters, [Cat](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-cat-school-gear-set) for example), Console Pulse has per-school gear guides, and the Viper and Forgotten Wolven guides are on [WitcherHour](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/) and [Fextralife](https://thewitcher3.wiki.fextralife.com/Scavenger+Hunt:+Forgotten+Wolf+School+Gear+Diagrams).
 
 ## Skellige (levels 15–34)
 
@@ -57,7 +57,7 @@ Location guides for every school's diagrams: [Mobalytics](https://mobalytics.gg/
 | **Feline** Mastercrafted | 34 | Skellige | Feline |
 | **Wolven** Superior and Mastercrafted diagrams | 29, 34 | Skellige (with Kaer Morhen and Velen) | Wolven |
 | **Hjalmar's steel sword** | — | Win the fistfight in Hjalmar's corner of the Kaer Trolde feast hall during *King's Gambit*, before you go to Crach. Missable | Collectors |
-| **Winter's Blade** (relic steel, levels with you since 4.0) | scales | Ask Crach an Craite during *Brothers in Arms: Skellige*, before you sail to the Isle of Mists. Missable | Crit builds |
+| **Winter's Blade** (relic steel, levels with you since 4.0) | scales | Ask Crach an Craite during *Brothers in Arms: Skellige*; guides say to do it before you sail to the Isle of Mists (chapter 18). Missable | Crit builds |
 
 ## Kaer Morhen (from the main quest *Ugly Baby*)
 
@@ -71,7 +71,7 @@ Kaer Morhen only opens up after *Ugly Baby*. Two sets live here:
 | Pickup | Level | Where | Who it's for |
 | --- | --- | --- | --- |
 | **The Runewright** (enchanting) | — | Upper Mill; 30,000 crowns for all three tiers (chapter 6) | Everyone |
-| **Ofieri** set (crafted, light; Quen, Yrden and Axii intensity) | 38 | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores*; Dulla kh'Amanni at Upper Mill translates them | Sign builds that don't need medium armor |
+| **Ofieri** set (crafted, light; Quen, Yrden and Axii intensity) | 38 (one source says 35) | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores*; Dulla kh'Amanni at Upper Mill translates them | Sign builds that don't need medium armor |
 | **Ofieri saber** (crafted relic steel: crit, Igni, Aard, Axii) | 38 | Diagram sold by Dulla kh'Amanni | Feline, Griffin |
 | **New Moon** set (relic, medium; crit chance and crit damage) | 34–36 | Crane Cape lighthouse, Kilkerinn Ruins, a crypt in the far outskirts, and Vikk Watchtower during *The Royal Air Force* | Crit builds with Levity or in medium armor |
 | **Viper** armor, **Venomous** swords | 39 | Auction and vault in *Open Sesame!*; O'Dimm's world in *Whatsoever a Man Soweth…*. Missable | Viper; the swords suit any crit build |
@@ -85,7 +85,7 @@ Sources: [nukesdragons: Ofieri armor](https://nukesdragons.com/witcher-3/db/armo
 
 | Pickup | Level | Where | Who it's for |
 | --- | --- | --- | --- |
-| **Grandmaster** tiers of all sets, **Manticore** | 40 | Lafargue's hunts | Everyone |
+| **Grandmaster** Feline, Griffin, Ursine and Wolven, and the **Manticore** set | 40 | Lafargue's hunts | Everyone |
 | **Tesham Mutna** set (heavy; kills heal you with 3+ pieces) | 39 | Only during *La Cage au Fou*. Missable | Ursine |
 | **Hen Gaidth** set *or* **Toussaint relic** set (both heavy) | 40+ | One or the other, depending on your route in *The Night of Long Fangs* (chapter 18) | Ursine |
 | **Toussaint Ducal Guard Captain's** set (crafted, medium, +400 Vitality) | 45 | Diagrams in the Bastoy reward chest, Antoine Straggen's bed at the Arthach Palace Ruins, and a barghest-guarded chest between the Cockatrice Inn and Flovive | Medium builds that want Vitality |

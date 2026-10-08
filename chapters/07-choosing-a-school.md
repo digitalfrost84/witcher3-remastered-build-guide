@@ -31,7 +31,7 @@ Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels
 
 **How much do you like preparing?** Manticore and Viper fights are won before they start: the right oil, the right decoctions, Toxicity managed. Feline and Ursine fights are won in the moment. Griffin and Wolven sit in between.
 
-**What difficulty are you on?** On Death March the margin for error shrinks. The guides agree that Ursine is the safest pick there; Feline is the least forgiving ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)).
+**What difficulty are you on?** On Death March the margin for error shrinks. KeenGamer and FinalBoss call Ursine the safest Death March build, while other guides pick Signs, a Wolf hybrid or Manticore (chapter 14). FinalBoss calls Feline viable but unforgiving there ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)).
 
 **Do you own the expansions?** Manticore needs Blood and Wine for its set and for Euphoria. Viper needs Hearts of Stone for its armor. Every school's Grandmaster tier is in Blood and Wine.
 
@@ -40,7 +40,7 @@ Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels
 ## You can mix more than you think
 
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
-- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Several 5.0 guides run Manticore armor with Levity and Cat School Techniques for crits.
+- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
 - **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 20).
 
 ## How each school chapter is laid out

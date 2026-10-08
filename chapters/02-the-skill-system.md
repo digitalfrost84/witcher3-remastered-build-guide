@@ -1,6 +1,6 @@
 # 2. The 5.0 skill system
 
-Patch 5.0 threw out the old skill grid. Skills now sit in **four trees of 20 skills each**, every skill has **three ranks**, and a skill unlocks once you own a skill connected to it, not after you've spent a set number of points in that tree ([CD PROJEKT RED: What's new](https://www.thewitcher.com/us/en/news/52041/see-whats-new-in-the-witcher-3-wild-hunt-remastered)). If you load an old save, all your skill points come back to spend again.
+Patch 5.0 threw out the old skill grid. Skills now sit in **four trees of 20 skills each**, every skill has **three ranks**, and a skill unlocks once you own a skill connected to it, not after you've spent a set number of points in that tree ([CD PROJEKT RED: What's new](https://www.thewitcher.com/us/en/news/52041/see-whats-new-in-the-witcher-3-wild-hunt-remastered); [witcherhour.com](https://witcherhour.com/skills/)). If you load an old save, all your skill points come back to spend again.
 
 Two consequences matter most:
 
@@ -14,18 +14,18 @@ Two consequences matter most:
 | **Combat** | Red | Fast and strong attacks, Adrenaline, Whirl and Rend, the crossbow | Muscle Memory, Arrow Deflection |
 | **Signs** | Blue | All five Signs, their alternate modes, and new skills that mix Signs with swords | Far-Reaching Aard, Melt Armor, Sustained Glyphs, Exploding Shield, Delusion |
 | **Alchemy** | Green | Potions, decoctions, bombs, oils and a new poison line | Refreshment, Efficiency, Frenzy |
-| **General** | Brown | School Techniques, Vitality, Adrenaline helpers, Synergy, Toxicity limits | All six School Techniques: Cat, Wolf, Bear, Griffin, Manticore, Viper |
+| **General** | None | School Techniques, Vitality, Adrenaline helpers, Synergy, Toxicity limits | All six School Techniques: Cat, Wolf, Bear, Griffin, Manticore, Viper |
 
-Every point you spend also earns its tree a small **branch passive**, whether or not the skill is equipped:
+Every point you spend also earns its tree a small **branch passive**:
 
 | Tree | Per point spent |
 | --- | --- |
 | Combat | +1% Adrenaline gain |
-| Signs | +0.5% combat Stamina regeneration |
+| Signs | +0.5% combat Stamina regeneration (witcherhour: +0.5 per second) |
 | Alchemy | +2% potion duration and +2% bomb damage |
 | General | +1% Vitality |
 
-Source: [Hack the Minotaur: New skill trees](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/), [KeenGamer: Best builds](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/).
+Source: [Hack the Minotaur: New skill trees](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/) (values), [KeenGamer: Best builds](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/) (the same four bonuses, without values). Sources disagree on one detail: witcherhour says only equipped skills count toward the passives, while Hack the Minotaur counts every point you spend.
 
 ## What changed from older guides
 
@@ -46,12 +46,12 @@ Sources: [witcherhour.com](https://witcherhour.com/skills/), [CD PROJEKT RED: Pa
 Owning a skill isn't enough: **most skills only work while they sit in one of your skill slots**. You get up to **12 slots**, arranged in four groups of three, and each group has a **mutagen slot** beside it.
 
 - **When slots open.** Sources disagree. One community source lists slots by character level (one at the start, then at levels 2, 4, 6, 8, 10, 12, 15, 18, 22, 26 and 30) ([witcherhour.com](https://witcherhour.com/skills/)); another ties them to Ability Points earned at the same thresholds ([Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-signs-build/)). Your character screen shows which slots are open, so trust it over both.
-- **Mutagens.** A mutagen adds a bonus (red = attack power, blue = Sign intensity, green = Vitality), and the bonus grows when the skills in its group match its color. Red goes with Combat skills, blue with Signs, green with Alchemy. General skills never count for a color. The General skill Synergy raises every mutagen bonus by 10/20/30%.
+- **Mutagens.** Red mutagens add attack power, blue add Sign intensity and green add Vitality. Each skill of the matching color in the mutagen's group adds another 100% of its bonus, so a full matching group quadruples it ([Fextralife: Mutagens](https://thewitcher3.wiki.fextralife.com/Mutagens), pre-5.0). Red goes with Combat skills, blue with Signs, green with Alchemy; General skills aren't one of the three colors, so they never boost a mutagen ([Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/)). The General skill Synergy raises every mutagen bonus by 10/20/30%.
 - **Mutations** (Blood and Wine) add four more slots that only take skills of the active mutation's color. See chapter 5.
 
-Skills you buy only to unlock something deeper (Sustained Glyphs on the way to Magic Trap, say) don't need a slot. Most builds own more skills than they can equip, and that's fine.
+Skills you buy only to unlock something deeper (Sustained Glyphs on the way to Magic Trap, say) don't need a slot: witcherhour words the unlock rule in terms of points owned, and every 5.0 build guide relies on it, though no source says it outright. Most builds own more skills than they can equip, and that's fine.
 
-**A note on Delusion:** if you want Axii's extra dialogue options, keep Delusion slotted. Before 5.0, most Axii dialogue checks needed rank 1 or 2, and rank 3 only added more experience per use ([Witcher wiki: Delusion](https://witcher.fandom.com/wiki/Delusion)). Witcherhour's 5.0 database lists the same effect at every rank, so rank 2 may no longer matter; until that's confirmed, rank 2 is the safe choice.
+**A note on Delusion:** if you want Axii's extra dialogue options, keep Delusion slotted. In 5.0, Hack the Minotaur says the dialogue options are available from rank 1, and witcherhour lists the same effect at every rank ([Hack the Minotaur: Signs](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-signs-and-upgrades-guide/); [witcherhour.com](https://witcherhour.com/skills/)). Before 5.0, most Axii conversations needed level 1 or 2, and level 3 only added experience ([Witcher wiki: Delusion](https://witcher.fandom.com/wiki/Delusion)). Rank 1 is very likely enough now; a second point is cheap insurance if you want to be sure.
 
 ## How to plan a build in 5.0
 
@@ -68,7 +68,7 @@ Chapter 21 lists all 80 skills with their prerequisites.
 
 ## Respec
 
-- **Potion of Clearance** refunds every skill point. Keira Metz sells it, and it usually costs about 1,000 crowns ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-rebuild-the-5-0-skill-tree)).
+- **Potion of Clearance** refunds every skill point. Keira Metz sells it, and it usually costs about 1,000 crowns ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-rebuild-the-5-0-skill-tree)).
 - **Potion of Restoration** does the same for mutation research (chapter 5).
 
 Because paths are cheap now, a respec around level 30 to pick up a new school, or when you reach Blood and Wine, costs you nothing but crowns.

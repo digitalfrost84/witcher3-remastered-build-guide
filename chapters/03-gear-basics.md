@@ -15,7 +15,7 @@ Every armor piece is **light, medium or heavy**. In 5.0 all six School Technique
 | **Manticore** | Medium | +2% sword damage, +2% bomb damage | +6% each | +24% each |
 | **Viper** | Medium | +2% max Vitality, +2% poison damage | +6% each | +24% each |
 
-Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks). Witcherhour lists Cat's fast attack bonus at rank 1 as +1%, while WitcherDB and Hack the Minotaur both say +2%; the +1% looks like a typo. Griffin's Stamina bonus shows as 0 at rank 1 and +1 per second at rank 3; rank 2 isn't published.
+Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks). Witcherhour lists Cat's fast attack bonus at rank 1 as +1%, while WitcherDB and Hack the Minotaur both say +2%; the +1% looks like a typo. Griffin's Stamina bonus shows as 0 per second at rank 1 in WitcherDB and +0.2 per second in the nukesdragons database, and +1 per second at rank 3 in witcherhour; rank 2 isn't published.
 
 Two things follow from this table:
 
@@ -38,7 +38,7 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | **Viper** | Medium | Swords 1–2; armor and Venomous swords 39 | White Orchard; Hearts of Stone (missable) |
 | **Manticore** | Medium | Grandmaster only, 40 | Toussaint |
 
-Levels are the values reported before 5.0 (Console Pulse, Gamestegy, KeenGamer); no source reports a 5.0 change. Chapter 15 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
+Levels come from pre-5.0 sources (Console Pulse, Gamestegy) and match a 5.0 KeenGamer article; no source reports a 5.0 change. Chapter 15 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
 
 **About Manticore's weight.** One Remastered guide calls the Manticore set light. Every other source, including the 5.0 Manticore School Technique (which rewards medium armor), says medium. The "light" reading most likely came from a chest piece enchanted with the Levity glyphword. This book treats Manticore as medium.
 
@@ -62,16 +62,16 @@ These descriptions come from pre-5.0 sources; no 5.0 patch note mentions set bon
 
 | Craftsman level | Can make | Where |
 | --- | --- | --- |
-| Amateur | No witcher gear | Most early villages |
+| Amateur | No witcher gear (one source says Basic Wolven armor) | Most early villages |
 | Journeyman | Up to Superior | Most towns |
 | **Master** | Up to Mastercrafted | **Yoana**, armorer at Crow's Perch, after the quest *Master Armorers* (level 24). **Hattori**, blacksmith in Novigrad, after *Of Swords and Dumplings* (level 24) |
 | **Grandmaster** | Everything | **Lazare Lafargue** in Hauteville, Beauclair (Toussaint), the only Grandmaster craftsman, for both armor and swords |
 
-Lafargue's quest *Master Master Master Master!* starts from the "Contract: Grandmaster Armorer" notice in Beauclair (suggested level 40). Asking him about the five vanished witchers opens the Grandmaster scavenger hunts for Feline, Griffin, Manticore, Ursine and Wolven. Since patch 4.0, every Grandmaster recipe needs the matching **Mastercrafted** piece, so don't sell those ([Gamertagmythras: Crafting](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-crafting-guide); [GameBanshee](https://gamebanshee.com/thewitcher3/walkthrough/mastermastermastermaster.php); [Witcher wiki: Wolf School Gear](https://witcher.fandom.com/wiki/Wolf_School_Gear)).
+Lafargue's quest *Master Master Master Master!* starts from the "Contract: Grandmaster Armorer" notice in Beauclair (suggested level 40). Asking him about the five vanished witchers opens the Grandmaster scavenger hunts for Feline, Griffin, Manticore, Ursine and Wolven. Every Grandmaster recipe except Manticore's needs the matching **Mastercrafted** piece (patch 4.0 restored this requirement for Wolven), so don't sell those ([Gamertagmythras: Crafting](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-crafting-guide); [GameBanshee](https://gamebanshee.com/thewitcher3/walkthrough/mastermastermastermaster.php); [Witcher wiki: Wolf School Gear](https://witcher.fandom.com/wiki/Wolf_School_Gear)).
 
 ## Reforge: wear the stats, keep the look
 
-New in 5.0, **Reforge** changes an item's appearance and nothing else. Yoana does armor (after *Master Armorers*), Hattori does weapons (after *Of Swords and Dumplings*). A look unlocks as soon as the item or its diagram is in your inventory, and Blood and Wine dyes carry over ([KeenGamer: Patch notes](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)). You never have to pick between the armor that looks right and the armor that plays right.
+New in 5.0, **Reforge** changes an item's appearance and nothing else. Yoana offers it after *Master Armorers*, Hattori after *Of Swords and Dumplings*. A look unlocks as soon as the item or its diagram is in your inventory, and Blood and Wine dyes carry over ([KeenGamer: Patch notes](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)). You never have to pick between the armor that looks right and the armor that plays right.
 
 ## Rules of thumb
 

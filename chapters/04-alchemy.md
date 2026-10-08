@@ -6,7 +6,7 @@ Patch 5.0 didn't change potions, oils, bombs or decoctions directly. Its changes
 
 ## Refilling: meditation and alcohol
 
-Crafted potions, bombs and decoctions aren't single-use. **Meditate for at least one hour with a strong alcohol in your inventory**, and every potion, bomb and decoction refills its charges. One bottle covers everything. The alcohols that count are Alcohest, Cherry Cordial, Dwarven Spirit, Mahakaman Spirit, Mandrake Cordial, Nilfgaardian Lemon, Redanian Herbal, Temerian Rye and White Gull. Keep your White Gull, because many superior recipes need it, and keep Alcohest for crafting enhanced potions ([Fextralife: Alcohol](https://thewitcher3.wiki.fextralife.com/Alcohol)). In 5.0, meditation plays as a timelapse instead of opening a menu.
+Crafted potions, bombs and decoctions aren't single-use. **Meditate for at least one hour with a strong alcohol in your inventory**, and every potion, bomb and decoction refills its charges. One bottle covers everything. The alcohols that count are Alcohest, Cherry Cordial, Dwarven Spirit, Mahakaman Spirit, Mandrake Cordial, Nilfgaardian Lemon, Redanian Herbal, Temerian Rye and White Gull. Keep your White Gull, because many superior recipes need it ([Fextralife: Alcohol](https://thewitcher3.wiki.fextralife.com/Alcohol)), and keep Alcohest, which every enhanced potion needs ([Gamertagmythras: Alchemy](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-alchemy-guide)). In 5.0, meditation plays as a timelapse instead of opening a menu.
 
 ## Potions worth carrying
 
@@ -31,7 +31,7 @@ Source: [Fextralife: Potions](https://thewitcher3.wiki.fextralife.com/Potions). 
 
 An oil adds damage against one monster type: **+10% basic, +25% enhanced, +50% superior**. Before 5.0 an oil lasted 20, 40 or 60 hits, and every hit used a charge, even against enemies it didn't target. Fixative, the skill that made oils last longer, is gone in 5.0, and nothing official says oils became permanent, so assume they still run out ([Fextralife: Oils](https://thewitcher3.wiki.fextralife.com/Oils)). The "Automatically Apply Blade Oils" option, added in patch 4.03, swaps in the right oil for you, and patch 5.01 fixed a bug with it.
 
-Oils matter more in 5.0 because four new Alchemy skills key off them:
+Oils matter more in 5.0 because four Alchemy skills key off them, two of them from the new poison line:
 
 | Skill | Effect at rank 1/2/3 |
 | --- | --- |
@@ -55,7 +55,7 @@ Bombs carry 2/3/4 charges at basic/enhanced/superior, and Efficiency adds more p
 - **Devil's Puffball:** poison cloud.
 - **Dragon's Dream:** flammable gas that explodes when ignited.
 
-Bombs also destroy monster nests (Dancing Star, Grapeshot, Samum, Dragon's Dream). Builds that throw them pick up Pyrotechnics, Cluster Bombs and Element of Surprise, which adds +10/20/30% melee damage for 10 seconds after a bomb hit ([Fextralife: Bombs](https://thewitcher3.wiki.fextralife.com/Bombs); [witcherhour.com](https://witcherhour.com/skills/)).
+Dancing Star, Grapeshot and Samum also destroy monster nests. Builds that throw them pick up Pyrotechnics, Cluster Bombs and Element of Surprise, which adds +10/20/30% melee damage for 10 seconds after a bomb hit ([Fextralife: Bombs](https://thewitcher3.wiki.fextralife.com/Bombs); [witcherhour.com](https://witcherhour.com/skills/)).
 
 ## Decoctions
 
@@ -66,7 +66,7 @@ Decoctions are the strongest consumables in the game, and the most expensive. Ea
 | **Ekimmara** | 10% of the damage you deal comes back as Vitality | Sword builds; pairs well with Water Hag |
 | **Katakan** | +10% crit chance | Any sword build, crit builds above all |
 | **Water Hag** | +50% damage while your Vitality is full | Clean, no-hit play |
-| **Ekhidna** | Actions that cost Stamina restore Vitality | Sign builds, Whirl and Rend |
+| **Ekhidna** | Actions that cost Stamina restore Vitality | Sign builds and Rend (sources disagree on whether Whirl counts) |
 | **Archgriffin** | Strong attacks spend all Stamina, then remove 5% of the target's Vitality | Bosses with huge health bars |
 | **Forktail** | Three different action types in a row make the next attack or Sign +50% stronger | Sword-and-Sign hybrids |
 | **Wyvern** | +1% attack power per hit landed; resets when you're hit | No-hit and Quen play |
@@ -86,9 +86,9 @@ Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoct
 
 Decoction Toxicity doesn't drain, so the question is simple: how many 50-point blocks fit under your maximum while leaving room to drink a potion mid-fight? The chart answers it for five setups.
 
-![How many decoctions fit at different maximum Toxicity levels: 1 with no skills, 2 with Acquired Tolerance rank 1, up to 4 with Acquired Tolerance rank 3](../images/toxicity-budget.png)
+![How many decoctions fit at different maximum Toxicity levels: 1 with no skills, 2 with Acquired Tolerance rank 1, and 4 with Acquired Tolerance rank 3 plus Metabolic Control and Manticore armor](../images/toxicity-budget.png)
 
-The lesson: **Acquired Tolerance is the skill that decides how many decoctions you can run**, because it scales with every recipe you know. Metabolic Control and Manticore armor top it up. The base of 100 is the next-gen value; if 5.0 changed it, every bar shifts by the same amount.
+The lesson: **Acquired Tolerance is the skill that decides how many decoctions you can run**, because it scales with every recipe you know. Metabolic Control and Manticore armor top it up: at 40 recipes, rank 3 alone fits three decoctions, and the other two bonuses make it four. The base of 100 is the next-gen value; if 5.0 changed it, every bar shifts by the same amount.
 
 ## Mutagens
 

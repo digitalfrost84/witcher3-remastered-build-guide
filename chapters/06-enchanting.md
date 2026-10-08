@@ -36,7 +36,7 @@ He also adds slots to items, and each extra slot costs more than the last; one p
 ## Rules for words
 
 - **Runewords go only on steel and silver swords; glyphwords only on chest armor.**
-- **The item needs three slots, and the word fills all three.** One word per item, and no single stones next to it. Applying a word destroys any stones already in the slots.
+- **The item needs three slots, and the word fills all three.** One word per item, and no single stones next to it. Sources disagree on whether the slots must be empty first or the stones in them are destroyed; either way you lose them.
 - **A runeword only works on the sword you have drawn.** Preservation is the exception.
 - **Crafting the next tier of witcher gear destroys words** (single stones survive). Put words on your final pieces.
 
@@ -54,7 +54,7 @@ These three turn chest-armor enchanting into a build tool. Each makes **all the 
 
 What this buys you is the freedom to pick armor for its stats and set bonus, then pick your Technique separately. Two combinations stand out:
 
-- **Levity on medium or heavy armor** gives you Cat School Techniques (+24% crit damage per piece at rank 3, so +96% with four pieces) while you keep the heavier armor's protection. Several 5.0 builds put Levity on the Manticore chest for exactly this reason ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build); [Console Pulse: Best enchantment builds](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-best-enchantment-builds-four-setups)).
+- **Levity on medium or heavy armor** gives you Cat School Techniques (+24% crit damage per piece at rank 3, so +96% with four pieces) while you keep the heavier armor's protection. Two 5.0 Manticore builds, from Console Pulse and KeenGamer, run Cat School Techniques this way (KeenGamer's describes the Levity effect without naming the glyphword) ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build); [Console Pulse: Best enchantment builds](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-best-enchantment-builds-four-setups)).
 - **Balance on light or heavy armor** lets a Sign build wear whatever has the best Sign stats and still use Griffin School Techniques.
 
 ## All runewords
@@ -62,7 +62,7 @@ What this buys you is the freedom to pick armor for its stats and set bonus, the
 | Runeword | Tier | Recipe | Effect |
 | --- | --- | --- | --- |
 | **Preservation** | 1 | Lesser Svarog, Devana, Morana | Armorer's table and grindstone bonuses never expire |
-| **Dumplings** | 1 | 2 lesser Pyerog, 1 lesser Tvarog | Food heals 400% more (100% before 4.0) |
+| **Dumplings** | 1 | 2 Pyerog, 1 Tvarog | Food heals 400% more (100% before 4.0) |
 | **Placation** | 1 | Lesser Stribog, Devana, Morana | Reaching full Adrenaline drains it to 0; while it drains, Vitality and Stamina regenerate faster and Toxicity drops faster |
 | **Rejuvenation** | 2 | Perun, Svarog, Stribog | Each fatal blow restores 100% Stamina (25% before 4.0) |
 | **Elation** | 2 | Dazhbog, Veles, Devana | Fatal sword blows give 1 Adrenaline point |
@@ -103,7 +103,7 @@ Tiers and effects: [Fextralife: Runewords](https://thewitcher3.wiki.fextralife.c
 | **Manticore** | Levity, to run Cat School Techniques in Manticore armor | Severance | Placation, which drains the Toxicity that Euphoria feeds on |
 | **Viper** | Levity with Cat School Techniques, or Balance on any armor | Greater Chernobog | Placation |
 
-Picks for Feline, Griffin, Ursine and Manticore follow [Console Pulse's ranking](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-runewords-glyphwords-ranked) and its 5.0 builds; the Wolven and Viper rows are this book's suggestions. The 5.0 Griffin builds skip runewords and use greater Veles stones ([Console Pulse: Griffin Igni build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-griffin-igni-pure-sign-build)).
+Picks for Feline, Griffin, Ursine and Manticore follow [Console Pulse's ranking](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-runewords-glyphwords-ranked) and its 5.0 builds; the Wolven and Viper rows, and the Avoid column, are this book's reasoning. (Console Pulse also describes a heavy-armor build that uses Levity, which turns it into a Cat build.) The 5.0 Griffin builds skip runewords and use greater Veles stones ([Console Pulse: Griffin Igni build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-griffin-igni-pure-sign-build)).
 
 ## When to visit
 

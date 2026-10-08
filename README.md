@@ -59,4 +59,4 @@ Each school chapter covers its lore, how it plays, a phased skill plan checked a
 - **Where sources disagree, the book shows both,** and says which it follows. The in-game tooltip always wins.
 - **Builds are judgment, the maths is arithmetic.** Every point plan was checked skill by skill against the 5.0 prerequisite links; the rankings in chapter 14 are opinion, and say so.
 
-**Spoilers.** The lore sections avoid main-story spoilers. Chapters 17 and 18 name quest choices in the expansions, because that's what decides whether you get some of the best gear.
+**Spoilers.** The lore sections avoid main-story spoilers. Chapters 9, 13 and 15 to 18 name quest choices in the expansions, because that's what decides whether you get some of the best gear, and chapter 18 names the main story's points of no return.

@@ -16,19 +16,19 @@ Some items are rewards for connecting the game to a free **CD PROJEKT RED accoun
 
 ### Where the items appear
 
-Everything goes into **a chest in the Royal Palace in Vizima**, and a letter from Yennefer tells you where. In a new game you reach the palace right after the White Orchard prologue; in an existing save, the items are there as soon as you link. The chest is in a room in the west wing, the one with the Nilfgaardian ambassador, under a window; if there are two chests, it's the left one ([Dot Esports](https://dotesports.com/the-witcher/guides/how-to-get-the-scarlet-crest-armor-in-the-witcher-3); [GGRecon](https://www.ggrecon.com/guides/the-witcher-3-white-tiger-of-the-west-armor/)). The Chamberlain can show you the way.
+The armor and weapons go into **a chest in the Royal Palace in Vizima** (the hairstyle appears at any barber), and a letter from Yennefer tells you where. In a new game you reach the palace right after the White Orchard prologue; in an existing save, the items are there as soon as you link. The chest is in a room in the west wing, the one with the Nilfgaardian ambassador, under a window; if there are two chests, it's the left one ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-new-armor-weapons-locations/); [allthings.how](https://allthings.how/?p=232688); [Dot Esports](https://dotesports.com/the-witcher/guides/how-to-get-the-scarlet-crest-armor-in-the-witcher-3); timing from [GGRecon](https://www.ggrecon.com/guides/the-witcher-3-white-tiger-of-the-west-armor/)). The Chamberlain can show you the way.
 
 ### The three sets
 
 | Set | Weight | Level | What it gives | Status today |
 | --- | --- | --- | --- | --- |
 | **Scarlet Crest** (four pieces) | Medium | 40 | 487 armor across the set, +35% Quen intensity, +22% Adrenaline gain; no set bonus documented | New in Remastered and listed on the official page |
-| **Armor of a Thousand Flowers** with the Sword of a Thousand Flowers and White Widow | Medium | 7 | Gauntlets with +5% Aard and Igni; swords with +5% crit chance, +10% crit damage and a rolled Aard or Igni bonus | A 2022 next-gen reward; **not** on today's official page |
+| **Armor of a Thousand Flowers** with the Sword of a Thousand Flowers and White Widow | Medium (one database lists the trousers as light) | 7 | Gauntlets with +5% Aard and Igni; swords with +5% crit chance, +10% crit damage and a rolled Aard or Igni bonus | A 2022 next-gen reward; **not** on today's official page |
 | **White Tiger of the West** with the Nine-Tailed Vixen swords | Medium | 11 | +75 Vitality on the chest, +5% Adrenaline on the trousers; swords with +10–11% crit chance and bleeding | A 2022 next-gen reward; **not** on today's official page |
 
 Stats: [nukesdragons: Scarlet Crest](https://nukesdragons.com/witcher-3/db/armor/scarlet-crest-armor), [Armor of a Thousand Flowers](https://nukesdragons.com/witcher-3/db/armor/armor-of-a-thousand-flowers), [White Tiger of the West](https://nukesdragons.com/witcher-3/db/armor/white-tiger-of-the-west-armor), [Fextralife: Gauntlets of a Thousand Flowers](https://thewitcher3.wiki.fextralife.com/Gauntlets+of+a+Thousand+Flowers).
 
-**Can you still get the two older sets?** Unclear. They were rewards for linking during the 2022 next-gen update, and one older guide tied Thousand Flowers to GWENT, whose rewards closed at the end of 2023. One current site says they're still claimable on last-gen platforms, and another lists Thousand Flowers as a Remastered reward ([Kyber's Corner](https://kyberscorner.com/the-witcher-3-remastered-rewards/); [Gfinity](https://www.gfinityesports.com/article/the-witcher-3-remastered-how-to-get-free-armor-weapons-hairstyle)). If you linked back then, check the palace chest; if you didn't, don't plan a build around them.
+**Can you still get the two older sets?** Unclear. They were rewards for linking during the 2022 next-gen update, and one older guide tied Thousand Flowers to GWENT, whose rewards closed at the end of 2023. One current site says Thousand Flowers is still claimable on last-gen platforms, and another lists it as a Remastered reward ([Kyber's Corner](https://kyberscorner.com/the-witcher-3-remastered-rewards/); [Gfinity](https://www.gfinityesports.com/article/the-witcher-3-remastered-how-to-get-free-armor-weapons-hairstyle)). If you linked back then, check the palace chest; if you didn't, don't plan a build around them.
 
 **Scarlet Crest at level 40** is medium armor with Quen and Adrenaline bonuses but no documented set bonus, so it competes with Grandmaster sets on stats alone. Its look can be worn earlier through Reforge. One site says you need the Remastered upgrade on PC, PS5, Xbox Series X|S or Switch 2 to claim it ([Kyber's Corner](https://kyberscorner.com/the-witcher-3-remastered-rewards/)).
 
@@ -36,7 +36,7 @@ Stats: [nukesdragons: Scarlet Crest](https://nukesdragons.com/witcher-3/db/armor
 
 ## Free DLC sets
 
-These three came with the free DLC in 2015 and are part of every edition.
+These three come from the free DLC.
 
 | Set | Weight | Level | Chest | Where | Missable |
 | --- | --- | --- | --- | --- | --- |
@@ -52,7 +52,7 @@ Each one is a good opener for its weight class: Temerian for Feline, Nilfgaardia
 
 | Set | Weight | Level | Highlights | How to get it | Missable |
 | --- | --- | --- | --- | --- | --- |
-| **Ofieri** (crafted) | Light | 38 | Chest: 225 armor, 30% slashing and bludgeoning, +20% Quen, +10% Yrden and Axii, three slots | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores* (bandit camp southeast of Draken Hollow Outpost, a hideout southwest of Erde, ruins south of Upper Mill, a hut northwest of Brunwich); the Ofieri merchant at Upper Mill translates them; a Master armorer crafts | No |
+| **Ofieri** (crafted) | Light | 38 (one source says 35) | Chest: 225 armor, 30% slashing and bludgeoning, +20% Quen, +10% Yrden and Axii, three slots | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores* (bandit camp southeast of Draken Hollow Outpost, a hideout southwest of Erde, ruins south of Upper Mill, a hut northwest of Brunwich); the Ofieri merchant at Upper Mill translates them; a Master armorer crafts | No |
 | **New Moon** (relic) | Medium | 34–36 | Chest: 35% slashing, 30% bludgeoning, +5% crit chance, +20% crit damage | Crane Cape lighthouse (armor), Kilkerinn Ruins (boots), a crypt in the far outskirts (gauntlets), Vikk Watchtower during *The Royal Air Force* (trousers) | The relic set, no; the weaker copies you wear during the heist, yes |
 
 Sources: [nukesdragons: Ofieri armor](https://nukesdragons.com/witcher-3/db/armor/ofieri-scale-armor), [GoSuNoob: Ofieri armor locations](https://www.gosunoob.com/witcher-3/ofieri-armor-locations/), [Fextralife: New Moon Armor](https://thewitcher3.wiki.fextralife.com/New+Moon+Armor), [WitcherHour: Best armor](https://witcherhour.com/witcher-3-best-armor/).

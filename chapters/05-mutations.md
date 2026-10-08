@@ -37,7 +37,7 @@ The large node in the middle of the panel, **Strengthened Synapses**, is always 
 - **Color rule.** The extra slots only take skills that match the **active** mutation's color: red takes Combat skills, blue takes Signs, green takes Alchemy. Two- and three-color mutations accept any of their colors.
 - **Limits.** General skills never fit. The extra slots get no mutagen bonus. Switching to a mutation of another color can eject skills that no longer match.
 
-A 5.0 build with all four extra slots runs **16 equipped skills**, 12 regular plus 4 from mutations ([Console Pulse: Griffin Igni build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-griffin-igni-pure-sign-build)). Getting there means researching all 12 mutations, so in a normal playthrough most players get one or two extra slots, not four.
+A 5.0 build with all four extra slots runs **16 equipped skills**, 12 regular plus 4 from mutations ([Console Pulse: Griffin Igni build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-griffin-igni-pure-sign-build)). Getting there means researching all 12 mutations (49 points), so unless you play long into the endgame or New Game+, plan on one or two.
 
 ## All twelve mutations
 
@@ -64,9 +64,9 @@ flowchart LR
 | **Piercing Cold** | Blue | 3 + 3 blue | Magic Sensibilities | Aard can freeze; a frozen enemy that's knocked down dies instantly |
 | **Toxic Blood** | Green | 2 + 2 green | — | Enemies that hit you in melee take damage based on your Toxicity |
 | **Euphoria** | Green | 3 + 3 green | Toxic Blood | +0.75% sword damage and Sign intensity per Toxicity point |
-| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria | −15% damage taken per Adrenaline point held, up to −45%; spending Adrenaline lowers it |
+| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria (per KeenGamer; Gamer Guides lists none) | −15% damage taken per Adrenaline point held, up to −45%; spending Adrenaline lowers it |
 | **Cat Eyes** | Red + green | 5 + 3 green, 2 red | Bloodbath and Euphoria | Big crossbow damage boost, +50% crossbow crit chance; bolts pierce and knock down |
-| **Metamorphosis** | All three | 7 + 3 green, 2 red, 2 blue | Cat Eyes | Applying a critical effect (burning, poison, knockdown and so on) starts a random crafted decoction for 120 s, with no Toxicity cost |
+| **Metamorphosis** | All three | 7 + 3 green, 2 red, 2 blue | Cat Eyes | Applying a critical effect to an enemy starts a random crafted decoction for 120 s, with no Toxicity cost |
 | **Adrenaline Rush** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold and Bloodbath | A big attack power and Sign intensity boost at the start of a fight against several enemies, then a dip |
 | **Conductors of Magic** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold | With a magic, unique or witcher sword drawn, Signs add 50% of the sword's damage |
 | **Second Life** | All three | 7 + 3 red, 2 blue, 2 green | Adrenaline Rush | At 0 Vitality: brief invulnerability and a full heal, then a long cooldown |
@@ -90,14 +90,14 @@ Each school chapter explains its pick; this table collects them. Cost is the che
 | --- | --- | --- | --- |
 | **Feline** | Bloodbath | Deadly Counter → Bloodbath: 5 points, 5 red | Combat |
 | **Griffin** | Magic Sensibilities, later Conductors of Magic | Magic Sensibilities: 2 points; on to Conductors: 10 points | Signs (Conductors: Combat or Signs) |
-| **Ursine** | Mutated Skin, later Second Life | Toxic Blood → Euphoria → Mutated Skin: 10 points | Combat or Alchemy |
+| **Ursine** | Mutated Skin, later Second Life | Toxic Blood → Euphoria → Mutated Skin: 10 points (5 if it has no prerequisite) | Combat or Alchemy |
 | **Wolven** | Conductors of Magic | Magic Sensibilities → Piercing Cold → Conductors: 10 points | Combat or Signs |
 | **Manticore** | Euphoria | Toxic Blood → Euphoria: 5 points, 5 green | Alchemy |
 | **Viper** | Euphoria, later Metamorphosis | Euphoria: 5 points; Metamorphosis: 22 points | Alchemy (Metamorphosis: any) |
 
 Two practical rules follow from the slot milestones:
 
-- **One mutation alone opens no slot.** Magic Sensibilities by itself is one researched mutation, and the first extra slot needs two. Add the cheapest node of your build's color (2 points) to open it.
+- **One mutation alone opens no slot.** Magic Sensibilities by itself is one researched mutation, and the first extra slot needs two. The second can be any color, because the slots follow the *active* mutation's color: Deadly Counter, Magic Sensibilities and Toxic Blood cost 2 points each.
 - **Every Ability Point here is one not spent on a skill rank.** Ten points on Mutated Skin is ten rank-ups you didn't buy. It's usually worth it for the mutation you'll keep active, and rarely worth it just to fill the tree.
 
 ## Sources

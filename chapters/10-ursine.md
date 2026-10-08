@@ -19,7 +19,7 @@ An Ursine build trades speed for staying power. **Heavy armor** feeds Bear Schoo
 Adrenaline has two uses, and the build changes when you get Blood and Wine:
 
 - **Before mutations, spend it.** Rend turns a full bar into one strike that ignores defenses, +30% damage per point at rank 3. FinalBoss and VGTimes play Ursine this way.
-- **With Mutated Skin, hold it.** Each point you hold cuts the damage you take by 15%, up to 45% at a full bar. KeenGamer's Death March tank never spends Adrenaline at all.
+- **With Mutated Skin, hold it.** Each point you hold cuts the damage you take by 15%, up to 45% at a full bar. KeenGamer's Death March tank never spends it on Rend or Whirl.
 
 The cost is Stamina: heavy armor regenerates it more slowly, so you cast fewer Signs, and Active Shield's upkeep competes with everything else ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-an-ursine-tank-remastered-5-0)).
 
@@ -34,7 +34,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Muscle Memory | Combat | 1 | start | Stepping stone; after a dodge your next fast attack deals +30% |
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks raise your next strong attack's damage by 15% |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back and, since 5.01, reflects damage |
-| Bear School Techniques | General | 1 | start | +2% max Vitality and +2% strong attack damage per heavy piece. Take it once you're in heavy armor |
+| Three Strikes | Combat | 1 | Muscle Memory | Stepping stone to Razor Focus; 20% chance that a third attack empowers the next ones |
 | Crushing Blow | Combat | 1 | Strength Training | 20% chance that a strong attack makes the next two deal +50% |
 | Strength Training | Combat | 2 | — | +30% |
 | Arrow Deflection | Combat | 1 | start | Stepping stone to Resolve; also parries arrows |
@@ -42,15 +42,15 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Active Shield | Signs | 1 | Exploding Shield | Hold Quen to keep a shield up that heals you |
 | Sunder Armor | Combat | 1 | Crushing Blow | Strong attacks cut the target's damage resistance by 10% |
 | Refreshment | Alchemy | 1 | start | Each potion dose heals 10% Vitality |
-| Bear School Techniques | General | 2 | — | +4% per heavy piece |
+| Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
 
 ### Mid game: to 28 points (about level 30)
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Undying | Combat | 1 | Resolve | At 0 Vitality, spends Adrenaline to bring you back |
-| Three Strikes | Combat | 1 | Muscle Memory | Stepping stone to Razor Focus |
-| Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
+| Bear School Techniques | General | 1 | start | +2% max Vitality and +2% strong attack damage per heavy piece. Take it as soon as you're in heavy armor; the Undvik set at level 16 is the latest |
+| Bear School Techniques | General | 2 | — | +4% per heavy piece |
 | Rend | Combat | 1 | Crushing Blow | A charged strike that ignores defenses; +10% damage per Adrenaline point |
 | Strength Training | Combat | 3 | — | +45% |
 | Crushing Blow | Combat | 3 | — | 60% chance |
@@ -138,7 +138,7 @@ Quen, armor, resistances, the Griffin decoction and Tissue Transmutation all com
 
 **Strengths.** The most forgiving school. KeenGamer and FinalBoss both call it the safest first Death March build ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)). The loop is simple, and mistakes cost you Quen and some Vitality instead of the fight.
 
-**Weaknesses.** It starts slowly, because Bear School Techniques needs heavy armor and the Ursine set arrives at level 20. Heavy armor slows Stamina regeneration. And the damage ceiling is the lowest of the six: Rend is the main boss tool, and once Mutated Skin asks you to stop using it, fights get long ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)).
+**Weaknesses.** It starts slowly, because Bear School Techniques needs heavy armor and the Ursine set arrives at level 20. Heavy armor slows Stamina regeneration. And in this book's judgment its damage ceiling is among the lowest of the six: VGTimes notes that Rend is the main boss tool and that the build starts slowly, and once Mutated Skin asks you to stop using Rend, fights get long ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)).
 
 **Who it suits:** a first Death March run, or anyone who'd rather trade blows than dance.
 
