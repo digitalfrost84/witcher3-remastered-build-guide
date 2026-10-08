@@ -31,7 +31,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Muscle Memory | Combat | 1 | start | After a dodge or roll, your next fast attack deals +30% |
 | Cat School Techniques | General | 1 | start | +8% crit damage and +2% fast attack damage per light piece (witcherhour says +1%). The Temerian set from White Orchard is light |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back, and since patch 5.01 it also reflects damage |
-| Three Strikes | Combat | 1 | Muscle Memory | 20% chance that a third attack empowers the attacks after it |
+| Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
 | Muscle Memory | Combat | 2 | — | The bonus now covers two fast attacks |
@@ -65,7 +65,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 - **Adrenaline Burst → Survival Instinct → Anger Management → Synergy** (General, 4 points from Cat School Techniques). Survival Instinct adds +8/16/24% Vitality; Synergy makes every mutagen 10/20/30% stronger.
 - **Rank 3:** Counterattack (+100%), Crippling Strike (+30%), Resolve (no Adrenaline lost when hit), Hunter Instinct (+60%), Razor Focus, Fleet-Footed (no damage while dodging).
-- **Rank 2:** Undying, Acquired Tolerance, Three Strikes.
+- **Rank 2:** Undying and Acquired Tolerance. Three Strikes is optional: rank it further only if you regularly reach four consecutive same-style hits.
 - **Mutation:** Deadly Counter, then Bloodbath (below).
 
 **A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out** ([witcherhour.com](https://witcherhour.com/skills/)). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
@@ -126,13 +126,16 @@ Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/gu
 
 **Battle Frenzy depends on the bar; Katakan doesn't.** Katakan's 10% is there from the first swing, and stays when a hit knocks your Adrenaline down. At a full bar, rank-3 Battle Frenzy and Katakan together add 37 percentage points of crit chance.
 
-**What that's worth.** Neither base crit chance nor base crit damage is published, but the bonus can still be bounded. If a crit deals `1 + d` times a normal hit, raising crit chance by `Δc` adds `Δc × d` of a normal hit to every swing on average:
+**What that's worth.** The installed build defines **5% base crit chance** and a **0.25 base critical-damage bonus**, but the bonus is added to the attack-power multiplier. It is not a separate multiplier on the entire final hit.
+
+For a simplified pre-mitigation hit, with damage term `W`, non-critical power multiplier `M`, flat additive damage `A` and resolved crit bonus `C`:
 
 ```math
-\Delta\text{damage per hit} = \Delta c \times d
+\frac{\Delta\mathbb{E}[D]}{D_{\mathrm{normal}}}
+= \frac{W\,\Delta c\,C}{WM+A}
 ```
 
-With four light pieces at rank 3, Cat School Techniques alone give `d ≥ 0.96`, so +37% crit chance adds **at least 0.35 of a normal hit** to every swing. Against the oiled monster type at full Adrenaline, Hunter Instinct rank 3 adds another 0.60 to `d`, and the floor rises to **0.57 of a normal hit**. Your base crit damage, sword stats and Thunderbolt all come on top. This is why all of Feline's best skills want a full bar at the same moment.
+The former guaranteed **0.35 / 0.57 normal-hit** gains are withdrawn. Existing attack power, target defenses and the way Cat's bonus combines with weapon and skill bonuses must be accounted for. Crit chance and crit damage still complement each other, so the full-Adrenaline plan remains coherent; its numerical advantage over another sword build is not established by those old bounds. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the file evidence and limits.
 
 ## Verdict
 

@@ -9,7 +9,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 - **General links run both ways.** Owning any General skill unlocks every skill connected to it, above or below; the School Techniques are the six entry points.
 - **Values** are the 5.0 launch values. Patch 5.01 changed Exploding Shield (it now reflects damage) and fixed how Synergy is displayed; no other skill values changed in its notes ([CD PROJEKT RED: Patch 5.01](https://www.thewitcher.com/us/en/news/52085/patch-5-01-for-the-witcher-3-wild-hunt-remastered-is-live)).
 
-**Sources.** Ranks 1 to 3 come from [witcherhour.com](https://witcherhour.com/skills/), the only source that publishes all three; rank-1 values agree with [WitcherDB](https://witcherdb.com/build-planner) and [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/) except where noted. The prerequisite links come from WitcherDB's Remastered planner, the only source that lists them per skill; they were read in full twice with identical results, and every link agrees with the tree layout Hack the Minotaur and witcherhour describe. A few long links are worth confirming in game (see the end of the chapter). Effect wording is summarized.
+**Sources.** Ranks 1 to 3 come from [witcherhour.com](https://witcherhour.com/skills/), the only source that publishes all three; rank-1 values agree with [WitcherDB](https://witcherdb.com/build-planner) and [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-new-skill-trees-guide/) except where noted. The prerequisite links come from WitcherDB's Remastered planner, the only source that lists them per skill; they were read in full twice with identical results, and every link agrees with the tree layout Hack the Minotaur and witcherhour describe. A few long links are worth confirming in game (see the end of the chapter). Effect wording is summarized. The file audit of build `5.0.0.1048522` supersedes the published descriptions for Three Strikes, Melt Armor's inspected projectile path and Aftershock, and flags a conflict in Griffin Techniques' Stamina coefficient; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
 
 ## Combat (red)
 
@@ -21,7 +21,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | **Arrow Deflection** | — (start) | 1 | Parry arrows; a perfect parry deflects them back with a chance to instantly kill. Ranks 1/2/3: kill chance 15% / 30% / 45%; deflected-arrow damage: none listed / +50% / +100%. |
 | **Strength Training** | Muscle Memory | 2 | Fast attacks raise the next strong attack's damage. Ranks 1/2/3: +15% / +30% / +45%. |
 | **Cold Blood** | Arrow Deflection | 2 | Each crossbow bolt that hits generates Adrenaline. Ranks 1/2/3: 0.3 / 0.6 / 1 Adrenaline point. |
-| **Three Strikes** | Muscle Memory or Strength Training | 2 | The third attack has a chance to empower the following attacks of the same type. Ranks 1/2/3: 20% / 40% / 60% chance. Size of the boost: not published. |
+| **Three Strikes** | Muscle Memory or Strength Training | 2 | **File-verified:** the fourth consecutive same-style hit has a 20% / 40% / 60% chance to gain a random +40–70% raw damage. Switching style resets the other counter. See [chapter 19](19-the-maths.md#10-three-strikes-a-bonus-to-the-fourth-matching-hit). |
 | **Resolve** | Arrow Deflection or Cold Blood | 2 | Less Adrenaline lost when you take damage. Ranks 1/2/3: −33% / −67% / −100%. |
 | **Undying** | Three Strikes or Resolve | 3 | At 0 Vitality, consumes Adrenaline to restore Vitality; usable once per 30 s. Ranks 1/2/3: 10% Vitality per Adrenaline point; witcherhour adds an unexplained "33% / 67% bonus" at ranks 2 / 3. |
 | **Crushing Blow** | Strength Training | 3 | A strong attack has a chance to raise the damage of the next 2 strong attacks by 50%. Ranks 1/2/3: 20% / 40% / 60% chance. |
@@ -45,7 +45,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | Skill | Requires (any one) | Points to reach | Effect, rank 1 / 2 / 3 |
 | --- | --- | --- | --- |
 | **Far-Reaching Aard** | — (start) | 1 | Longer Aard range. Ranks 1/2/3: +1 / +2 / +3 yards. |
-| **Melt Armor** | — (start) | 1 | Igni damage reduces armor and can set enemies on fire. Ranks 1/2/3: Burn chance +10% / +20% / +30%. Armor reduction amount: not published. |
+| **Melt Armor** | — (start) | 1 | Igni reduces armor. **File-verified projectile path:** applies round(12.5 × rank × total Igni power multiplier) stacks, each subtracting one percentage point from the armor multiplier; tops up rather than repeatedly adding the full amount. Published burn chance: +10% / +20% / +30%. See [chapter 19](19-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction). |
 | **Sustained Glyphs** | — (start) | 1 | Yrden lasts longer and covers more area, with more alternate-mode charges and standard-mode traps. Ranks 1/2/3: duration +5 / +10 / +15 s; area +10% / +20% / +30%; charges +2 / +4 / +6; traps +1 / +2 / +3. |
 | **Exploding Shield** | — (start) | 1 | When Quen breaks, it pushes nearby enemies back. Ranks 1/2/3: not published. witcherhour says only "stronger pushback at each rank"; WitcherDB says "Push-back strength increases with skill level". |
 | **Delusion** | — (start) | 1 | Target doesn't move toward Geralt while Axii is being cast; improves Axii in dialogue. Ranks 1/2/3: witcherhour (5.0) says "same effect at every rank", and Hack the Minotaur says the dialogue options are available from rank 1; before 5.0, some needed rank 2 ([Witcher wiki](https://witcher.fandom.com/wiki/Delusion)). Keep it slotted for dialogue. |
@@ -62,7 +62,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | **Chain Reaction** | Catalyst or Fortify Signs | 5 | Casting a Sign raises the intensity of the next *different* Sign, stacking up to 5 times. Ranks 1/2/3: +5% / +10% / +15% per stack. |
 | **Focus** | Catalyst | 5 | Sign intensity per Adrenaline point. Ranks 1/2/3: +10% / +20% / +30% per point. |
 | **Sidestep** | Fortify Signs | 5 | After a dodge or roll, the next Sign costs less Stamina. Ranks 1/2/3: −20% / −40% / −60%. |
-| **Aftershock** | Chain Reaction, Focus or Sidestep | 6 | Every Sign cast also deals magic damage in a small radius. Ranks 1/2/3: not published. witcherhour says "damage grows at each rank"; WitcherDB says it scales with skill level and Sign intensity. |
+| **Aftershock** | Chain Reaction, Focus or Sidestep | 6 | **File-verified:** initial elemental payload = 15 × rank × global spell-power multiplier / 2, radius 3 game units. Normal processing then applies the cast Sign's power; alternate casts have cooldown gating. See [chapter 19](19-the-maths.md#12-aftershock-the-coefficient-and-the-damage-pipeline). |
 | **Resonance** | Aftershock | 7 | After casting a Sign, your next 3 melee attacks deal bonus damage based on Sign intensity. Ranks 1/2/3: 10% / 20% / 30% of Sign intensity. |
 
 ## Alchemy (green)
@@ -110,7 +110,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 | **Gourmand** | Bear or Griffin School Techniques, Strong Back or Elemental Attunement | 2 | Food regenerates Vitality for longer. Ranks 1/2/3: 5 / 10 / 15 minutes. |
 | **Anger Management** | Bear or Griffin School Techniques, Survival Instinct or Synergy | 2 | With no Stamina left, Signs can be cast with Adrenaline. Ranks 1/2/3: 2 / 1.5 / 1 Adrenaline per cast. |
 | **Elemental Attunement** | Gourmand, Element of Surprise or Advanced Pyrotechnics | 3 | More fire, frost, force, magic and poison damage. Ranks 1/2/3: +3% / +6% / +9%. |
-| **Griffin School Techniques** | — (start; links to Gourmand, Anger Management, Element of Surprise, Metabolic Control) | 1 | Per piece of **medium** armor: Sign intensity, plus Stamina regeneration at rank 3. Ranks 1/2/3: Sign intensity +2% / +4% / +6%. Stamina regen: WitcherDB's rank-1 text shows "0/s", rank 2 not published, rank 3 +1/s per piece (witcherhour). |
+| **Griffin School Techniques** | — (start; links to Gourmand, Anger Management, Element of Surprise, Metabolic Control) | 1 | Per medium piece: published Sign intensity +2% / +4% / +6%. **Stamina conflict:** community descriptions give a rank-3 total of +4/s with four pieces, but the installed `perk_24` coefficient is `staminaRegen mult = 0.002` per rank/piece: 2.4/s at rank 3, four pieces and 100 max Stamina before armor modifiers. Total combat regeneration still needs verification. |
 | **Synergy** | Anger Management, Metabolic Control or Metabolic Boost | 3 | Bigger bonuses from mutagens in mutagen slots. Ranks 1/2/3: +10% / +20% / +30%. |
 | **Element of Surprise** | Griffin, Manticore or Viper School Techniques, or Elemental Attunement | 2 | Hitting an enemy with a bomb raises melee damage for 10 s. Ranks 1/2/3: +10% / +20% / +30%. |
 | **Metabolic Control** | Griffin, Manticore or Viper School Techniques, or Synergy | 2 | Higher max Toxicity. Ranks 1/2/3: +10 / +20 / +30. |
@@ -126,9 +126,9 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 3. **Sun and Stars at night:** a flat +1 / +2 / +3 Stamina per second (witcherhour) or 1% of max Stamina per second at rank 1 (WitcherDB).
 4. **The Signs tree's branch passive:** +0.5 Stamina per second (witcherhour) or +0.5% Stamina regeneration (Hack the Minotaur).
 5. **Which points count toward branch passives:** only equipped skills (witcherhour), or every point you spend (Hack the Minotaur).
-6. **Names that don't appear in either full list.** Some 5.0 guides mention "Precise Blows" or "Heightened Tolerance"; neither is in witcherhour's or WitcherDB's 80 skills.
+6. **Legacy names.** The installed scripts call Three Strikes `sword_s24` / "Precise Blows" and Aftershock `magic_s40` / "Overload". Their prerequisite links and implemented behavior establish those mappings. Other old names, such as "Heightened Tolerance", should still be checked against the current skill list.
 
-**Not published anywhere:** the size of Three Strikes' boost, Whirl's base cost, Rend's Stamina scaling, Deadly Precision's kill chance, Melt Armor's armor reduction, Exploding Shield's push per rank, Aftershock's damage, Attack Is the Best Defense's Adrenaline per action, Griffin School Techniques' Stamina at rank 2, and what Undying's "33% / 67% bonus" at ranks 2 and 3 applies to.
+**Still requiring verification:** Whirl's base cost, Rend's Stamina scaling, Deadly Precision's kill chance, Exploding Shield's push per rank, Attack Is the Best Defense's Adrenaline per action, Griffin School Techniques' combat Stamina contribution, and Undying's rank scaling. Three Strikes, Melt Armor and Aftershock now have file evidence in [chapter 19](19-the-maths.md).
 
 **Links worth checking in game.** Because the per-skill links come from one source, the long ones that skip several rows are worth a glance before you plan around them: Crushing Blow → Sunder Armor, Anatomical Knowledge → Maiming Shot, Protective Coating → Volatile Compound, Toxic Shock → Debilitating Poison, Battle Frenzy ↔ Strong Back, and Adrenaline Burst ↔ Survival Instinct.
 

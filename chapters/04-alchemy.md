@@ -88,7 +88,7 @@ Decoction Toxicity doesn't drain, so the question is simple: how many 50-point b
 
 ![How many decoctions fit at different maximum Toxicity levels: 1 with no skills, 2 with Acquired Tolerance rank 1, and 4 with Acquired Tolerance rank 3 plus Metabolic Control and Manticore armor](../images/toxicity-budget.png)
 
-The lesson: **Acquired Tolerance is the skill that decides how many decoctions you can run**, because it scales with every recipe you know. Metabolic Control and Manticore armor top it up: at 40 recipes, rank 3 alone fits three decoctions, and the other two bonuses make it four. The base of 100 is the next-gen value; if 5.0 changed it, every bar shifts by the same amount.
+The lesson: **Acquired Tolerance is the skill that decides how many decoctions you can run**, because it scales with every recipe you know. Metabolic Control and Manticore armor top it up: at 40 recipes, rank 3 alone fits three decoctions, and the other two bonuses make it four. The base of 100 is now confirmed for build `5.0.0.1048522` by [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility). The chart's recipe and armor contributions remain separate assumptions.
 
 ## Mutagens
 

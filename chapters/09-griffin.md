@@ -125,7 +125,7 @@ Location guides: [Mobalytics: Griffin School gear](https://mobalytics.gg/gamebas
 
 The two biggest bonuses both need **Yrden**: Catalyst only counts against enemies inside it, and the set bonus only while you stand in your own trap. That's why every Griffin fight starts with a trap. Focus and Chain Reaction come close behind and work anywhere, but each has its own condition: a full Adrenaline bar for Focus, five casts in a row for Chain Reaction, each a different Sign from the one before. The flat sources at the bottom (potion, Technique, gear) are the floor you have in every fight.
 
-**The Stamina side.** At the end of the game a Griffin regenerates **+4 Stamina per second** from Technique rank 3 with four medium pieces, plus **+5 per second inside Yrden** from the 6-piece bonus, on top of the Signs tree's branch passive (+0.5% or +0.5 per second per point, depending on the source; chapter 2) and Ancient Leshen's +2 per cast. Firestream rank 3 halves its own cost, and Sidestep rank 3 takes 60% off the Sign after each dodge.
+**The Stamina side still needs verification.** The published +4 Stamina/s for Technique rank 3 with four medium pieces conflicts with the installed coefficient: `staminaRegen mult = 0.002` per rank and piece, which contributes 2.4 points/s at 100 maximum Stamina before armor modifiers. The 6-piece Yrden bonus, Signs branch passive and Ancient Leshen also need to be combined through the combat regeneration formula before quoting a total. The file-verified outside-combat rate does not establish combat casting speed; see [chapter 19](19-the-maths.md#the-remaining-numbers-worth-finding). Firestream rank 3 halves its own cost, and Sidestep rank 3 takes 60% off the Sign after each dodge.
 
 ## Verdict
 

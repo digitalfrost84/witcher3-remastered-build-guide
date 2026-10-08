@@ -16,7 +16,7 @@ Wolf School Techniques is the only Technique that raises **both** weapon damage 
 
 | Role | Tree | Core skills |
 | --- | --- | --- |
-| Damage | Combat | Muscle Memory, Strength Training, Three Strikes |
+| Damage | Combat | Muscle Memory, Strength Training |
 | Setup and defense | Signs | Quen (Exploding and Active Shield), Igni (Melt Armor), Yrden (Magic Trap) |
 | Sustain and poison | Alchemy | Refreshment, Poisoned Blades, Toxic Shock |
 | Glue | General | Wolf School Techniques, then Adrenaline Burst and Synergy |
@@ -46,7 +46,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Three Strikes | Combat | 1 | Muscle Memory | 20% chance that a third attack empowers the attacks after it |
+| Three Strikes | Combat | 1 | Muscle Memory | Prerequisite for Razor Focus and Undying; its fourth same-style hit bonus does not activate in the three-fast/strong loop |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
 | Sustained Glyphs | Signs | 1 | start | Yrden lasts longer, with an extra trap and more Magic Trap charges |
 | Magic Trap | Signs | 1 | Sustained Glyphs | Yrden's alternate mode damages and slows everything within 14 yards; key against wraiths |
@@ -76,8 +76,8 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Sun and Stars | General | 1 | Wolf School Techniques | Regeneration by day and night; mostly a stepping stone |
 | Survival Instinct | General | 1 | Sun and Stars | +8% max Vitality |
 | Adrenaline Burst | General | 1 | Survival Instinct | Signs generate Adrenaline |
-| Three Strikes | Combat | 2 | — | 40% chance |
 | Wolf School Techniques | General | 2 | — | +4% per medium piece |
+| Wolf School Techniques | General | 3 | — | +6% per medium piece; replaces the extra Three Strikes rank for this rotation |
 
 ### Phase 4: level 30+ and Blood and Wine
 
@@ -85,10 +85,17 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance): +300/600/900 max Vitality while a decoction is active.
 - **Anger Management → Synergy** (General, from Survival Instinct): cast Signs with Adrenaline when out of Stamina, then stronger mutagens.
 - **Chain Reaction → Aftershock → Resonance** (Signs, from Catalyst): after you cast a Sign, your next three melee hits deal bonus damage based on your Sign intensity (10/20/30%). This is the hybrid's capstone.
-- **Rank-ups:** Wolf School Techniques 3, Toxic Shock 3 (the burst grows to 75% of the hit), Poisoned Blades 3 (15% per hit), Strength Training 3, Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
+- **Rank-ups:** Toxic Shock 3 (the burst grows to 75% of the hit), Poisoned Blades 3 (15% per hit), Strength Training 3, Catalyst 3, Resonance 3, Active Shield 2, Melt Armor 2.
 - **Mutation:** Conductors of Magic (below).
 
-![Skill points per tree in the Wolven plan, cumulative: 6, 13, 20 and 28 points at the end of each phase](../images/points-by-phase.png)
+Cumulative points after each phase:
+
+| Phase | Combat | Signs | Alchemy | General | Total |
+| --- | --- | --- | --- | --- | --- |
+| Opening | 3 | 2 | 1 | 0 | 6 |
+| Phase 1 | 5 | 5 | 2 | 1 | 13 |
+| Phase 2 | 8 | 7 | 4 | 1 | 20 |
+| Phase 3 | 8 | 8 | 6 | 6 | 28 |
 
 Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every point may also earn its tree's branch passive (chapter 2; sources disagree on whether unslotted skills count).
 
@@ -103,13 +110,13 @@ Early points go where they pay off at once: sword damage and Quen. Alchemy and G
 5. Refreshment
 6. Wolf School Techniques (once you're in medium armor)
 7. Magic Trap
-8. Three Strikes
+8. Razor Focus
 9. Poisoned Blades
 10. Toxic Shock (equip it together with Poisoned Blades; it has nothing to burst without poison)
-11. Razor Focus
-12. Catalyst
+11. Catalyst
+12. Undying
 
-As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Three Strikes and Melt Armor; Three Strikes, Melt Armor and Undying go into mutation slots once you have them.
+As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Undying and Melt Armor; Melt Armor and Undying can return in mutation slots. Keep Three Strikes unslotted for the three-fast/strong loop. Use it as an optional alternative only when you regularly make four consecutive same-style hits.
 
 **Delusion:** if you use Axii in conversations, Delusion has to stay slotted for its dialogue options. Put it in the group with Quen early on; at the end it takes Synergy's slot.
 
@@ -121,7 +128,7 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Thr
 | 2 | Active Shield, Magic Trap, Catalyst | Blue |
 | 3 | Focus, Resonance, Synergy | Blue |
 | 4 | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
-| Mutation slots (red or blue) | Melt Armor, Three Strikes, Undying, Supercharged Glyphs | — |
+| Mutation slots (red or blue) | Melt Armor, Undying, Supercharged Glyphs, Aftershock | — |
 
 **Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **50% of that sword's damage**. Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
 
@@ -134,7 +141,7 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Thr
 1. **Before the fight:** apply the right oil and drink your potions. Drinking anything switches Frenzy on.
 2. **Open:** cast Quen. Against groups or wraiths, lay a Magic Trap; once you have Catalyst, fight inside it.
 3. **Soften up:** hit armored targets with Igni so Melt Armor strips their armor.
-4. **Punish:** dodge or roll, then land fast attacks. Muscle Memory and Three Strikes both trigger here.
+4. **Punish:** dodge or roll, then land three fast attacks. Muscle Memory rank 3 boosts all three. Three Strikes does not activate before switching to the strong finisher.
 5. **Finish:** end the string with a strong attack. It uses the Strength Training stack, and on a poisoned target it also triggers Toxic Shock.
 6. **Recover:** recast Quen when it breaks; drink if you're low (Refreshment heals 10% per dose).
 7. **Late game:** cast a Sign before each string so Resonance powers up the three hits after it, and **hold your Adrenaline**: Undying and Focus both want points banked.
@@ -162,23 +169,11 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Thr
 
 ## The maths
 
-At rank 1 this build's bonuses add about 23% to a standard combo, and almost all of it comes from cheap Combat and General picks. Ranking the same skills to 3 lifts that to 89%.
+The previous **+23% / +89%** combo comparison is withdrawn. It assumed a 2:1 strong/fast damage ratio and treated Wolf School Techniques as a separate multiplier on the complete result. The installed damage code does not support that as a general calculation; [chapter 19](19-the-maths.md#1-a-basic-combo-which-skills-actually-activate) explains the limits.
 
-![Damage of a dodge, three fast attacks and a strong finisher in units: 6.14 at rank 1 (+23%) and 9.47 at rank 3 (+89%)](../images/combo-ranks.png)
+The rotation still fits Muscle Memory, Strength Training and a poison-dependent Toxic Shock finisher. The file audit does change Three Strikes: it checks the fourth matching hit, and switching attack style resets the other counter. Repeating three fast attacks followed by a strong attack never reaches that check. Keep its first point for prerequisites, move the former second point to Wolf School Techniques, and use the active slot for a skill that can activate.
 
-**The model.** The game doesn't publish base hit damage, so everything is in units: a fast attack is 1, a strong attack 2. That 2:1 ratio is an assumption. The combo is three fast attacks and one strong finisher, 5 units before bonuses:
-
-```math
-D = \underbrace{3F + S}_{\text{base}} + \underbrace{m \cdot n \cdot F}_{\text{Muscle Memory}} + \underbrace{s \cdot S}_{\text{Strength Training}} + \underbrace{t \cdot (1+s)\,S \cdot P_3}_{\text{Toxic Shock}}
-```
-
-```math
-D_{\text{final}} = D \times (1 + w \times \text{medium pieces})
-```
-
-Here `m` = 0.30 is Muscle Memory's bonus on `n` fast attacks (1 at rank 1, 3 at rank 3), `s` is Strength Training (0.15 or 0.45), `t` is Toxic Shock's burst (0.25 or 0.75), `w` is Wolf School Techniques per piece (0.02 or 0.06), and `P_3` is the chance the target is poisoned by the finisher, from three oiled hits at 5% or 15% each ([witcherhour.com](https://witcherhour.com/skills/)).
-
-**What it shows.** The cheapest picks carry the early game: at rank 1, Muscle Memory and Strength Training together add more than four pieces of Wolf armor do. Toxic Shock barely registers early, because three hits at 5% poison the target only 14% of the time; at rank 3 it nearly matches each of the other two. That's why the poison line comes in Phase 2 and is ranked up last. Three Strikes and Melt Armor aren't modeled, since their effect sizes aren't published, so they're upside on top.
+Melt Armor has a verified intensity-dependent armor-reduction formula, but its damage benefit depends on enemy armor. Aftershock has a verified damage coefficient and a radius of 3 game units, with two power-scaling stages. Neither should be counted as a fixed percentage added to every combo. See [chapter 19](19-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction).
 
 ## Verdict
 
