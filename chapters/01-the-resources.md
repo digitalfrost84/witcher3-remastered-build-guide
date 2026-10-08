@@ -29,7 +29,7 @@ Stamina is the bar under your health. It refills on its own and pays for:
 - **Active Shield** (Quen's alternate mode) while you hold it up,
 - sprinting.
 
-What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (sources give +0.5% or +0.5 per second each; chapter 2), the Tawny Owl potion, Griffin School Techniques at rank 3, and Sun and Stars at night. Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
+What makes it refill faster: lighter armor (heavier armor slows regeneration), every point you spend in the Signs tree (sources give +0.5% or +0.5 per second each; chapter 2), the Tawny Owl potion, Griffin School Techniques (per medium piece, more at each rank; chapter 3), and Sun and Stars at night. Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
 
 **Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses can delay it. That rate uses a separate attribute from combat regeneration, so it does not establish casting speed during fights; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
 
@@ -59,7 +59,7 @@ Fast attacks are quick and safe; strong attacks are slow and hit harder. Patch 5
 - **Crushing Blow:** a 20/40/60% chance that your next two strong attacks deal +50%.
 - **Sunder Armor:** strong attacks strip 10% of the target's damage resistance per stack, up to 1/2/3 stacks.
 
-No source publishes base crit chance or crit damage. What is known is where crits come from: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 17). **Armor piercing** is a weapon stat that ignores part of the target's armor; Rend and Superior Grapeshot ignore armor entirely.
+The installed 5.0 files give Geralt a **5% base crit chance**, and his base crit bonus adds **0.25 to the attack-power multiplier** rather than multiplying the whole hit by 1.25 ([chapter 19](19-the-maths.md#3-crits-what-chance-is-worth)). Everything else comes on top: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 17). **Armor piercing** is a weapon stat that ignores part of the target's armor; Rend and Superior Grapeshot ignore armor entirely.
 
 ## Signs and Sign intensity
 

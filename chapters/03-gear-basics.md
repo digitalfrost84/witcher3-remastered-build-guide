@@ -10,12 +10,12 @@ Every armor piece is **light, medium or heavy**. In 5.0 all six School Technique
 | --- | --- | --- | --- | --- |
 | **Cat** | Light | +8% crit damage, +2% fast attack damage | +24% crit damage, +6% fast attack damage | +96% crit damage, +24% fast attack damage |
 | **Wolf** | Medium | +2% weapon damage, +2% Sign intensity | +6% each | +24% each |
-| **Griffin** | Medium | +2% Sign intensity | +6% Sign intensity, +1 Stamina per second | +24% Sign intensity, +4 Stamina per second |
+| **Griffin** | Medium | +2% Sign intensity, +0.2 Stamina per second | +6% Sign intensity, +0.6 Stamina per second | +24% Sign intensity, +2.4 Stamina per second |
 | **Bear** | Heavy | +2% max Vitality, +2% strong attack damage | +6% each | +24% each |
 | **Manticore** | Medium | +2% sword damage, +2% bomb damage | +6% each | +24% each |
 | **Viper** | Medium | +2% max Vitality, +2% poison damage | +6% each | +24% each |
 
-Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks). Witcherhour lists Cat's fast attack bonus at rank 1 as +1%, while WitcherDB and Hack the Minotaur both say +2%; the +1% looks like a typo. Griffin's Stamina bonus shows as 0 per second at rank 1 in WitcherDB and +0.2 per second in the nukesdragons database, and +1 per second at rank 3 in witcherhour; rank 2 isn't published.
+Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks). Witcherhour lists Cat's fast attack bonus at rank 1 as +1%, while WitcherDB and Hack the Minotaur both say +2%; the +1% looks like a typo. Griffin's Stamina figures come from the installed game files instead: 0.2% of maximum Stamina per second for each rank and piece, so 0.2 / 0.4 / 0.6 points per second per piece at the base 100 Stamina, before armor modifiers ([chapter 19](19-the-maths.md#the-remaining-numbers-worth-finding)). The nukesdragons database's +0.2 at rank 1 agrees; witcherhour's +1 per piece at rank 3 (+4 for four) does not. How the bonus adds up with the rest of combat regeneration still needs checking.
 
 Two things follow from this table:
 
