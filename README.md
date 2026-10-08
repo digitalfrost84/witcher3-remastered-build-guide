@@ -1,39 +1,47 @@
-# Witcher 3 Remastered: Spellsword Alchemist Build
+# The Witcher 3 Remastered: Schools, Builds and Gear
 
 As of Oct 8, 2026 · patch 5.0 (Remastered)
 
 ## Index
 
-The expanded guide runs to 18 sections in five parts. Eight are new, and they're built around one question: which gear to chase at each stage, from White Orchard to the Grandmaster sets in Toussaint.
+This guide explains how Geralt gets stronger in patch 5.0, what each witcher school asks of you as a player, and which gear to chase from White Orchard to Toussaint. It runs to 22 sections in four parts. Item locations are linked rather than repeated.
 
 | # | Part | Section | What goes in it | Status |
 | --- | --- | --- | --- | --- |
-| 1 | Start here | Quick start: level 6 | Your 7 points, slot layout, mutagens, and your next gear pickups | Rework |
-| 2 | Start here | How the 5.0 tree works | Prerequisites, ranks, branch passives, slots, mutagen colors | Done |
-| 3 | Start here | Build concept | Hybrid and crit identities side by side; gear detail moves to Part 3 | Rework |
-| 4 | Skills | Leveling roadmap | Phases 1–4 with prerequisites, plus a gear milestone per phase | Rework |
-| 5 | Skills | What to equip | Slot priority and mutagen colors | Done |
-| 6 | Skills | Crit variant: skill swaps | Cat School swaps; the Katakan details move to the Alchemy kit | Rework |
-| 7 | Gear | How gear works in 5.0 | Weight classes and school techniques, tiers from Basic to Grandmaster, 3- and 6-piece set bonuses, who crafts what, Reforge | New |
-| 8 | Gear | Gear path through the playthrough | A drawn route by level and region, White Orchard to Toussaint, with the hybrid and crit lines side by side | New |
-| 9 | Gear | School sets compared | One table: armor weight, matching school technique, best build, tier levels, endgame bonus. Ursine gets a row here only | New |
-| 10 | Gear | Set profiles | Wolven and Forgotten Wolven (hybrid line), Griffin (early bridge), Feline (crit line), Manticore (alchemy-crit endgame), Viper (early swords, Hearts of Stone set): what each tier needs and where its diagrams are | New |
-| 11 | Gear | Relics and legendary weapons | Aerondight, Toussaint Knight's Steel Sword, Iris, Hen Gaidth, Viper Venomous swords: level, effect, source, best build | New |
-| 12 | Gear | Endgame loadouts | Two finished builds: hybrid (Grandmaster Forgotten Wolven, Conductors of Magic) and crit (Feline or Manticore with Katakan) | New |
-| 13 | Gear | Missables | Checklist of one-time gear chances, mostly in Hearts of Stone | New |
-| 14 | Play | Alchemy kit | Potions, oils and decoctions by phase, including Katakan and Ekimmara | New |
-| 15 | Play | Combat loop | No change | Done |
-| 16 | Play | Skip list and respec | No change | Done |
-| 17 | Reference | The maths behind the choices | Existing charts; gear maths only where sources publish numbers | Rework |
-| 18 | Reference | Sources | Add the gear and weapon sources | Rework |
+| 1 | How Geralt gets stronger | About this guide | Who it's for, what patch 5.0 changed, and how the chapters are laid out | New |
+| 2 | How Geralt gets stronger | The resources every build trades | Vitality, Stamina, Adrenaline and Toxicity; fast and strong attacks; crits; Sign intensity. Drawn: how the resources feed each other | New |
+| 3 | How Geralt gets stronger | The 5.0 skill system | Four trees, prerequisites, three ranks, branch passives, skill slots, mutagen colors, respec. Drawn: the prerequisite map | Rework |
+| 4 | How Geralt gets stronger | Gear basics | Armor weight and school techniques, tiers from Basic to Grandmaster, 3- and 6-piece set bonuses, who crafts what, Reforge | New |
+| 5 | How Geralt gets stronger | Alchemy basics | Potions, oils, bombs and decoctions, and how much Toxicity each build can afford. Chart: the Toxicity budget | New |
+| 6 | How Geralt gets stronger | Mutations (Blood and Wine) | How research works, the four extra skill slots, and the mutation each school wants | New |
+| 7 | How Geralt gets stronger | Enchanting (Hearts of Stone) | Runestones and glyphs, the Runewright's runewords and glyphwords, and the picks for each school | New |
+| 8 | The six schools | Choosing a school | All six in one comparison table, and a drawn map of where each sits by playstyle | New |
+| 9 | The six schools | Feline (Cat) | Fast attacks and crits; the Katakan crit build lives here | Rework |
+| 10 | The six schools | Griffin | Sign caster and battlefield control | New |
+| 11 | The six schools | Ursine (Bear) | Heavy armor and strong attacks; the safest pick for Death March | New |
+| 12 | The six schools | Wolven and Forgotten Wolven | The sword-and-Sign hybrid; today's main build moves here | Rework |
+| 13 | The six schools | Manticore | Alchemy and crits; the set is crafted only in Toussaint | New |
+| 14 | The six schools | Viper | Poison and crit swords from White Orchard on, and the full set in Hearts of Stone | New |
+| 15 | The six schools | Verdict: which school is strongest | My ranking with reasons, and where it comes down to style. Drawn: schools by power and effort | New |
+| 16 | Gear through the playthrough | Gear path by region and level | A drawn timeline from White Orchard to Toussaint with every school's tiers and when to switch | New |
+| 17 | Gear through the playthrough | Reward sets from a linked account | Armor of a Thousand Flowers (level 7), White Tiger of the West (level 11), Scarlet Crest (level 40): what linking means and how to claim | New |
+| 18 | Gear through the playthrough | Relics and legendary weapons | Aerondight, Toussaint Knight's Steel Sword, Iris, Hen Gaidth, the Viper Venomous swords: level, effect, source, best school | New |
+| 19 | Gear through the playthrough | Missables | A checklist of one-time gear chances, mostly in Hearts of Stone | New |
+| 20 | Reference | The maths behind the choices | Today's charts, plus per-school numbers wherever sources publish them | Rework |
+| 21 | Reference | Common mistakes and respec | The skip list made general: traps that waste points, gear or Toxicity | Rework |
+| 22 | Reference | Sources | Grouped by topic | Rework |
 
-**Open decisions** (my default in brackets):
+**Every school chapter** runs in the same order: lore, how it plays, school technique and set bonuses, the optimum build by phase (skills, mutation, mutagens, consumables), the gear path with links to diagram locations, the maths where numbers exist, and a verdict.
 
-- [ ] **Account-reward sets.** Armor of a Thousand Flowers (level 7) and White Tiger of the West (level 11) are early medium armor that suits Wolf School. They need a linked CD PROJEKT RED account. \[Include as optional\]
-- [ ] **Ursine.** Comparison-table row only, or a full profile? \[Row only\]
-- [ ] **Hearts of Stone enchanting** (runewords and glyphwords). In or out? \[Out\]
+**Decided:**
 
-**To check while writing:** Manticore's weight class (KeenGamer's Remastered guide says light with a Levity effect; the Fextralife wiki says medium), tier level requirements in 5.0, and whether Grandmaster set bonuses changed.
+- Reward sets from a linked account are in, as section 17.
+- Ursine gets a full chapter, section 11.
+- Hearts of Stone enchanting is in, as section 7.
+
+**Moved or cut:** the level-6 setup is gone, and its general parts (slot groups, mutagen colors) go into section 3. The build concept, leveling roadmap, equip order and combat loop below become the Wolven chapter, and the crit variant becomes part of Feline.
+
+**To check while writing:** Manticore's weight class (KeenGamer's Remastered guide says light with a Levity effect; the Fextralife wiki says medium), tier level requirements in 5.0, whether Grandmaster set bonuses changed, and the levels at which skill slots open.
 
 ## How the 5.0 tree works
 
@@ -62,29 +70,6 @@ The point plan below assumes about one point per level, plus whatever Places of 
 - **Base game armor:** any medium armor until you get a full witcher set. Griffin and Wolven are the base-game medium witcher sets.
 - **From level 20:** the Forgotten Wolven set is built for sword-and-Sign play. Its Basic tier comes from the quest *In the Eternal Fire's Shadow* at Devil's Pit in Velen. The Mastercrafted (level 34) and Grandmaster (level 40) diagrams come from notes in the Kaer Morhen library, and Lazare Lafargue in Beauclair crafts the Grandmaster tier.
 - **Swords:** whatever has the highest damage. Don't hold onto a weak sword just because it matches a set.
-
-## Spend your 7 points now (level 6)
-
-Put most of the early points into your sword, keep Quen up, add Igni, and take Delusion for the dialogue options.
-
-- [ ] **Muscle Memory → rank 2** (Combat, 2 pts). After a dodge or roll, your next fast attack does +30% damage. This is the starting node of the Combat path.
-- [ ] **Strength Training → rank 1** (Combat, 1 pt). Fast attacks boost your next strong attack by 15%. Requires Muscle Memory.
-- [ ] **Exploding Shield → rank 1** (Signs, 1 pt). When Quen breaks, it knocks enemies back. Leads to Active Shield later.
-- [ ] **Melt Armor → rank 1** (Signs, 1 pt). Igni strips armor and gets +10% Burn chance. Leads to Firestream.
-- [ ] **Delusion → rank 2** (Signs, 2 pts). Unlocks the Axii dialogue options you want, and stops the target from closing in while you cast Axii. It's a starting node, so it costs only the two points.
-
-Refreshment moves to the start of Phase 1 to make room for Delusion.
-
-Wait on Wolf School Techniques until you're wearing medium armor. Before then it gives you nothing. If you're already in medium armor, take it instead of Muscle Memory's second rank.
-
-**Slots at level 6.** Five skill slots are open at level 6. This plan uses exactly five distinct skills. The second ranks of Muscle Memory and Delusion don't need slots of their own. Arrange them so each mutagen sits next to skills of its color:
-
-| Slot group | Skills | Mutagen |
-| --- | --- | --- |
-| Group with 3 open slots | Muscle Memory, Strength Training, Melt Armor | Red if you have one |
-| Group with 2 open slots | Exploding Shield, Delusion | Blue: both are Signs skills, so you get the full bonus |
-
-**Later phases buy more skills than you have slots.** Stepping-stone skills that you only buy to unlock the next one stay unequipped: Sustained Glyphs, Sun and Stars, Hunter Instinct, Survival Instinct, Supercharged Glyphs, Frenzy. When a new slot opens, fill it from the "What to equip" order below.
 
 ## Leveling roadmap
 
