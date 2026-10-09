@@ -37,6 +37,34 @@ Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels
 
 **Do you care about looking the part?** Since 5.0 you don't have to: Reforge lets you wear one set's stats under another set's look (chapter 3).
 
+## The fights each school finds hard
+
+Every school has enemies that blunt its main tool. The game files decide most of these: monster definitions set resistances, and creature templates list immunities (chapter 19).
+
+| Enemies | Poison | Fire and Burning | Aard knockdown |
+| --- | --- | --- | --- |
+| **Wraiths, nightwraiths, noonwraiths** | Can't be poisoned | Immune to Burning; noonwraiths take no fire damage | Immune |
+| **Elementals and golems** | Immune | Immune to Burning; fire elementals take no fire damage, earth elementals and golems resist 80% | Immune |
+| **Gargoyles** | Can't be poisoned | Immune to Burning | — |
+| **Arachas, endregas, drowners, hags, foglets** | Can't be poisoned | — | — |
+| **Forktails, wyverns, basilisks** | Can't be poisoned | — | — |
+| **Spiders, kikimores, archespores** | Immune | — | — |
+| **Scolopendromorphs** | Immune | 30% fire resistance | Immune |
+| **Fiends and chorts** | — | Fiends immune to Burning | Immune |
+| **Vampires** (ekimmara, katakan, fleder, garkain) | — | — | Immune |
+| **Barghests** | — | Immune to Burning | — |
+| **Wild Hunt** | — | 50% fire resistance | — |
+| **Any enemy 20+ levels above you** | Can't be poisoned | — | — |
+
+"Can't be poisoned" means 100% poison resistance: a poison lasts zero seconds. "Immune" means the creature template blocks the effect outright; for poison, only those enemies count for Potent Sting's doubled bonus.
+
+What that means for each school:
+
+- **Viper** is hit hardest: a long list of common monsters, every wraith among them, ignores poison, so Toxic Shock and Debilitating Poison do nothing there (chapter 13).
+- **Griffin** loses Igni's damage over time against wraiths, elementals, golems, gargoyles, fiends and barghests, and Aard's knockdown against most big monsters; Yrden, Supercharged Glyphs and the sword carry those fights (chapter 9).
+- **Feline** has no immunity problem, but its fast attacks lose the target's flat armor on every hit, so armored enemies and large groups are its hard fights (chapter 8).
+- **Ursine, Wolven and Manticore** have no hard counter in the files. Ursine's fights simply get long, Wolven always has another tool, and Manticore's bombs and sword don't depend on one effect.
+
 ## You can mix more than you think
 
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
