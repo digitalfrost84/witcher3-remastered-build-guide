@@ -14,6 +14,8 @@ The Viper every player remembers is **Letho of Gulet**, the Kingslayer of *The W
 
 A Viper wears medium armor, keeps the right oil on the blade at all times, and lands **as many hits as possible**, because every hit with an oil that matches the target is a roll for poison, and better oils roll higher. Once the target is poisoned, a **strong attack** cashes it in through Toxic Shock: the poison is used up for a burst of damage, at most once every five seconds. Debilitating Poison makes poisoned enemies hit you more softly, Potent Sting makes every hit with the matching oil harder, and Viper School Techniques adds Vitality and poison damage for every medium piece.
 
+**Plenty of enemies can't be poisoned at all.** The game files give 100% poison resistance to arachas, endregas, all spiders, kikimores, drowners, hags, foglets, every kind of wraith, the Crones, elementals, golems, gargoyles, forktails, wyverns and basilisks, among others, and to **any enemy 20 or more levels above you**. A poison applied to them lasts zero seconds, so Toxic Shock has nothing to burst and Debilitating Poison never protects you ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)). In those fights a Viper is a medium-armor swordsman with an oil bonus: Potent Sting and Hunter Instinct still work with the matching oil, and Strength Training still powers the strong attack. Plan your Sign and decoction support around that.
+
 Patch 5.0 gave the school a skill line of its own: the four poison skills in the Alchemy tree are new ([witcherhour.com](https://witcherhour.com/skills/)). The research for this book found no published Remastered Viper build: VGTimes names Viper School Techniques but writes no build, and the builds from Gamestegy and Console Pulse predate 5.0 ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). The plan below is built from the 5.0 tree.
 
 ## Skills by phase
@@ -42,7 +44,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Debilitating Poison | Alchemy | 1 | Toxic Shock | Poisoned enemies deal 5% less damage |
-| Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%, double against poison-immune enemies; the target needn't be poisoned |
+| Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%; the target needn't be poisoned. Doubled against enemies whose template makes them immune to poison (chapter 19) |
 | Toxic Shock | Alchemy | 3 | — | The burst grows to 75% of the hit |
 | Hunter Instinct | Alchemy | 1 | Frenzy | +20% crit damage at full Adrenaline against the oiled monster type |
 | Viper School Techniques | General | 3 | — | +6% max Vitality and poison damage per medium piece |
@@ -90,6 +92,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 4. **Cash it in:** once the target shows the poison effect, finish the string with a strong attack for Toxic Shock. The burst uses the poison up.
 5. **Poison it again:** Debilitating Poison only protects you while the enemy carries your poison, so land fast hits before the next strong attack. Potent Sting adds damage to every hit with the matching oil either way.
 6. **Wait out the cooldown:** Toxic Shock fires at most every five seconds, so use the gap to reposition and roll for the next poison.
+7. **Against enemies that can't be poisoned,** skip steps 3 to 5: keep the matching oil on for Potent Sting and Hunter Instinct, fight with fast attacks into Strength Training finishers, and lean on Quen. Golems, elementals, spiders, kikimores, archespores and scolopendromorphs are flagged immune outright, so Potent Sting deals double against them; most of the others are only fully resistant, so it deals its normal bonus.
 
 ## Gear path
 
@@ -110,7 +113,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/), [GameBanshee: Open Sesame!](https://www.gamebanshee.com/thewitcher3/walkthrough/opensesame.php), [GameBanshee: Whatsoever a Man Soweth](https://www.gamebanshee.com/thewitcher3/walkthrough/whatsoeveramansoweth.php), [Gamestegy: Viper armor](https://gamestegy.com/witcher-3/wiki/1400/viper-armor-diagram-stats-location).
 
-**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's crit damage ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
+**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's fast-attack bonus alone, because Cat's crit-damage part adds nothing in the game's damage code (chapter 19). Keep Viper's own Technique ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
 
 ## The maths
 
@@ -127,11 +130,13 @@ At rank 1 with a basic oil (5%), even odds take 14 hits, which is why poison is 
 
 **Why that matters for Toxic Shock.** Toxic Shock can fire only once every five seconds and uses the poison up, so the goal is to have the target poisoned again each time the cooldown ends. With a superior oil at rank 3, one string of three fast hits does that about three times in four. The poison itself lasts 5 seconds at base, scaled by your attack power, and deals 1.6% of the target's maximum health per second before resistances, so between bursts it's real damage too. Past that point, points do more in Potent Sting or Debilitating Poison.
 
+**Who it can't touch.** Poison lasts `5 s × attack power × (1 − poison resistance)`, so the many monster families with 100% poison resistance, and every enemy 20 or more levels above you, shrug it off entirely. Separately, a shorter list of creature templates is flagged immune: golems, elementals, both expansions' spiders, kikimores, archespores, scolopendromorphs, the toad prince, Iris's nightwraith, the banshees, Dettlaff, Regis and the Caretaker. Only those count as "poison-immune" for Potent Sting's doubled bonus ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)).
+
 ## Verdict
 
 **Strengths.** The only school you can start in White Orchard with its own swords. 5.0's new poison line gives it a clear identity, Debilitating Poison is real defense, and the Venomous swords are among the best crit swords of Hearts of Stone.
 
-**Weaknesses.** No set bonus at all, no Grandmaster tier, and every piece of its Hearts of Stone gear is missable. Poison is only reliable with the right oil for every enemy type, enhanced or superior if possible, so preparation is half the build. And by the endgame it looks a lot like a Manticore build with less Toxicity room.
+**Weaknesses.** No set bonus at all, no Grandmaster tier, and every piece of its Hearts of Stone gear is missable. Poison is only reliable with the right oil for every enemy type, enhanced or superior if possible, so preparation is half the build. A long list of monster families, among them every wraith, drowner, hag, arachas and elemental, can't be poisoned at all, and neither can anything 20 levels above you. And by the endgame it looks a lot like a Manticore build with less Toxicity room.
 
 **Who it suits:** players who like the fantasy of the Kingslayers, enjoy prepping oils for each fight, and want a build that's different from every guide out there.
 

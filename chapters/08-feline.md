@@ -16,7 +16,7 @@ Their fighting style, Addan Aenye, came from an elf named Nissail: speed, precis
 
 ## How it plays
 
-Feline turns **held Adrenaline into crits**. Battle Frenzy adds crit chance for every Adrenaline point you're holding, Cat School Techniques make crits hit far harder in light armor, and Katakan adds a flat 10% on top. Everything else in the build exists to protect the bar: Razor Focus starts every fight with a point, Resolve stops hits from draining it, Fleet-Footed cuts the damage you take while dodging, and Counterattack rewards the dodge itself.
+Feline turns **held Adrenaline into crits**. Battle Frenzy adds crit chance for every Adrenaline point you're holding, Katakan adds a flat 10% on top, and Cat School Techniques makes the fast attacks that land those crits hit harder in light armor. The crits' size comes from your swords and from Hunter Instinct: Cat's own crit-damage line adds nothing in the game's damage code (chapter 19). Everything else in the build exists to protect the bar: Razor Focus starts every fight with a point, Resolve stops hits from draining it, Fleet-Footed cuts the damage you take while dodging, and Counterattack rewards the dodge itself.
 
 The loop is dodge, punish with a string of fast attacks, step out, repeat. The build is at its best when you take no hits at all, and the second decoction, mutation and set bonus all push further in that direction.
 
@@ -116,7 +116,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-cat-school-gear-set), [Console Pulse: Feline gear](https://www.consolepulse.com/multiplatform/the-witcher/guides/witcher-3-feline-gear-guide). Relic swords are covered in chapter 17.
 
-**The Grandmaster question.** The **3-piece bonus** is excellent for this build: a strong attack raises fast attack damage by 10% per set piece for 5 seconds, so a single strong hit before your fast string adds 40% with the four armor pieces. The **6-piece bonus** (attacks from behind deal +50% and stun) needs both Feline swords and **costs 1 Adrenaline point** per rear attack, which is exactly what Battle Frenzy wants you to keep. This book's recommendation: four Grandmaster Feline armor pieces with the two relic swords above, not the full six. If you prefer the full set, pair it with Doppler and treat the Adrenaline cost as the price of the stun.
+**The Grandmaster question.** The **3-piece bonus** is excellent for this build: a strong attack raises fast attack damage by 10% per set piece for 5 seconds, so a single strong hit before your fast string adds 40% with the four armor pieces. The **6-piece bonus** (attacks from behind deal +50% and stun) needs both Feline swords and **costs 1 Adrenaline point** per rear attack, which is exactly what Battle Frenzy wants you to keep. This book's recommendation: four Grandmaster Feline armor pieces with the two relic swords above, not the full six. If you prefer the full set, treat the Adrenaline cost as the price of the stun; the rear-attack damage bonus itself only needs one point banked, and Whirl and Rend don't pay the cost.
 
 **Heavier armor with Levity.** The Levity glyphword (chapter 6) makes all your armor count as light while keeping its resistances, so a Feline can wear medium or heavy armor and keep every bit of Cat School Techniques. It costs a tier 3 Runewright (30,000 crowns in total).
 
@@ -135,7 +135,17 @@ For a simplified pre-mitigation hit, with damage term `W`, non-critical power mu
 = \frac{W\,\Delta c\,C}{WM+A}
 ```
 
-The former guaranteed **0.35 / 0.57 normal-hit** gains are withdrawn. Existing attack power and target defenses must be accounted for, and Cat School Techniques' crit-damage part turns out to add nothing. Crit chance and crit damage still complement each other, so the full-Adrenaline plan remains coherent; its numerical advantage over another sword build is not established by those old bounds. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the file evidence and limits.
+**A worked example.** Take a late Feline with the four Grandmaster Feline armor pieces and the Grandmaster Feline steel sword, Katakan, Battle Frenzy 3 and Hunter Instinct 3, against the oiled monster type at a full bar:
+
+| Part | Value | Source |
+| --- | --- | --- |
+| Crit chance `c` | 5% base + 10% Katakan + 27% Battle Frenzy + 10% sword = **52%** | Game files; Battle Frenzy from witcherhour |
+| Crit bonus `C` | 0.25 base + 0.6 Hunter Instinct = **0.85** | Game files (Hunter Instinct adds 0.2 per rank) |
+| Power multiplier `M` | 1 + 0.22 chest + 0.33 other pieces + 0.24 Cat Techniques + 0.30 Thunderbolt ≈ **2.1** | Game files; level bonuses ignored |
+
+With no flat additions, a crit adds `C / M ≈ 0.40` to a normal hit, and the expected fast attack is `1 + c × C / M ≈ 1.21` times a non-critical one. Without Hunter Instinct's condition (oil mismatch or an empty bar) `C` falls to 0.25 and the gain to about 6%, which is why the oil and the full bar matter more than any single crit-chance source. A relic with +100% crit damage, such as the Toussaint Knight's Steel Sword, more than doubles `C`.
+
+The former guaranteed **0.35 / 0.57 normal-hit** gains stay withdrawn: they ignored the existing multiplier, and Cat School Techniques' crit-damage part adds nothing. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the formula and its limits.
 
 ## Verdict
 

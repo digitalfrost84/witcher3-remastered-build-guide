@@ -18,7 +18,7 @@ The first is available from your first skill point, the third grows over the who
 | **Technique, 4 pieces at rank 3** | +24% fast attacks (the published +96% crit damage adds nothing) | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
 | **Leans on** | Held Adrenaline, crits | Stamina, Yrden | Vitality, Quen | A bit of everything | Toxicity, decoctions | Poison, oils |
 | **First set tier** | Level 17 | Level 11 | Level 20 | Level 14 (Kaer Morhen) | Level 40 only | Swords level 1, armor 39 |
-| **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on every alchemy item | None |
+| **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on potions and bombs | None |
 | **Mutation** | Bloodbath | Magic Sensibilities, then Conductors of Magic | Mutated Skin | Conductors of Magic | Euphoria | Euphoria |
 | **Effort** | High skill, low prep | Medium | Low | Medium | High prep | High prep, missable gear |
 | **Chapter** | [8](08-feline.md) | [9](09-griffin.md) | [10](10-ursine.md) | [11](11-wolven.md) | [12](12-manticore.md) | [13](13-viper.md) |

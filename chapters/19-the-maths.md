@@ -227,7 +227,9 @@ The table assumes independent rolls and a target that can be poisoned. Multiple 
 - **Blood and Wine and others:** archespores, the wight, the Spoon Collector, Dettlaff, the toad prince and fairy-tale enemies.
 - **Any enemy 20 or more levels above you**, human or monster: the "deadly" level bonus sets poison resistance to 100%.
 
-Viper and Toxic Shock builds need another plan for these fights, which include several major bosses. Separate immunity flags in the creature templates (`.w2ent`), which Potent Sting's double bonus checks, haven't been read.
+Viper and Toxic Shock builds need another plan for these fights, which include several major bosses.
+
+**Template immunity is a different, shorter list (file-verified).** Potent Sting's doubled bonus checks `IsImmuneToBuff`, which reads immunity flags from the creature templates (`.w2ent`), not the resistance value. Flagged immune to poison: earth, fire and ice elementals and golems, both expansions' spiders, kikimores, archespores, scolopendromorphs, the toad prince, Iris's nightwraith, the banshees and their summons, Dettlaff, Regis and the Caretaker. Arachas, drowners, wraiths, hags and the rest are only fully resistant, so poison fails on them but Potent Sting deals its normal bonus.
 
 **What poison does (file-verified):** a standard poison lasts 5 seconds, scaled by the attack's power multiplier and shortened by the target's poison resistance, and deals 1.6% of the target's maximum health per second before damage processing. An equal-strength poison from the same source refreshes the duration instead of stacking.
 
@@ -251,9 +253,9 @@ The two largest bonuses need Yrden: Catalyst only counts against enemies inside 
 | **Griffin** | +22% Sign intensity | +11% Sign intensity | +5% crit chance, +0.25 crit damage, +21% Sign intensity |
 | **Ursine** | +0.22 Adrenaline gain | +0.11 Adrenaline gain | +5% crit chance, +0.75 crit damage, +0.21 Adrenaline gain |
 | **Wolven** | +0.22 Adrenaline gain | gloves +11% Sign intensity; trousers +11% attack power and Sign intensity; boots +11% attack power | +11% crit chance, +11% Sign intensity, +0.11 Adrenaline gain, 11% bleeding |
-| **Manticore** | +0.20 Adrenaline gain | gloves +10% Sign intensity; trousers +10% attack power and Sign intensity; boots +0.20 Adrenaline gain | +15% crit chance, +0.50 crit damage, 250 armor piercing, 12% bleeding |
+| **Manticore** | +0.25 crit damage | gloves and trousers +5% crit chance; boots +0.25 crit damage | +5% crit chance, +0.50 crit damage, 250 armor piercing, 10% bleeding |
 
-Base sword damage is 372 steel and 524 silver for the four classic schools, 636 and 854 for Manticore. Light and heavy pieces also carry their Stamina regeneration modifier (section 13).
+Base sword damage is 372 steel and 524 silver for every set. Every Manticore armor piece also adds +5 maximum Toxicity. The files hold a second, stronger Manticore tier (`Red Wolf … 2`, level 70); its localisation key marks it as the New Game+ version, so it isn't the set you craft in a first playthrough. Light and heavy pieces also carry their Stamina regeneration modifier (section 13).
 
 ## 9. Branch passives
 
@@ -408,10 +410,10 @@ Prioritize questions by whether the answer could change a build choice:
 1. **Attack timing:** fast and strong animation timings, without which damage per hit can't become damage per second. They live in binary animation files.
 2. **Recipes:** how many of the 173 eligible recipes a playthrough can learn, which sets the real Toxicity ceiling. This needs the loot, shop and quest-reward tables cross-checked.
 3. **Skill-point total:** how many Places of Power are reachable, which needs the world layer files. Quest grants are settled (section 15).
-4. **Poison immunity flags and stacking:** the creature templates' separate immunity flags, which Potent Sting's double bonus reads, and how multiple oils and repeated runes interact.
+4. **Poison stacking:** how multiple oils and repeated runes interact.
 5. **In-game confirmation:** the New Game+ Delayed Recovery reading (section 6) and the zero-base crit multipliers (section 2) follow directly from the files but haven't been tested in play.
 
-**Settled since the previous edition:** Cat School Techniques' and High Tolerance's crit multipliers (they multiply a zero base), New Game+ Delayed Recovery, the poison-resistance list, the Moreau lab grants, Sun and Stars, Exploding Shield, Mutated Skin and the Grandmaster item values.
+**Settled since the previous edition:** Cat School Techniques' and High Tolerance's crit multipliers (they multiply a zero base), New Game+ Delayed Recovery, the poison-resistance list and the creature templates' immunity flags, the Moreau lab grants, Sun and Stars, Exploding Shield, Mutated Skin, the Grandmaster item values and set bonuses, every gear level, and when skill slots open.
 
 ## File evidence and reproducibility
 
@@ -452,7 +454,7 @@ Definitions below are paths **inside `content/content0/bundles/xml.bundle`**, or
 | Mutated Skin | Blood and Wine `gameplay/abilities/geralt_mutations.xml`, `Mutation5`, line 24 | `playerWitcher.ws`, lines 2487–2512 |
 | Exploding Shield | `geralt_skills.xml`, `magic_s13`, lines 425–433 | `playerWitcher.ws`, `QuenImpulse`, lines 9359–9440; `game/gameplay/items/spells/quenEntity.ws`, lines 96–107, 601–612 and 629–641; `effectManager.ws`, `GetSignApplyBuffTest`, lines 1540–1628 |
 | Sun and Stars | `geralt_skills.xml`, `perk_38`, lines 1028–1043 | `PlayerAbilityManager.ws`, `SetPerk38Abilities`, lines 3510–3540; `game/gameplay/effects/effects/auto/vitalityRegen.ws` and `staminaRegen.ws` |
-| Grandmaster items | Blood and Wine `gameplay/items/def_item_crafting_{armor,gloves,pants,boots,weapons}.xml` (`… 4 _Stats` chests and swords, `… 5 _Stats` other pieces; Manticore is `Red Wolf … 2`) | — |
+| Grandmaster items | Blood and Wine `gameplay/items/def_item_crafting_{armor,gloves,pants,boots,weapons}.xml` (`… 4 _Stats` chests and swords, `… 5 _Stats` other pieces; Manticore is `Red Wolf … 1`, and `Red Wolf … 2` is its New Game+ version) | — |
 
 The normal-game and NG+ base definitions agree for the reported crit attributes, maximum Toxicity and regeneration rates. The exception is Delayed Recovery: `gameplay/abilities_plus/geralt_skills.xml`, lines 497–500, defines only an obsolete single threshold, while `playerWitcher.ws`, `GetAlchemyS03Threshold` (lines 12837–12856), reads three rank-specific attributes that are missing there. The installed Brothers In Arms `effects.xml` override retains the same `ToxicityEffect` rate. A second, independent read of the same files re-checked the definitions above and the main script paths for Acquired Tolerance, Delayed Recovery, Euphoria, Poisoned Blades, combat Stamina, strong attacks, Undying, Toxic Shock and the two Sign mutations, and added the branch passives, Toxicity damage, Fast Metabolism, Volatile Compound, potion costs and the recipe count. This is a baseline mechanics audit, not a claim that every installed mod or every conditional build interaction has been validated.
 
