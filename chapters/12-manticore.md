@@ -83,7 +83,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Mutation: Euphoria** (Toxic Blood, then Euphoria: 5 Ability Points and 5 greater green mutagens). In combat it adds 0.75 percentage points of attack power and Sign intensity for every point of current Toxicity, decoctions included, with no cap in the game files (chapter 19). Two research steps open the first extra slot, and it takes Alchemy skills. FinalBoss and VGTimes say 5.0 weakened it, though no patch note says so ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-make-an-alchemy-build-remastered-5-0)); either way it joins the same multiplier as your other bonuses, so it adds less than its label to an already strong build.
 
-**The Levity alternative.** With a tier 3 Runewright, the **Levity** glyphword on your Manticore chest makes all your armor count as light (chapter 6). That lets you run **Cat School Techniques** instead of Manticore's: +24% fast attack power at rank 3 plus a crit-damage bonus published as +96%, whose real size in the game's damage code is unresolved (chapter 19), against Manticore's +24% sword and bomb damage. Light armor also regenerates Stamina 25% faster. KeenGamer's and Console Pulse's 5.0 Manticore builds both do this ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build)). It's the stronger choice if your swords crit often; keep Manticore's own Technique if you throw a lot of bombs.
+**The Levity alternative.** With a tier 3 Runewright, the **Levity** glyphword on your Manticore chest makes all your armor count as light (chapter 6). That lets you run **Cat School Techniques** instead of Manticore's. KeenGamer's and Console Pulse's 5.0 Manticore builds both do this ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build)), for a crit-damage bonus published as +96%. The game files show that bonus adds nothing (chapter 19), so the trade is Cat's +24% fast attack power against Manticore's +24% fast and strong attack power and +24% bomb damage. The only gain left is light armor's 25% faster Stamina regeneration. **Keep Manticore's own Technique.**
 
 ## Consumables and the fight loop
 
@@ -92,7 +92,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 **The loop:**
 
 1. **Before the fight:** decoctions running (an hour each with Adaptability at rank 3), oil on the blade, Thunderbolt.
-2. **Open with a bomb.** With the Grandmaster set it can crit and leaves your hand without delay, and if you slot Element of Surprise it powers up your melee for 10 seconds.
+2. **Open with a bomb.** With three Grandmaster pieces it can crit and leaves your hand without delay, and if you slot Element of Surprise it powers up your melee for 10 seconds.
 3. **Quen,** then fight with fast attacks into strong attacks.
 4. **Drink freely.** Every dose heals through Refreshment and adds Toxicity, which Euphoria turns into damage. Just stay under your maximum.
 5. **Finish with Rend** once your hits have filled the bar.
@@ -103,11 +103,11 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | --- | --- | --- |
 | 1–10 | Any medium armor: **Armor of a Thousand Flowers** (7) or **White Tiger of the West** (11) if your account has them; **Nilfgaardian** (10) | Whatever has the most damage |
 | 11–39 | **Griffin**, **Wolven** or **Forgotten Wolven**, whichever tier is newest (chapters 9 and 11). All are medium, so they feed Manticore School Techniques | The matching witcher swords, or **Viper Venomous** at 39 |
-| 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +15% crit chance |
+| 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +5% crit chance |
 
 **Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, probably because its screenshot showed a chest enchanted with Levity (chapter 3).
 
-**Why all six.** Each armor piece adds +5 max Toxicity, +20 for four (confirmed in the game files; older sources give other numbers). The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every alchemy item +1 maximum charge**, so one more Swallow, one more bomb and one more dose of each decoction per meditation ([Witcher wiki: Manticore School Gear](https://witcher.fandom.com/wiki/Manticore_School_Gear)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
+**Why all six.** Each armor piece adds +5 max Toxicity, +20 for four (confirmed in the game files; older sources give other numbers), and the set's crit stats suit a bomb build that crits: +0.25 crit damage on the chest and boots, +5% crit chance on the gloves and trousers. The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every potion and bomb +1 maximum charge**, so one more Swallow and one more bomb per meditation. Decoctions are excluded: the game skips mutagen potions when it adds the charge ([chapter 3](03-gear-basics.md#set-bonuses-only-at-grandmaster)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
 
 ## The maths
 

@@ -21,6 +21,8 @@ Adrenaline has two uses, and the build changes when you get Blood and Wine:
 - **Before mutations, spend it.** Rend turns a full bar into one strike that ignores defenses, +30% damage per point at rank 3. FinalBoss and VGTimes play Ursine this way.
 - **With Mutated Skin, hold it.** Each whole point you hold cuts the damage you take by 15%, up to 45% at a full bar; fractions don't count. KeenGamer's Death March tank never spends it on Rend or Whirl.
 
+The two defenses take turns rather than stacking: Mutated Skin does nothing while a Quen shield is up or while you hold Active Shield, so it's what protects you in the gap after the shield breaks.
+
 The cost is Stamina: heavy armor regenerates it more slowly, so you cast fewer Signs, and Active Shield's upkeep competes with everything else ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-an-ursine-tank-remastered-5-0)).
 
 ## Skills by phase
@@ -98,7 +100,7 @@ Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but i
 1. **Quen first,** Active Shield against groups. Let the shield take hits that would otherwise drain your Adrenaline.
 2. **Fast attacks, then a strong attack.** The fast hits charge Strength Training; the strong hit can trigger Crushing Blow and stacks Sunder Armor.
 3. **Keep Sunder Armor stacked** on the target you're fighting; three stacks strip 30% of its damage resistance against your strong attacks. Melt Armor adds little here: strong attacks and Rend already carry 1,000 armor penetration.
-4. **Spend or hold.** Before Mutated Skin, finish isolated or big enemies with a full-bar Rend. After it, hold three points and let the damage reduction carry you.
+4. **Spend or hold.** Before Mutated Skin, finish isolated or big enemies with a full-bar Rend. After it, hold three points: the shield takes the first hits, and Mutated Skin cuts the ones that land before you recast it. Holding Active Shield the whole fight leaves Mutated Skin idle, so tap Quen instead of channelling it once you have the mutation.
 5. **Undying** is the last line, with Razor Focus making sure there's always at least one point in the bar.
 
 ## Gear path
@@ -132,7 +134,7 @@ Location guides: [Mobalytics: Ursine School gear](https://mobalytics.gg/gamebase
 \text{effective health} = \frac{1 + 0.24 + 0.24}{1 - 0.15 \times \text{Adrenaline held}}
 ```
 
-Quen, armor, resistances, the Griffin decoction and Tissue Transmutation all come on top. The table also shows why Rend and Mutated Skin pull against each other: a rank-3 Rend at a full bar adds +90% to one strike, while holding the same three points nearly doubles how long you last (2.69× against 1.48×).
+Armor, resistances, the Griffin decoction and Tissue Transmutation all come on top. Quen doesn't: while a shield is up it absorbs the hit and Mutated Skin is switched off, so the table describes the moments between shields. The table also shows why Rend and Mutated Skin pull against each other: a rank-3 Rend at a full bar adds +90% to one strike, while holding the same three points nearly doubles how long you last (2.69× against 1.48×).
 
 ## Verdict
 

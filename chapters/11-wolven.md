@@ -97,7 +97,7 @@ Cumulative points after each phase:
 | Phase 2 | 8 | 7 | 4 | 1 | 20 |
 | Phase 3 | 8 | 8 | 6 | 6 | 28 |
 
-Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every point may also earn its tree's branch passive (chapter 2; sources disagree on whether unslotted skills count).
+Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every equipped rank earns its tree's branch passive; unslotted skills earn nothing (chapter 2).
 
 ## Slots, mutagens and mutation
 

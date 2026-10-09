@@ -25,7 +25,7 @@ Manticore's proposed damage ceiling depends on Euphoria, a stack of decoctions a
 
 ### 3. Feline: the best swordsman
 
-Several core Feline skills reward a full Adrenaline bar, which makes the crit plan coherent. The former 0.35/0.57-normal-hit damage floors are withdrawn: the implemented crit bonus adds to the attack-power multiplier, and its relative value depends on the rest of the build and the target. This audit does not prove that Feline scales harder than every other sword build. It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
+Several core Feline skills reward a full Adrenaline bar, which makes the crit plan coherent. The file audit trimmed it: Cat School Techniques' crit-damage line and Doppler add nothing, so crit damage comes from swords and Hunter Instinct, and a full bar against the oiled monster type is worth about +21% per fast attack in chapter 8's worked example, about +6% without Hunter Instinct. It keeps third place on its early start and its crit-chance stack, not on proof that it out-damages every other sword build. It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
 
 ### 4. Wolven: the best playthrough build
 
@@ -37,7 +37,7 @@ The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Deat
 
 ### 6. Viper: the niche
 
-5.0's poison line finally gives Viper a skill identity, and it's the only school with its own swords in White Orchard. But it has no set bonus, no Grandmaster tier and missable Hearts of Stone gear, its poison is only reliable with the right enhanced or superior oil for each enemy, and by the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
+5.0's poison line finally gives Viper a skill identity, and it's the only school with its own swords in White Orchard. But it has no set bonus, no Grandmaster tier and missable Hearts of Stone gear, its poison is only reliable with the right enhanced or superior oil for each enemy, and the game files make a long list of enemies, every wraith, drowner, hag, arachas and elemental among them, completely immune to it, along with anything 20 levels above you. By the endgame it overlaps heavily with Manticore. Play it for the fantasy, not the numbers.
 
 ## Where it comes down to style
 
