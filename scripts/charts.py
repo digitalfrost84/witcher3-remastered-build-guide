@@ -452,7 +452,7 @@ def poison_odds():
         fig.text(0.715, ly + 0.012, lab, fontsize=10.5, fontweight="bold", color=INK, va="center")
         fig.text(0.715, ly - 0.020, src, fontsize=9.3, color=INK2, va="top")
         fig.text(0.715, ly - (0.083 if "\n" in src else 0.052), f"one combo: {p3:.0%} · even odds after {half} hit{'s' if half > 1 else ''}", fontsize=9.3, color=INK2, va="top")
-    fig.text(0.04, 0.03, "Game files, build 5.0.0.1048522: Poisoned Blades 5% per rank, +10% per oil tier above basic; Viper swords 15%, rolled separately. Assumes no poison immunity.",
+    fig.text(0.04, 0.03, "Game files, build 5.0.0.1048522: Poisoned Blades 5% per rank, +10% per oil tier above basic; Viper swords 15%, rolled separately. Assumes a target below 100% poison resistance.",
              fontsize=8.5, color=MUTED)
     save(fig, "poison-odds.png")
 
