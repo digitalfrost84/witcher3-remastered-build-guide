@@ -40,7 +40,7 @@ Right after White Orchard, the Royal Palace in Vizima has a chest with your **CD
 | **Ursine** Superior, Mastercrafted | 30, 34 | Velen | Ursine (after Skellige's Basic and Enhanced) |
 | **Moonblade** (relic silver: Yrden, crit damage, 3 slots) | scales | Underwater chest in the Pontar, southwest of Mulbrydale | Early Sign or crit builds |
 | **Gwyhyr** (relic steel: Yrden, crit damage, armor piercing, bleed) | — | Cave northwest of Hanged Man's Tree | A stopgap; not top-tier |
-| **Arbitrator** (crafted relic steel, +10–50% crit damage) | 17 | Crafted by a Journeyman blacksmith; the diagram's location isn't confirmed | Early crit builds |
+| **Arbitrator** (crafted relic steel, +50% crit damage, 10% stagger chance) | 17 | Needs a **Master** blacksmith (game files), so in practice Hattori after *Of Swords and Dumplings*; the diagram's location isn't confirmed | Crit builds from about level 24 |
 | **Bloodsword** (relic silver, crit and bleed) | — | Chest at the end of *Inheritance* | Crit builds |
 
 **Unlock your Master crafters at level 24.** **Yoana**, the armorer at Crow's Perch, after *Master Armorers*, and **Hattori**, the Novigrad blacksmith, after *Of Swords and Dumplings*. They're the only Master crafters (later, Lazare Lafargue can make any tier) and the only ones who offer Reforge ([Gamertagmythras](https://gamertagmythras.com/blog/the-witcher-3/witcher-3-crafting-guide); [KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).

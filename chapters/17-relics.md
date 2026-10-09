@@ -36,7 +36,7 @@ Every virtue has several chances, and deeds done before you meet the Hermit coun
 | **Black Unicorn** (crafted) | 46 | +1–12% Aard, +5–10% bleeding | Diagrams in Harrisi's cave, the Defier's oren pool, and the Arnskrone cellar; Master blacksmith | No |
 | **Beann'Shie** (crafted) | 44 | +20% Aard, +50 armor piercing, frost | Sources disagree on whether a Master or Grandmaster smith makes it | No |
 | **Winter's Blade** | Scales (since 4.0, while you carry it) | +55% crit damage, +40 armor piercing, +10% freeze | A gift from Crach an Craite during *Brothers in Arms: Skellige* ([Witcher wiki](https://witcher.fandom.com/wiki/Brothers_In_Arms:_Skellige); [GameBanshee](https://www.gamebanshee.com/thewitcher3/walkthrough/brothersinarms.php)) | **Yes** |
-| **Arbitrator** (crafted) | 17 | +10–50% crit damage | Journeyman blacksmith, 185 crowns | No |
+| **Arbitrator** (crafted) | 17 | +50% crit damage, 10% stagger chance (game files) | Master blacksmith, 185 crowns | No |
 | **Gwyhyr** | — | Yrden, crit damage, armor piercing, +6% bleeding | Cave northwest of Hanged Man's Tree, Velen | No |
 
 ## The best silver swords besides Aerondight
@@ -63,7 +63,7 @@ Sources for both tables: [nukesdragons: weapons](https://nukesdragons.com/witche
 | **Manticore** | Grandmaster Manticore | Grandmaster Manticore | The 6-piece charge bonus is the point of the set |
 | **Viper** | Viper Venomous | Viper Venomous | No set bonus to lose |
 
-**Early crit swords worth knowing:** the account-reward Sword of a Thousand Flowers and White Widow (level 7) and the Nine-Tailed Vixen pair (level 11) if your account has them (chapter 16), Arbitrator at 17, and Moonblade whenever you can dive for it.
+**Early crit swords worth knowing:** the account-reward Sword of a Thousand Flowers and White Widow (level 7) and the Nine-Tailed Vixen pair (level 11) if your account has them (chapter 16), Arbitrator once a Master blacksmith can make it, and Moonblade whenever you can dive for it.
 
 ## Sources
 

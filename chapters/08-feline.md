@@ -152,7 +152,7 @@ Three Strikes, Arrow Deflection, Frenzy and Whirl are stepping stones; leave the
 | Levels | Armor | Swords |
 | --- | --- | --- |
 | 1–16 | **Temerian set** (light, level 4): free DLC from Bram at Woesong Bridge, White Orchard ([Console Pulse](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors)) | **Viper swords** (White Orchard, levels 1–2); **Sword of a Thousand Flowers** and **White Widow** (level 7, +5% crit chance) or **Nine-Tailed Vixen** (level 11, +10% crit chance) if your account has them (chapter 16) |
-| 17–33 | **Feline** Basic (17), Enhanced (23), Superior (29). Diagrams in Velen, Novigrad and Oxenfurt | Feline swords at the same levels; **Arbitrator** (level 17, crafted, +10–50% crit damage) |
+| 17–33 | **Feline** Basic (17), Enhanced (23), Superior (29). Diagrams in Velen, Novigrad and Oxenfurt | Feline swords at the same levels; **Arbitrator** (level 17, +50% crit damage; it needs a Master smith, so in practice from about level 24) |
 | 34–39 | **Mastercrafted Feline** (34; Skellige diagrams; Yoana and Hattori craft) | **Ofieri saber** (level 38: +15% crit chance, +75% crit damage) or **Viper Venomous** swords (level 39, missable) |
 | 40+ | **Grandmaster Feline** armor (Lazare Lafargue, Toussaint) | **Toussaint Knight's Steel Sword** (level 48: +20% crit chance, +100% crit damage, +300 armor piercing) and **Aerondight** (silver; at full charge every hit crits) |
 
