@@ -74,7 +74,7 @@ Decoctions are the strongest consumables in the game, and the most expensive. Ea
 | **Griffin** | +1% resistance per hit taken, up to 25% per fight | Tanks |
 | **Troll** | Vitality regeneration, stronger outside combat | Survival |
 | **Nightwraith** | +50 max Vitality per kill until you meditate or fast travel | Long clearing sessions |
-| **Doppler** | +50% crit damage when attacking from behind | Duels against humans |
+| **Doppler** | Described as +50% crit damage from behind; adds nothing in real attacks (chapter 19) | Nothing, in the installed files |
 | **Alghoul** | +50% Adrenaline gain until you first get hit | Adrenaline openers |
 | **Succubus** | Attack power climbs during a fight, up to +30% | Long boss fights |
 

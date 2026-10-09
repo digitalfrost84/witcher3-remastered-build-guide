@@ -52,7 +52,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Magic Trap | Signs | 1 | Sustained Glyphs | Yrden's alternate mode damages and slows everything within 14 yards; key against wraiths |
 | Frenzy | Alchemy | 1 | start | Time slows before enemy counters once you've drunk a potion |
 | Wolf School Techniques | General | 1 | start | +2% weapon damage and Sign intensity per medium piece. Take it once you're in medium armor |
-| Exploding Shield | Signs | 2 | — | Stronger push |
+| Exploding Shield | Signs | 2 | — | The shield's break also deals 3–12 damage; rank 3 adds a small knockdown chance (chapter 19) |
 
 ### Phase 2: to 20 points (about levels 15–22)
 
@@ -73,7 +73,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Catalyst | Signs | 1 | Supercharged Glyphs | Igni and Aard +30% intensity against enemies inside Yrden |
 | Hunter Instinct | Alchemy | 1 | Refreshment | +20% crit damage at full Adrenaline against the oiled monster type |
 | Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned |
-| Sun and Stars | General | 1 | Wolf School Techniques | Regeneration by day and night; mostly a stepping stone |
+| Sun and Stars | General | 1 | Wolf School Techniques | +10 Vitality/s by day outside combat, +1% Stamina/s at night in combat; mostly a stepping stone |
 | Survival Instinct | General | 1 | Sun and Stars | +8% max Vitality |
 | Adrenaline Burst | General | 1 | Survival Instinct | Signs generate Adrenaline |
 | Wolf School Techniques | General | 2 | — | +4% per medium piece |

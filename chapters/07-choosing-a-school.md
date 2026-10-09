@@ -15,7 +15,7 @@ The first is available from your first skill point, the third grows over the who
 | | Feline | Griffin | Ursine | Wolven | Manticore | Viper |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Armor** | Light | Medium | Heavy | Medium | Medium | Medium |
-| **Technique, 4 pieces at rank 3** | +24% fast attacks, crit damage (published +96%, unresolved) | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
+| **Technique, 4 pieces at rank 3** | +24% fast attacks (the published +96% crit damage adds nothing) | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
 | **Leans on** | Held Adrenaline, crits | Stamina, Yrden | Vitality, Quen | A bit of everything | Toxicity, decoctions | Poison, oils |
 | **First set tier** | Level 17 | Level 11 | Level 20 | Level 14 (Kaer Morhen) | Level 40 only | Swords level 1, armor 39 |
 | **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on every alchemy item | None |

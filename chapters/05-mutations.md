@@ -64,7 +64,7 @@ flowchart LR
 | **Piercing Cold** | Blue | 3 + 3 blue | Magic Sensibilities | Aard can freeze; a frozen enemy that's knocked down dies instantly |
 | **Toxic Blood** | Green | 2 + 2 green | — | Enemies that hit you in melee take damage based on your Toxicity |
 | **Euphoria** | Green | 3 + 3 green | Toxic Blood | In combat, +0.75 percentage points of attack power and Sign intensity per point of current Toxicity, decoctions included, with no cap |
-| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria | −15% damage taken per Adrenaline point held, up to −45%; spending Adrenaline lowers it |
+| **Mutated Skin** | Red + green | 5 + 3 green, 2 red | Euphoria | −15% damage taken per whole Adrenaline point held, up to −45%; spending Adrenaline lowers it; inactive while Quen is up and against damage over time |
 | **Cat Eyes** | Red + green | 5 + 3 green, 2 red | Bloodbath and Euphoria | Big crossbow damage boost, +50% crossbow crit chance; bolts pierce and knock down |
 | **Metamorphosis** | All three | 7 + 3 green, 2 red, 2 blue | Cat Eyes | Applying a critical effect to an enemy, ordinary poison included, starts a random crafted decoction for 120 s with no Toxicity cost, up to five at once |
 | **Adrenaline Rush** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold and Bloodbath | A big attack power and Sign intensity boost at the start of a fight against several enemies, then a dip |
