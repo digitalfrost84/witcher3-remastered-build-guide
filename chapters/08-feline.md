@@ -29,7 +29,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 1 | start | After a dodge or roll, your next fast attack deals +30% |
-| Cat School Techniques | General | 1 | start | +2% fast attack damage per light piece, plus a crit-damage bonus published as +8% whose real effect is unresolved (chapter 19). The Temerian set from White Orchard is light |
+| Cat School Techniques | General | 1 | start | +2% fast attack damage per light piece, its published +8% crit damage adds nothing in real attacks (chapter 19). The Temerian set from White Orchard is light |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back, and since patch 5.01 it also reflects damage |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
@@ -39,7 +39,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Resolve | Combat | 1 | Arrow Deflection | Lose 33% less Adrenaline when hit |
 | Undying | Combat | 1 | Three Strikes | At 0 Vitality, spends Adrenaline to bring you back (10% Vitality per point) |
 | Frenzy | Alchemy | 1 | start | Time slows when an enemy is about to counter, as long as you have any Toxicity |
-| Cat School Techniques | General | 2 | — | +16% crit damage per light piece |
+| Cat School Techniques | General | 2 | — | +4% fast attack damage per light piece; the published +16% crit damage adds nothing |
 
 ### Mid game: to 28 points (about level 30)
 
@@ -53,7 +53,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned: a little potion room beside a second decoction |
 | Battle Frenzy | General | 3 | — | +9% crit chance per Adrenaline point: +27% at a full bar |
 | Muscle Memory | Combat | 3 | — | Three boosted fast attacks after every dodge |
-| Cat School Techniques | General | 3 | — | +6% fast attack damage per light piece, +24% in all; the crit-damage part is published as +24% per piece |
+| Cat School Techniques | General | 3 | — | +6% fast attack damage per light piece, +24% in all; the published +24% crit damage per piece adds nothing |
 | Resolve | Combat | 2 | — | Lose 67% less Adrenaline when hit |
 | Counterattack | Combat | 2 | — | +67% |
 | Crippling Strike | Combat | 2 | — | +20% |
@@ -84,7 +84,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Mutation: Bloodbath** (Deadly Counter, then Bloodbath: 5 Ability Points and 5 greater red mutagens). Every melee hit adds +5% attack power until combat ends, and you lose the stack when you're hit. It's the same bargain as Battle Frenzy, and it opens the first extra slot for a Combat skill ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/)).
 
-**If you keep getting hit,** research **Mutated Skin** instead: −15% damage taken per Adrenaline point held, up to −45% ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It rewards exactly the bar Battle Frenzy wants you to hold, so the two never pull against each other.
+**If you keep getting hit,** research **Mutated Skin** instead: −15% damage taken per whole Adrenaline point held, up to −45%, while no Quen is up ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It rewards exactly the bar Battle Frenzy wants you to hold, so the two never pull against each other.
 
 ## Consumables and the fight loop
 
@@ -92,7 +92,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 - **Water Hag:** +50% damage while your Vitality is full. The natural partner for a build that's built around not getting hit.
 - **Ekimmara:** 10% of the damage you deal comes back as Vitality, for when you do get hit.
-- **Doppler:** +50% crit damage when attacking from behind. Good against humans, and with the Grandmaster set's rear-attack bonus.
+- **Doppler:** described as +50% crit damage when attacking from behind, but the files store it as a multiplier on a zero base, so it adds nothing in real attacks ([chapter 19](19-the-maths.md#2-school-techniques-what-can-be-compared)). Pick another decoction.
 
 **Potions:** Thunderbolt (+30% attack power), Swallow, and Maribor Forest, whose superior version gives you an Adrenaline point when you drink it. **Bombs:** a superior Samum guarantees a crit on the first hit against each blinded enemy. **Oils:** always the right one, because Hunter Instinct only works against the oiled monster type.
 
@@ -135,7 +135,7 @@ For a simplified pre-mitigation hit, with damage term `W`, non-critical power mu
 = \frac{W\,\Delta c\,C}{WM+A}
 ```
 
-The former guaranteed **0.35 / 0.57 normal-hit** gains are withdrawn. Existing attack power, target defenses and the way Cat's bonus combines with weapon and skill bonuses must be accounted for. Crit chance and crit damage still complement each other, so the full-Adrenaline plan remains coherent; its numerical advantage over another sword build is not established by those old bounds. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the file evidence and limits.
+The former guaranteed **0.35 / 0.57 normal-hit** gains are withdrawn. Existing attack power and target defenses must be accounted for, and Cat School Techniques' crit-damage part turns out to add nothing. Crit chance and crit damage still complement each other, so the full-Adrenaline plan remains coherent; its numerical advantage over another sword build is not established by those old bounds. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the file evidence and limits.
 
 ## Verdict
 

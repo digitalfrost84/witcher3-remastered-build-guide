@@ -103,7 +103,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | --- | --- | --- |
 | 1–10 | Any medium armor: **Armor of a Thousand Flowers** (7) or **White Tiger of the West** (11) if your account has them; **Nilfgaardian** (10) | Whatever has the most damage |
 | 11–39 | **Griffin**, **Wolven** or **Forgotten Wolven**, whichever tier is newest (chapters 9 and 11). All are medium, so they feed Manticore School Techniques | The matching witcher swords, or **Viper Venomous** at 39 |
-| 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +5% crit chance |
+| 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +15% crit chance |
 
 **Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, probably because its screenshot showed a chest enchanted with Levity (chapter 3).
 

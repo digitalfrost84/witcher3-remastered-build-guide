@@ -8,14 +8,14 @@ Every armor piece is **light, medium or heavy**. In 5.0 all six School Technique
 
 | School Technique | Counts | Bonus per matching piece at rank 1 | At rank 3 | Four pieces at rank 3 |
 | --- | --- | --- | --- | --- |
-| **Cat** | Light | +2% fast attack damage, +8% crit damage* | +6% fast attack damage, +24% crit damage* | +24% fast attack damage, +96% crit damage* |
+| **Cat** | Light | +2% fast attack damage (published: +8% crit damage*) | +6% fast attack damage (published: +24% crit damage*) | +24% fast attack damage (published: +96% crit damage*) |
 | **Wolf** | Medium | +2% weapon damage, +2% Sign intensity | +6% each | +24% each |
 | **Griffin** | Medium | +2% Sign intensity, +0.2 Stamina per second | +6% Sign intensity, +0.6 Stamina per second | +24% Sign intensity, +2.4 Stamina per second |
 | **Bear** | Heavy | +2% max Vitality, +2% strong attack damage | +6% each | +24% each |
 | **Manticore** | Medium | +2% sword damage, +2% bomb damage | +6% each | +24% each |
 | **Viper** | Medium | +2% max Vitality, +2% poison damage | +6% each | +24% each |
 
-Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks), and the installed 5.0 game files, which confirm every value in the table except the starred crit damage ([chapter 19](19-the-maths.md#2-school-techniques-what-can-be-compared)). \*Cat's crit-damage bonus is stored as a multiplier, and how the game combines it with Geralt's base crit bonus is unresolved, so treat +96% as the published figure, not a measured one. Witcherhour lists Cat's fast attack bonus at rank 1 as +1%; the files say +2%. Griffin's Stamina figures are 0.2% of maximum Stamina per second for each rank and piece, so 0.2 / 0.4 / 0.6 points per second per piece at the base 100 Stamina, before armor modifiers ([chapter 19](19-the-maths.md#13-stamina-in-combat)); the nukesdragons database's +0.2 at rank 1 agrees, witcherhour's +1 per piece at rank 3 (+4 for four) does not.
+Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks), and the installed 5.0 game files, which confirm every value in the table except the starred crit damage ([chapter 19](19-the-maths.md#2-school-techniques-what-can-be-compared)). \*Cat's crit-damage bonus is stored as a multiplier on a crit-damage base that no item or skill ever sets, so in real attacks it adds nothing; the +96% comes from the character panel's own formula. Witcherhour lists Cat's fast attack bonus at rank 1 as +1%; the files say +2%. Griffin's Stamina figures are 0.2% of maximum Stamina per second for each rank and piece, so 0.2 / 0.4 / 0.6 points per second per piece at the base 100 Stamina, before armor modifiers ([chapter 19](19-the-maths.md#13-stamina-in-combat)); the nukesdragons database's +0.2 at rank 1 agrees, witcherhour's +1 per piece at rank 3 (+4 for four) does not.
 
 Two things follow from this table:
 

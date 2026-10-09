@@ -56,12 +56,18 @@ The earlier **+23% at rank 1 / +89% at rank 3** illustration stays withdrawn. It
 | --- | --- |
 | **Wolf** | +24% attack power and +24% Sign intensity |
 | **Manticore** | +24% fast-attack and strong-attack power, +24% bomb damage |
-| **Cat** | +24% fast-attack power; its crit-damage part is unresolved (below) |
+| **Cat** | +24% fast-attack power; its crit-damage part adds nothing in combat (below) |
 | **Bear** | +24% strong-attack power and +24% maximum Vitality |
 | **Griffin** | +24% Sign intensity and +2.4 Stamina/s at 100 maximum Stamina (section 13) |
 | **Viper** | +24% poison damage, Toxic Shock's included, and +24% maximum Vitality |
 
-**Cat's crit damage is the open question.** Its definition stores 0.08 per rank and piece as a *multiplier* on the crit-damage attribute, while Geralt's base +0.25 is an *addition*. How the engine combines the two happens in native code, and the character panel uses a different calculation from real attacks, so the panel's number doesn't settle it. The book therefore no longer quotes "+96% crit damage" as an established figure.
+**Cat's crit damage adds nothing to real attacks (file-verified).** The damage code resolves the crit bonus as `base × multiplier + addition`. Cat stores its 0.08 per rank and piece as a *multiplier*, and the game applies it once for every light piece times rank. But no definition in the base game, either expansion or New Game+ gives crit damage a *base* value: Geralt's +0.25 and every weapon, skill and oil bonus are *additions*. The multiplier therefore multiplies zero:
+
+```math
+C = 0 \times (0.08\,r\,n) + (0.25 + \text{other additions}) = 0.25 + \text{other additions}
+```
+
+The "+96%" comes from the character panel, which uses a different formula: it multiplies your whole crit-damage total by rank × light pieces, so rank 3 with four pieces shows 0.25 × 12 = +300% on top of the base. Real hits don't use that formula. Cat's established value is its fast-attack bonus. The same zero base also neutralizes Doppler's back-attack crit bonus (`damageIncrease`, also a multiplier).
 
 Matching labels still don't prove equal final damage once crits, armor, skill activation and attack timing enter the calculation. Choose the Technique that supports the build's actions. These findings do not establish a new ordering of the schools.
 
@@ -100,7 +106,7 @@ Relative to the non-critical hit, that marginal benefit is:
 
 When `A = 0`, this reduces to `Δc × C / M`. It is not the percentage gain over an already critting build; that comparison uses its current expected damage as the denominator.
 
-This corrects the former claim that the Feline crit package guarantees **0.35**, or **0.57** against an oiled target, additional normal hits per swing. Those lower bounds did not account for the existing attack-power multiplier or the complete critical-bonus calculation. Do not replace them with a new bound by simply adding 0.25 to Cat's published percentage; section 2 explains why Cat's part is still open.
+This corrects the former claim that the Feline crit package guarantees **0.35**, or **0.57** against an oiled target, additional normal hits per swing. Those lower bounds did not account for the existing attack-power multiplier or the complete critical-bonus calculation. Do not replace them with a new bound that includes Cat's published percentage; section 2 shows that part contributes nothing.
 
 Crit chance and the resolved crit bonus still work together. The size of the benefit needs the actual weapon, skills, other damage bonuses and target. Feline remains a coherent crit build, but this audit does not prove its superiority to another sword build.
 
@@ -137,7 +143,7 @@ How long you last scales with Vitality divided by the share of each hit that rea
 | 2 | 70% | 2.11× |
 | 3 | 55% | 2.69× |
 
-A full bar nearly doubles how long you last compared with an empty one (2.69 against 1.48), which is the trade-off against spending the same three points on a rank-3 Rend. Mutated Skin's −15% per point matches the 0.15 coefficient in the game files; the script that applies it hasn't been read. Chapter 10.
+A full bar nearly doubles how long you last compared with an empty one (2.69 against 1.48), which is the trade-off against spending the same three points on a rank-3 Rend. **Mutated Skin (file-verified):** the damage that reaches your Vitality is multiplied by `1 − 0.15 × whole Adrenaline points`. Fractions don't count, unlike Undying: 2.9 points still give −30%. It does nothing while any Quen shield is active and doesn't reduce damage over time such as poison, burning or bleeding. Chapter 10.
 
 ## 6. The Toxicity budget and Euphoria
 
@@ -178,7 +184,9 @@ Because it joins the multiplier your other bonuses already raised, its share of 
 \text{decoction Toxicity} < (1 - \text{threshold}) \times \text{max Toxicity}
 ```
 
-At the 170 maximum above, rank 3 needs more than 93.5 points of potion Toxicity, so it can't trigger with two or more decoctions running, and rank 1 needs more than 119, which a single decoction already makes nearly impossible. It rewards the opposite of a decoction build. The NG+ definition carries an outdated threshold, so its behavior there is unconfirmed.
+At the 170 maximum above, rank 3 needs more than 93.5 points of potion Toxicity, so it can't trigger with two or more decoctions running, and rank 1 needs more than 119, which a single decoction already makes nearly impossible. It rewards the opposite of a decoction build.
+
+**In New Game+ it probably triggers on almost every drink.** The code asks for three rank thresholds, but the NG+ definition only carries the old single `toxicity_threshold`. A missing attribute resolves to 0, so any potion Toxicity above zero qualifies, decoctions or not. That rests on two standard engine behaviors, NG+ loading its own definitions and a missing attribute reading as 0, which haven't been confirmed in-game.
 
 **Potion Toxicity recovery (file-verified):** without modifiers, clearing `T` points takes `T / 0.25` seconds in combat or `T / 0.275` outside it, if the combat state stays unchanged; 20 points take 80 seconds in combat. **Fast Metabolism** adds 1 point per second per rank to that drain, so the same 20 points clear in 16 s at rank 1 and about 6 s at rank 3. That is five times the base speed at rank 1, which strips a Euphoria build of potion Toxicity quickly; decoction Toxicity doesn't drain either way.
 
@@ -208,7 +216,18 @@ P_{\text{poisoned}}(n) = 1 - (1 - p)^n
 | 35% (rank 3, superior oil) | 73% | 92% | 2 |
 | 44.75% (rank 3, superior oil and a Viper sword) | 83% | 97% | 2 |
 
-The table assumes independent rolls and no poison immunity. Multiple oils and repeated runes aren't covered.
+The table assumes independent rolls and a target that can be poisoned. Multiple oils and repeated runes aren't covered.
+
+**Who can't be poisoned (file-verified).** Poison lasts `5 s × attack power × (1 − poison resistance)`, so a target with 100% poison resistance gets a 0-second poison that expires on the next update: no damage, nothing for Toxic Shock to consume. These monster definitions carry 100%:
+
+- **Insectoids and draconids:** arachas, endregas, all spiders (Hearts of Stone and Blood and Wine), kikimores, scolopendromorphs, forktails, wyverns and basilisks.
+- **Necrophages:** drowners, grave hags, water hags and foglets.
+- **Specters and cursed ones:** wraiths, noonwraiths, nightwraiths, the Crones and the Baron's transformed wife.
+- **Elementa and constructs:** earth, fire and ice elementals, golems, gargoyles and the djinn.
+- **Blood and Wine and others:** archespores, the wight, the Spoon Collector, Dettlaff, the toad prince and fairy-tale enemies.
+- **Any enemy 20 or more levels above you**, human or monster: the "deadly" level bonus sets poison resistance to 100%.
+
+Viper and Toxic Shock builds need another plan for these fights, which include several major bosses. Separate immunity flags in the creature templates (`.w2ent`), which Potent Sting's double bonus checks, haven't been read.
 
 **What poison does (file-verified):** a standard poison lasts 5 seconds, scaled by the attack's power multiplier and shortened by the target's poison resistance, and deals 1.6% of the target's maximum health per second before damage processing. An equal-strength poison from the same source refreshes the duration instead of stacking.
 
@@ -222,7 +241,19 @@ The table assumes independent rolls and no poison immunity. Multiple oils and re
 
 The two largest bonuses need Yrden: Catalyst only counts against enemies inside it, and the Griffin set bonus only while you stand in your own trap. Focus needs a full bar, and Chain Reaction five casts in a row, each a different Sign from the one before. The flat sources (potion, Technique, armor, sword) are what you have in every fight. Chapter 9.
 
-**File-verified:** the Grandmaster Griffin set's Yrden bonus (+100% Sign intensity, +5% of maximum Stamina per second, 20% less damage taken, a 40% larger trap), Griffin School Techniques' Sign intensity and Petri's Philter's +15/20/25%. Catalyst, Focus and Chain Reaction come from witcherhour; their per-rank coefficients in the files match it. The Grandmaster item values haven't been checked.
+**File-verified:** the Grandmaster Griffin set's Yrden bonus (+100% Sign intensity, +5% of maximum Stamina per second, 20% less damage taken, a 40% larger trap), Griffin School Techniques' Sign intensity and Petri's Philter's +15/20/25%. Catalyst, Focus and Chain Reaction come from witcherhour; their per-rank coefficients in the files match it.
+
+**Grandmaster item values (file-verified).** The chest is the game's tier 4, the other pieces tier 5:
+
+| Set | Chest | Gloves, trousers, boots (each) | Steel and silver swords |
+| --- | --- | --- | --- |
+| **Feline** | +22% attack power | +11% attack power | +10% crit chance, +15% Aard intensity, 15% bleeding |
+| **Griffin** | +22% Sign intensity | +11% Sign intensity | +5% crit chance, +0.25 crit damage, +21% Sign intensity |
+| **Ursine** | +0.22 Adrenaline gain | +0.11 Adrenaline gain | +5% crit chance, +0.75 crit damage, +0.21 Adrenaline gain |
+| **Wolven** | +0.22 Adrenaline gain | gloves +11% Sign intensity; trousers +11% attack power and Sign intensity; boots +11% attack power | +11% crit chance, +11% Sign intensity, +0.11 Adrenaline gain, 11% bleeding |
+| **Manticore** | +0.20 Adrenaline gain | gloves +10% Sign intensity; trousers +10% attack power and Sign intensity; boots +0.20 Adrenaline gain | +15% crit chance, +0.50 crit damage, 250 armor piercing, 12% bleeding |
+
+Base sword damage is 372 steel and 524 silver for the four classic schools, 636 and 854 for Manticore. Light and heavy pieces also carry their Stamina regeneration modifier (section 13).
 
 ## 9. Branch passives
 
@@ -322,6 +353,7 @@ This is why **15/30/45 is not a final-damage table**. Both global power and the 
 | Tawny Owl, basic / enhanced / superior | +5 / +8 / +10/s |
 | Grandmaster Griffin set, inside Yrden | +5/s |
 | Ancient Leshen decoction | +2/s flat for each Sign cast in combat, stacking until the fight ends |
+| Sun and Stars, at night | +1/s per rank (1% of maximum Stamina per rank) |
 
 Armor multiplies the total: chest and trousers ±10% each, boots ±3%, gloves ±2%, plus for light pieces and minus for heavy ones. Full light armor gives ×1.25, medium ×1 and heavy ×0.75. The weight glyphwords (chapter 6) set this modifier along with the weight class.
 
@@ -347,16 +379,25 @@ Rend's multipliers apply at their stage of the damage pipeline, not to the final
 
 ## 15. Skill points
 
-**File-verified:** each level from 2 to 100 gives one point (99 at most), each Place of Power gives one the first time you use it, the Magic Acorn gives two when used and Blood and Wine's Golden Egg gives one. Blood and Wine's Moreau lab quest contains two one-point grants whose reachability hasn't been checked. New Game+ keeps your level and points rather than handing out another 99. A full-playthrough total still needs the reachable Places of Power and the quest choices that exclude each other, so the plans keep assuming about one point per level.
+**File-verified:** each level from 2 to 100 gives one point (99 at most), each Place of Power gives one the first time you use it, the Magic Acorn gives two when used and Blood and Wine's Golden Egg gives one. **The Moreau lab gives no point in a first playthrough:** *Turn and Face the Strange* is the only quest in the game that grants skill points, and both of its +1 grants sit behind the check "were mutations already enabled (NG+)". The other branch enables the mutation system instead. New Game+ keeps your level and points rather than handing out another 99. A full-playthrough total still needs the number of reachable Places of Power, so the plans keep assuming about one point per level.
+
+## 16. Other skills with file values
+
+| Skill | File-verified behavior |
+| --- | --- |
+| **High Tolerance** | At 80% Toxicity or more, adds `0.2 × rank × current ÷ maximum Toxicity` to the crit bonus: +0.16 to +0.2 per rank. The same check multiplies the damage enemies deal you by 1.5. Its 0.3334-per-rank crit multiplier only feeds the tooltip; like Cat's (section 2), it would multiply a base of zero. |
+| **Exploding Shield** | When the shield breaks, it hits hostile and neutral targets within 3 game units in line of sight. Rank 1: a stagger roll of `Quen power multiplier ÷ 2 − target resistance`, 50% with no Sign bonus against an unresisting target. Rank 2: also a random 3–12 physical and silver damage, the same at rank 3. Rank 3: also a knockdown roll of 0.15 times the same chance, 7.5% in that case. Superior Petri's Philter makes both rolls certain. While the shield holds, it returns **10% × rank** of absorbed melee damage as shock damage to attackers within about 3.6 units. The Ursine 6-piece bonus raises both damages. |
+| **Sun and Stars** | By day: +10 Vitality per second per rank, **outside combat only**; combat uses a separate regeneration attribute. With the base 1/s that's 11/21/31. At night: +1% of maximum Stamina per second per rank, **in combat only**, multiplied by the armor modifier (section 13). |
+| **Mutated Skin** | Section 5. |
 
 ## What this changes in the build advice
 
 - **Manticore:** the realistic budget is two decoctions with room to drink, three at the edge; four need about 150 recipes. Acquired Tolerance adds about as much as Metabolic Control (20 at 40 recipes, against 30), not the 120 the old figure promised. Euphoria has no fixed cap and counts decoctions, so a full budget still pays. Two decoctions under a 200 maximum also mean a constant Vitality drain. Delayed Recovery can't trigger with two decoctions running unless the maximum tops 222, so the plan now takes Volatile Compound instead, and Fast Metabolism's fivefold drain at rank 1 keeps it on the skip list.
-- **Viper:** poison is far more reliable than the skill's 5–15% suggests once the oil matches: 35% per hit at rank 3 with a superior oil, about 45% with a Viper sword. Poison also feeds Metamorphosis.
+- **Viper:** poison is far more reliable than the skill's 5–15% suggests once the oil matches: 35% per hit at rank 3 with a superior oil, about 45% with a Viper sword. Poison also feeds Metamorphosis. But a long list of monster families, and every enemy 20 or more levels above you, has 100% poison resistance and can't be poisoned at all (section 7).
 - **Wolven:** keep Three Strikes 1 as a prerequisite and spend the former extra rank on Wolf School Techniques. Toxic Shock pays once per cooldown on a re-poisoned target, and Melt Armor helps the three fast hits more than the finisher.
 - **Griffin:** combat Stamina is resolved: 10/s base in medium armor, superior Tawny Owl the largest single bonus, and only equipped Signs ranks feed the passive. Aftershock's formula alone does not establish a ranking change.
-- **Feline:** retain the crit-and-Adrenaline concept, but withdraw the guaranteed 0.35/0.57-normal-hit benefit; Cat School Techniques' established value is its fast-attack bonus. Light armor adds 25% Stamina regeneration.
-- **Ursine:** Undying's rank-ups are worth far more than the per-point text suggests; heavy armor costs 25% Stamina regeneration; Melt Armor does little for strong attacks and Rend.
+- **Feline:** retain the crit-and-Adrenaline concept, but withdraw the guaranteed 0.35/0.57-normal-hit benefit; Cat School Techniques' crit-damage part and Doppler's back-attack bonus add nothing in combat, so Cat is a +24% fast-attack Technique and crit damage has to come from weapons, Hunter Instinct, High Tolerance and the sword-tree skills. Light armor adds 25% Stamina regeneration.
+- **Ursine:** Undying's rank-ups are worth far more than the per-point text suggests; heavy armor costs 25% Stamina regeneration; Melt Armor does little for strong attacks and Rend. Mutated Skin counts only whole Adrenaline points and switches off while Quen is up.
 - **Everyone:** an unslotted skill gives nothing, not even its tree's passive.
 - **Overall:** these findings correct mechanics and priorities, but do not justify reordering the school verdicts. Those remain playstyle judgments, not benchmark results.
 
@@ -364,14 +405,13 @@ Rend's multipliers apply at their stage of the damage pipeline, not to the final
 
 Prioritize questions by whether the answer could change a build choice:
 
-1. **Cat School Techniques' crit damage:** how native code combines its 0.08-per-piece multiplier with the base +0.25.
-2. **Attack timing:** fast and strong animation timings, without which damage per hit can't become damage per second.
-3. **Recipes:** how many of the 173 eligible recipes a playthrough can learn, which sets the real Toxicity ceiling.
-4. **New Game+ Delayed Recovery:** the NG+ definition lacks the rank thresholds the code asks for.
-5. **Poison targets:** per-enemy poison immunity and resistance; multiple oils and repeated runes.
-6. **Skill-point total:** reachable Places of Power, quest rewards that exclude each other, and the Moreau lab grants.
-7. **High Tolerance:** the script adds 0.2 × rank × (current ÷ maximum Toxicity) to crit damage at 80% Toxicity or more, but its definition also carries a 0.3334-per-rank crit multiplier with the same open aggregation as Cat's.
-8. **Not yet checked in the files:** Sun and Stars, Exploding Shield's push, Mutated Skin's script and the Grandmaster item values.
+1. **Attack timing:** fast and strong animation timings, without which damage per hit can't become damage per second. They live in binary animation files.
+2. **Recipes:** how many of the 173 eligible recipes a playthrough can learn, which sets the real Toxicity ceiling. This needs the loot, shop and quest-reward tables cross-checked.
+3. **Skill-point total:** how many Places of Power are reachable, which needs the world layer files. Quest grants are settled (section 15).
+4. **Poison immunity flags and stacking:** the creature templates' separate immunity flags, which Potent Sting's double bonus reads, and how multiple oils and repeated runes interact.
+5. **In-game confirmation:** the New Game+ Delayed Recovery reading (section 6) and the zero-base crit multipliers (section 2) follow directly from the files but haven't been tested in play.
+
+**Settled since the previous edition:** Cat School Techniques' and High Tolerance's crit multipliers (they multiply a zero base), New Game+ Delayed Recovery, the poison-resistance list, the Moreau lab grants, Sun and Stars, Exploding Shield, Mutated Skin and the Grandmaster item values.
 
 ## File evidence and reproducibility
 
@@ -405,9 +445,16 @@ Definitions below are paths **inside `content/content0/bundles/xml.bundle`**, or
 | Melt Armor | `gameplay/abilities/geralt_skills.xml`, `magic_s8`, lines 389–395 | `game/gameplay/projectile/signs/signProjectiles.ws`, lines 525–534; denominator 2 in `game/gameParams.ws`, line 445 |
 | Aftershock | `gameplay/abilities/geralt_skills.xml`, `magic_s40`, lines 855–858 | `game/player/playerWitcher.ws`, lines 9491–9533; `game/gameplay/effects/effects/skill/overloadCooldown.ws`; `game/gameplay/actions/baseAction.ws`, lines 576–584; `damageManagerProcessor.ws`, line 2693 |
 | Conductors of Magic, Magic Sensibilities | Blood and Wine `gameplay/abilities/geralt_mutations.xml`, lines 6–14 | `damageManagerProcessor.ws`, lines 805–822, 1916–1944 and 2684–2693; `playerWitcher.ws`, lines 4461–4490 |
-| Skill points | `gameplay/abilities/geralt_levelups.xml` | `game/gameplay/leveling/levelManager.ws`; `game/gameplay/interactive/placeOfPowerEntity.ws`, lines 241–248; `playerWitcher.ws`, lines 5504–5536 |
+| Skill points | `gameplay/abilities/geralt_levelups.xml`; Blood and Wine quest graph `quests/minor_quests/quest_files/mq7023_mutations.w2phase` (in `bob.bundle`), the only quest graph that calls `AddSkillPoints` | `game/gameplay/leveling/levelManager.ws`; `game/gameplay/interactive/placeOfPowerEntity.ws`, lines 241–248; `playerWitcher.ws`, lines 5504–5536; `game/quests/quest_function.ws`, `AddSkillPoints` |
+| Crit-damage aggregation (Cat, High Tolerance, Doppler) | `geralt_stats.xml`, line 175 (`add` 0.25); `geralt_skills.xml`, `perk_23` line 923 and `alchemy_s24` line 897 (`mult`); `effects_mutagens.xml`, `Mutagen11Effect`, line 44 (`mult`); no `base` crit-damage entry in any definition file | `game/types.ws`, `CalculateAttributeValue`, line 605; `damageManagerProcessor.ws`, lines 2483–2516; `PlayerAbilityManager.ws`, `SetPerkArmorBonus` and `UpdatePerkArmorBonus`, lines 3372–3470; `playerWitcher.ws`, lines 2768–2797 and 8732–8748; panel formula at line 8782 |
+| High Tolerance damage taken | `geralt_skills.xml`, `alchemy_s24`, lines 893–898 | `damageManagerProcessor.ws`, lines 2003–2014 |
+| Poison resistance | `poison_resistance_perc` in `gameplay/abilities/monster_base_abl.xml`, `monster_base_abl_new.xml` (`MonsterLevelBonusDeadly`) and `opp_base_abl.xml` (`NPCLevelBonusDeadly`), and the expansions' `monster_base_abl.xml` / `monster_bob_base_abl.xml` | `game/gameplay/effects/effects/baseEffect.ws`, `CalculateDuration`, lines 297–323; `dotEffect.ws`, lines 208–218; level bonus in `game/npc/npc.ws`, line 1414, with `LEVEL_DIFF_DEADLY = 20` in `gameParams.ws`, line 457 |
+| Mutated Skin | Blood and Wine `gameplay/abilities/geralt_mutations.xml`, `Mutation5`, line 24 | `playerWitcher.ws`, lines 2487–2512 |
+| Exploding Shield | `geralt_skills.xml`, `magic_s13`, lines 425–433 | `playerWitcher.ws`, `QuenImpulse`, lines 9359–9440; `game/gameplay/items/spells/quenEntity.ws`, lines 96–107, 601–612 and 629–641; `effectManager.ws`, `GetSignApplyBuffTest`, lines 1540–1628 |
+| Sun and Stars | `geralt_skills.xml`, `perk_38`, lines 1028–1043 | `PlayerAbilityManager.ws`, `SetPerk38Abilities`, lines 3510–3540; `game/gameplay/effects/effects/auto/vitalityRegen.ws` and `staminaRegen.ws` |
+| Grandmaster items | Blood and Wine `gameplay/items/def_item_crafting_{armor,gloves,pants,boots,weapons}.xml` (`… 4 _Stats` chests and swords, `… 5 _Stats` other pieces; Manticore is `Red Wolf … 2`) | — |
 
-The normal-game and NG+ base definitions agree for the reported crit attributes, maximum Toxicity and regeneration rates. The exception is Delayed Recovery: `gameplay/abilities_plus/geralt_skills.xml`, lines 497–500, defines only an obsolete single threshold. The installed Brothers In Arms `effects.xml` override retains the same `ToxicityEffect` rate. A second, independent read of the same files re-checked the definitions above and the main script paths for Acquired Tolerance, Delayed Recovery, Euphoria, Poisoned Blades, combat Stamina, strong attacks, Undying, Toxic Shock and the two Sign mutations, and added the branch passives, Toxicity damage, Fast Metabolism, Volatile Compound, potion costs and the recipe count. This is a baseline mechanics audit, not a claim that every installed mod or every conditional build interaction has been validated.
+The normal-game and NG+ base definitions agree for the reported crit attributes, maximum Toxicity and regeneration rates. The exception is Delayed Recovery: `gameplay/abilities_plus/geralt_skills.xml`, lines 497–500, defines only an obsolete single threshold, while `playerWitcher.ws`, `GetAlchemyS03Threshold` (lines 12837–12856), reads three rank-specific attributes that are missing there. The installed Brothers In Arms `effects.xml` override retains the same `ToxicityEffect` rate. A second, independent read of the same files re-checked the definitions above and the main script paths for Acquired Tolerance, Delayed Recovery, Euphoria, Poisoned Blades, combat Stamina, strong attacks, Undying, Toxic Shock and the two Sign mutations, and added the branch passives, Toxicity damage, Fast Metabolism, Volatile Compound, potion costs and the recipe count. This is a baseline mechanics audit, not a claim that every installed mod or every conditional build interaction has been validated.
 
 ## Sources
 

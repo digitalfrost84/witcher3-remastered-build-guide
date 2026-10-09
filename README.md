@@ -55,7 +55,7 @@ Each school chapter covers its lore, how it plays, a phased skill plan checked a
 
 ## About the numbers
 
-- **Chapter 19 separates file evidence from community descriptions.** Local audits of build `5.0.0.1048522` verified the base crit, Toxicity and Stamina values, the Toxicity budget, Euphoria, Delayed Recovery, the poison line, strong attacks and armor, the branch passives, Undying and the other formulas marked **file-verified**. [Read the findings and evidence](chapters/19-the-maths.md#file-evidence-and-reproducibility). Other skill values use [witcherhour.com](https://witcherhour.com/skills/) and [WitcherDB](https://witcherdb.com/build-planner); older item, set and quest data remain provisional where not checked.
+- **Chapter 19 separates file evidence from community descriptions.** Local audits of build `5.0.0.1048522` verified the base crit, Toxicity and Stamina values, the Toxicity budget, Euphoria, Delayed Recovery, the poison line, strong attacks and armor, the branch passives, Undying, crit-damage aggregation, poison resistance, the Grandmaster items and the other formulas marked **file-verified**. [Read the findings and evidence](chapters/19-the-maths.md#file-evidence-and-reproducibility). Other skill values use [witcherhour.com](https://witcherhour.com/skills/) and [WitcherDB](https://witcherdb.com/build-planner); older item, set and quest data remain provisional where not checked.
 - **Where sources disagree, the book shows the uncertainty.** Tooltips describe intended effects; the implementation and controlled tests can reveal differences.
 - **Builds are judgment, the maths is arithmetic.** Every point plan was checked skill by skill against the 5.0 prerequisite links; the rankings in chapter 14 are opinion, and say so.
 

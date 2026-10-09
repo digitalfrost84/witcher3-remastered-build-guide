@@ -19,7 +19,7 @@ An Ursine build trades speed for staying power. **Heavy armor** feeds Bear Schoo
 Adrenaline has two uses, and the build changes when you get Blood and Wine:
 
 - **Before mutations, spend it.** Rend turns a full bar into one strike that ignores defenses, +30% damage per point at rank 3. FinalBoss and VGTimes play Ursine this way.
-- **With Mutated Skin, hold it.** Each point you hold cuts the damage you take by 15%, up to 45% at a full bar. KeenGamer's Death March tank never spends it on Rend or Whirl.
+- **With Mutated Skin, hold it.** Each whole point you hold cuts the damage you take by 15%, up to 45% at a full bar; fractions don't count. KeenGamer's Death March tank never spends it on Rend or Whirl.
 
 The cost is Stamina: heavy armor regenerates it more slowly, so you cast fewer Signs, and Active Shield's upkeep competes with everything else ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-an-ursine-tank-remastered-5-0)).
 
@@ -85,7 +85,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 **Delusion:** if you want Axii's dialogue options, it takes Refreshment's slot.
 
-**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per Adrenaline point held, up to −45%; spending points lowers it. It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
+**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per whole Adrenaline point held, up to −45%; spending points lowers it. The files confirm the coefficient and add two limits: it does nothing while a Quen shield is up, and it doesn't reduce damage over time ([chapter 19](19-the-maths.md#5-effective-health-ursine-with-mutated-skin)). It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
 
 Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 5). For most players Undying does the same job for one point.
 
