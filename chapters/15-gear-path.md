@@ -10,7 +10,7 @@ Three things stand out on the timeline:
 - **Every school meets at level 40.** All five Grandmaster tiers, and the whole Manticore set, are crafted by one man in Toussaint.
 - **Master crafters appear at level 24.** Until then, nobody can make a Mastercrafted piece, whatever diagrams you hold.
 
-Levels are pre-5.0 values; no source reports a 5.0 change.
+Every level on the timeline matches the level the 5.0 game files compute for that item (chapter 19). The account reward sets were checked the same way where the files contain them.
 
 ## Rules for the whole playthrough
 

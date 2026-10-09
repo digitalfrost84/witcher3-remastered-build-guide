@@ -38,7 +38,7 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | **Viper** | Medium | Swords 1–2; armor and Venomous swords 39 | White Orchard; Hearts of Stone (missable) |
 | **Manticore** | Medium | Grandmaster only, 40 | Toussaint |
 
-Levels come from pre-5.0 sources (Console Pulse, Gamestegy) and match a 5.0 KeenGamer article; no source reports a 5.0 change. Chapter 15 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
+**File-verified:** the game doesn't store an item's level; it computes it from the item's armor or damage value, and every level in this table matches that calculation for the installed 5.0 files (chapter 19). The older guides (Console Pulse, Gamestegy) and a 5.0 KeenGamer article give the same numbers. Chapter 15 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
 
 **About Manticore's weight.** One Remastered guide calls the Manticore set light. Every other source, including the 5.0 Manticore School Technique (which rewards medium armor), says medium. The "light" reading most likely came from a chest piece enchanted with the Levity glyphword. This book treats Manticore as medium.
 

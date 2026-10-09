@@ -65,20 +65,21 @@ Decoctions are the strongest consumables in the game, and the most expensive. Ea
 | --- | --- | --- |
 | **Ekimmara** | 10% of the damage you deal comes back as Vitality | Sword builds; pairs well with Water Hag |
 | **Katakan** | +10% crit chance | Any sword build, crit builds above all |
-| **Water Hag** | +50% damage while your Vitality is full | Clean, no-hit play |
-| **Ekhidna** | Actions that cost Stamina restore Vitality | Sign builds and Rend (sources disagree on whether Whirl counts) |
+| **Water Hag** | +0.5 attack power multiplier while your Vitality is full | Clean, no-hit play |
+| **Ekhidna** | Every action with a one-off Stamina cost restores 10% of your maximum Vitality; Rend and continuous drains (Whirl, Active Shield) don't count | Sign builds |
 | **Archgriffin** | Strong attacks spend all Stamina, then remove 5% of the target's Vitality | Bosses with huge health bars |
-| **Forktail** | Three different action types in a row make the next attack or Sign +50% stronger | Sword-and-Sign hybrids |
+| **Forktail** | Three different action types in a row (fast or strong attack, counter, Sign, bomb, crossbow) give +50% attack power and Sign intensity | Sword-and-Sign hybrids |
+| **Chort** | +25% Sign intensity; knockdowns become staggers, and staggers don't land at all | Sign builds that get rushed |
 | **Wyvern** | +1% attack power per hit landed; resets when you're hit | No-hit and Quen play |
 | **Ancient Leshen** | +2 Stamina per second for every Sign cast, for the rest of the fight | Long Sign fights |
 | **Griffin** | +1% resistance per hit taken, up to 25% per fight | Tanks |
-| **Troll** | Vitality regeneration, stronger outside combat | Survival |
+| **Troll** | +20 Vitality per second in combat, +100 outside it | Survival |
 | **Nightwraith** | +50 max Vitality per kill until you meditate or fast travel | Long clearing sessions |
 | **Doppler** | Described as +50% crit damage from behind; adds nothing in real attacks (chapter 19) | Nothing, in the installed files |
 | **Alghoul** | +50% Adrenaline gain until you first get hit | Adrenaline openers |
 | **Succubus** | Attack power climbs during a fight, up to +30% | Long boss fights |
 
-Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions), [Console Pulse: Decoctions ranked](https://consolepulse.com/multiplatform/the-witcher/guides/all-witcher-3-decoctions-ranked) (pre-5.0).
+Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions), [Console Pulse: Decoctions ranked](https://consolepulse.com/multiplatform/the-witcher/guides/all-witcher-3-decoctions-ranked) (pre-5.0). **File-verified** against the 5.0 definitions and scripts: Ekimmara, Katakan, Water Hag, Ekhidna, Archgriffin, Forktail, Chort, Wyvern, Ancient Leshen, Griffin, Troll, Nightwraith, Doppler and Succubus (chapter 19).
 
 **Getting Katakan**, the crit build's favorite: an herbalist near the signpost in Hierarch Square, Novigrad, sells the formula; the Katakan mutagen is a reward from the level 26 contract *The Oxenfurt Drunk*. It needs Dwarven Spirit, Verbena and Arenaria ([Vulkk](https://vulkk.com/2023/01/18/full-witcher-3-decoctions-catalog-and-locations-guide/)).
 

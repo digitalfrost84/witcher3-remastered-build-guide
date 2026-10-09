@@ -32,6 +32,8 @@ python3 scripts/charts.py                  # rewrites images/
 | [`attr_table.py`](attr_table.py) | Lists every ability in the extracted XML that defines a given attribute, with its type, value and line. |
 | [`cr2w_calls.py`](cr2w_calls.py) | Shows the script calls in a quest graph (`.w2phase`), with their comments and properties. |
 | [`count_recipes.py`](count_recipes.py) | Counts the alchemy recipes Acquired Tolerance can use, per rank. |
+| [`item_levels.py`](item_levels.py) | Computes every armor piece's and sword's required level from its stats, the way the game does. |
+| [`buff_immunities.py`](buff_immunities.py) | Lists the effect immunities in creature templates (`.w2ent`), such as which monsters are immune to poison or burning. |
 
 The audits in [chapter 19](../chapters/19-the-maths.md#file-evidence-and-reproducibility) read build `5.0.0.1048522`. To repeat them against your own install (`<game>` is the game folder):
 
@@ -41,6 +43,11 @@ python3 -I scripts/unbundle.py "<game>/content/content0/bundles/ep1.bundle" extr
 python3 -I scripts/unbundle.py "<game>/content/content0/bundles/bob.bundle" extracted/bob .xml
 python3 -I scripts/attr_table.py extracted poison_resistance_perc
 python3 -I scripts/count_recipes.py extracted
+python3 -I scripts/item_levels.py extracted Gryphon Lynx
+python3 -I scripts/unbundle.py "<game>/content/content0/bundles/blob.bundle" extracted/ent npc_entities/monsters
+python3 -I scripts/buff_immunities.py extracted/ent "<game>/content/content0/scripts" EET_Poison
 ```
+
+Free-DLC gear (the Wolven tiers, the Temerian, Nilfgaardian and Undvik sets) lives in `dlc0.bundle`; extract its `.xml` files too before running `item_levels.py`. For `buff_immunities.py`, repeat the template extraction for `bob.bundle`, `ep1.bundle` and `dlc0.bundle`.
 
 The game scripts need no extraction: they ship as plain `.ws` files in `<game>/content/content0/scripts/`. Mods installed in `<game>/mods` can override both definitions and scripts, so the audits read only the vanilla bundles.
