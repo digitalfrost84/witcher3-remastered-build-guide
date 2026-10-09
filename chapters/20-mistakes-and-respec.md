@@ -47,6 +47,28 @@ Sources: [FinalBoss: How to rebuild the 5.0 skill tree](https://finalboss.io/the
 
 **How to respec without regret.** Write down the new build's destination skills, trace the cheapest prerequisites back from each (chapter 21), and check that the result fits your 12 slots plus mutation slots. Then drink the potion and buy everything in one sitting.
 
+## New Game+
+
+New Game+ starts the story again with your character. These rules come from the game's scripts and its separate New Game+ definitions (chapter 19):
+
+- **Enemies scale to you.** Almost every enemy except animals gains your New Game+ level: the level you started it at, or 30 if you were lower. Their level is capped at 105, and bosses get an extra bonus for every level your New Game+ level is above 30.
+- **What you keep:** your level, skill points and skills, alchemy recipes (except a handful of quest ones) and your gear. Witcher gear is swapped for its New Game+ version, which is stronger.
+- **What you lose:** quest items, trophies, Gwent cards, books and notes, every crafting diagram (you get the starting ones back) and all Toxicity locked by decoctions. You get a free Potion of Clearance, so a full respec costs nothing.
+- **Mutations:** if the mutation system was already enabled, the Moreau lab quest gives you a skill point instead of enabling it again.
+
+**Different numbers in New Game+.** Most definitions match the normal game. These don't:
+
+| Item or skill | Normal game | New Game+ |
+| --- | --- | --- |
+| Pyrotechnics | +50 bomb damage | +100 |
+| Cluster Bombs, each shard | 200, plus 50 fire | 400, plus 100 fire |
+| Swallow, outside combat | +40 / 65 / 80 Vitality per second | +80 / 100 / 150 |
+| Full Moon | +300 / 650 / 1,000 maximum Vitality | +600 / 1,100 / 1,500 |
+| White Raffard's Decoction | heals 35% / 60% / 100% | 60% / 80% / 100% |
+| Delayed Recovery | Qualifies above 70% / 65% / 55% potion Toxicity | Thresholds missing; probably every drink |
+
+So New Game+ favors alchemy: bombs hit twice as hard from Pyrotechnics, healing potions are stronger outside combat, and Delayed Recovery becomes a real skill for a Manticore or Viper that drinks constantly.
+
 ## Sources
 
 - [witcherhour.com: Witcher 3 skills](https://witcherhour.com/skills/)

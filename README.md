@@ -14,6 +14,7 @@ Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and thre
 - **Picking a school?** Read [chapter 7](chapters/07-choosing-a-school.md), then your school's chapter, then the [verdict](chapters/14-verdict.md).
 - **Mid-playthrough and wondering what to craft?** [Chapter 15](chapters/15-gear-path.md) follows the gear region by region; [chapter 18](chapters/18-missables.md) lists what you can lose for good.
 - **Planning a respec?** [Chapter 21](chapters/21-skill-reference.md) has all 80 skills with prerequisites and point costs, and [chapter 20](chapters/20-mistakes-and-respec.md) has the potions.
+- **Starting New Game+?** [Chapter 20](chapters/20-mistakes-and-respec.md#new-game) lists what carries over and which numbers change.
 
 ## Contents
 
