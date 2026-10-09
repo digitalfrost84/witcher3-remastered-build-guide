@@ -20,7 +20,7 @@ Before then, Manticore plays as a **potion-and-bomb swordsman** in medium armor:
 
 Buy each table from the top down; every prerequisite is either already owned or listed higher up.
 
-### Early game: the first 12 points (about level 12)
+### Opening: the first 6 points
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
@@ -30,24 +30,34 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Exploding Shield | Signs | 1 | start | Quen; reflects damage since 5.01 |
 | Frenzy | Alchemy | 1 | start | Time slows before enemy counters while you have any Toxicity, which for this build is always |
 | Hunter Instinct | Alchemy | 1 | Refreshment | +20% crit damage at full Adrenaline against the oiled monster type |
+
+### Phase 1: to 13 points (about levels 7–14)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks power up the next strong attack |
 | Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned |
 | Metabolic Control | General | 1 | Manticore School Techniques | +10 max Toxicity |
 | Efficiency | Alchemy | 1 | start | +1 bomb per slot |
 | Element of Surprise | General | 1 | Manticore School Techniques | A bomb hit raises your melee damage by 10% for 10 seconds |
 | Refreshment | Alchemy | 2 | — | 20% per dose |
+| Tissue Transmutation | Alchemy | 1 | Acquired Tolerance | +300 max Vitality while any decoction is active |
 
-### Mid game: to 28 points (about level 30)
+### Phase 2: to 20 points (about levels 15–22)
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Tissue Transmutation | Alchemy | 1 | Acquired Tolerance | +300 max Vitality while any decoction is active |
 | Adaptability | Alchemy | 1 | Refreshment | Decoctions last 33% longer |
 | Endure Pain | Alchemy | 1 | Frenzy | +10% max Vitality while Toxicity is above the safe threshold |
 | Synergy | General | 1 | Metabolic Control | Mutagens 10% stronger |
 | Metabolic Control | General | 2 | — | +20 max Toxicity |
 | Metabolic Control | General | 3 | — | +30 max Toxicity: the best Toxicity per point |
 | Manticore School Techniques | General | 3 | — | +6% sword and bomb damage per medium piece |
+
+### Phase 3: to 28 points (about levels 23–30)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Three Strikes | Combat | 1 | Muscle Memory | Stepping stone |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline |
 | Strength Training | Combat | 2 | — | +30% |
@@ -57,7 +67,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Tissue Transmutation | Alchemy | 2 | — | +600 |
 | Muscle Memory | Combat | 2 | — | Two boosted fast attacks |
 
-### Late game: level 30+ and Blood and Wine
+### Phase 4: level 30+ and Blood and Wine
 
 - **Volatile Compound** (Alchemy, from Protective Coating) to rank 3: bomb damage rises 0.1% per rank for every point of Toxicity you carry, decoctions included, so +45% at rank 3 with 150 Toxicity (chapter 19). It turns the decoction stack into bomb damage even before Euphoria.
 - **Rend** (Combat, from Razor Focus) to rank 2: the finisher for your Adrenaline.
@@ -65,9 +75,37 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Rank 3:** Adaptability (decoctions last twice as long: an hour each), Endure Pain (+30%), Tissue Transmutation (+900), Refreshment (30% per dose), Synergy.
 - **Mutation:** Toxic Blood, then Euphoria.
 
+Cumulative points after each phase:
+
+| Phase | Combat | Signs | Alchemy | General | Total |
+| --- | --- | --- | --- | --- | --- |
+| Opening | 1 | 1 | 3 | 1 | 6 |
+| Phase 1 | 2 | 1 | 7 | 3 | 13 |
+| Phase 2 | 2 | 1 | 9 | 8 | 20 |
+| Phase 3 | 6 | 2 | 12 | 8 | 28 |
+
 **What to skip.** **Delayed Recovery** only qualifies while your potion Toxicity alone is above 70/65/55% of your maximum, which two decoctions make unreachable unless your maximum is above 222, and it then adds just 5 seconds to your active effects per drink (chapter 19). **Fast Metabolism** adds 1 point per second per rank to a base drain of 0.25, so even rank 1 empties potion Toxicity five times as fast, which cuts Euphoria's bonus between potions (decoction Toxicity doesn't drain either way). **Side Effects** can only be reached through Fast Metabolism. KeenGamer says to skip Fast Metabolism, though its build lists Side Effects; Hack the Minotaur's expert Euphoria build and VGTimes take Fast Metabolism ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). **High Tolerance** adds crit damage from your Toxicity but makes you take 150% damage at 80% Toxicity or more, where a Euphoria build spends its time. It's for experts only.
 
 ## Slots, mutagens and mutation
+
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+
+1. Refreshment
+2. Manticore School Techniques
+3. Muscle Memory
+4. Exploding Shield
+5. Strength Training
+6. Acquired Tolerance
+7. Metabolic Control
+8. Tissue Transmutation
+9. Element of Surprise (if you open fights with a bomb)
+10. Adaptability
+11. Endure Pain
+12. Synergy
+
+Volatile Compound and Rend take the places of Exploding Shield and Element of Surprise once you own them, and Frenzy, Hunter Instinct, Pyrotechnics and Efficiency go into the mutation slots.
+
+**The finished layout:**
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |

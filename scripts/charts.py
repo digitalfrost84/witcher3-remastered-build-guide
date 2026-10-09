@@ -22,6 +22,7 @@ the chapters that show them:
     crit_stack       crit-stack.png       chapters 8 and 19
     poison_odds      poison-odds.png      chapters 13 and 19
     skill_route      skill-route.png      chapters 2 and 11
+    ursine_ehp       ursine-effective-health.png  chapter 10
 
 Values marked as game-file values come from the audit in chapter 19.
 """
@@ -515,6 +516,43 @@ def skill_route():
     save(fig, "skill-route.png")
 
 
+# =====================================================================
+# 9. Ursine effective health (Mutated Skin)
+# =====================================================================
+def ursine_ehp():
+    # DATA: game files, build 5.0.0.1048522 (chapter 19)
+    BEAR = 0.02 * 3 * 4      # Bear School Techniques: 0.02 per rank per heavy piece, rank 3, four pieces
+    SURVIVAL = 0.08 * 3      # Survival Instinct rank 3 (+8% per rank, witcherhour 5.0)
+    SKIN = 0.15              # Mutated Skin: -15% Vitality damage per whole Adrenaline point (Mutation5)
+    levels = [0, 1, 2, 3]
+    base = 1 + BEAR + SURVIVAL
+    with_skin = [base / (1 - SKIN * a) for a in levels]
+    fig = plt.figure(figsize=(11, 6.0))
+    ax = fig.add_axes([0.08, 0.16, 0.88, 0.60])
+    titled(fig, f"With Mutated Skin and a full bar, an Ursine lasts {with_skin[-1]:.1f} times as long as an unbuffed Geralt",
+           "Effective health by whole Adrenaline points held, between Quen shields (Mutated Skin is off while a shield is up).", top=0.965)
+    clean(ax, grid_axis=None)
+    ax.set_yticks([])
+    ax.set_ylim(0, 3.2)
+    ax.set_xlim(-0.6, 3.6)
+    ax.set_xticks(levels)
+    ax.set_xticklabels([f"{a} Adrenaline" for a in levels], fontsize=11)
+    w = 0.34
+    for a, v in zip(levels, with_skin):
+        ax.bar(a - w / 2 - 0.02, base, width=w, color=GREY_DATA, zorder=3)
+        ax.text(a - w / 2 - 0.02, base + 0.05, f"{base:.2f}×", ha="center", va="bottom", fontsize=10, color=INK2)
+        ax.bar(a + w / 2 + 0.02, v, width=w, color=AQUA, zorder=3)
+        ax.text(a + w / 2 + 0.02, v + 0.05, f"{v:.2f}×", ha="center", va="bottom", fontsize=12, fontweight="bold", color=INK)
+    fig.text(0.08, 0.80, "■", color=GREY_DATA, fontsize=13, va="center")
+    fig.text(0.097, 0.80, "Bear School Techniques and Survival Instinct only", color=INK2, fontsize=10, va="center")
+    fig.text(0.45, 0.80, "■", color=AQUA, fontsize=13, va="center")
+    fig.text(0.467, 0.80, "with Mutated Skin (−15% damage per whole point)", color=INK2, fontsize=10, va="center")
+    fig.text(0.04, 0.045, "Game files, build 5.0.0.1048522: Bear School Techniques rank 3 on four heavy pieces (+24%), Mutated Skin 0.15 per whole point.",
+             fontsize=8.5, color=MUTED)
+    fig.text(0.04, 0.018, "Survival Instinct rank 3 (+24%): witcherhour.com (5.0). Assumes the two Vitality bonuses add.", fontsize=8.5, color=MUTED)
+    save(fig, "ursine-effective-health.png")
+
+
 if __name__ == "__main__":
     resources()
     school_map()
@@ -524,3 +562,4 @@ if __name__ == "__main__":
     crit_stack()
     poison_odds()
     skill_route()
+    ursine_ehp()

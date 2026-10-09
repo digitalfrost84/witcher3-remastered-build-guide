@@ -20,11 +20,15 @@ Feline turns **held Adrenaline into crits**. Battle Frenzy adds crit chance for 
 
 The loop is dodge, punish with a string of fast attacks, step out, repeat. The build is at its best when you take no hits at all, and the second decoction, mutation and set bonus all push further in that direction.
 
+**Where the bar comes from and where it goes.** Razor Focus banks one point at the start of every fight, and every hit you land adds more, while every hit you take drains some, which is what Resolve stops. Undying is the only skill in the plan that spends the bar, and only when a hit would kill you; Whirl is the one optional exception. Light armor also refills Stamina 25% faster than medium, which pays for dodges and Quen.
+
+**What it struggles with.** Fast attacks lose the target's flat armor on every hit, while strong attacks carry 1,000 points of armor penetration (chapter 19). Against heavily armored enemies a strong hit first is worth it twice over: it ignores the armor, and with three Grandmaster pieces it powers up the fast string that follows. Big groups are the other weakness: the build has little crowd control beyond Quen and footwork.
+
 ## Skills by phase
 
 Buy each table from the top down; every prerequisite is either already owned or listed higher up. The ranks in "Rank" are the rank you take the skill *to*.
 
-### Early game: the first 12 points (about level 12)
+### Opening: the first 6 points
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
@@ -34,24 +38,34 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
+
+### Phase 1: to 13 points (about levels 7–14)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 2 | — | The bonus now covers two fast attacks |
 | Arrow Deflection | Combat | 1 | start | Stepping stone to Resolve; also lets you parry arrows |
 | Resolve | Combat | 1 | Arrow Deflection | Lose 33% less Adrenaline when hit |
 | Undying | Combat | 1 | Three Strikes | At 0 Vitality, spends Adrenaline to bring you back (10% Vitality per point) |
 | Frenzy | Alchemy | 1 | start | Time slows when an enemy is about to counter, as long as you have any Toxicity |
 | Cat School Techniques | General | 2 | — | +4% fast attack damage per light piece; the published +16% crit damage adds nothing |
+| Fleet-Footed | Combat | 1 | Undying | 33% less damage taken while dodging |
 
-### Mid game: to 28 points (about level 30)
+### Phase 2: to 20 points (about levels 15–22)
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Fleet-Footed | Combat | 1 | Undying | 33% less damage taken while dodging |
 | Whirl | Combat | 1 | Fleet-Footed | The gateway to the two skills below (see the note on Whirl) |
 | Counterattack | Combat | 1 | Whirl | After a successful counter or dodge, your next attack deals +33% |
 | Crippling Strike | Combat | 1 | Whirl | Critical fast attacks cripple the target, which then takes +10% damage |
 | Hunter Instinct | Alchemy | 1 | Frenzy | At full Adrenaline, +20% crit damage against the monster type your oil targets |
 | Acquired Tolerance | Alchemy | 1 | Hunter Instinct | +0.5 max Toxicity per basic-level recipe you've learned: a little potion room beside a second decoction |
 | Battle Frenzy | General | 3 | — | +9% crit chance per Adrenaline point: +27% at a full bar |
+
+### Phase 3: to 28 points (about levels 23–30)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 3 | — | Three boosted fast attacks after every dodge |
 | Cat School Techniques | General | 3 | — | +6% fast attack damage per light piece, +24% in all; the published +24% crit damage per piece adds nothing |
 | Resolve | Combat | 2 | — | Lose 67% less Adrenaline when hit |
@@ -61,16 +75,44 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Hunter Instinct | Alchemy | 2 | — | +40% crit damage at full Adrenaline |
 | Razor Focus | Combat | 2 | — | +20% Adrenaline from hits |
 
-### Late game: level 30+ and Blood and Wine
+### Phase 4: level 30+ and Blood and Wine
 
 - **Adrenaline Burst → Survival Instinct → Anger Management → Synergy** (General, 4 points from Cat School Techniques). Survival Instinct adds +8/16/24% Vitality; Synergy makes every mutagen 10/20/30% stronger.
 - **Rank 3:** Counterattack (+100%), Crippling Strike (+30%), Resolve (no Adrenaline lost when hit), Hunter Instinct (+60%), Razor Focus, Fleet-Footed (no damage while dodging).
 - **Rank 2:** Undying and Acquired Tolerance. Three Strikes is optional: rank it further only if you regularly reach four consecutive same-style hits.
 - **Mutation:** Deadly Counter, then Bloodbath (below).
 
+Cumulative points after each phase:
+
+| Phase | Combat | Signs | Alchemy | General | Total |
+| --- | --- | --- | --- | --- | --- |
+| Opening | 3 | 1 | 0 | 2 | 6 |
+| Phase 1 | 8 | 1 | 1 | 3 | 13 |
+| Phase 2 | 11 | 1 | 3 | 5 | 20 |
+| Phase 3 | 16 | 2 | 4 | 6 | 28 |
+
 **A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out**: 75 / 50 / 37.5 Stamina per second at ranks 1/2/3, then 1 / 0.67 / 0.5 Adrenaline per second, according to the game files (chapter 19). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
 
 ## Slots, mutagens and mutation
+
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+
+1. Muscle Memory
+2. Cat School Techniques (once you're in light armor; the Temerian set fits at level 4)
+3. Battle Frenzy
+4. Razor Focus
+5. Exploding Shield, then Active Shield once you have it
+6. Resolve
+7. Undying
+8. Counterattack
+9. Fleet-Footed
+10. Crippling Strike
+11. Hunter Instinct (keep the matching oil on)
+12. Acquired Tolerance (once you run a second decoction)
+
+Three Strikes, Arrow Deflection, Frenzy and Whirl are stepping stones; leave them unslotted. When the mutation slots open, Undying moves into one and Synergy takes its regular slot.
+
+**The finished layout:**
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |

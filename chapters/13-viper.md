@@ -22,7 +22,7 @@ Patch 5.0 gave the school a skill line of its own: the four poison skills in the
 
 Buy each table from the top down; every prerequisite is either already owned or listed higher up.
 
-### Early game: the first 12 points (about level 12)
+### Opening: the first 6 points
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
@@ -32,23 +32,33 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Poisoned Blades | Alchemy | 1 | Frenzy | Hits with an oil matching the target have a 5% chance to poison, plus 10 points with an enhanced oil or 20 with a superior one |
 | Exploding Shield | Signs | 1 | start | Quen; reflects damage since 5.01 |
 | Strength Training | Combat | 1 | Muscle Memory | Fast attacks power up the strong attack that cashes in the poison |
+
+### Phase 1: to 13 points (about levels 7–14)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Toxic Shock | Alchemy | 1 | Poisoned Blades | A strong attack on a poisoned target uses up the poison for a burst worth 25% of the hit; once every 5 s |
 | Poisoned Blades | Alchemy | 2 | — | 10% |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Refreshment | Alchemy | 1 | start | Each potion dose heals 10% |
 | Poisoned Blades | Alchemy | 3 | — | 15% with a basic oil, 35% with a superior one |
 | Metabolic Control | General | 1 | Viper School Techniques | +10 max Toxicity; stepping stone to Synergy |
+| Debilitating Poison | Alchemy | 1 | Toxic Shock | Poisoned enemies deal 5% less damage |
 
-### Mid game: to 28 points (about level 30)
+### Phase 2: to 20 points (about levels 15–22)
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Debilitating Poison | Alchemy | 1 | Toxic Shock | Poisoned enemies deal 5% less damage |
 | Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%; the target needn't be poisoned. Doubled against enemies whose template makes them immune to poison (chapter 19) |
 | Toxic Shock | Alchemy | 3 | — | The burst grows to 75% of the hit |
 | Hunter Instinct | Alchemy | 1 | Frenzy | +20% crit damage at full Adrenaline against the oiled monster type |
 | Viper School Techniques | General | 3 | — | +6% max Vitality and poison damage per medium piece |
 | Synergy | General | 1 | Metabolic Control | Mutagens 10% stronger |
+
+### Phase 3: to 28 points (about levels 23–30)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline |
 | Muscle Memory | Combat | 2 | — | Two boosted fast attacks |
 | Strength Training | Combat | 2 | — | +30% |
@@ -58,7 +68,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Undying | Combat | 1 | Three Strikes | At 0 Vitality, spends Adrenaline to bring you back |
 | Muscle Memory | Combat | 3 | — | Three boosted fast attacks |
 
-### Late game: level 30+ and Blood and Wine
+### Phase 4: level 30+ and Blood and Wine
 
 - **Rank 3:** Potent Sting (+15%, +30% against poison-immune enemies), Debilitating Poison (−15%), Hunter Instinct, Synergy, Metabolic Control, Strength Training.
 - **Rank 2:** Razor Focus, Undying.
@@ -66,7 +76,35 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Mutation:** Euphoria, and later Metamorphosis (below).
 - **Optional for crowds:** Fleet-Footed → Whirl (2 points from Undying). Every enemy a spin touches gets a poison roll. Whirl costs Stamina first and Adrenaline after, so keep spins short.
 
+Cumulative points after each phase:
+
+| Phase | Combat | Signs | Alchemy | General | Total |
+| --- | --- | --- | --- | --- | --- |
+| Opening | 2 | 1 | 2 | 1 | 6 |
+| Phase 1 | 3 | 1 | 7 | 2 | 13 |
+| Phase 2 | 3 | 1 | 11 | 5 | 20 |
+| Phase 3 | 8 | 2 | 13 | 5 | 28 |
+
 ## Slots, mutagens and mutation
+
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+
+1. Poisoned Blades
+2. Muscle Memory
+3. Viper School Techniques
+4. Exploding Shield, then Active Shield once you have it
+5. Toxic Shock (equip it together with Poisoned Blades; it has nothing to burst without poison)
+6. Strength Training
+7. Debilitating Poison
+8. Refreshment
+9. Potent Sting
+10. Hunter Instinct
+11. Razor Focus
+12. Synergy
+
+Metabolic Control takes Refreshment's regular slot once the mutation slots open, and Refreshment, Frenzy, Acquired Tolerance and Tissue Transmutation move into them.
+
+**The finished layout:**
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |

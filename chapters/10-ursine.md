@@ -29,7 +29,7 @@ The cost is Stamina: heavy armor regenerates it more slowly, so you cast fewer S
 
 Buy each table from the top down; every prerequisite is either already owned or listed higher up.
 
-### Early game: the first 12 points (about level 12)
+### Opening: the first 6 points
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
@@ -39,24 +39,34 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Three Strikes | Combat | 1 | Muscle Memory | Stepping stone to Razor Focus; 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Crushing Blow | Combat | 1 | Strength Training | 20% chance that a strong attack makes the next two deal +50% |
 | Strength Training | Combat | 2 | — | +30% |
+
+### Phase 1: to 13 points (about levels 7–14)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Arrow Deflection | Combat | 1 | start | Stepping stone to Resolve; also parries arrows |
 | Resolve | Combat | 1 | Arrow Deflection | Lose 33% less Adrenaline when hit |
 | Active Shield | Signs | 1 | Exploding Shield | Hold Quen to keep a shield up that heals you |
 | Sunder Armor | Combat | 1 | Crushing Blow | Strong attacks cut the target's damage resistance by 10% |
 | Refreshment | Alchemy | 1 | start | Each potion dose heals 10% Vitality |
 | Razor Focus | Combat | 1 | Three Strikes | Start every fight with 1 Adrenaline; +10% Adrenaline from hits |
+| Undying | Combat | 1 | Resolve | At 0 Vitality, spends your Adrenaline to bring you back with 10% Vitality per point |
 
-### Mid game: to 28 points (about level 30)
+### Phase 2: to 20 points (about levels 15–22)
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Undying | Combat | 1 | Resolve | At 0 Vitality, spends your Adrenaline to bring you back with 10% Vitality per point |
 | Bear School Techniques | General | 1 | start | +2% max Vitality and +2% strong attack damage per heavy piece. Take it as soon as you're in heavy armor; the Undvik set at level 16 is the latest |
 | Bear School Techniques | General | 2 | — | +4% per heavy piece |
 | Rend | Combat | 1 | Crushing Blow | A charged strike with 1,000 armor penetration: a full charge multiplies its damage by 2.5, and each Adrenaline point spent adds +10% per rank on top |
 | Strength Training | Combat | 3 | — | +45% |
 | Crushing Blow | Combat | 3 | — | 60% chance |
 | Sunder Armor | Combat | 2 | — | Up to two stacks |
+
+### Phase 3: to 28 points (about levels 23–30)
+
+| Skill | Tree | Rank | Requires | Why |
+| --- | --- | --- | --- | --- |
 | Bear School Techniques | General | 3 | — | +6% Vitality and strong attack damage per heavy piece |
 | Anger Management | General | 1 | Bear School Techniques | Stepping stone to Synergy |
 | Synergy | General | 1 | Anger Management | Mutagens 10% stronger |
@@ -66,7 +76,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Hunter Instinct | Alchemy | 1 | Refreshment | Stepping stone |
 | Acquired Tolerance | Alchemy | 1 | Hunter Instinct | Stepping stone to Tissue Transmutation |
 
-### Late game: level 30+ and Blood and Wine
+### Phase 4: level 30+ and Blood and Wine
 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance) to rank 3: +300/600/900 max Vitality while any decoction is active.
 - **Survival Instinct** (General, from Anger Management) to rank 3: +8/16/24% max Vitality.
@@ -75,7 +85,35 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Deadly Precision** (Combat, from Rend): a strong attack within 3 seconds of any attack has a 5/10/15% chance to kill outright, with a 15-second cooldown after each kill; enemies immune to it give you a little Adrenaline instead.
 - **Mutation:** Toxic Blood → Euphoria → Mutated Skin (below).
 
+Cumulative points after each phase:
+
+| Phase | Combat | Signs | Alchemy | General | Total |
+| --- | --- | --- | --- | --- | --- |
+| Opening | 5 | 1 | 0 | 0 | 6 |
+| Phase 1 | 10 | 2 | 1 | 0 | 13 |
+| Phase 2 | 15 | 2 | 1 | 2 | 20 |
+| Phase 3 | 16 | 3 | 3 | 6 | 28 |
+
 ## Slots, mutagens and mutation
+
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+
+1. Strength Training
+2. Exploding Shield, then Active Shield once you have it
+3. Crushing Blow
+4. Muscle Memory
+5. Sunder Armor
+6. Resolve
+7. Razor Focus
+8. Undying
+9. Bear School Techniques (as soon as you're in heavy armor)
+10. Refreshment
+11. Rend
+12. Synergy
+
+Late in the game Survival Instinct and Tissue Transmutation take the slots of Muscle Memory and Refreshment, and Rend moves to a mutation slot once Mutated Skin asks you to hold your Adrenaline.
+
+**The finished layout:**
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
@@ -120,6 +158,8 @@ Location guides: [Mobalytics: Ursine School gear](https://mobalytics.gg/gamebase
 **Other heavy armor in Blood and Wine** (chapter 16): **Tesham Mutna** (level 39, missable during *La Cage au Fou*; kills heal you with 3+ pieces), **Hen Gaidth** or the **Toussaint relic set** (one or the other, depending on your story route), and the crafted **Toussaint Knight's Tourney** armor (level 48, +500 Vitality, Quen deflects projectiles 25% of the time). The **Heft** glyphword (chapter 6) makes any armor count as heavy, if your favorite set isn't.
 
 ## The maths
+
+![Effective health by whole Adrenaline points held: 1.48 times an unbuffed Geralt from Bear School Techniques and Survival Instinct alone, rising with Mutated Skin to 1.74, 2.11 and 2.69 at one, two and three points](../images/ursine-effective-health.png)
 
 **Effective health.** How much punishment you can take scales with your Vitality divided by the share of each hit that reaches it. With Bear School Techniques rank 3 on four heavy pieces (+24%) and Survival Instinct rank 3 (+24%), and assuming the two add up, your Vitality is 1.48 times what it would be without them. Mutated Skin then divides the damage:
 

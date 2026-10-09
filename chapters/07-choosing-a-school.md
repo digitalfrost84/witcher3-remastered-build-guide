@@ -49,8 +49,8 @@ Every chapter in Part II runs in the same order:
 
 1. **Lore:** who the school were, and where you meet them in The Witcher 3.
 2. **How it plays:** the resource loop, in a paragraph.
-3. **Skills by phase:** what to buy, in order, with every prerequisite listed. The phases assume about one point per level; each Place of Power gives one more the first time you use it, the Magic Acorn two and Blood and Wine's Golden Egg one, so you'll usually be a little ahead.
-4. **Slots, mutagens and mutation:** the final layout of the 12 slots plus mutation slots.
+3. **Skills by phase:** what to buy, in order, with every prerequisite listed: an opening of 6 points, three phases to 28 points and a free-form late game. The phases assume about one point per level; each Place of Power gives one more the first time you use it, the Magic Acorn two and Blood and Wine's Golden Egg one, so you'll usually be a little ahead.
+4. **Slots, mutagens and mutation:** the order to equip skills while slots are scarce, then the final layout of the 12 slots plus mutation slots.
 5. **Consumables and the fight loop.**
 6. **Gear path:** armor and swords from White Orchard to Toussaint, with links to diagram location guides.
 7. **The maths**, where sources publish numbers.

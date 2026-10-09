@@ -101,7 +101,7 @@ Early points go where they pay off at once: sword damage and Quen. Alchemy and G
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left:
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Muscle Memory
 2. Strength Training
