@@ -392,6 +392,30 @@ Rend's multipliers apply at their stage of the damage pipeline, not to the final
 | **Sun and Stars** | By day: +10 Vitality per second per rank, **outside combat only**; combat uses a separate regeneration attribute. With the base 1/s that's 11/21/31. At night: +1% of maximum Stamina per second per rank, **in combat only**, multiplied by the armor modifier (section 13). |
 | **Mutated Skin** | Section 5. |
 
+## 17. Gear levels, skill slots and decoctions
+
+**Item levels (file-verified).** The game computes an item's required level from one stat. A chest needs `⌊1 + (armor − 25) / 5⌋`, trousers and boots `⌊1 + (armor − 5) / 2⌋`, gloves `⌊1 + (armor − 1) / 2⌋`; swords use their summed damage. Every item then loses 1 level, witcher gear 2 more, relics 1 more, and Hearts of Stone witcher and relic gear a further 1. Every set and sword level the book quotes matches this calculation.
+
+**Skill slots and unlocks (file-verified).** Regular slots open at **0, 2, 4, 6, 8, 10, 12, 15, 18, 22, 26 and 30 Ability Points earned**, counting spent, unspent and mutation points, not character level. A skill can be bought once any one of its linked prerequisites has a rank; equipping that prerequisite isn't required.
+
+**Decoctions (file-verified):**
+
+| Decoction | Value in the files | Condition |
+| --- | --- | --- |
+| Katakan | +10% crit chance | Always |
+| Water Hag | +0.5 to the attack-power multiplier | Vitality full |
+| Forktail | +0.5 attack power and Sign intensity | After three different action types |
+| Chort | +0.25 Sign intensity | Always; knockdowns become staggers, staggers are blocked |
+| Ekimmara | 10% of damage dealt returned as Vitality | Always |
+| Ekhidna | 10% of maximum Vitality healed | Each one-off Stamina cost, except Rend |
+| Archgriffin | All Stamina spent, then 5% of the target's Vitality removed | Strong attacks |
+| Ancient Leshen | +2 Stamina per second per Sign cast | In combat, until it ends |
+| Griffin | +1% to every resistance per hit taken | Up to 25 stacks |
+| Troll | +20 Vitality/s in combat, +100 outside | Always |
+| Nightwraith | +50 maximum Vitality per kill | Until meditation |
+| Succubus | +1% attack power per stack | Up to 30 stacks |
+| Doppler | +0.5 multiplier on a zero crit-damage base | Rear attacks; adds nothing (section 2) |
+
 ## What this changes in the build advice
 
 - **Manticore:** the realistic budget is two decoctions with room to drink, three at the edge; four need about 150 recipes. Acquired Tolerance adds about as much as Metabolic Control (20 at 40 recipes, against 30), not the 120 the old figure promised. Euphoria has no fixed cap and counts decoctions, so a full budget still pays. Two decoctions under a 200 maximum also mean a constant Vitality drain. Delayed Recovery can't trigger with two decoctions running unless the maximum tops 222, so the plan now takes Volatile Compound instead, and Fast Metabolism's fivefold drain at rank 1 keeps it on the skip list.
@@ -454,6 +478,12 @@ Definitions below are paths **inside `content/content0/bundles/xml.bundle`**, or
 | Mutated Skin | Blood and Wine `gameplay/abilities/geralt_mutations.xml`, `Mutation5`, line 24 | `playerWitcher.ws`, lines 2487–2512 |
 | Exploding Shield | `geralt_skills.xml`, `magic_s13`, lines 425–433 | `playerWitcher.ws`, `QuenImpulse`, lines 9359–9440; `game/gameplay/items/spells/quenEntity.ws`, lines 96–107, 601–612 and 629–641; `effectManager.ws`, `GetSignApplyBuffTest`, lines 1540–1628 |
 | Sun and Stars | `geralt_skills.xml`, `perk_38`, lines 1028–1043 | `PlayerAbilityManager.ws`, `SetPerk38Abilities`, lines 3510–3540; `game/gameplay/effects/effects/auto/vitalityRegen.ws` and `staminaRegen.ws` |
+| Item levels | Every `def_item_crafting_*.xml`, the free-DLC files in `dlc0.bundle` (`dlc/dlc*/data/gameplay/items/`) | `game/components/inventoryComponent.ws`, `GetItemLevel`, lines 305–400; `game/gameParams.ws`, `GetItemLevel`, lines 917–1021; reproduced by `scripts/item_levels.py` |
+| Skill slots and unlocks | `geralt_skills.xml`, `<skill_slots>`, lines 2162–2179; the `required_skills` and `isAlternative` attributes of each skill | `PlayerAbilityManager.ws`, lines 337–349 and 2590–2606 (slots), `CanLearnSkill`, lines 2042–2103 |
+| Creature immunities | `CBuffImmunityParam` objects in the creature templates, `characters/npc_entities/monsters/*.w2ent` in `blob.bundle`, `bob.bundle`, `ep1.bundle` and `dlc0.bundle` | `game/actor.ws`, `IsImmuneToBuff`, lines 4032–4087; reproduced by `scripts/buff_immunities.py` |
+| Set bonuses | Blood and Wine `gameplay/abilities/geralt_skills_ep2.xml`, lines 29–60; `effects_ep2.xml`, lines 20–38 | `damageManagerProcessor.ws`, lines 1783–1866; `effectManager.ws`, line 863; `quenEntity.ws`, lines 96–107 and 320–345; `playerWitcher.ws`, lines 3065, 7443 and 9359–9440; `inventoryComponent.ws`, lines 3780–3810; `petard.ws`, line 319 |
+| Decoctions | `gameplay/abilities/effects_mutagens.xml`; `gameplay/items/def_item_alchemy_mutagens.xml` | `game/gameplay/effects/effects/mutagens/`; `effectManager.ws`, lines 821–833 (Chort); `PlayerAbilityManager.ws`, lines 2385–2389 (Ekhidna); `damageManagerProcessor.ws`, lines 2483–2526 (Water Hag, Doppler) |
+| New Game+ | `gameplay/abilities_plus/` and `gameplay/items_plus/` | `playerWitcher.ws`, `NewGamePlusInitialize`, lines 1089–1260; `game/npc/npc.ws`, lines 613–628 and 1260–1263; `gameParams.ws`, lines 313–318 and 1024–1040 |
 | Grandmaster items | Blood and Wine `gameplay/items/def_item_crafting_{armor,gloves,pants,boots,weapons}.xml` (`… 4 _Stats` chests and swords, `… 5 _Stats` other pieces; Manticore is `Red Wolf … 1`, and `Red Wolf … 2` is its New Game+ version) | — |
 
 The normal-game and NG+ base definitions agree for the reported crit attributes, maximum Toxicity and regeneration rates. The exception is Delayed Recovery: `gameplay/abilities_plus/geralt_skills.xml`, lines 497–500, defines only an obsolete single threshold, while `playerWitcher.ws`, `GetAlchemyS03Threshold` (lines 12837–12856), reads three rank-specific attributes that are missing there. The installed Brothers In Arms `effects.xml` override retains the same `ToxicityEffect` rate. A second, independent read of the same files re-checked the definitions above and the main script paths for Acquired Tolerance, Delayed Recovery, Euphoria, Poisoned Blades, combat Stamina, strong attacks, Undying, Toxic Shock and the two Sign mutations, and added the branch passives, Toxicity damage, Fast Metabolism, Volatile Compound, potion costs and the recipe count. This is a baseline mechanics audit, not a claim that every installed mod or every conditional build interaction has been validated.

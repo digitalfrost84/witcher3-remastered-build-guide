@@ -226,8 +226,8 @@ def school_map():
 # 3. Gear timeline
 # =====================================================================
 def gear_timeline():
-    # DATA: tier levels (pre-5.0 values; no source reports a 5.0 change)
-    # witcher sets: consolepulse / gamestegy / keengamer via research notes
+    # DATA: tier levels, computed from the 5.0 game files by scripts/item_levels.py
+    # (they match the older Console Pulse, Gamestegy and KeenGamer figures)
     witcher = [
         ("Viper swords", "Medium", [(1, "")], "levels 1 and 2, White Orchard"),
         ("Griffin", "Medium", [(11, "B"), (18, "E"), (26, "S"), (34, "M"), (40, "G")], ""),
@@ -288,7 +288,7 @@ def gear_timeline():
     for k, (w, c) in enumerate(WEIGHT.items()):
         fig.text(0.30 + k * 0.1, 0.845, "●", color=c, fontsize=12, va="center")
         fig.text(0.315 + k * 0.1, 0.845, w, color=INK2, fontsize=10, va="center")
-    fig.text(0.04, 0.02, "Levels are pre-5.0 values (Console Pulse, Gamestegy, KeenGamer, nukesdragons); no source reports a 5.0 change. Reward sets need a linked CD PROJEKT RED account.",
+    fig.text(0.04, 0.02, "Levels computed from the game files, build 5.0.0.1048522 (scripts/item_levels.py). Reward sets need a linked CD PROJEKT RED account.",
              fontsize=8.5, color=MUTED)
     save(fig, "gear-timeline.png")
 
