@@ -417,7 +417,7 @@ Prioritize questions by whether the answer could change a build choice:
 
 The audits read the local game files on **October 9, 2026**. The DX12 executable reported **`5.0.0.1048522`**. These findings apply to that installed build; they do not establish that every 5.0/5.01 build has identical data.
 
-Definitions below are paths **inside `content/content0/bundles/xml.bundle`**, or inside the expansion bundles where marked (Hearts of Stone: `dlc/ep1/data/`; Blood and Wine: `dlc/bob/data/`). They were extracted to a separate directory, and their uncompressed sizes and CRC32 checksums were verified. Script paths are relative to **`content/content0/scripts/`**. No runtime measurements were made.
+Definitions below are paths **inside `content/content0/bundles/xml.bundle`**, or inside the expansion bundles where marked (Hearts of Stone: `dlc/ep1/data/`; Blood and Wine: `dlc/bob/data/`). They were extracted to a separate directory, and their uncompressed sizes and CRC32 checksums were verified. Script paths are relative to **`content/content0/scripts/`**. No runtime measurements were made. The extraction and search tools are in the repository's [`scripts/`](../scripts/README.md) folder, with steps for repeating the audits on your own install.
 
 | Finding | Definition | Implemented calculation |
 | --- | --- | --- |
