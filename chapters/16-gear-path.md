@@ -14,10 +14,10 @@ Every level on the timeline matches the level the 5.0 game files compute for tha
 
 ## Rules for the whole playthrough
 
-1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 4), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants. If you switch sets often, [chapter 1](01-all-sets-playthrough.md) has a skill plan built for it.
+1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants. If you switch sets often, [chapter 8](08-all-sets-playthrough.md) has a skill plan built for it.
 2. **You can't skip a tier, but you can wait.** Each recipe consumes the piece below it. Collect diagrams as you find them and craft when the upgrade is worth the materials.
 3. **Never sell or dismantle a Mastercrafted piece** you intend to take to Grandmaster.
-4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 7).
+4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 6).
 5. **Collect every diagram you pass, even for sets you won't wear.** In 5.0, owning an item or its diagram unlocks its look for **Reforge** at Yoana or Hattori, so you can wear the stats you need under the look you like ([KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).
 
 ## White Orchard (levels 1–4)
@@ -70,7 +70,7 @@ Kaer Morhen only opens up after *Ugly Baby*. Two sets live here:
 
 | Pickup | Level | Where | Who it's for |
 | --- | --- | --- | --- |
-| **The Runewright** (enchanting) | — | Upper Mill; 30,000 crowns for all three tiers (chapter 7) | Everyone |
+| **The Runewright** (enchanting) | — | Upper Mill; 30,000 crowns for all three tiers (chapter 6) | Everyone |
 | **Ofieri** set (crafted, light; Quen, Yrden and Axii intensity) | 38 (one source says 35) | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores*; Dulla kh'Amanni at Upper Mill translates them | Sign builds that don't need medium armor |
 | **Ofieri saber** (crafted relic steel: crit, Igni, Aard, Axii) | 38 | Diagram sold by Dulla kh'Amanni | Feline, Griffin |
 | **New Moon** set (relic, medium; crit chance and crit damage) | 34–36 | Crane Cape lighthouse, Kilkerinn Ruins, a crypt in the far outskirts, and Vikk Watchtower during *The Royal Air Force* | Crit builds with Levity or in medium armor |
@@ -108,7 +108,7 @@ Sources: [nukesdragons](https://nukesdragons.com/witcher-3/db/weapons/toussaint-
 | **Manticore** | Medium | Alchemy, decoctions, bombs | Grandmaster only (40) | All six: +1 charge on every alchemy item | Its own swords |
 | **Viper** | Medium | Poison | Swords at level 1; armor at 39 | No Grandmaster tier or bonus | Venomous swords |
 
-The Grandmaster bonuses themselves are in chapter 4. Two are disputed between sources (Forgotten Wolven and Ursine), so read the tooltip before you spend the materials.
+The Grandmaster bonuses themselves are in chapter 3. Two are disputed between sources (Forgotten Wolven and Ursine), so read the tooltip before you spend the materials.
 
 ## Your school's gear track
 

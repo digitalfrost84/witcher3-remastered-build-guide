@@ -87,7 +87,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Poisoned Blades
 2. Muscle Memory
@@ -116,7 +116,7 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 **Delusion:** if you want Axii's dialogue options, it takes Hunter Instinct's slot.
 
-**Mutation: Euphoria first** (5 Ability Points, chapter 6): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity, up to five at once. The game files confirm that the ordinary poison you apply triggers it, which makes it a natural fit for this school (chapter 20). Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
+**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity, up to five at once. The game files confirm that the ordinary poison you apply triggers it, which makes it a natural fit for this school (chapter 20). Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
 
 ## Consumables and the fight loop
 
@@ -151,7 +151,7 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/), [GameBanshee: Open Sesame!](https://www.gamebanshee.com/thewitcher3/walkthrough/opensesame.php), [GameBanshee: Whatsoever a Man Soweth](https://www.gamebanshee.com/thewitcher3/walkthrough/whatsoeveramansoweth.php), [Gamestegy: Viper armor](https://gamestegy.com/witcher-3/wiki/1400/viper-armor-diagram-stats-location).
 
-**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 7) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's fast-attack bonus alone, because Cat's crit-damage part adds nothing in the game's damage code (chapter 20). Keep Viper's own Technique ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
+**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's fast-attack bonus alone, because Cat's crit-damage part adds nothing in the game's damage code (chapter 20). Keep Viper's own Technique ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
 
 ## The maths
 

@@ -1,8 +1,8 @@
-# 8. Choosing a school
+# 7. Choosing a school
 
 In the books, a witcher's school was where he trained: a keep, a teacher, a set of habits. In the game, a school is three things that patch 5.0 has pulled closer together:
 
-1. **A School Technique** in the General tree, which rewards one armor weight (chapter 4).
+1. **A School Technique** in the General tree, which rewards one armor weight (chapter 3).
 2. **A Grandmaster set**, whose 3- and 6-piece bonuses define the endgame.
 3. **A way of fighting** that the rest of the skill tree, the right mutation and the right consumables push you toward.
 
@@ -23,7 +23,7 @@ The first is available from your first skill point, the third grows over the who
 | **Effort** | High skill, low prep | Medium | Low | Medium | High prep | High prep, missable gear |
 | **Chapter** | [8](09-feline.md) | [9](10-griffin.md) | [10](11-ursine.md) | [11](12-wolven.md) | [12](13-manticore.md) | [13](14-viper.md) |
 
-Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 4. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
+Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 3. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
 
 ## Five questions that decide it
 
@@ -35,7 +35,7 @@ Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels
 
 **Do you own the expansions?** Manticore needs Blood and Wine for its set and for Euphoria. Viper needs Hearts of Stone for its armor. Every school's Grandmaster tier is in Blood and Wine.
 
-**Do you care about looking the part?** Since 5.0 you don't have to: Reforge lets you wear one set's stats under another set's look (chapter 4).
+**Do you care about looking the part?** Since 5.0 you don't have to: Reforge lets you wear one set's stats under another set's look (chapter 3).
 
 ## The fights each school finds hard
 
@@ -68,9 +68,9 @@ What that means for each school:
 ## You can mix more than you think
 
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
-- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 7). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
+- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
 - **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 21).
-- **You don't have to choose yet.** If you'd rather wear every set as it comes, [chapter 1](01-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
+- **You don't have to choose yet.** If you'd rather wear every set as it comes, the [next chapter](08-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
 
 ## How each school chapter is laid out
 
@@ -99,4 +99,4 @@ Chapter 15 then ranks all six.
 
 ---
 
-[← 7. Enchanting (Hearts of Stone)](07-enchanting.md) · [Contents](../README.md) · [9. Feline: the School of the Cat →](09-feline.md)
+[← 6. Enchanting (Hearts of Stone)](06-enchanting.md) · [Contents](../README.md) · [8. The all-sets playthrough →](08-all-sets-playthrough.md)

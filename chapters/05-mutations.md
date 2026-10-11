@@ -1,4 +1,4 @@
-# 6. Mutations (Blood and Wine)
+# 5. Mutations (Blood and Wine)
 
 Mutations are the last layer of a build. They arrive in Toussaint, near the end of most playthroughs, and they do two things: one active mutation adds a strong effect of its own, and researching mutations opens up to **four extra skill slots**. For several schools the mutation is what finally makes the build complete: Euphoria for Manticore, Mutated Skin for Ursine, Conductors of Magic for Wolven.
 
@@ -115,4 +115,4 @@ Two practical rules follow from the slot milestones:
 
 ---
 
-[← 5. Alchemy basics](05-alchemy.md) · [Contents](../README.md) · [7. Enchanting (Hearts of Stone) →](07-enchanting.md)
+[← 4. Alchemy basics](04-alchemy.md) · [Contents](../README.md) · [6. Enchanting (Hearts of Stone) →](06-enchanting.md)

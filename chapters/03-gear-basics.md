@@ -1,4 +1,4 @@
-# 4. Gear basics
+# 3. Gear basics
 
 Gear does two jobs in a build. Each armor piece's **weight class** feeds your School Technique, and at the very end of the game the **Grandmaster set bonuses** add the effects that define each school. Everything in between is stats. Once you know that, gear decisions get simple.
 
@@ -20,7 +20,7 @@ Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [wit
 Two things follow from this table:
 
 - **A school's style is available long before its set.** Wolf, Griffin, Manticore and Viper Techniques all count *any* medium armor. You can play a Manticore alchemist at level 10 in medium armor from a merchant; the Manticore set itself only matters at level 40.
-- **You can change an armor's weight class.** Three Hearts of Stone glyphwords make all your armor count as one weight: Levity (light), Balance (medium) and Heft (heavy). That's how players wear heavy armor and still use Cat School Techniques (chapter 7).
+- **You can change an armor's weight class.** Three Hearts of Stone glyphwords make all your armor count as one weight: Levity (light), Balance (medium) and Heft (heavy). That's how players wear heavy armor and still use Cat School Techniques (chapter 6).
 
 Heavier armor protects more but slows Stamina regeneration ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor)).
 
@@ -80,7 +80,7 @@ These follow from the rules above. They're this book's recommendations, not game
 1. **Weight class first, set second.** Before Grandmaster, sets give no bonus, so mixing pieces from different sets costs you nothing as long as every piece has the weight your Technique wants.
 2. **Craft Basic as soon as you can wear it.** It gets the set's stats on you early, and every later tier is crafted from it.
 3. **You can't skip a tier, but you can wait.** Each recipe uses up the piece below it, so reaching Mastercrafted means crafting every tier in order. You don't have to craft each one the day you find the diagram: if your current pieces are holding up, craft two tiers back to back later. Never sell or dismantle a piece you'll upgrade, the Mastercrafted ones above all.
-4. **Socket single runestones and glyphs freely; save runewords and glyphwords for your final tier.** Upgrading keeps single stones but destroys words (chapter 7).
+4. **Socket single runestones and glyphs freely; save runewords and glyphwords for your final tier.** Upgrading keeps single stones but destroys words (chapter 6).
 5. **Count your swords as set pieces.** The 6-piece bonus needs both swords from the same set, which competes with relic swords (chapter 18).
 
 ## Sources
@@ -99,4 +99,4 @@ These follow from the rules above. They're this book's recommendations, not game
 
 ---
 
-[← 3. The 5.0 skill system](03-the-skill-system.md) · [Contents](../README.md) · [5. Alchemy basics →](05-alchemy.md)
+[← 2. The 5.0 skill system](02-the-skill-system.md) · [Contents](../README.md) · [4. Alchemy basics →](04-alchemy.md)

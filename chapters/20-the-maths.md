@@ -357,7 +357,7 @@ This is why **15/30/45 is not a final-damage table**. Both global power and the 
 | Ancient Leshen decoction | +2/s flat for each Sign cast in combat, stacking until the fight ends |
 | Sun and Stars, at night | +1/s per rank (1% of maximum Stamina per rank) |
 
-Armor multiplies the total: chest and trousers ±10% each, boots ±3%, gloves ±2%, plus for light pieces and minus for heavy ones. Full light armor gives ×1.25, medium ×1 and heavy ×0.75. The weight glyphwords (chapter 7) set this modifier along with the weight class.
+Armor multiplies the total: chest and trousers ±10% each, boots ±3%, gloves ±2%, plus for light pieces and minus for heavy ones. Full light armor gives ×1.25, medium ×1 and heavy ×0.75. The weight glyphwords (chapter 6) set this modifier along with the weight class.
 
 Example: medium armor, Griffin School Techniques rank 3 on four pieces, 18 equipped Signs ranks, superior Tawny Owl, standing in a Grandmaster Griffin Yrden:
 

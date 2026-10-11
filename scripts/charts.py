@@ -14,14 +14,14 @@ Every number sits in a DATA block inside its function, with its source noted,
 and every total, share or curve is computed from those numbers. The charts and
 the chapters that show them:
 
-    resources        resources.png        chapter 2
-    school_map       school-map.png       README, chapter 8
+    resources        resources.png        chapter 1
+    school_map       school-map.png       README, chapter 7
     gear_timeline    gear-timeline.png    chapter 16
-    toxicity_budget  toxicity-budget.png  chapters 5, 13 and 20
+    toxicity_budget  toxicity-budget.png  chapters 4, 13 and 20
     sign_intensity   sign-intensity.png   chapters 10 and 20
     crit_stack       crit-stack.png       chapters 9 and 20
     poison_odds      poison-odds.png      chapters 14 and 20
-    skill_route      skill-route.png      chapters 3 and 12
+    skill_route      skill-route.png      chapters 2 and 12
     ursine_ehp       ursine-effective-health.png  chapter 11
 
 Values marked as game-file values come from the audit in chapter 20.

@@ -95,7 +95,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Muscle Memory
 2. Cat School Techniques (once you're in light armor; the Temerian set fits at level 4)
@@ -160,7 +160,7 @@ Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/gu
 
 **The Grandmaster question.** The **3-piece bonus** is excellent for this build: a strong attack raises fast attack damage by 10% per set piece for 5 seconds, so a single strong hit before your fast string adds 40% with the four armor pieces. The **6-piece bonus** (attacks from behind deal +50% and stun) needs both Feline swords and **costs 1 Adrenaline point** per rear attack, which is exactly what Battle Frenzy wants you to keep. This book's recommendation: four Grandmaster Feline armor pieces with the two relic swords above, not the full six. If you prefer the full set, treat the Adrenaline cost as the price of the stun; the rear-attack damage bonus itself only needs one point banked, and Whirl and Rend don't pay the cost.
 
-**Heavier armor with Levity.** The Levity glyphword (chapter 7) makes all your armor count as light while keeping its resistances, so a Feline can wear medium or heavy armor and keep every bit of Cat School Techniques. It costs a tier 3 Runewright (30,000 crowns in total).
+**Heavier armor with Levity.** The Levity glyphword (chapter 6) makes all your armor count as light while keeping its resistances, so a Feline can wear medium or heavy armor and keep every bit of Cat School Techniques. It costs a tier 3 Runewright (30,000 crowns in total).
 
 ## The maths
 
@@ -214,4 +214,4 @@ The former guaranteed **0.35 / 0.57 normal-hit** gains stay withdrawn: they igno
 
 ---
 
-[← 8. Choosing a school](08-choosing-a-school.md) · [Contents](../README.md) · [10. Griffin: the School of the Griffin →](10-griffin.md)
+[← 8. The all-sets playthrough](08-all-sets-playthrough.md) · [Contents](../README.md) · [10. Griffin: the School of the Griffin →](10-griffin.md)

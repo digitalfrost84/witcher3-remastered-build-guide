@@ -1,4 +1,4 @@
-# 5. Alchemy basics
+# 4. Alchemy basics
 
 Alchemy is the part of The Witcher 3 that rewards preparation. Every school uses some of it: a Swallow to heal, the right oil on the blade, one decoction that fits the build. Manticore and Viper builds go further and turn Toxicity itself into damage. This chapter covers the toolkit; the school chapters say which pieces each build wants.
 
@@ -95,7 +95,7 @@ One more cost to plan for: **above half your maximum, decoctions included, Toxic
 
 ## Mutagens
 
-Mutagens come in three colors (red, blue, green) and three grades (lesser, normal, greater). Three of one grade combine into one of the next ([Fextralife: Mutagens](https://thewitcher3.wiki.fextralife.com/Mutagens)). You use them in two places: in the mutagen slots beside your skills (chapter 3), and as research material for Blood and Wine mutations, which need greater mutagens (chapter 6). Once you renovate the lab at Corvo Bianco, your vineyard in Toussaint, it can break monster mutagens down into colored ones.
+Mutagens come in three colors (red, blue, green) and three grades (lesser, normal, greater). Three of one grade combine into one of the next ([Fextralife: Mutagens](https://thewitcher3.wiki.fextralife.com/Mutagens)). You use them in two places: in the mutagen slots beside your skills (chapter 2), and as research material for Blood and Wine mutations, which need greater mutagens (chapter 5). Once you renovate the lab at Corvo Bianco, your vineyard in Toussaint, it can break monster mutagens down into colored ones.
 
 ## Sources
 
@@ -114,4 +114,4 @@ Mutagens come in three colors (red, blue, green) and three grades (lesser, norma
 
 ---
 
-[← 4. Gear basics](04-gear-basics.md) · [Contents](../README.md) · [6. Mutations (Blood and Wine) →](06-mutations.md)
+[← 3. Gear basics](03-gear-basics.md) · [Contents](../README.md) · [5. Mutations (Blood and Wine) →](05-mutations.md)

@@ -1,6 +1,6 @@
 # 18. Relics and legendary weapons
 
-Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. Most count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 4). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
+Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. Most count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 3). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
 
 Most numbers below come from the nukesdragons database, which is labeled for Remastered but is unofficial; where sources disagree, both values are given.
 
