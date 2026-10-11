@@ -123,7 +123,7 @@ Every skill in the four 5.0 trees, with what unlocks it, how many points it take
 
 1. **Legacy names.** The installed files call Three Strikes `sword_s24` / "Precise Blows", Aftershock `magic_s40` / "Overload", High Tolerance `HeightenedTolerance`, Potent Sting `WyvernSting` and Volatile Compound `VolatileConcoction`. Their links and implemented behavior establish those mappings.
 
-**Settled by the game files:** Cat School Techniques' rank-1 fast-attack bonus is +2% (witcherhour's +1% was a typo); Delayed Recovery works as described in its row; and the branch passives count only equipped skills, with the Signs passive worth 0.5% of maximum Stamina per second, which is +0.5 per second at 100 Stamina (chapter 3). Sun and Stars' night bonus is 1% of maximum Stamina per rank, so witcherhour and WitcherDB agree at 100 Stamina. Exploding Shield, Mutated Skin and High Tolerance now have file values in their rows, and Cat School Techniques' crit-damage part adds nothing.
+**Settled by the game files:** Cat School Techniques' rank-1 fast-attack bonus is +2% (witcherhour's +1% was a typo); Delayed Recovery works as described in its row; and the branch passives count only equipped skills, with the Signs passive worth 0.5% of maximum Stamina per second, which is +0.5 per second at 100 Stamina (chapter 2). Sun and Stars' night bonus is 1% of maximum Stamina per rank, so witcherhour and WitcherDB agree at 100 Stamina. Exploding Shield, Mutated Skin and High Tolerance now have file values in their rows, and Cat School Techniques' crit-damage part adds nothing.
 
 **Still requiring verification:** in-game tests of the file readings. Chapter 20 lists the open questions in order of how much they could change a build.
 

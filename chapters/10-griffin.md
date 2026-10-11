@@ -79,7 +79,7 @@ Catalyst at your 11th point is the moment the build comes together: from here on
 - **Aftershock** (Signs, from Sidestep, Focus or Chain Reaction): every Sign also deals elemental damage to enemies close to it; alternate casts trigger it at most every 2 seconds.
 - **Rank 3:** Focus (+30% per point), Chain Reaction (+15% per stack), Firestream (half cost), Supercharged Glyphs, Active Shield (no drain), Synergy.
 - **Optional, 3 points:** Muscle Memory → Three Strikes → Razor Focus, so every fight starts with one Adrenaline point for Focus.
-- **Optional, 2 points:** Hunter Instinct → Acquired Tolerance (+0.5 max Toxicity per basic recipe you've learned), for a second decoction. Below a maximum of 200, two decoctions keep you over the line where Toxicity drains Vitality (chapter 5).
+- **Optional, 2 points:** Hunter Instinct → Acquired Tolerance (+0.5 max Toxicity per basic recipe you've learned), for a second decoction. Below a maximum of 200, two decoctions keep you over the line where Toxicity drains Vitality (chapter 4).
 - **Mutation:** Magic Sensibilities (below).
 
 Cumulative points after each phase:
@@ -95,7 +95,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Magic Trap
 2. Exploding Shield, then Active Shield once you have it
@@ -124,20 +124,20 @@ Refreshment helps in the first levels but has no regular slot to spare after Pha
 
 **Delusion:** if you want Axii's dialogue options, it takes Sidestep's slot until you have mutation slots.
 
-**Mutation: Magic Sensibilities** (2 Ability Points, 2 greater blue mutagens). Signs can crit, with crit chance and crit damage that grow with Sign intensity, and enemies killed by a Sign crit explode. In the installed 5.0 files, Sign crit chance is 20% plus 10% per point of the cast Sign's intensity multiplier, so +111% Sign intensity gives about 41%, and a crit adds that multiplier again, roughly doubling the hit before resistances; burning damage scales less (chapter 20). Before 5.0, Fextralife measured about 38% and +183% for the same intensity ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). A Griffin stacks more intensity than any other build, so it gets the most out of it. One researched mutation opens no extra slot, but any second one does, and the slot follows the active mutation's color: the cheapest are Toxic Blood or Deadly Counter (2 points). **Piercing Cold** (3 points; Aard can freeze, and frozen enemies that are knocked down die instantly) costs one more but is useful in its own right, and it leads to **Conductors of Magic** (5 more points), which adds half of your drawn sword's base damage stat to your Signs before Sign intensity applies (any magic, relic or witcher sword), a natural fit for the Grandmaster Griffin swords (chapter 6). FinalBoss and Hack the Minotaur use Piercing Cold as the main pick for Aard-heavy play ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-for-signs-remastered-5-0); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-signs-build/)).
+**Mutation: Magic Sensibilities** (2 Ability Points, 2 greater blue mutagens). Signs can crit, with crit chance and crit damage that grow with Sign intensity, and enemies killed by a Sign crit explode. In the installed 5.0 files, Sign crit chance is 20% plus 10% per point of the cast Sign's intensity multiplier, so +111% Sign intensity gives about 41%, and a crit adds that multiplier again, roughly doubling the hit before resistances; burning damage scales less (chapter 20). Before 5.0, Fextralife measured about 38% and +183% for the same intensity ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). A Griffin stacks more intensity than any other build, so it gets the most out of it. One researched mutation opens no extra slot, but any second one does, and the slot follows the active mutation's color: the cheapest are Toxic Blood or Deadly Counter (2 points). **Piercing Cold** (3 points; Aard can freeze, and frozen enemies that are knocked down die instantly) costs one more but is useful in its own right, and it leads to **Conductors of Magic** (5 more points), which adds half of your drawn sword's base damage stat to your Signs before Sign intensity applies (any magic, relic or witcher sword), a natural fit for the Grandmaster Griffin swords (chapter 5). FinalBoss and Hack the Minotaur use Piercing Cold as the main pick for Aard-heavy play ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-for-signs-remastered-5-0); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-signs-build/)).
 
 ## Consumables and the fight loop
 
 **Potions:** Petri's Philter (+15/20/25% Sign intensity; the superior version makes every Sign apply its extra effect), Tawny Owl (+5/8/10 Stamina per second, the largest single regeneration bonus a Griffin has; chapter 20) and Swallow.
 
-**Decoctions** (values from the game files, chapter 5):
+**Decoctions** (values from the game files, chapter 4):
 
 - **Chort:** +25% Sign intensity, and while it runs knockdowns become staggers and staggers don't land at all, so a rush can't knock you out of a cast. The best first decoction for this build.
 - **Ancient Leshen:** +2 Stamina per second for every Sign you cast in combat, until the fight ends. It turns a long fight into free casts.
 - **Ekhidna:** every action with a one-off Stamina cost, each Sign cast included, restores 10% of your maximum Vitality. Active Shield's continuous drain doesn't count. Sustain without potions.
 - **Forktail:** +50% Sign intensity and attack power after three *different* action types (a Sign, a fast or strong attack, a counter, a bomb, a bolt). Two different Signs count as one type, so it suits a Griffin that also swings the sword.
 
-Below about 150 maximum Toxicity there's room for one decoction and your potions; take Chort. With Acquired Tolerance and Metabolic Control, add Ancient Leshen or Ekhidna, and remember that two decoctions under a 200 maximum keep Toxicity draining your Vitality (chapter 5). **Bombs:** a Samum or Northern Wind stops a rush on its way into the trap. **Oils:** you'll still use the sword against fire-resistant enemies (step 7 below), so keep the right oil on.
+Below about 150 maximum Toxicity there's room for one decoction and your potions; take Chort. With Acquired Tolerance and Metabolic Control, add Ancient Leshen or Ekhidna, and remember that two decoctions under a 200 maximum keep Toxicity draining your Vitality (chapter 4). **Bombs:** a Samum or Northern Wind stops a rush on its way into the trap. **Oils:** you'll still use the sword against fire-resistant enemies (step 7 below), so keep the right oil on.
 
 **The loop** ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-build-for-signs-remastered-5-0)):
 
@@ -149,7 +149,7 @@ Below about 150 maximum Toxicity there's room for one decoction and your potions
 6. **Hold Adrenaline** for Focus; let Adrenaline Burst refill it from your casts.
 7. **Against enemies that resist fire,** switch to the sword with the right oil and let Supercharged Glyphs keep ticking.
 
-**What fire and Aard can't touch (game files).** Noonwraiths and fire elementals take no fire damage at all, earth elementals and golems resist 80% and the Wild Hunt 50%. Every kind of wraith, elementals, golems, gargoyles, fiends, barghests, the shaelmaar, Dettlaff and Iris's nightwraith are immune to Burning, so Igni's damage over time never starts. Aard can't knock down fiends, chorts, vampires (ekimmara, katakan, fleder, garkain), wraiths, elementals, golems or scolopendromorphs. Against those, the trap, Supercharged Glyphs and the sword do the work; chapter 8 has the full list of hard fights for every school.
+**What fire and Aard can't touch (game files).** Noonwraiths and fire elementals take no fire damage at all, earth elementals and golems resist 80% and the Wild Hunt 50%. Every kind of wraith, elementals, golems, gargoyles, fiends, barghests, the shaelmaar, Dettlaff and Iris's nightwraith are immune to Burning, so Igni's damage over time never starts. Aard can't knock down fiends, chorts, vampires (ekimmara, katakan, fleder, garkain), wraiths, elementals, golems or scolopendromorphs. Against those, the trap, Supercharged Glyphs and the sword do the work; chapter 7 has the full list of hard fights for every school.
 
 ## Gear path
 
@@ -166,7 +166,7 @@ Location guides: [Mobalytics: Griffin School gear](https://mobalytics.gg/gamebas
 
 **If you're on the Syanna route in Blood and Wine,** **Vitis** (steel) and the found **Gesheft** (silver) each give +20% to all five Signs (chapter 18). They're the best Sign swords outside the set; use them only if you give up the 6-piece bonus, which this book doesn't recommend.
 
-**Enchanting** (chapter 7): three greater Veles runestones in each sword (+15% Sign intensity), and **Entanglement** on the chest so each Magic Trap hit also lays a normal Yrden glyph. A chest takes only one word, so if your best chest piece isn't medium, use **Balance** there instead.
+**Enchanting** (chapter 6): three greater Veles runestones in each sword (+15% Sign intensity), and **Entanglement** on the chest so each Magic Trap hit also lays a normal Yrden glyph. A chest takes only one word, so if your best chest piece isn't medium, use **Balance** there instead.
 
 ## The maths
 

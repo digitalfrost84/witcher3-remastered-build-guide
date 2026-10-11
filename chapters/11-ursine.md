@@ -96,7 +96,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Strength Training
 2. Exploding Shield, then Active Shield once you have it
@@ -127,7 +127,7 @@ Late in the game Survival Instinct and Tissue Transmutation take the slots of Mu
 
 **Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per whole Adrenaline point held, up to −45%; spending points lowers it. The files confirm the coefficient and add two limits: it does nothing while a Quen shield is up, and it doesn't reduce damage over time ([chapter 20](20-the-maths.md#5-effective-health-ursine-with-mutated-skin)). It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
 
-Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 6). For most players Undying does the same job for one point.
+Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 5). For most players Undying does the same job for one point.
 
 ## Consumables and the fight loop
 
@@ -153,9 +153,9 @@ Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but i
 
 Location guides: [Mobalytics: Ursine School gear](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-ursine-school-gear-set), [Console Pulse: Ursine gear](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-ursine-gear). Ursine is the most defensive witcher set; its Grandmaster chest also adds +22% Adrenaline gain ([Fextralife: Grandmaster Ursine Armor](https://thewitcher3.wiki.fextralife.com/Grandmaster+Ursine+Armor)).
 
-**The set bonus and Quen.** The 3-piece bonus gives a broken Quen a 5% chance per set piece to recast for free (30% with all six); the 6-piece bonus makes Quen-based abilities deal +200% damage. Since patch 5.01, Exploding Shield also reflects damage, so the 6-piece bonus should now have more to multiply; that's this book's reading of the two changes together, not something a source has tested. Hack the Minotaur describes a different, strong-attack-and-Adrenaline Ursine bonus after a 5.0 "gear rework" that no patch note mentions, so read the tooltip before you craft (chapter 4).
+**The set bonus and Quen.** The 3-piece bonus gives a broken Quen a 5% chance per set piece to recast for free (30% with all six); the 6-piece bonus makes Quen-based abilities deal +200% damage. Since patch 5.01, Exploding Shield also reflects damage, so the 6-piece bonus should now have more to multiply; that's this book's reading of the two changes together, not something a source has tested. Hack the Minotaur describes a different, strong-attack-and-Adrenaline Ursine bonus after a 5.0 "gear rework" that no patch note mentions, so read the tooltip before you craft (chapter 3).
 
-**Other heavy armor in Blood and Wine** (chapter 17): **Tesham Mutna** (level 39, missable during *La Cage au Fou*; kills heal you with 3+ pieces), **Hen Gaidth** or the **Toussaint relic set** (one or the other, depending on your story route), and the crafted **Toussaint Knight's Tourney** armor (level 48, +500 Vitality, Quen deflects projectiles 25% of the time). The **Heft** glyphword (chapter 7) makes any armor count as heavy, if your favorite set isn't.
+**Other heavy armor in Blood and Wine** (chapter 17): **Tesham Mutna** (level 39, missable during *La Cage au Fou*; kills heal you with 3+ pieces), **Hen Gaidth** or the **Toussaint relic set** (one or the other, depending on your story route), and the crafted **Toussaint Knight's Tourney** armor (level 48, +500 Vitality, Quen deflects projectiles 25% of the time). The **Heft** glyphword (chapter 6) makes any armor count as heavy, if your favorite set isn't.
 
 ## The maths
 

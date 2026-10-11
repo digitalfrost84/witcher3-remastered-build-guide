@@ -1,4 +1,4 @@
-# 7. Enchanting (Hearts of Stone)
+# 6. Enchanting (Hearts of Stone)
 
 Every weapon and armor piece can carry upgrades in its slots. Single **runestones** and **glyphs** are cheap and available from the start. Hearts of Stone adds the **Runewright**, who combines three of them into a **runeword** or **glyphword**, an effect strong enough to change how a build plays. Three glyphwords matter more than the rest because they change your armor's weight class, and with it which School Technique your armor feeds.
 
@@ -127,4 +127,4 @@ Picks for Feline, Griffin, Ursine and Manticore follow [Console Pulse's ranking]
 
 ---
 
-[← 6. Mutations (Blood and Wine)](06-mutations.md) · [Contents](../README.md) · [8. Choosing a school →](08-choosing-a-school.md)
+[← 5. Mutations (Blood and Wine)](05-mutations.md) · [Contents](../README.md) · [7. Choosing a school →](07-choosing-a-school.md)

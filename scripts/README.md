@@ -7,7 +7,7 @@ The code used to build and check the book. Run everything from the repository ro
 | Script | What it does | When to run it |
 | --- | --- | --- |
 | [`check_links.py`](check_links.py) | Checks internal links, section anchors, table cell counts and image references in both READMEs and every chapter | After any edit |
-| [`check_plans.py`](check_plans.py) | Reads the skill plans in chapters 1 and 9 to 14 and checks prerequisites, ranks and point totals against the 5.0 skill trees; also checks chapter 22's "Points to reach" column | After changing a skill plan or the skill reference |
+| [`check_plans.py`](check_plans.py) | Reads the skill plans in chapters 8 to 14 and checks prerequisites, ranks and point totals against the 5.0 skill trees; also checks chapter 22's "Points to reach" column | After changing a skill plan or the skill reference |
 | [`skill_tree.py`](skill_tree.py) | The 5.0 prerequisite links and the cheapest route to every skill | When planning a build or a new phase table |
 | [`apply_edits.py`](apply_edits.py) | Applies a batch of exact text replacements across chapters, all or nothing | For corrections that touch many chapters at once |
 | [`charts.py`](charts.py) | Rebuilds every chart in `images/` from the numbers in its source, each with its source noted | After changing a number that a chart shows |

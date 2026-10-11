@@ -1,6 +1,6 @@
 # 17. Other armor sets: reward sets, free DLC and the expansions
 
-Witcher sets are only part of the armor in the game. Some of the best pieces for a given level come from a linked account, from the free DLC that's part of every edition, or from the two expansions. Because School Techniques only care about weight class (chapter 4), any of these can serve a school build as long as the weight is right.
+Witcher sets are only part of the armor in the game. Some of the best pieces for a given level come from a linked account, from the free DLC that's part of every edition, or from the two expansions. Because School Techniques only care about weight class (chapter 3), any of these can serve a school build as long as the weight is right.
 
 ## Reward sets from a linked account
 

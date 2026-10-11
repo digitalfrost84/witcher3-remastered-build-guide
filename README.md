@@ -10,31 +10,28 @@ Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and thre
 
 ## Where to start
 
-- **Just want a plan for your playthrough?** Start with [chapter 1](chapters/01-all-sets-playthrough.md): one skill plan that works in whatever set you wear, with a reset once you pick your Grandmaster set.
-- **New to 5.0, or coming back from an old save?** Read chapters [2](chapters/02-the-resources.md) to [4](chapters/04-gear-basics.md). Loading an old save refunds all your skill points, so you're starting fresh either way.
-- **Picking a school?** Read [chapter 8](chapters/08-choosing-a-school.md), then your school's chapter, then the [verdict](chapters/15-verdict.md).
+- **New to 5.0, or coming back from an old save?** Read chapters [1](chapters/01-the-resources.md) to [3](chapters/03-gear-basics.md). Loading an old save refunds all your skill points, so you're starting fresh either way.
+- **Not ready to pick a school?** After those, [chapter 8](chapters/08-all-sets-playthrough.md) has one skill plan that works in whatever set you wear, with a reset once you pick your Grandmaster set.
+- **Picking a school?** Read [chapter 7](chapters/07-choosing-a-school.md), then your school's chapter, then the [verdict](chapters/15-verdict.md).
 - **Mid-playthrough and wondering what to craft?** [Chapter 16](chapters/16-gear-path.md) follows the gear region by region; [chapter 19](chapters/19-missables.md) lists what you can lose for good.
 - **Planning a respec?** [Chapter 22](chapters/22-skill-reference.md) has all 80 skills with prerequisites and point costs, and [chapter 21](chapters/21-mistakes-and-respec.md) has the potions.
 - **Starting New Game+?** [Chapter 21](chapters/21-mistakes-and-respec.md#new-game) lists what carries over and which numbers change.
 
 ## Contents
 
-### Start here
-
-1. [The all-sets playthrough](chapters/01-all-sets-playthrough.md): wear every set as it comes, keep skills that work in all of them, and reset when you pick your Grandmaster set
-
 ### Part I: How Geralt gets stronger
 
-2. [The resources every build trades](chapters/02-the-resources.md): Adrenaline, Stamina, Vitality and Toxicity, and the hold-or-spend split in 5.0
-3. [The 5.0 skill system](chapters/03-the-skill-system.md): four trees, prerequisites, ranks, slots, mutagens
-4. [Gear basics](chapters/04-gear-basics.md): weight classes, School Techniques, tiers, Grandmaster set bonuses, crafters, Reforge
-5. [Alchemy basics](chapters/05-alchemy.md): potions, oils, bombs, decoctions and the Toxicity budget
-6. [Mutations (Blood and Wine)](chapters/06-mutations.md): research costs, the four extra slots, the mutation for each school
-7. [Enchanting (Hearts of Stone)](chapters/07-enchanting.md): runestones, glyphs, the Runewright, every runeword and glyphword
+1. [The resources every build trades](chapters/01-the-resources.md): Adrenaline, Stamina, Vitality and Toxicity, and the hold-or-spend split in 5.0
+2. [The 5.0 skill system](chapters/02-the-skill-system.md): four trees, prerequisites, ranks, slots, mutagens
+3. [Gear basics](chapters/03-gear-basics.md): weight classes, School Techniques, tiers, Grandmaster set bonuses, crafters, Reforge
+4. [Alchemy basics](chapters/04-alchemy.md): potions, oils, bombs, decoctions and the Toxicity budget
+5. [Mutations (Blood and Wine)](chapters/05-mutations.md): research costs, the four extra slots, the mutation for each school
+6. [Enchanting (Hearts of Stone)](chapters/06-enchanting.md): runestones, glyphs, the Runewright, every runeword and glyphword
 
-### Part II: The six schools
+### Part II: The builds
 
-8. [Choosing a school](chapters/08-choosing-a-school.md): all six side by side
+7. [Choosing a school](chapters/07-choosing-a-school.md): all six side by side
+8. [The all-sets playthrough](chapters/08-all-sets-playthrough.md): not ready to choose? Wear every set as it comes, keep skills that work in all of them, and reset when you pick your Grandmaster set
 9. [Feline](chapters/09-feline.md): fast attacks, crits and Katakan
 10. [Griffin](chapters/10-griffin.md): Yrden, Igni and Aard
 11. [Ursine](chapters/11-ursine.md): heavy armor, strong attacks and Quen
