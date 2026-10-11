@@ -12,6 +12,7 @@ Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and thre
 
 - **New to 5.0, or coming back from an old save?** Read chapters [1](chapters/01-the-resources.md) to [3](chapters/03-gear-basics.md). Loading an old save refunds all your skill points, so you're starting fresh either way.
 - **Picking a school?** Read [chapter 7](chapters/07-choosing-a-school.md), then your school's chapter, then the [verdict](chapters/14-verdict.md).
+- **Collecting every set and switching as you go?** [Chapter 23](chapters/23-all-sets-playthrough.md) is a skill plan that works in whatever you wear, with a reset once you pick your Grandmaster set.
 - **Mid-playthrough and wondering what to craft?** [Chapter 15](chapters/15-gear-path.md) follows the gear region by region; [chapter 18](chapters/18-missables.md) lists what you can lose for good.
 - **Planning a respec?** [Chapter 21](chapters/21-skill-reference.md) has all 80 skills with prerequisites and point costs, and [chapter 20](chapters/20-mistakes-and-respec.md) has the potions.
 - **Starting New Game+?** [Chapter 20](chapters/20-mistakes-and-respec.md#new-game) lists what carries over and which numbers change.
@@ -53,6 +54,10 @@ Each school chapter covers its lore, how it plays, a phased skill plan checked a
 20. [Common mistakes, and how to respec](chapters/20-mistakes-and-respec.md)
 21. [Skill reference: all 80 skills](chapters/21-skill-reference.md)
 22. [Sources](chapters/22-sources.md)
+
+### Part V: A build for the whole playthrough
+
+23. [The all-sets playthrough](chapters/23-all-sets-playthrough.md): wear every set as it comes, keep skills that work in all of them, and reset when you pick your Grandmaster set
 
 ## About the numbers
 

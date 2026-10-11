@@ -74,4 +74,4 @@ The local file audits now supply the base crit, Toxicity and Stamina values; the
 
 ---
 
-[← 21. Skill reference: all 80 skills](21-skill-reference.md) · [Contents](../README.md)
+[← 21. Skill reference: all 80 skills](21-skill-reference.md) · [Contents](../README.md) · [23. The all-sets playthrough →](23-all-sets-playthrough.md)

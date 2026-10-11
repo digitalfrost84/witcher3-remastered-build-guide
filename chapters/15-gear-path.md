@@ -14,7 +14,7 @@ Every level on the timeline matches the level the 5.0 game files compute for tha
 
 ## Rules for the whole playthrough
 
-1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants.
+1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants. If you switch sets often, [chapter 23](23-all-sets-playthrough.md) has a skill plan built for it.
 2. **You can't skip a tier, but you can wait.** Each recipe consumes the piece below it. Collect diagrams as you find them and craft when the upgrade is worth the materials.
 3. **Never sell or dismantle a Mastercrafted piece** you intend to take to Grandmaster.
 4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 6).
