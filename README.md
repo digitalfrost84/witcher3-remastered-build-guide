@@ -4,7 +4,7 @@
 
 As of October 9, 2026 · patch 5.0 (Remastered) and 5.01
 
-Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and three ranks per skill, School Techniques for all six witcher schools, and new skills that tie Signs, swords and poison together. This book explains how the new system works, builds the strongest version of each school from White Orchard to Toussaint, and tracks the gear worth chasing along the way, with the maths behind each choice and links to the sources.
+Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and three ranks per skill, School Techniques for all six witcher schools, and new skills that tie Signs, swords and poison together. This book explains how the new system works, builds the strongest version of each school from White Orchard to Toussaint, gives a plan for wearing every set before you choose one, and tracks the gear worth chasing along the way, with the maths behind each choice and links to the sources.
 
 ![The six witcher schools placed by what deals the damage (swords or Signs) and how much you prepare before a fight](images/school-map.png)
 
@@ -40,7 +40,7 @@ Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and thre
 14. [Viper](chapters/14-viper.md): poisoned blades
 15. [Verdict: which school is strongest?](chapters/15-verdict.md)
 
-Each school chapter covers its lore, how it plays, a phased skill plan checked against the 5.0 prerequisites, the final slot layout with mutagens and mutation, consumables and the fight loop, the gear path with diagram locations, the maths, and a verdict.
+Each build chapter covers its lore (or, for chapter 8, the idea behind it), how it plays, a phased skill plan checked against the 5.0 prerequisites, the final slot layout with mutagens and mutation, consumables and the fight loop, the gear path with diagram locations, the maths, and a verdict.
 
 ### Part III: Gear through the playthrough
 

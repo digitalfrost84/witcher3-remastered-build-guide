@@ -41,7 +41,8 @@ Sources: [FinalBoss: How to rebuild the 5.0 skill tree](https://finalboss.io/the
 
 **Good moments to respec:**
 
-- **When your armor changes weight.** Moving from medium to heavy armor, or getting Levity, changes which Technique pays off.
+- **When your armor changes weight for good.** Moving from medium to heavy armor, or getting Levity, changes which Technique pays off. For a switch you may undo, buying the other Technique for a point is cheaper (chapter 8).
+- **At the end of the all-sets playthrough,** once you know which Grandmaster set you'll wear (chapter 8).
 - **At the start of Blood and Wine.** Rebuild around the mutation you'll research: Euphoria for alchemy, Conductors of Magic for a hybrid, Mutated Skin for a tank.
 - **When a style isn't clicking.** Paths are cheap in 5.0: no skill is more than seven points from a starting skill, and General skills are at most three. Use chapter 22's minimum-point counts to plan the new build before you drink.
 

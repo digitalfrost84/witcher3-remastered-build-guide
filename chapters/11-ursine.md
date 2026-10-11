@@ -117,10 +117,10 @@ Late in the game Survival Instinct and Tissue Transmutation take the slots of Mu
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Strength Training, Crushing Blow, Sunder Armor | Red |
-| 2 | Resolve, Razor Focus, Undying | Red |
-| 3 | Bear School Techniques, Synergy, Survival Instinct | Red (base bonus only) |
-| 4 | Active Shield, Refreshment, Tissue Transmutation | Green |
+| Top left | Strength Training, Crushing Blow, Sunder Armor | Red |
+| Top right | Resolve, Razor Focus, Undying | Red |
+| Bottom left | Bear School Techniques, Synergy, Survival Instinct | Red (base bonus only) |
+| Bottom right | Active Shield, Refreshment, Tissue Transmutation | Green |
 | Mutation slots (red or green) | Rend or Deadly Precision, then Muscle Memory | — |
 
 **Delusion:** if you want Axii's dialogue options, it takes Refreshment's slot.

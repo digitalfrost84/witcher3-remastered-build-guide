@@ -116,10 +116,10 @@ Three Strikes, Arrow Deflection, Frenzy and Whirl are stepping stones; leave the
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Muscle Memory, Counterattack, Crippling Strike | Red |
-| 2 | Razor Focus, Resolve, Fleet-Footed | Red |
-| 3 | Cat School Techniques, Battle Frenzy, Synergy | Red (General skills match no color, so it gives only its base bonus) |
-| 4 | Hunter Instinct, Acquired Tolerance, Active Shield | Green |
+| Top left | Muscle Memory, Counterattack, Crippling Strike | Red |
+| Top right | Razor Focus, Resolve, Fleet-Footed | Red |
+| Bottom left | Cat School Techniques, Battle Frenzy, Synergy | Red (General skills match no color, so it gives only its base bonus) |
+| Bottom right | Hunter Instinct, Acquired Tolerance, Active Shield | Green |
 | Mutation slots (red) | Undying, then Three Strikes or Whirl | — |
 
 **Delusion:** if you want Axii's extra dialogue options, Delusion takes Active Shield's place.

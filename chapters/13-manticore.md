@@ -109,10 +109,10 @@ Volatile Compound and Rend take the places of Exploding Shield and Element of Su
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Acquired Tolerance, Tissue Transmutation, Adaptability | Green |
-| 2 | Refreshment, Endure Pain, Volatile Compound | Green |
-| 3 | Manticore School Techniques, Metabolic Control, Synergy | Red (base bonus only) |
-| 4 | Muscle Memory, Strength Training, Rend | Red |
+| Top left | Acquired Tolerance, Tissue Transmutation, Adaptability | Green |
+| Top right | Refreshment, Endure Pain, Volatile Compound | Green |
+| Bottom left | Manticore School Techniques, Metabolic Control, Synergy | Red (base bonus only) |
+| Bottom right | Muscle Memory, Strength Training, Rend | Red |
 | Mutation slots (green) | Frenzy, Hunter Instinct, Pyrotechnics, Efficiency | — |
 
 **Element of Surprise** (bought early) isn't in the final layout. If you open most fights with a bomb, swap it in for Synergy.

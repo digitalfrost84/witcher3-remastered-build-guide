@@ -108,10 +108,10 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Poisoned Blades, Toxic Shock, Potent Sting | Green |
-| 2 | Debilitating Poison, Hunter Instinct, Active Shield | Green |
-| 3 | Viper School Techniques, Metabolic Control, Synergy | Green (base bonus only) |
-| 4 | Muscle Memory, Strength Training, Razor Focus | Red |
+| Top left | Poisoned Blades, Toxic Shock, Potent Sting | Green |
+| Top right | Debilitating Poison, Hunter Instinct, Active Shield | Green |
+| Bottom left | Viper School Techniques, Metabolic Control, Synergy | Green (base bonus only) |
+| Bottom right | Muscle Memory, Strength Training, Razor Focus | Red |
 | Mutation slots (green) | Refreshment, Frenzy, Acquired Tolerance, Tissue Transmutation | — |
 
 **Delusion:** if you want Axii's dialogue options, it takes Hunter Instinct's slot.
