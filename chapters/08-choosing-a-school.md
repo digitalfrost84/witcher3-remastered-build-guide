@@ -1,8 +1,8 @@
-# 7. Choosing a school
+# 8. Choosing a school
 
 In the books, a witcher's school was where he trained: a keep, a teacher, a set of habits. In the game, a school is three things that patch 5.0 has pulled closer together:
 
-1. **A School Technique** in the General tree, which rewards one armor weight (chapter 3).
+1. **A School Technique** in the General tree, which rewards one armor weight (chapter 4).
 2. **A Grandmaster set**, whose 3- and 6-piece bonuses define the endgame.
 3. **A way of fighting** that the rest of the skill tree, the right mutation and the right consumables push you toward.
 
@@ -21,9 +21,9 @@ The first is available from your first skill point, the third grows over the who
 | **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on potions and bombs | None |
 | **Mutation** | Bloodbath | Magic Sensibilities, then Conductors of Magic | Mutated Skin | Conductors of Magic | Euphoria | Euphoria |
 | **Effort** | High skill, low prep | Medium | Low | Medium | High prep | High prep, missable gear |
-| **Chapter** | [8](08-feline.md) | [9](09-griffin.md) | [10](10-ursine.md) | [11](11-wolven.md) | [12](12-manticore.md) | [13](13-viper.md) |
+| **Chapter** | [8](09-feline.md) | [9](10-griffin.md) | [10](11-ursine.md) | [11](12-wolven.md) | [12](13-manticore.md) | [13](14-viper.md) |
 
-Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 3. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
+Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 4. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
 
 ## Five questions that decide it
 
@@ -31,15 +31,15 @@ Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels
 
 **How much do you like preparing?** Manticore and Viper fights are won before they start: the right oil, the right decoctions, Toxicity managed. Feline and Ursine fights are won in the moment. Griffin and Wolven sit in between.
 
-**What difficulty are you on?** On Death March the margin for error shrinks. KeenGamer and FinalBoss call Ursine the safest Death March build, while other guides pick Signs, a Wolf hybrid or Manticore (chapter 14). FinalBoss calls Feline viable but unforgiving there ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)).
+**What difficulty are you on?** On Death March the margin for error shrinks. KeenGamer and FinalBoss call Ursine the safest Death March build, while other guides pick Signs, a Wolf hybrid or Manticore (chapter 15). FinalBoss calls Feline viable but unforgiving there ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)).
 
 **Do you own the expansions?** Manticore needs Blood and Wine for its set and for Euphoria. Viper needs Hearts of Stone for its armor. Every school's Grandmaster tier is in Blood and Wine.
 
-**Do you care about looking the part?** Since 5.0 you don't have to: Reforge lets you wear one set's stats under another set's look (chapter 3).
+**Do you care about looking the part?** Since 5.0 you don't have to: Reforge lets you wear one set's stats under another set's look (chapter 4).
 
 ## The fights each school finds hard
 
-Every school has enemies that blunt its main tool. The game files decide most of these: monster definitions set resistances, and creature templates list immunities (chapter 19).
+Every school has enemies that blunt its main tool. The game files decide most of these: monster definitions set resistances, and creature templates list immunities (chapter 20).
 
 | Enemies | Poison | Fire and Burning | Aard knockdown |
 | --- | --- | --- | --- |
@@ -60,17 +60,17 @@ Every school has enemies that blunt its main tool. The game files decide most of
 
 What that means for each school:
 
-- **Viper** is hit hardest: a long list of common monsters, every wraith among them, ignores poison, so Toxic Shock and Debilitating Poison do nothing there (chapter 13).
-- **Griffin** loses Igni's damage over time against wraiths, elementals, golems, gargoyles, fiends and barghests, and Aard's knockdown against most big monsters; Yrden, Supercharged Glyphs and the sword carry those fights (chapter 9).
-- **Feline** has no immunity problem, but its fast attacks lose the target's flat armor on every hit, so armored enemies and large groups are its hard fights (chapter 8).
+- **Viper** is hit hardest: a long list of common monsters, every wraith among them, ignores poison, so Toxic Shock and Debilitating Poison do nothing there (chapter 14).
+- **Griffin** loses Igni's damage over time against wraiths, elementals, golems, gargoyles, fiends and barghests, and Aard's knockdown against most big monsters; Yrden, Supercharged Glyphs and the sword carry those fights (chapter 10).
+- **Feline** has no immunity problem, but its fast attacks lose the target's flat armor on every hit, so armored enemies and large groups are its hard fights (chapter 9).
 - **Ursine, Wolven and Manticore** have no hard counter in the files. Ursine's fights simply get long, Wolven always has another tool, and Manticore's bombs and sword don't depend on one effect.
 
 ## You can mix more than you think
 
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
-- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
-- **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 20).
-- **You don't have to choose yet.** If you'd rather wear every set as it comes, [chapter 23](23-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
+- **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 7). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
+- **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 21).
+- **You don't have to choose yet.** If you'd rather wear every set as it comes, [chapter 1](01-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
 
 ## How each school chapter is laid out
 
@@ -85,7 +85,7 @@ Every chapter in Part II runs in the same order:
 7. **The maths**, where sources publish numbers.
 8. **Verdict:** strengths, weaknesses, and who it suits.
 
-Chapter 14 then ranks all six.
+Chapter 15 then ranks all six.
 
 ## Sources
 
@@ -99,4 +99,4 @@ Chapter 14 then ranks all six.
 
 ---
 
-[← 6. Enchanting (Hearts of Stone)](06-enchanting.md) · [Contents](../README.md) · [8. Feline: the School of the Cat →](08-feline.md)
+[← 7. Enchanting (Hearts of Stone)](07-enchanting.md) · [Contents](../README.md) · [9. Feline: the School of the Cat →](09-feline.md)

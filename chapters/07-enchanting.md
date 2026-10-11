@@ -1,4 +1,4 @@
-# 6. Enchanting (Hearts of Stone)
+# 7. Enchanting (Hearts of Stone)
 
 Every weapon and armor piece can carry upgrades in its slots. Single **runestones** and **glyphs** are cheap and available from the start. Hearts of Stone adds the **Runewright**, who combines three of them into a **runeword** or **glyphword**, an effect strong enough to change how a build plays. Three glyphwords matter more than the rest because they change your armor's weight class, and with it which School Technique your armor feeds.
 
@@ -54,7 +54,7 @@ These three turn chest-armor enchanting into a build tool. Each makes **all the 
 
 What this buys you is the freedom to pick armor for its stats and set bonus, then pick your Technique separately. Two combinations stand out:
 
-- **Levity on medium or heavy armor** gives you Cat School Techniques (+6% fast attack damage per piece at rank 3, its published +96% crit damage adds nothing in real attacks; chapter 19) while you keep the heavier armor's protection. The game files show the weight glyphwords also set your Stamina regeneration: Levity gives light armor's +25%, Heft heavy armor's −25%. Two 5.0 Manticore builds, from Console Pulse and KeenGamer, run Cat School Techniques this way (KeenGamer's describes the Levity effect without naming the glyphword) ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build); [Console Pulse: Best enchantment builds](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-best-enchantment-builds-four-setups)).
+- **Levity on medium or heavy armor** gives you Cat School Techniques (+6% fast attack damage per piece at rank 3, its published +96% crit damage adds nothing in real attacks; chapter 20) while you keep the heavier armor's protection. The game files show the weight glyphwords also set your Stamina regeneration: Levity gives light armor's +25%, Heft heavy armor's −25%. Two 5.0 Manticore builds, from Console Pulse and KeenGamer, run Cat School Techniques this way (KeenGamer's describes the Levity effect without naming the glyphword) ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build); [Console Pulse: Best enchantment builds](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-best-enchantment-builds-four-setups)).
 - **Balance on light or heavy armor** lets a Sign build wear whatever has the best Sign stats and still use Griffin School Techniques.
 
 ## All runewords
@@ -127,4 +127,4 @@ Picks for Feline, Griffin, Ursine and Manticore follow [Console Pulse's ranking]
 
 ---
 
-[← 5. Mutations (Blood and Wine)](05-mutations.md) · [Contents](../README.md) · [7. Choosing a school →](07-choosing-a-school.md)
+[← 6. Mutations (Blood and Wine)](06-mutations.md) · [Contents](../README.md) · [8. Choosing a school →](08-choosing-a-school.md)

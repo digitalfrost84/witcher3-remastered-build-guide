@@ -6,7 +6,7 @@ Usage:
 
 Prints one tab-separated row per definition: ability name, type (base, mult
 or add), value and file:line. New Game+ copies (abilities_plus, items_plus)
-are skipped unless --include-plus is given. Chapter 19 used it for the
+are skipped unless --include-plus is given. Chapter 20 used it for the
 poison-resistance list (poison_resistance_perc) and to show that no
 definition gives critical_hit_damage_bonus a base value.
 """

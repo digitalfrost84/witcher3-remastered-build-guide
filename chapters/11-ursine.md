@@ -1,4 +1,4 @@
-# 10. Ursine: the School of the Bear
+# 11. Ursine: the School of the Bear
 
 > Heavy armor, strong attacks, and a Quen shield that never quite breaks.
 
@@ -8,7 +8,7 @@ The School of the Bear was founded in defiance. **Arnaghad** nearly killed a fel
 
 Their keep, **Haern Caduch**, sat high in the snowy Amell Mountains, and its life was hard. In the "trial of the mountain", students climbed Mount Gorgon to bring back a runestone, and many froze to death on the way. The survivors had unusual endurance. They fought in heavy armor (a quilted gambeson, mail to the knees, plate on the shoulders) and their method was to absorb a blow, then close in or step back and strike. Bears and Cats are the two schools known to have used crossbows.
 
-The school ended the way it lived: after a failed contract against a vampire cabal, local villagers drove the Bears out, and with little loyalty to each other they scattered rather than defend the keep. Two later schools grew out of a split among the Bears: the **Manticore** and the **Viper** (chapters 12 and 13). Much of this history comes from Gwent and the tabletop RPG rather than the novels.
+The school ended the way it lived: after a failed contract against a vampire cabal, local villagers drove the Bears out, and with little loyalty to each other they scattered rather than defend the keep. Two later schools grew out of a split among the Bears: the **Manticore** and the **Viper** (chapters 13 and 14). Much of this history comes from Gwent and the tabletop RPG rather than the novels.
 
 **In The Witcher 3,** the Ursine gear belonged to **Gerd**, a witcher-adventurer, and a ballad in the dungeon beneath the castle on An Skellig tells what became of him ([Witcher wiki: Scavenger Hunt: Bear School Gear](https://witcher.fandom.com/wiki/Scavenger_Hunt:_Bear_School_Gear)).
 
@@ -81,7 +81,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 - **Tissue Transmutation** (Alchemy, from Acquired Tolerance) to rank 3: +300/600/900 max Vitality while any decoction is active.
 - **Survival Instinct** (General, from Anger Management) to rank 3: +8/16/24% max Vitality.
 - **Rank 3:** Sunder Armor (three stacks), Resolve (no Adrenaline lost when hit), Active Shield (no Stamina drain), Synergy.
-- **Rank 2:** Undying, Razor Focus, Rend. Undying's rank 2 adds a flat third of your maximum Vitality, so even one Adrenaline point brings you back at 43% instead of 10% (chapter 19).
+- **Rank 2:** Undying, Razor Focus, Rend. Undying's rank 2 adds a flat third of your maximum Vitality, so even one Adrenaline point brings you back at 43% instead of 10% (chapter 20).
 - **Deadly Precision** (Combat, from Rend): a strong attack within 3 seconds of any attack has a 5/10/15% chance to kill outright, with a 15-second cooldown after each kill; enemies immune to it give you a little Adrenaline instead.
 - **Mutation:** Toxic Blood → Euphoria → Mutated Skin (below).
 
@@ -96,7 +96,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
 
 1. Strength Training
 2. Exploding Shield, then Active Shield once you have it
@@ -125,9 +125,9 @@ Late in the game Survival Instinct and Tissue Transmutation take the slots of Mu
 
 **Delusion:** if you want Axii's dialogue options, it takes Refreshment's slot.
 
-**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per whole Adrenaline point held, up to −45%; spending points lowers it. The files confirm the coefficient and add two limits: it does nothing while a Quen shield is up, and it doesn't reduce damage over time ([chapter 19](19-the-maths.md#5-effective-health-ursine-with-mutated-skin)). It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
+**Mutation: Mutated Skin** (Toxic Blood, Euphoria, then Mutated Skin: 10 Ability Points, 8 greater green and 2 greater red mutagens). −15% damage taken per whole Adrenaline point held, up to −45%; spending points lowers it. The files confirm the coefficient and add two limits: it does nothing while a Quen shield is up, and it doesn't reduce damage over time ([chapter 20](20-the-maths.md#5-effective-health-ursine-with-mutated-skin)). It needs Euphoria researched first, as KeenGamer says and the game files confirm ([KeenGamer: Mutations](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/)). It's a two-color mutation, so its extra slots take Combat or Alchemy skills.
 
-Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 5). For most players Undying does the same job for one point.
+Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but its research path runs through Bloodbath, Piercing Cold and Adrenaline Rush: 22 points in all (chapter 6). For most players Undying does the same job for one point.
 
 ## Consumables and the fight loop
 
@@ -153,9 +153,9 @@ Later, **Second Life** gives a full heal at 0 Vitality on a long cooldown, but i
 
 Location guides: [Mobalytics: Ursine School gear](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-ursine-school-gear-set), [Console Pulse: Ursine gear](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-ursine-gear). Ursine is the most defensive witcher set; its Grandmaster chest also adds +22% Adrenaline gain ([Fextralife: Grandmaster Ursine Armor](https://thewitcher3.wiki.fextralife.com/Grandmaster+Ursine+Armor)).
 
-**The set bonus and Quen.** The 3-piece bonus gives a broken Quen a 5% chance per set piece to recast for free (30% with all six); the 6-piece bonus makes Quen-based abilities deal +200% damage. Since patch 5.01, Exploding Shield also reflects damage, so the 6-piece bonus should now have more to multiply; that's this book's reading of the two changes together, not something a source has tested. Hack the Minotaur describes a different, strong-attack-and-Adrenaline Ursine bonus after a 5.0 "gear rework" that no patch note mentions, so read the tooltip before you craft (chapter 3).
+**The set bonus and Quen.** The 3-piece bonus gives a broken Quen a 5% chance per set piece to recast for free (30% with all six); the 6-piece bonus makes Quen-based abilities deal +200% damage. Since patch 5.01, Exploding Shield also reflects damage, so the 6-piece bonus should now have more to multiply; that's this book's reading of the two changes together, not something a source has tested. Hack the Minotaur describes a different, strong-attack-and-Adrenaline Ursine bonus after a 5.0 "gear rework" that no patch note mentions, so read the tooltip before you craft (chapter 4).
 
-**Other heavy armor in Blood and Wine** (chapter 16): **Tesham Mutna** (level 39, missable during *La Cage au Fou*; kills heal you with 3+ pieces), **Hen Gaidth** or the **Toussaint relic set** (one or the other, depending on your story route), and the crafted **Toussaint Knight's Tourney** armor (level 48, +500 Vitality, Quen deflects projectiles 25% of the time). The **Heft** glyphword (chapter 6) makes any armor count as heavy, if your favorite set isn't.
+**Other heavy armor in Blood and Wine** (chapter 17): **Tesham Mutna** (level 39, missable during *La Cage au Fou*; kills heal you with 3+ pieces), **Hen Gaidth** or the **Toussaint relic set** (one or the other, depending on your story route), and the crafted **Toussaint Knight's Tourney** armor (level 48, +500 Vitality, Quen deflects projectiles 25% of the time). The **Heft** glyphword (chapter 7) makes any armor count as heavy, if your favorite set isn't.
 
 ## The maths
 
@@ -200,4 +200,4 @@ Armor, resistances, the Griffin decoction and Tissue Transmutation all come on t
 
 ---
 
-[← 9. Griffin: the School of the Griffin](09-griffin.md) · [Contents](../README.md) · [11. Wolven: the School of the Wolf →](11-wolven.md)
+[← 10. Griffin: the School of the Griffin](10-griffin.md) · [Contents](../README.md) · [12. Wolven: the School of the Wolf →](12-wolven.md)

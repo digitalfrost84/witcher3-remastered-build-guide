@@ -14,17 +14,17 @@ Every number sits in a DATA block inside its function, with its source noted,
 and every total, share or curve is computed from those numbers. The charts and
 the chapters that show them:
 
-    resources        resources.png        chapter 1
-    school_map       school-map.png       README, chapter 7
-    gear_timeline    gear-timeline.png    chapter 15
-    toxicity_budget  toxicity-budget.png  chapters 4, 12 and 19
-    sign_intensity   sign-intensity.png   chapters 9 and 19
-    crit_stack       crit-stack.png       chapters 8 and 19
-    poison_odds      poison-odds.png      chapters 13 and 19
-    skill_route      skill-route.png      chapters 2 and 11
-    ursine_ehp       ursine-effective-health.png  chapter 10
+    resources        resources.png        chapter 2
+    school_map       school-map.png       README, chapter 8
+    gear_timeline    gear-timeline.png    chapter 16
+    toxicity_budget  toxicity-budget.png  chapters 5, 13 and 20
+    sign_intensity   sign-intensity.png   chapters 10 and 20
+    crit_stack       crit-stack.png       chapters 9 and 20
+    poison_odds      poison-odds.png      chapters 14 and 20
+    skill_route      skill-route.png      chapters 3 and 12
+    ursine_ehp       ursine-effective-health.png  chapter 11
 
-Values marked as game-file values come from the audit in chapter 19.
+Values marked as game-file values come from the audit in chapter 20.
 """
 import math
 import sys
@@ -298,7 +298,7 @@ def gear_timeline():
 # 4. Toxicity budget
 # =====================================================================
 def toxicity_budget():
-    # DATA: every value from the game files, build 5.0.0.1048522 (chapter 19)
+    # DATA: every value from the game files, build 5.0.0.1048522 (chapter 20)
     BASE = 100          # max Toxicity (geralt_stats.xml)
     DECOCTION = 50      # toxicity_offset of standard decoctions (def_item_alchemy_mutagens.xml); Basilisk 40
     AT_PER_RECIPE = 0.5 # Acquired Tolerance: +0.5 per eligible learned recipe with level <= rank (alchemy_s18)
@@ -355,8 +355,8 @@ def sign_intensity():
         ("Chain Reaction rank 3, 5 stacks", 75, False),            # witcherhour 5.0 (15% x 5)
         ("Superior Petri's Philter", 25, False),                  # Fextralife potions
         ("Griffin School Techniques rank 3, 4 pieces", 24, False), # witcherhour 5.0 (6% x 4)
-        ("Grandmaster Griffin chest piece", 22, False),            # game files (chapter 19, Grandmaster items)
-        ("Grandmaster Griffin steel sword", 21, False),            # game files (chapter 19, Grandmaster items)
+        ("Grandmaster Griffin chest piece", 22, False),            # game files (chapter 20, Grandmaster items)
+        ("Grandmaster Griffin steel sword", 21, False),            # game files (chapter 20, Grandmaster items)
     ]
     fig = plt.figure(figsize=(12, 6.4))
     ax = fig.add_axes([0.35, 0.10, 0.60, 0.68])
@@ -421,7 +421,7 @@ def crit_stack():
 # =====================================================================
 def poison_odds():
     # DATA: Poisoned Blades chance = 0.05*rank + 0.10*(oil tier - 1), needs an oil matching the target;
-    # a poison sword rolls separately (game files, build 5.0.0.1048522; chapter 19)
+    # a poison sword rolls separately (game files, build 5.0.0.1048522; chapter 20)
     viper = 1 - (1 - 0.35) * (1 - 0.15)
     chances = [(0.05, "5% per hit", "Poisoned Blades rank 1, basic oil"),
                (0.15, "15% per hit", "rank 3 with a basic oil,\nor a Viper sword on its own"),
@@ -462,7 +462,7 @@ def poison_odds():
 # 8. Skill route (Wolven hybrid), phases shaded
 # =====================================================================
 def skill_route():
-    # DATA: the Wolven plan in chapter 11; links from witcherdb (5.0)
+    # DATA: the Wolven plan in chapter 12; links from witcherdb (5.0)
     PH = ["Opening (first 6 points)", "Phase 1 (to 13)", "Phase 2 (to 20)", "Phase 3 (to 28)", "Phase 4 (30+)"]
     SHADE = ["#1c5cab", "#3987e5", "#86b6ef", "#c4dbf7", "#eef4fc"]
     TXT = ["white", "white", INK, INK, INK]
@@ -512,7 +512,7 @@ def skill_route():
         fig.patches.append(FancyBboxPatch((x, 0.052), 0.018, 0.022, boxstyle="round,pad=0.002", transform=fig.transFigure,
                                           fc=SHADE[k], ec=AXIS, lw=0.8))
         fig.text(x + 0.026, 0.063, lab, fontsize=10, color=INK2, va="center")
-    fig.text(0.04, 0.018, "Prerequisite links: witcherdb.com Remastered planner (5.0). Phases follow chapter 11's plan.", fontsize=8.5, color=MUTED)
+    fig.text(0.04, 0.018, "Prerequisite links: witcherdb.com Remastered planner (5.0). Phases follow chapter 12's plan.", fontsize=8.5, color=MUTED)
     save(fig, "skill-route.png")
 
 
@@ -520,7 +520,7 @@ def skill_route():
 # 9. Ursine effective health (Mutated Skin)
 # =====================================================================
 def ursine_ehp():
-    # DATA: game files, build 5.0.0.1048522 (chapter 19)
+    # DATA: game files, build 5.0.0.1048522 (chapter 20)
     BEAR = 0.02 * 3 * 4      # Bear School Techniques: 0.02 per rank per heavy piece, rank 3, four pieces
     SURVIVAL = 0.08 * 3      # Survival Instinct rank 3 (+8% per rank, witcherhour 5.0)
     SKIN = 0.15              # Mutated Skin: -15% Vitality damage per whole Adrenaline point (Mutation5)

@@ -1,6 +1,6 @@
-# 16. Other armor sets: reward sets, free DLC and the expansions
+# 17. Other armor sets: reward sets, free DLC and the expansions
 
-Witcher sets are only part of the armor in the game. Some of the best pieces for a given level come from a linked account, from the free DLC that's part of every edition, or from the two expansions. Because School Techniques only care about weight class (chapter 3), any of these can serve a school build as long as the weight is right.
+Witcher sets are only part of the armor in the game. Some of the best pieces for a given level come from a linked account, from the free DLC that's part of every edition, or from the two expansions. Because School Techniques only care about weight class (chapter 4), any of these can serve a school build as long as the weight is right.
 
 ## Reward sets from a linked account
 
@@ -57,7 +57,7 @@ Each one is a good opener for its weight class: Temerian for Feline, Nilfgaardia
 
 Sources: [nukesdragons: Ofieri armor](https://nukesdragons.com/witcher-3/db/armor/ofieri-scale-armor), [GoSuNoob: Ofieri armor locations](https://www.gosunoob.com/witcher-3/ofieri-armor-locations/), [Fextralife: New Moon Armor](https://thewitcher3.wiki.fextralife.com/New+Moon+Armor), [WitcherHour: Best armor](https://witcherhour.com/witcher-3-best-armor/).
 
-The **Viper** set is also from Hearts of Stone; it's covered in chapter 13.
+The **Viper** set is also from Hearts of Stone; it's covered in chapter 14.
 
 ## Blood and Wine sets
 
@@ -71,7 +71,7 @@ The **Viper** set is also from Hearts of Stone; it's covered in chapter 13.
 
 Sources: [nukesdragons: Tesham Mutna](https://nukesdragons.com/witcher-3/db/armor/tesham-mutna-armor), [Hen Gaidth](https://nukesdragons.com/witcher-3/db/armor/hen-gaidth-armor), [Toussaint armor](https://nukesdragons.com/witcher-3/db/armor/toussaint-armor), [Knight's Tourney](https://nukesdragons.com/witcher-3/db/armor/toussaint-knights-tourney-armor), [Ducal Guard Captain's](https://nukesdragons.com/witcher-3/db/armor/toussaint-ducal-guard-captains-armor); [GoSuNoob: Tesham Mutna](https://www.gosunoob.com/witcher-3/tesham-mutna-armor/); [Console Pulse: Rare armors](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors).
 
-Hen Gaidth and the Toussaint relic set are mutually exclusive in one playthrough; chapter 18 explains the choice that decides it.
+Hen Gaidth and the Toussaint relic set are mutually exclusive in one playthrough; chapter 19 explains the choice that decides it.
 
 ## Picks for each school
 
@@ -101,4 +101,4 @@ Hen Gaidth and the Toussaint relic set are mutually exclusive in one playthrough
 
 ---
 
-[← 15. The gear path, region by region](15-gear-path.md) · [Contents](../README.md) · [17. Relics and legendary weapons →](17-relics.md)
+[← 16. The gear path, region by region](16-gear-path.md) · [Contents](../README.md) · [18. Relics and legendary weapons →](18-relics.md)

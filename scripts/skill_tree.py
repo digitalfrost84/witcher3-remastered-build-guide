@@ -6,7 +6,7 @@ Usage, from the repository root:
     python3 scripts/skill_tree.py Signs      # one tree
 
 For each skill it prints the fewest points needed to own rank 1 from an empty
-tree (the "Points to reach" column in chapter 21), the skills it unlocks and
+tree (the "Points to reach" column in chapter 22), the skills it unlocks and
 every cheapest route. check_plans.py imports the data from here.
 
 Prerequisites were transcribed from WitcherDB's Remastered planner

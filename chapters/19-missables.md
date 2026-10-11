@@ -1,4 +1,4 @@
-# 18. Missables: one-time gear
+# 19. Missables: one-time gear
 
 Most gear in The Witcher 3 waits for you, including every Feline, Griffin, Ursine, Wolven and Grandmaster diagram. A few things don't. This chapter lists the gear you can lose for good, with exactly what loses it. Patch 5.0 changed no items, so pre-5.0 sources apply ([KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)). One thing 5.0 adds: since owning an item or its diagram unlocks its look for Reforge, every missable below is also a look you can never reforge to.
 
@@ -45,7 +45,7 @@ Most gear in The Witcher 3 waits for you, including every Feline, Griffin, Ursin
   You can follow both leads before you commit. One set per playthrough: a manual save before the choice is the only way to see both ([Witcher wiki](https://witcher.fandom.com/wiki/The_Night_of_Long_Fangs); [Console Pulse: B&W choices](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-choices-blood-and-wine)).
 - [ ] **Loot as you go** in the Land of a Thousand Fables and the Unseen Elder's lair. Both close behind you.
 
-**Not missable in practice:** **Aerondight**. Every virtue has several chances, and the quest can be finished after the main story (chapter 17). **Not missable:** every Grandmaster diagram; even Manticore's trial in Murky Delve can't be failed ([Console Pulse: Grandmaster sets](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-grandmaster-gear-sets-bonuses-compared)).
+**Not missable in practice:** **Aerondight**. Every virtue has several chances, and the quest can be finished after the main story (chapter 18). **Not missable:** every Grandmaster diagram; even Manticore's trial in Murky Delve can't be failed ([Console Pulse: Grandmaster sets](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-grandmaster-gear-sets-bonuses-compared)).
 
 ## Points of no return in the main story
 
@@ -66,4 +66,4 @@ Most gear in The Witcher 3 waits for you, including every Feline, Griffin, Ursin
 
 ---
 
-[← 17. Relics and legendary weapons](17-relics.md) · [Contents](../README.md) · [19. The maths behind the choices →](19-the-maths.md)
+[← 18. Relics and legendary weapons](18-relics.md) · [Contents](../README.md) · [20. The maths behind the choices →](20-the-maths.md)

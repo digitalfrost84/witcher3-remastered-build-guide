@@ -1,4 +1,4 @@
-# 8. Feline: the School of the Cat
+# 9. Feline: the School of the Cat
 
 > Fast attacks, crits, and never getting hit.
 
@@ -16,13 +16,13 @@ Their fighting style, Addan Aenye, came from an elf named Nissail: speed, precis
 
 ## How it plays
 
-Feline turns **held Adrenaline into crits**. Battle Frenzy adds crit chance for every Adrenaline point you're holding, Katakan adds a flat 10% on top, and Cat School Techniques makes the fast attacks that land those crits hit harder in light armor. The crits' size comes from your swords and from Hunter Instinct: Cat's own crit-damage line adds nothing in the game's damage code (chapter 19). Everything else in the build exists to protect the bar: Razor Focus starts every fight with a point, Resolve stops hits from draining it, Fleet-Footed cuts the damage you take while dodging, and Counterattack rewards the dodge itself.
+Feline turns **held Adrenaline into crits**. Battle Frenzy adds crit chance for every Adrenaline point you're holding, Katakan adds a flat 10% on top, and Cat School Techniques makes the fast attacks that land those crits hit harder in light armor. The crits' size comes from your swords and from Hunter Instinct: Cat's own crit-damage line adds nothing in the game's damage code (chapter 20). Everything else in the build exists to protect the bar: Razor Focus starts every fight with a point, Resolve stops hits from draining it, Fleet-Footed cuts the damage you take while dodging, and Counterattack rewards the dodge itself.
 
 The loop is dodge, punish with a string of fast attacks, step out, repeat. The build is at its best when you take no hits at all, and the second decoction, mutation and set bonus all push further in that direction.
 
 **Where the bar comes from and where it goes.** Razor Focus banks one point at the start of every fight, and every hit you land adds more, while every hit you take drains some, which is what Resolve stops. Undying is the only skill in the plan that spends the bar, and only when a hit would kill you; Whirl is the one optional exception. Light armor also refills Stamina 25% faster than medium, which pays for dodges and Quen.
 
-**What it struggles with.** Fast attacks lose the target's flat armor on every hit, while strong attacks carry 1,000 points of armor penetration (chapter 19). Against heavily armored enemies a strong hit first is worth it twice over: it ignores the armor, and with three Grandmaster pieces it powers up the fast string that follows. Big groups are the other weakness: the build has little crowd control beyond Quen and footwork.
+**What it struggles with.** Fast attacks lose the target's flat armor on every hit, while strong attacks carry 1,000 points of armor penetration (chapter 20). Against heavily armored enemies a strong hit first is worth it twice over: it ignores the armor, and with three Grandmaster pieces it powers up the fast string that follows. Big groups are the other weakness: the build has little crowd control beyond Quen and footwork.
 
 ## Skills by phase
 
@@ -33,7 +33,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
 | Muscle Memory | Combat | 1 | start | After a dodge or roll, your next fast attack deals +30% |
-| Cat School Techniques | General | 1 | start | +2% fast attack damage per light piece, its published +8% crit damage adds nothing in real attacks (chapter 19). The Temerian set from White Orchard is light |
+| Cat School Techniques | General | 1 | start | +2% fast attack damage per light piece, its published +8% crit damage adds nothing in real attacks (chapter 20). The Temerian set from White Orchard is light |
 | Exploding Shield | Signs | 1 | start | Quen. When it breaks it pushes enemies back, and since patch 5.01 it also reflects damage |
 | Three Strikes | Combat | 1 | Muscle Memory | 20% chance for +40–70% raw damage on the fourth consecutive same-style hit |
 | Battle Frenzy | General | 1 | Cat School Techniques | +3% crit chance per Adrenaline point held |
@@ -91,11 +91,11 @@ Cumulative points after each phase:
 | Phase 2 | 11 | 1 | 3 | 5 | 20 |
 | Phase 3 | 16 | 2 | 4 | 6 | 28 |
 
-**A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out**: 75 / 50 / 37.5 Stamina per second at ranks 1/2/3, then 1 / 0.67 / 0.5 Adrenaline per second, according to the game files (chapter 19). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
+**A note on Whirl.** Whirl is a spending skill, and guides disagree on whether a Feline should use it at all: KeenGamer says skip it, while Hack the Minotaur, FinalBoss and VGTimes use it on groups. The detail that settles it is how it pays: keeping Whirl going costs **Stamina first and Adrenaline only once Stamina runs out**: 75 / 50 / 37.5 Stamina per second at ranks 1/2/3, then 1 / 0.67 / 0.5 Adrenaline per second, according to the game files (chapter 20). Short spins into a crowd cost your Battle Frenzy nothing; spinning until the Stamina bar is empty does.
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
 
 1. Muscle Memory
 2. Cat School Techniques (once you're in light armor; the Temerian set fits at level 4)
@@ -134,7 +134,7 @@ Three Strikes, Arrow Deflection, Frenzy and Whirl are stepping stones; leave the
 
 - **Water Hag:** +50% damage while your Vitality is full. The natural partner for a build that's built around not getting hit.
 - **Ekimmara:** 10% of the damage you deal comes back as Vitality, for when you do get hit.
-- **Doppler:** described as +50% crit damage when attacking from behind, but the files store it as a multiplier on a zero base, so it adds nothing in real attacks ([chapter 19](19-the-maths.md#2-school-techniques-what-can-be-compared)). Pick another decoction.
+- **Doppler:** described as +50% crit damage when attacking from behind, but the files store it as a multiplier on a zero base, so it adds nothing in real attacks ([chapter 20](20-the-maths.md#2-school-techniques-what-can-be-compared)). Pick another decoction.
 
 **Potions:** Thunderbolt (+30% attack power), Swallow, and Maribor Forest, whose superior version gives you an Adrenaline point when you drink it. **Bombs:** a superior Samum guarantees a crit on the first hit against each blinded enemy. **Oils:** always the right one, because Hunter Instinct only works against the oiled monster type.
 
@@ -151,16 +151,16 @@ Three Strikes, Arrow Deflection, Frenzy and Whirl are stepping stones; leave the
 
 | Levels | Armor | Swords |
 | --- | --- | --- |
-| 1–16 | **Temerian set** (light, level 4): free DLC from Bram at Woesong Bridge, White Orchard ([Console Pulse](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors)) | **Viper swords** (White Orchard, levels 1–2); **Sword of a Thousand Flowers** and **White Widow** (level 7, +5% crit chance) or **Nine-Tailed Vixen** (level 11, +10% crit chance) if your account has them (chapter 16) |
+| 1–16 | **Temerian set** (light, level 4): free DLC from Bram at Woesong Bridge, White Orchard ([Console Pulse](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors)) | **Viper swords** (White Orchard, levels 1–2); **Sword of a Thousand Flowers** and **White Widow** (level 7, +5% crit chance) or **Nine-Tailed Vixen** (level 11, +10% crit chance) if your account has them (chapter 17) |
 | 17–33 | **Feline** Basic (17), Enhanced (23), Superior (29). Diagrams in Velen, Novigrad and Oxenfurt | Feline swords at the same levels; **Arbitrator** (level 17, +50% crit damage; it needs a Master smith, so in practice from about level 24) |
 | 34–39 | **Mastercrafted Feline** (34; Skellige diagrams; Yoana and Hattori craft) | **Ofieri saber** (level 38: +15% crit chance, +75% crit damage) or **Viper Venomous** swords (level 39, missable) |
 | 40+ | **Grandmaster Feline** armor (Lazare Lafargue, Toussaint) | **Toussaint Knight's Steel Sword** (level 48: +20% crit chance, +100% crit damage, +300 armor piercing) and **Aerondight** (silver; at full charge every hit crits) |
 
-Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-cat-school-gear-set), [Console Pulse: Feline gear](https://www.consolepulse.com/multiplatform/the-witcher/guides/witcher-3-feline-gear-guide). Relic swords are covered in chapter 17.
+Location guides: [Mobalytics: Cat School gear](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-cat-school-gear-set), [Console Pulse: Feline gear](https://www.consolepulse.com/multiplatform/the-witcher/guides/witcher-3-feline-gear-guide). Relic swords are covered in chapter 18.
 
 **The Grandmaster question.** The **3-piece bonus** is excellent for this build: a strong attack raises fast attack damage by 10% per set piece for 5 seconds, so a single strong hit before your fast string adds 40% with the four armor pieces. The **6-piece bonus** (attacks from behind deal +50% and stun) needs both Feline swords and **costs 1 Adrenaline point** per rear attack, which is exactly what Battle Frenzy wants you to keep. This book's recommendation: four Grandmaster Feline armor pieces with the two relic swords above, not the full six. If you prefer the full set, treat the Adrenaline cost as the price of the stun; the rear-attack damage bonus itself only needs one point banked, and Whirl and Rend don't pay the cost.
 
-**Heavier armor with Levity.** The Levity glyphword (chapter 6) makes all your armor count as light while keeping its resistances, so a Feline can wear medium or heavy armor and keep every bit of Cat School Techniques. It costs a tier 3 Runewright (30,000 crowns in total).
+**Heavier armor with Levity.** The Levity glyphword (chapter 7) makes all your armor count as light while keeping its resistances, so a Feline can wear medium or heavy armor and keep every bit of Cat School Techniques. It costs a tier 3 Runewright (30,000 crowns in total).
 
 ## The maths
 
@@ -187,7 +187,7 @@ For a simplified pre-mitigation hit, with damage term `W`, non-critical power mu
 
 With no flat additions, a crit adds `C / M ≈ 0.40` to a normal hit, and the expected fast attack is `1 + c × C / M ≈ 1.21` times a non-critical one. Without Hunter Instinct's condition (oil mismatch or an empty bar) `C` falls to 0.25 and the gain to about 6%, which is why the oil and the full bar matter more than any single crit-chance source. A relic with +100% crit damage, such as the Toussaint Knight's Steel Sword, more than doubles `C`.
 
-The former guaranteed **0.35 / 0.57 normal-hit** gains stay withdrawn: they ignored the existing multiplier, and Cat School Techniques' crit-damage part adds nothing. See [chapter 19](19-the-maths.md#3-crits-what-chance-is-worth) for the formula and its limits.
+The former guaranteed **0.35 / 0.57 normal-hit** gains stay withdrawn: they ignored the existing multiplier, and Cat School Techniques' crit-damage part adds nothing. See [chapter 20](20-the-maths.md#3-crits-what-chance-is-worth) for the formula and its limits.
 
 ## Verdict
 
@@ -214,4 +214,4 @@ The former guaranteed **0.35 / 0.57 normal-hit** gains stay withdrawn: they igno
 
 ---
 
-[← 7. Choosing a school](07-choosing-a-school.md) · [Contents](../README.md) · [9. Griffin: the School of the Griffin →](09-griffin.md)
+[← 8. Choosing a school](08-choosing-a-school.md) · [Contents](../README.md) · [10. Griffin: the School of the Griffin →](10-griffin.md)

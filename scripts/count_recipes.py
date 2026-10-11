@@ -10,7 +10,7 @@ below them, skips the New Game+ copies (folders ending in _plus) and
 commented-out entries, and prints how many recipes each Acquired Tolerance
 rank counts.
 
-The rule it applies comes from the 5.0 scripts (chapter 19): Acquired
+The rule it applies comes from the 5.0 scripts (chapter 20): Acquired
 Tolerance adds 0.5 maximum Toxicity per learned recipe whose level is at most
 its rank, and it skips bolts, dyes and any type the game doesn't recognize.
 The result is the number of recipe definitions, an upper bound on what a

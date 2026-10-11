@@ -1,4 +1,4 @@
-# 1. The resources every build trades
+# 2. The resources every build trades
 
 Every build in The Witcher 3 is a way of turning four resources into damage and survival: **Adrenaline, Stamina, Vitality and Toxicity**. The six witcher schools are, at heart, six different answers to which of those four you lean on. Once you can see the resources clearly, every skill, potion and armor piece in this book makes sense as a way to fill one, protect one or spend one.
 
@@ -29,9 +29,9 @@ Stamina is the bar under your health. It refills on its own and pays for:
 - **Active Shield** (Quen's alternate mode) while you hold it up,
 - sprinting.
 
-**In combat** it refills at 10% of your maximum per second, normally 10 points, and armor weight scales the whole rate: +25% in full light armor, −25% in full heavy. On top of the base come +0.5 per second for every rank of an equipped Signs skill (chapter 2), the Tawny Owl potion (+5/8/10 per second, so the superior version doubles the base rate), Griffin School Techniques (+0.2 per second per rank and medium piece), the Grandmaster Griffin set inside Yrden (+5), the Ancient Leshen decoction (+2 per second for each Sign cast) and Sun and Stars at night ([chapter 19](19-the-maths.md#13-stamina-in-combat)). Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
+**In combat** it refills at 10% of your maximum per second, normally 10 points, and armor weight scales the whole rate: +25% in full light armor, −25% in full heavy. On top of the base come +0.5 per second for every rank of an equipped Signs skill (chapter 3), the Tawny Owl potion (+5/8/10 per second, so the superior version doubles the base rate), Griffin School Techniques (+0.2 per second per rank and medium piece), the Grandmaster Griffin set inside Yrden (+5), the Ancient Leshen decoction (+2 per second for each Sign cast) and Sun and Stars at night ([chapter 20](20-the-maths.md#13-stamina-in-combat)). Sign builds live and die by this bar, which is why both Griffin set bonuses deal with Stamina ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor); [witcherhour.com](https://witcherhour.com/skills/)).
 
-**Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses delay both rates, and guarding in combat uses a separate, unboosted rate, so neither number is casts per second; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
+**Outside combat**, baseline regeneration is **100% of maximum Stamina per second** while active, normally 100 points/s. Action-related pauses delay both rates, and guarding in combat uses a separate, unboosted rate, so neither number is casts per second; see [chapter 20's file audit](20-the-maths.md#file-evidence-and-reproducibility).
 
 ## Vitality
 
@@ -41,12 +41,12 @@ When Vitality hits zero you die, unless something saves you: **Undying** (Combat
 
 ## Toxicity
 
-Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is the exception), and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). The unmodified maximum is **100**, confirmed in build `5.0.0.1048522`. Potion Toxicity drains at **0.25 points/s in combat** or **0.275 points/s outside combat**, before modifiers; see [chapter 19's file audit](19-the-maths.md#file-evidence-and-reproducibility).
+Toxicity is the cost of alchemy. Almost every potion adds some (White Honey is the exception), and it drains away over time. **Decoctions are different: each one locks 50 Toxicity for its full 30-minute duration** (Basilisk locks 40) ([Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions)). The unmodified maximum is **100**, confirmed in build `5.0.0.1048522`. Potion Toxicity drains at **0.25 points/s in combat** or **0.275 points/s outside combat**, before modifiers; see [chapter 20's file audit](20-the-maths.md#file-evidence-and-reproducibility).
 
 Two things make Toxicity a resource rather than just a limit:
 
 1. **Skills and mutations that reward it.** Frenzy only works with Toxicity above 1, Endure Pain adds maximum Vitality above the safe threshold, High Tolerance turns Toxicity into crit damage, and the Euphoria mutation turns every point into sword damage and Sign intensity.
-2. **Skills that raise the ceiling.** Acquired Tolerance adds +0.5 maximum Toxicity per alchemy recipe you've learned (its rank decides whether enhanced and superior recipes count), and Metabolic Control adds +10/20/30. Chapter 4 shows how many decoctions each setup can afford.
+2. **Skills that raise the ceiling.** Acquired Tolerance adds +0.5 maximum Toxicity per alchemy recipe you've learned (its rank decides whether enhanced and superior recipes count), and Metabolic Control adds +10/20/30. Chapter 5 shows how many decoctions each setup can afford.
 
 **Above half your maximum, Toxicity costs 0.5% of your maximum Vitality per second**, except while you meditate, and decoction Toxicity counts toward that half. The game files confirm the next-gen description ([Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-toxicity-overdose-delayed-recovery-guide)) and rule out the claim that decoctions don't count. White Honey clears all Toxicity, along with every active potion effect.
 
@@ -59,7 +59,7 @@ Fast attacks are quick and safe; strong attacks are slow and hit harder. Patch 5
 - **Crushing Blow:** a 20/40/60% chance that your next two strong attacks deal +50%.
 - **Sunder Armor:** strong attacks strip 10% of the target's damage resistance per stack, up to 1/2/3 stacks; only your strong attacks benefit.
 
-The installed 5.0 files give Geralt a **5% base crit chance**, and his base crit bonus adds **0.25 to the attack-power multiplier** rather than multiplying the whole hit by 1.25 ([chapter 19](19-the-maths.md#3-crits-what-chance-is-worth)). Everything else comes on top: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 17). **Armor piercing** is a weapon stat that ignores part of the target's armor. Every strong attack, Rend included, carries 1,000 points of it, more than any enemy's armor in the game's definitions, so armor mostly blunts fast attacks (chapter 19). Superior Grapeshot ignores armor entirely.
+The installed 5.0 files give Geralt a **5% base crit chance**, and his base crit bonus adds **0.25 to the attack-power multiplier** rather than multiplying the whole hit by 1.25 ([chapter 20](20-the-maths.md#3-crits-what-chance-is-worth)). Everything else comes on top: Battle Frenzy and the Katakan decoction for crit chance; Cat School Techniques, Hunter Instinct and High Tolerance for crit damage; and weapons with crit stats, which include most of the best swords in the game (chapter 18). **Armor piercing** is a weapon stat that ignores part of the target's armor. Every strong attack, Rend included, carries 1,000 points of it, more than any enemy's armor in the game's definitions, so armor mostly blunts fast attacks (chapter 20). Superior Grapeshot ignores armor entirely.
 
 ## Signs and Sign intensity
 
@@ -73,7 +73,7 @@ Sign intensity is the Sign version of attack power. The table shows what it rais
 | **Quen** | How much damage the shield absorbs | Exploding Shield → **Active Shield** (absorbed damage heals you) |
 | **Axii** | Success chance and duration | Delusion → **Puppetmaster** (the target fights for you) |
 
-Sign intensity stacks from armor (Griffin and Wolf School Techniques), potions (Petri's Philter), runestones (Veles) new 5.0 skills (Focus, Catalyst, Chain Reaction) and the rebalanced Flood of Anger. Chapter 9 adds them all up for a Griffin.
+Sign intensity stacks from armor (Griffin and Wolf School Techniques), potions (Petri's Philter), runestones (Veles) new 5.0 skills (Focus, Catalyst, Chain Reaction) and the rebalanced Flood of Anger. Chapter 10 adds them all up for a Griffin.
 
 ## What this means for picking a school
 
@@ -102,4 +102,4 @@ Part II builds each of those schools in full.
 
 ---
 
-[Contents](../README.md) · [2. The 5.0 skill system →](02-the-skill-system.md)
+[← 1. The all-sets playthrough](01-all-sets-playthrough.md) · [Contents](../README.md) · [3. The 5.0 skill system →](03-the-skill-system.md)

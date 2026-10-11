@@ -4,7 +4,7 @@ Usage, from the repository root:
 
     python3 scripts/check_plans.py
 
-It reads the "Skills by phase" tables in chapters 8 to 13 and 23 straight from the
+It reads the "Skills by phase" tables in chapters 1 and 9 to 14 straight from the
 Markdown, so it always checks what the book says. For every row it checks
 that:
 
@@ -18,7 +18,7 @@ that:
 
 It also checks a "| Phase | Combat | Signs | Alchemy | General | Total |"
 table when a chapter has one, and the "Points to reach" column of the
-chapter 21 skill reference. Late-game bullet lists are free text and aren't
+chapter 22 skill reference. Late-game bullet lists are free text and aren't
 checked. Exit status is 1 if anything fails.
 """
 import re
@@ -29,8 +29,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import skill_tree  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-SCHOOLS = ["08-feline.md", "09-griffin.md", "10-ursine.md", "11-wolven.md", "12-manticore.md", "13-viper.md",
-           "23-all-sets-playthrough.md"]
+SCHOOLS = ["09-feline.md", "10-griffin.md", "11-ursine.md", "12-wolven.md", "13-manticore.md", "14-viper.md",
+           "01-all-sets-playthrough.md"]
 DASHES = {"—", "-", "–"}
 
 
@@ -124,8 +124,8 @@ def check_school(path):
 
 
 def check_reference():
-    """Chapter 21's 'Points to reach' column against the computed cheapest routes."""
-    path = ROOT / "chapters" / "21-skill-reference.md"
+    """Chapter 22's 'Points to reach' column against the computed cheapest routes."""
+    path = ROOT / "chapters" / "22-skill-reference.md"
     expected = skill_tree.points_to_reach()
     problems, seen = [], set()
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -135,12 +135,12 @@ def check_reference():
         skill, points = m.group(1), int(m.group(3))
         seen.add(skill)
         if skill not in expected:
-            problems.append(f"21-skill-reference.md: {skill} is not in the skill-tree data")
+            problems.append(f"22-skill-reference.md: {skill} is not in the skill-tree data")
         elif expected[skill] != points:
-            problems.append(f"21-skill-reference.md: {skill} says {points} points to reach, the tree gives {expected[skill]}")
+            problems.append(f"22-skill-reference.md: {skill} says {points} points to reach, the tree gives {expected[skill]}")
     missing = set(expected) - seen
     if missing:
-        problems.append(f"21-skill-reference.md: no row for {', '.join(sorted(missing))}")
+        problems.append(f"22-skill-reference.md: no row for {', '.join(sorted(missing))}")
     return problems
 
 

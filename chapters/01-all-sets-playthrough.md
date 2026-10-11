@@ -1,16 +1,18 @@
-# 23. The all-sets playthrough
+# 1. The all-sets playthrough
 
 > Wear whatever is best right now, keep skills that work in any of it, and pick a school when the Grandmaster sets arrive.
 
 ## Who this is for
 
+Start here if you want one plan for the whole game. The rest of the book explains why it works and how to specialize once you know which school you'll finish in.
+
 The school chapters each build one school from White Orchard to Toussaint. Many players don't play that way: they hunt every witcher set, wear whichever is strongest at the moment, and only settle on a school late in the game. This chapter is the build for that playthrough.
 
-It rests on three facts from earlier chapters:
+It rests on three facts that later chapters explain in detail:
 
-- **Sets give no bonus before Grandmaster** (chapter 3). Until level 40, a set is only its stats and its weight class, so switching sets costs you nothing.
-- **School Techniques follow weight, not sets** (chapter 3). Wolf, Griffin, Manticore and Viper count any medium armor, Cat counts light and Bear counts heavy.
-- **Respec is cheap** (chapter 20). A Potion of Clearance from Keira Metz costs about 1,000 crowns and refunds every skill point, so you can min-max once you know which Grandmaster set you'll wear.
+- **Sets give no bonus before Grandmaster** (chapter 4). Until level 40, a set is only its stats and its weight class, so switching sets costs you nothing.
+- **School Techniques follow weight, not sets** (chapter 4). Wolf, Griffin, Manticore and Viper count any medium armor, Cat counts light and Bear counts heavy.
+- **Respec is cheap** (chapter 21). A Potion of Clearance from Keira Metz costs about 1,000 crowns and refunds every skill point, so you can min-max once you know which Grandmaster set you'll wear.
 
 So the plan buys the skills that most of the six school plans share, adds Wolf School Techniques for the medium armor you'll wear most of the time, and leaves the school-specific skills for the reset.
 
@@ -54,9 +56,9 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Sustained Glyphs | Signs | 1 | start | Stepping stone to Magic Trap; leave it unslotted |
 | Magic Trap | Signs | 1 | Sustained Glyphs | Yrden's alternate mode: damages and slows everything within 14 yards. Your answer to wraiths |
 | Wolf School Techniques | General | 1 | start | +2% weapon damage and +2% Sign intensity per medium armor piece |
-| Delusion | Signs | 1 | start | Axii's dialogue options; rank 1 is very likely enough in 5.0 (chapter 2) |
+| Delusion | Signs | 1 | start | Axii's dialogue options; rank 1 is very likely enough in 5.0 (chapter 3) |
 | Melt Armor | Signs | 1 | start | Igni lowers the target's armor, so your sword hits harder too |
-| Undying | Combat | 2 | — | Adds a flat third of your maximum Vitality: one Adrenaline point brings you back at 43% instead of 10% (chapter 19) |
+| Undying | Combat | 2 | — | Adds a flat third of your maximum Vitality: one Adrenaline point brings you back at 43% instead of 10% (chapter 20) |
 
 ### Phase 2: to 20 points (about levels 15–22)
 
@@ -94,11 +96,11 @@ Cumulative points after each phase:
 
 From 28 points on, until you reset: Exploding Shield's ranks stay at 1, and spare points go to Refreshment, Acquired Tolerance and Active Shield rank 3 (no drain at all), all of which you keep slotted.
 
-**Hunter Instinct is a stepping stone here.** It only adds crit damage to sword hits, and only with a full Adrenaline bar, the oil that matches the target, and an actual crit. At Geralt's base 5% crit chance, rank 1 adds at most about 1% to your average sword damage (chapter 19). Your oils pay off anyway, because their own bonus applies to every hit. Slot Hunter Instinct only if you end up wearing crit gear: Feline pieces, crit swords or the Katakan decoction.
+**Hunter Instinct is a stepping stone here.** It only adds crit damage to sword hits, and only with a full Adrenaline bar, the oil that matches the target, and an actual crit. At Geralt's base 5% crit chance, rank 1 adds at most about 1% to your average sword damage (chapter 20). Your oils pay off anyway, because their own bonus applies to every hit. Slot Hunter Instinct only if you end up wearing crit gear: Feline pieces, crit swords or the Katakan decoction.
 
 ## Slots, by where they are on screen
 
-Slots open by Ability Points earned (chapter 2): 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2, 11 by the end of Phase 3 and all 12 at 30 points. Until all three groups are open, fill new slots in this order:
+Slots open by Ability Points earned (chapter 3): 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2, 11 by the end of Phase 3 and all 12 at 30 points. Until all three groups are open, fill new slots in this order:
 
 1. Muscle Memory
 2. Razor Focus
@@ -130,9 +132,9 @@ Three Strikes and Sustained Glyphs never need a slot.
 | Bottom left | Undying, Wolf School Techniques, Delusion | Blue |
 | Bottom right | Refreshment, Acquired Tolerance, Survival Instinct | Green |
 
-**Without Delusion,** buy Refreshment in its place in Phase 1 and slot it in the bottom left with a green mutagen. The bottom right then has a free slot: Hunter Instinct if you wear crit gear, otherwise Three Strikes, whose small bonus to a fourth same-style hit is better than an empty slot (chapter 19).
+**Without Delusion,** buy Refreshment in its place in Phase 1 and slot it in the bottom left with a green mutagen. The bottom right then has a free slot: Hunter Instinct if you wear crit gear, otherwise Three Strikes, whose small bonus to a fourth same-style hit is better than an empty slot (chapter 20).
 
-A mutagen's bonus grows with every skill of its color in its group: a full group of three matching skills gets four times the base bonus (chapter 2). General skills match no color.
+A mutagen's bonus grows with every skill of its color in its group: a full group of three matching skills gets four times the base bonus (chapter 3). General skills match no color.
 
 ## When you change armor
 
@@ -144,25 +146,25 @@ Before level 40, the only thing a set change can break is your Technique. Check 
 | Light | Temerian (4), Feline (17, 23, 29, 34) | Cat School Techniques: +2% fast attack damage per light piece per rank | Buy it (1 point, no prerequisite) and slot it in Wolf's place |
 | Heavy | Undvik (16), Ursine (20, 25, 30, 34) | Bear School Techniques: +2% maximum Vitality and +2% strong attack damage per heavy piece per rank | Buy it (1 point, no prerequisite) and slot it in Wolf's place |
 
-Levels are each tier's required level (chapter 3); Wolven's first diagrams wait at Kaer Morhen, so in practice that set arrives mid-game (chapter 15).
+Levels are each tier's required level (chapter 4); Wolven's first diagrams wait at Kaer Morhen, so in practice that set arrives mid-game (chapter 16).
 
 - **A Technique counts pieces, not sets.** Mixing a Feline chest with medium gloves, trousers and boots still leaves three pieces for Wolf.
-- **Weight also changes Stamina.** Light armor refills Stamina 25% faster and heavy 25% slower in combat (chapter 19), which you'll feel in how often you can cast and dodge.
-- **The Balance glyphword makes all your armor count as medium** (chapter 6), so with Hearts of Stone you can wear any set's stats and keep Wolf School Techniques.
+- **Weight also changes Stamina.** Light armor refills Stamina 25% faster and heavy 25% slower in combat (chapter 20), which you'll feel in how often you can cast and dodge.
+- **The Balance glyphword makes all your armor count as medium** (chapter 7), so with Hearts of Stone you can wear any set's stats and keep Wolf School Techniques.
 - **Points in the old Technique sit idle** until you switch back. That's the price of switching weight; at one to three points it's smaller than a respec.
 
 ## The reset
 
 Reset once, when you know which set you'll finish in:
 
-- **At level 40**, when every Grandmaster set, the full Manticore set included, comes from Lazare Lafargue in Toussaint (chapter 15). From then on the set bonuses are what decide a build.
-- **At the start of Blood and Wine**, if you want to plan around a mutation from the beginning (chapter 5).
+- **At level 40**, when every Grandmaster set, the full Manticore set included, comes from Lazare Lafargue in Toussaint (chapter 16). From then on the set bonuses are what decide a build.
+- **At the start of Blood and Wine**, if you want to plan around a mutation from the beginning (chapter 6).
 
 How to do it:
 
-1. Pick the school whose Grandmaster set you'll wear. Chapter 7 compares them and chapter 14 ranks them.
+1. Pick the school whose Grandmaster set you'll wear. Chapter 8 compares them and chapter 15 ranks them.
 2. Read that school's chapter: its Phase 4, its finished layout, its mutation.
-3. Buy a Potion of Clearance from Keira Metz (about 1,000 crowns) and drink it. It refunds skill points; points spent on mutations need the Potion of Restoration (chapter 20).
+3. Buy a Potion of Clearance from Keira Metz (about 1,000 crowns) and drink it. It refunds skill points; points spent on mutations need the Potion of Restoration (chapter 21).
 4. Buy the whole school plan from its first table down, in one sitting, and slot its finished layout.
 
 Most of what you lose is less than it looks: Quen, Razor Focus and Undying are in nearly every school's plan, so you'll buy most of them straight back.
@@ -180,4 +182,4 @@ Most of what you lose is less than it looks: Quen, Razor Focus and Undying are i
 
 ---
 
-[← 22. Sources](22-sources.md) · [Contents](../README.md)
+[Contents](../README.md) · [2. The resources every build trades →](02-the-resources.md)
