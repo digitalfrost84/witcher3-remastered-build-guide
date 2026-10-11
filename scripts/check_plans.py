@@ -4,7 +4,7 @@ Usage, from the repository root:
 
     python3 scripts/check_plans.py
 
-It reads the "Skills by phase" tables in chapters 8 to 13 straight from the
+It reads the "Skills by phase" tables in chapters 8 to 13 and 23 straight from the
 Markdown, so it always checks what the book says. For every row it checks
 that:
 
@@ -29,7 +29,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import skill_tree  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-SCHOOLS = ["08-feline.md", "09-griffin.md", "10-ursine.md", "11-wolven.md", "12-manticore.md", "13-viper.md"]
+SCHOOLS = ["08-feline.md", "09-griffin.md", "10-ursine.md", "11-wolven.md", "12-manticore.md", "13-viper.md",
+           "23-all-sets-playthrough.md"]
 DASHES = {"—", "-", "–"}
 
 

@@ -70,6 +70,7 @@ What that means for each school:
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
 - **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
 - **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 20).
+- **You don't have to choose yet.** If you'd rather wear every set as it comes, [chapter 23](23-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
 
 ## How each school chapter is laid out
 
