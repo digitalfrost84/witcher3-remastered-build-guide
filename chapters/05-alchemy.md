@@ -1,4 +1,4 @@
-# 4. Alchemy basics
+# 5. Alchemy basics
 
 Alchemy is the part of The Witcher 3 that rewards preparation. Every school uses some of it: a Swallow to heal, the right oil on the blade, one decoction that fits the build. Manticore and Viper builds go further and turn Toxicity itself into damage. This chapter covers the toolkit; the school chapters say which pieces each build wants.
 
@@ -25,7 +25,7 @@ Charges rise from 3 (basic) to 5 (superior) for most potions. Toxicity is per do
 | **Maribor Forest** | Faster Adrenaline gain; superior grants +1 Adrenaline when you drink it | 20 | Adrenaline builds |
 | **White Honey** | Removes all Toxicity and every active potion effect | 0 | Resetting before a hard fight |
 
-The Toxicity column and the Thunderbolt, Tawny Owl, Petri's Philter and Full Moon numbers come from the installed 5.0 game files (chapter 19). The other effects come from [Fextralife: Potions](https://thewitcher3.wiki.fextralife.com/Potions); sources disagree on some superior values (Swallow, Blizzard, White Raffard's), so treat those as approximate.
+The Toxicity column and the Thunderbolt, Tawny Owl, Petri's Philter and Full Moon numbers come from the installed 5.0 game files (chapter 20). The other effects come from [Fextralife: Potions](https://thewitcher3.wiki.fextralife.com/Potions); sources disagree on some superior values (Swallow, Blizzard, White Raffard's), so treat those as approximate.
 
 ## Oils
 
@@ -40,7 +40,7 @@ Oils matter more in 5.0 because four Alchemy skills key off them, two of them fr
 | **Hunter Instinct** | At full Adrenaline, +20/40/60% crit damage against the oiled monster type |
 | **Potent Sting** | With a matching oil, melee hits deal +5/10/15% (doubled against poison-immune enemies) |
 
-Sources: [witcherhour.com](https://witcherhour.com/skills/); Poisoned Blades and Potent Sting as the game files implement them (chapter 19).
+Sources: [witcherhour.com](https://witcherhour.com/skills/); Poisoned Blades and Potent Sting as the game files implement them (chapter 20).
 
 ## Bombs
 
@@ -75,11 +75,11 @@ Decoctions are the strongest consumables in the game, and the most expensive. Ea
 | **Griffin** | +1% resistance per hit taken, up to 25% per fight | Tanks |
 | **Troll** | +20 Vitality per second in combat, +100 outside it | Survival |
 | **Nightwraith** | +50 max Vitality per kill until you meditate or fast travel | Long clearing sessions |
-| **Doppler** | Described as +50% crit damage from behind; adds nothing in real attacks (chapter 19) | Nothing, in the installed files |
+| **Doppler** | Described as +50% crit damage from behind; adds nothing in real attacks (chapter 20) | Nothing, in the installed files |
 | **Alghoul** | +50% Adrenaline gain until you first get hit | Adrenaline openers |
 | **Succubus** | Attack power climbs during a fight, up to +30% | Long boss fights |
 
-Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions), [Console Pulse: Decoctions ranked](https://consolepulse.com/multiplatform/the-witcher/guides/all-witcher-3-decoctions-ranked) (pre-5.0). **File-verified** against the 5.0 definitions and scripts: Ekimmara, Katakan, Water Hag, Ekhidna, Archgriffin, Forktail, Chort, Wyvern, Ancient Leshen, Griffin, Troll, Nightwraith, Doppler and Succubus (chapter 19).
+Sources: [Fextralife: Decoctions](https://thewitcher3.wiki.fextralife.com/Decoctions), [Console Pulse: Decoctions ranked](https://consolepulse.com/multiplatform/the-witcher/guides/all-witcher-3-decoctions-ranked) (pre-5.0). **File-verified** against the 5.0 definitions and scripts: Ekimmara, Katakan, Water Hag, Ekhidna, Archgriffin, Forktail, Chort, Wyvern, Ancient Leshen, Griffin, Troll, Nightwraith, Doppler and Succubus (chapter 20).
 
 **Getting Katakan**, the crit build's favorite: an herbalist near the signpost in Hierarch Square, Novigrad, sells the formula; the Katakan mutagen is a reward from the level 26 contract *The Oxenfurt Drunk*. It needs Dwarven Spirit, Verbena and Arenaria ([Vulkk](https://vulkk.com/2023/01/18/full-witcher-3-decoctions-catalog-and-locations-guide/)).
 
@@ -89,13 +89,13 @@ Decoction Toxicity doesn't drain, so the question is simple: how many 50-point b
 
 ![How many decoctions fit at different maximum Toxicity levels: one with no skills or with Acquired Tolerance alone, two with Metabolic Control and Manticore armor added, and four only with about 150 of the game's 173 eligible recipes learned](../images/toxicity-budget.png)
 
-The lesson: **no single skill decides it.** Acquired Tolerance adds only 0.5 per recipe you've learned, so 40 recipes give 20, less than rank-3 Metabolic Control's 30. With all three bonuses and four Manticore pieces, the maximum is 170: two decoctions with room to drink, three with almost none. Four need about 150 of the game's 173 eligible recipes ([chapter 19](19-the-maths.md#6-the-toxicity-budget-and-euphoria)).
+The lesson: **no single skill decides it.** Acquired Tolerance adds only 0.5 per recipe you've learned, so 40 recipes give 20, less than rank-3 Metabolic Control's 30. With all three bonuses and four Manticore pieces, the maximum is 170: two decoctions with room to drink, three with almost none. Four need about 150 of the game's 173 eligible recipes ([chapter 20](20-the-maths.md#6-the-toxicity-budget-and-euphoria)).
 
 One more cost to plan for: **above half your maximum, decoctions included, Toxicity drains 0.5% of your maximum Vitality per second** outside meditation. One decoction under a 100 maximum sits right at that line, so any potion on top of it starts the drain, and a second decoction is a trade rather than a free upgrade.
 
 ## Mutagens
 
-Mutagens come in three colors (red, blue, green) and three grades (lesser, normal, greater). Three of one grade combine into one of the next ([Fextralife: Mutagens](https://thewitcher3.wiki.fextralife.com/Mutagens)). You use them in two places: in the mutagen slots beside your skills (chapter 2), and as research material for Blood and Wine mutations, which need greater mutagens (chapter 5). Once you renovate the lab at Corvo Bianco, your vineyard in Toussaint, it can break monster mutagens down into colored ones.
+Mutagens come in three colors (red, blue, green) and three grades (lesser, normal, greater). Three of one grade combine into one of the next ([Fextralife: Mutagens](https://thewitcher3.wiki.fextralife.com/Mutagens)). You use them in two places: in the mutagen slots beside your skills (chapter 3), and as research material for Blood and Wine mutations, which need greater mutagens (chapter 6). Once you renovate the lab at Corvo Bianco, your vineyard in Toussaint, it can break monster mutagens down into colored ones.
 
 ## Sources
 
@@ -114,4 +114,4 @@ Mutagens come in three colors (red, blue, green) and three grades (lesser, norma
 
 ---
 
-[← 3. Gear basics](03-gear-basics.md) · [Contents](../README.md) · [5. Mutations (Blood and Wine) →](05-mutations.md)
+[← 4. Gear basics](04-gear-basics.md) · [Contents](../README.md) · [6. Mutations (Blood and Wine) →](06-mutations.md)

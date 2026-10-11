@@ -1,4 +1,4 @@
-# 11. Wolven: the School of the Wolf
+# 12. Wolven: the School of the Wolf
 
 > Geralt's own school: sword first, Signs to set up the hits, a little alchemy to keep going.
 
@@ -52,7 +52,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Magic Trap | Signs | 1 | Sustained Glyphs | Yrden's alternate mode damages and slows everything within 14 yards; key against wraiths |
 | Frenzy | Alchemy | 1 | start | Time slows before enemy counters once you've drunk a potion |
 | Wolf School Techniques | General | 1 | start | +2% weapon damage and Sign intensity per medium piece. Take it once you're in medium armor |
-| Exploding Shield | Signs | 2 | — | The shield's break also deals 3–12 damage; rank 3 adds a small knockdown chance (chapter 19) |
+| Exploding Shield | Signs | 2 | — | The shield's break also deals 3–12 damage; rank 3 adds a small knockdown chance (chapter 20) |
 
 ### Phase 2: to 20 points (about levels 15–22)
 
@@ -97,11 +97,11 @@ Cumulative points after each phase:
 | Phase 2 | 8 | 7 | 4 | 1 | 20 |
 | Phase 3 | 8 | 8 | 6 | 6 | 28 |
 
-Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every equipped rank earns its tree's branch passive; unslotted skills earn nothing (chapter 2).
+Early points go where they pay off at once: sword damage and Quen. Alchemy and General points mostly unlock later skills, and every equipped rank earns its tree's branch passive; unslotted skills earn nothing (chapter 3).
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
 
 1. Muscle Memory
 2. Strength Training
@@ -130,7 +130,7 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 | 4 | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
 | Mutation slots (red or blue) | Melt Armor, Undying, Supercharged Glyphs, Aftershock | — |
 
-**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **half of that sword's base damage stat** to their damage before Sign intensity multiplies it; the game files confirm this for every Sign action, Aftershock included (chapter 19). Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 12).
+**Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **half of that sword's base damage stat** to their damage before Sign intensity multiplies it; the game files confirm this for every Sign action, Aftershock included (chapter 20). Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 13).
 
 ## Consumables and the fight loop
 
@@ -161,19 +161,19 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 - **Wolven:** Basic level 14, but its armor diagrams sit in **Kaer Morhen**, which only opens after the main quest *Ugly Baby*, so in practice it arrives mid-game. The hunt can also start from notes sold in Lindenvale or Kaer Trolde. The later tiers are spread across Velen and Skellige, and the Grandmaster diagrams are in the Termes Palace Ruins in Toussaint ([Console Pulse: Wolf School gear](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-wolf-school-gear-guide); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-wolven-school-gear-set)).
 - **Forgotten Wolven:** only Basic (20), Mastercrafted (34) and Grandmaster (40). The Basic diagrams are the reward for *In the Eternal Fire's Shadow*, which starts with an Eternal Fire priest at Devil's Pit in Velen (quest level 15); Reinald hands over all six. The Mastercrafted and Grandmaster diagrams are in Osmund's and Vesemir's notes on the upper bookcase in Kaer Morhen's main hall, reached by a ladder; the Grandmaster tier needs Blood and Wine ([Console Pulse: Forgotten Wolf gear](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-forgotten-wolf-school-gear-guide); [Fextralife](https://thewitcher3.wiki.fextralife.com/Scavenger+Hunt:+Forgotten+Wolf+School+Gear+Diagrams)).
 
-**Why Forgotten Wolven for this build.** Its pieces are built for sword and Sign play: the chest adds attack power and Adrenaline gain, the gauntlets Aard intensity, the trousers Sign intensity, the boots Yrden intensity, and the swords Sign intensity, Adrenaline, crits and bleeding ([GGRecon](https://www.ggrecon.com/guides/the-witcher-3-forgotten-wolf-armor/)). Its Grandmaster bonuses fit too: **+7% potion duration per set piece** at three pieces, and **extra Aard damage against enemies affected by Yrden** at six, which is the same trap-then-Sign setup Catalyst already rewards. The regular Wolven set's bonuses are about bleeding instead (chapter 3), which suits a fast-attack build better. Some wiki pages show the bleed bonus on Forgotten Wolven pieces as well, so check the tooltip before you craft.
+**Why Forgotten Wolven for this build.** Its pieces are built for sword and Sign play: the chest adds attack power and Adrenaline gain, the gauntlets Aard intensity, the trousers Sign intensity, the boots Yrden intensity, and the swords Sign intensity, Adrenaline, crits and bleeding ([GGRecon](https://www.ggrecon.com/guides/the-witcher-3-forgotten-wolf-armor/)). Its Grandmaster bonuses fit too: **+7% potion duration per set piece** at three pieces, and **extra Aard damage against enemies affected by Yrden** at six, which is the same trap-then-Sign setup Catalyst already rewards. The regular Wolven set's bonuses are about bleeding instead (chapter 4), which suits a fast-attack build better. Some wiki pages show the bleed bonus on Forgotten Wolven pieces as well, so check the tooltip before you craft.
 
 **Swords.** Until the Grandmaster swords, use whatever has the most damage: Conductors of Magic adds half of it to your Signs, and Resonance adds Sign damage to your sword, so a strong sword helps both halves. Don't hold on to a weak sword just because it matches a set before level 40, because sets give no bonus before Grandmaster.
 
-**Enchanting** (chapter 6): **Protection** on the chest gives you a free Quen every time a fight starts. A mix of Chernobog (attack power) and Veles (Sign intensity) runestones on the swords. Skip Replenishment: it spends the Adrenaline that Focus and Undying want you to hold.
+**Enchanting** (chapter 7): **Protection** on the chest gives you a free Quen every time a fight starts. A mix of Chernobog (attack power) and Veles (Sign intensity) runestones on the swords. Skip Replenishment: it spends the Adrenaline that Focus and Undying want you to hold.
 
 ## The maths
 
-The previous **+23% / +89%** combo comparison is withdrawn. It assumed a 2:1 strong/fast damage ratio and treated Wolf School Techniques as a separate multiplier on the complete result. The installed damage code does not support that as a general calculation; [chapter 19](19-the-maths.md#1-a-basic-combo-which-skills-actually-activate) explains the limits.
+The previous **+23% / +89%** combo comparison is withdrawn. It assumed a 2:1 strong/fast damage ratio and treated Wolf School Techniques as a separate multiplier on the complete result. The installed damage code does not support that as a general calculation; [chapter 20](20-the-maths.md#1-a-basic-combo-which-skills-actually-activate) explains the limits.
 
-The rotation still fits Muscle Memory, Strength Training and a poison-dependent Toxic Shock finisher, but Toxic Shock pays only when an earlier hit has already poisoned the target and its 5-second cooldown is ready, so count it per cooldown, not per combo. With a superior oil, Poisoned Blades rank 3 poisons the target within three fast hits about 73% of the time (chapter 19). The file audit does change Three Strikes: it checks the fourth matching hit, and switching attack style resets the other counter. Repeating three fast attacks followed by a strong attack never reaches that check. Keep its first point for prerequisites, move the former second point to Wolf School Techniques, and use the active slot for a skill that can activate.
+The rotation still fits Muscle Memory, Strength Training and a poison-dependent Toxic Shock finisher, but Toxic Shock pays only when an earlier hit has already poisoned the target and its 5-second cooldown is ready, so count it per cooldown, not per combo. With a superior oil, Poisoned Blades rank 3 poisons the target within three fast hits about 73% of the time (chapter 20). The file audit does change Three Strikes: it checks the fourth matching hit, and switching attack style resets the other counter. Repeating three fast attacks followed by a strong attack never reaches that check. Keep its first point for prerequisites, move the former second point to Wolf School Techniques, and use the active slot for a skill that can activate.
 
-Melt Armor has a verified intensity-dependent armor-reduction formula, but its damage benefit depends on enemy armor, and it mostly helps the three fast hits: strong attacks carry 1,000 armor penetration of their own. Aftershock has a verified damage coefficient and a radius of 3 game units, with two power-scaling stages. Neither should be counted as a fixed percentage added to every combo. See [chapter 19](19-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction).
+Melt Armor has a verified intensity-dependent armor-reduction formula, but its damage benefit depends on enemy armor, and it mostly helps the three fast hits: strong attacks carry 1,000 armor penetration of their own. Aftershock has a verified damage coefficient and a radius of 3 game units, with two power-scaling stages. Neither should be counted as a fixed percentage added to every combo. See [chapter 20](20-the-maths.md#11-melt-armor-intensity-dependent-armor-reduction).
 
 ## Verdict
 
@@ -202,4 +202,4 @@ Melt Armor has a verified intensity-dependent armor-reduction formula, but its d
 
 ---
 
-[← 10. Ursine: the School of the Bear](10-ursine.md) · [Contents](../README.md) · [12. Manticore: the School of the Manticore →](12-manticore.md)
+[← 11. Ursine: the School of the Bear](11-ursine.md) · [Contents](../README.md) · [13. Manticore: the School of the Manticore →](13-manticore.md)

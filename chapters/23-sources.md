@@ -1,8 +1,8 @@
-# 22. Sources
+# 23. Sources
 
 Every chapter ends with the sources it used. This chapter groups the main ones by topic and says how far to trust each.
 
-**How to weigh them.** Patch 5.0 came out on September 29, 2026, and patch 5.01 on October 8, 2026. CD PROJEKT RED's own notes describe the systems but publish almost no numbers, so nearly every 5.0 value in this book comes from community databases and guides written in the first days after release. Item, set and quest data mostly come from pre-5.0 wikis, which is fine as long as no 5.0 note changes them, and none does. Where sources disagree, the chapters give both versions. For the audited mechanics, [chapter 19](19-the-maths.md#file-evidence-and-reproducibility) records direct file evidence from build `5.0.0.1048522`. A tooltip describes intended behavior; a controlled test can resolve a conflict with the implementation.
+**How to weigh them.** Patch 5.0 came out on September 29, 2026, and patch 5.01 on October 8, 2026. CD PROJEKT RED's own notes describe the systems but publish almost no numbers, so nearly every 5.0 value in this book comes from community databases and guides written in the first days after release. Item, set and quest data mostly come from pre-5.0 wikis, which is fine as long as no 5.0 note changes them, and none does. Where sources disagree, the chapters give both versions. For the audited mechanics, [chapter 20](20-the-maths.md#file-evidence-and-reproducibility) records direct file evidence from build `5.0.0.1048522`. A tooltip describes intended behavior; a controlled test can resolve a conflict with the implementation.
 
 **Era tags:** **5.0** = published on or after September 29, 2026. **Pre-5.0** = older, or undated wiki pages.
 
@@ -43,7 +43,7 @@ Every chapter ends with the sources it used. This chapter groups the main ones b
 
 ## Other armor and weapons
 
-- [nukesdragons: Witcher 3 database](https://nukesdragons.com/witcher-3/db/armor/temerian-armor) (labeled Remastered, unofficial): most item levels and stats in chapters 16 and 17.
+- [nukesdragons: Witcher 3 database](https://nukesdragons.com/witcher-3/db/armor/temerian-armor) (labeled Remastered, unofficial): most item levels and stats in chapters 17 and 18.
 - [KeenGamer: All new armor and weapons](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-new-armor-weapons-locations/) and [Best swords in Remastered](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/) (5.0).
 - [Console Pulse: Rare armors](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors), [Non-witcher armor sets](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-non-witcher-armor-sets-unique-outfits) and [Unique relic weapons](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-unique-relic-weapons-database) (pre-5.0).
 - [WitcherHour: Best armor](https://witcherhour.com/witcher-3-best-armor/) and [Best weapons](https://witcherhour.com/witcher-3-best-weapons/) (pre-5.0).
@@ -68,10 +68,10 @@ Every chapter ends with the sources it used. This chapter groups the main ones b
 
 ## What's missing
 
-The local file audits now supply the base crit, Toxicity and Stamina values; the Toxicity budget (Acquired Tolerance, Metabolic Control, Manticore armor, decoctions, Toxicity damage); Euphoria, Delayed Recovery, Fast Metabolism and Volatile Compound; combat Stamina; the strong-attack and armor pipeline; the whole poison line; Undying, Whirl, Rend, Deadly Precision and Attack Is the Best Defense; the branch passives; Conductors of Magic and Magic Sensibilities; the sources of skill points; crit-damage aggregation (Cat School Techniques, High Tolerance, Doppler); per-enemy poison resistance; New Game+ Delayed Recovery; Mutated Skin, Exploding Shield and Sun and Stars; the Grandmaster item values and set bonuses; every gear level; skill-slot unlocks and the prerequisite rule; decoction values; creature immunities to poison, burning and knockdown; and the New Game+ rules and definitions. They also correct the old crit lower bounds, the Wolven Three Strikes priority and the Manticore plan's Toxicity budget and Delayed Recovery pick. [Chapter 19](19-the-maths.md#file-evidence-and-reproducibility) records the installed build, definition paths, script locations and validation limits. The highest-priority remaining questions are attack timings, how many recipes a playthrough can learn, the number of reachable Places of Power, and how multiple oils and repeated runes stack. A published Remastered Viper build was not found in the original source review.
+The local file audits now supply the base crit, Toxicity and Stamina values; the Toxicity budget (Acquired Tolerance, Metabolic Control, Manticore armor, decoctions, Toxicity damage); Euphoria, Delayed Recovery, Fast Metabolism and Volatile Compound; combat Stamina; the strong-attack and armor pipeline; the whole poison line; Undying, Whirl, Rend, Deadly Precision and Attack Is the Best Defense; the branch passives; Conductors of Magic and Magic Sensibilities; the sources of skill points; crit-damage aggregation (Cat School Techniques, High Tolerance, Doppler); per-enemy poison resistance; New Game+ Delayed Recovery; Mutated Skin, Exploding Shield and Sun and Stars; the Grandmaster item values and set bonuses; every gear level; skill-slot unlocks and the prerequisite rule; decoction values; creature immunities to poison, burning and knockdown; and the New Game+ rules and definitions. They also correct the old crit lower bounds, the Wolven Three Strikes priority and the Manticore plan's Toxicity budget and Delayed Recovery pick. [Chapter 20](20-the-maths.md#file-evidence-and-reproducibility) records the installed build, definition paths, script locations and validation limits. The highest-priority remaining questions are attack timings, how many recipes a playthrough can learn, the number of reachable Places of Power, and how multiple oils and repeated runes stack. A published Remastered Viper build was not found in the original source review.
 
 <!-- nav -->
 
 ---
 
-[← 21. Skill reference: all 80 skills](21-skill-reference.md) · [Contents](../README.md) · [23. The all-sets playthrough →](23-all-sets-playthrough.md)
+[← 22. Skill reference: all 80 skills](22-skill-reference.md) · [Contents](../README.md)

@@ -1,4 +1,4 @@
-# 13. Viper: the School of the Viper
+# 14. Viper: the School of the Viper
 
 > Poisoned blades, from the first sword in White Orchard to the last chest in Borsodi's vault.
 
@@ -14,7 +14,7 @@ The Viper every player remembers is **Letho of Gulet**, the Kingslayer of *The W
 
 A Viper wears medium armor, keeps the right oil on the blade at all times, and lands **as many hits as possible**, because every hit with an oil that matches the target is a roll for poison, and better oils roll higher. Once the target is poisoned, a **strong attack** cashes it in through Toxic Shock: the poison is used up for a burst of damage, at most once every five seconds. Debilitating Poison makes poisoned enemies hit you more softly, Potent Sting makes every hit with the matching oil harder, and Viper School Techniques adds Vitality and poison damage for every medium piece.
 
-**Plenty of enemies can't be poisoned at all.** The game files give 100% poison resistance to arachas, endregas, all spiders, kikimores, drowners, hags, foglets, every kind of wraith, the Crones, elementals, golems, gargoyles, forktails, wyverns and basilisks, among others, and to **any enemy 20 or more levels above you**. A poison applied to them lasts zero seconds, so Toxic Shock has nothing to burst and Debilitating Poison never protects you ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)). In those fights a Viper is a medium-armor swordsman with an oil bonus: Potent Sting and Hunter Instinct still work with the matching oil, and Strength Training still powers the strong attack. Plan your Sign and decoction support around that.
+**Plenty of enemies can't be poisoned at all.** The game files give 100% poison resistance to arachas, endregas, all spiders, kikimores, drowners, hags, foglets, every kind of wraith, the Crones, elementals, golems, gargoyles, forktails, wyverns and basilisks, among others, and to **any enemy 20 or more levels above you**. A poison applied to them lasts zero seconds, so Toxic Shock has nothing to burst and Debilitating Poison never protects you ([chapter 20](20-the-maths.md#7-poison-how-many-hits-it-takes)). In those fights a Viper is a medium-armor swordsman with an oil bonus: Potent Sting and Hunter Instinct still work with the matching oil, and Strength Training still powers the strong attack. Plan your Sign and decoction support around that.
 
 Patch 5.0 gave the school a skill line of its own: the four poison skills in the Alchemy tree are new ([witcherhour.com](https://witcherhour.com/skills/)). The research for this book found no published Remastered Viper build: VGTimes names Viper School Techniques but writes no build, and the builds from Gamestegy and Console Pulse predate 5.0 ([VGTimes](https://vgtimes.com/guides/169608-best-builds-in-the-witcher-3-remastered-skills-and-progression.html)). The plan below is built from the 5.0 tree.
 
@@ -49,7 +49,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 | Skill | Tree | Rank | Requires | Why |
 | --- | --- | --- | --- | --- |
-| Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%; the target needn't be poisoned. Doubled against enemies whose template makes them immune to poison (chapter 19) |
+| Potent Sting | Alchemy | 1 | Debilitating Poison | Hits with the matching oil deal +5%; the target needn't be poisoned. Doubled against enemies whose template makes them immune to poison (chapter 20) |
 | Toxic Shock | Alchemy | 3 | — | The burst grows to 75% of the hit |
 | Hunter Instinct | Alchemy | 1 | Frenzy | +20% crit damage at full Adrenaline against the oiled monster type |
 | Viper School Techniques | General | 3 | — | +6% max Vitality and poison damage per medium piece |
@@ -87,7 +87,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
 
 1. Poisoned Blades
 2. Muscle Memory
@@ -116,7 +116,7 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 **Delusion:** if you want Axii's dialogue options, it takes Hunter Instinct's slot.
 
-**Mutation: Euphoria first** (5 Ability Points, chapter 5): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity, up to five at once. The game files confirm that the ordinary poison you apply triggers it, which makes it a natural fit for this school (chapter 19). Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
+**Mutation: Euphoria first** (5 Ability Points, chapter 6): Toxicity becomes sword damage, and its extra slots take Alchemy skills. **Metamorphosis** is the capstone if you're investing in mutations anyway: applying a critical effect to an enemy starts a random crafted decoction for 120 seconds without any Toxicity, up to five at once. The game files confirm that the ordinary poison you apply triggers it, which makes it a natural fit for this school (chapter 20). Its research path costs 22 points in all, so it's a New Game+ or very-late-game goal. Gamestegy's pre-5.0 Viper build used it ([Gamestegy: Viper build](https://gamestegy.com/post/witcher-3/798/viper-build)).
 
 ## Consumables and the fight loop
 
@@ -143,7 +143,7 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 **Where the White Orchard swords are.** The silver sword's diagram is in the crypt under White Orchard's cemetery; the steel sword's is in the ruins west of the Ransacked Village. The garrison blacksmith can craft both ([Gamestegy: Viper silver sword](https://gamestegy.com/witcher-3/wiki/1302/viper-silver-sword-location-and-diagram); [Viper steel sword](https://gamestegy.com/witcher-3/wiki/1305/viper-steel-sword); [WitcherHour](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/)).
 
-**The Hearts of Stone pieces are all missable** (chapter 18):
+**The Hearts of Stone pieces are all missable** (chapter 19):
 
 - **Armor diagrams:** sold only by **Countess Mignole** at the auction house at the start of *Open Sesame!*. Buy all four before the auction ends; you can't go back.
 - **Venomous steel sword diagram:** in a chest in the inner vault during the Borsodi heist. Loot every container before you leave.
@@ -151,13 +151,13 @@ Metabolic Control takes Refreshment's regular slot once the mutation slots open,
 
 Sources: [WitcherHour: Viper gear](https://witcherhour.com/how-to-get-the-viper-witcher-gear-hearts-of-stone/), [GameBanshee: Open Sesame!](https://www.gamebanshee.com/thewitcher3/walkthrough/opensesame.php), [GameBanshee: Whatsoever a Man Soweth](https://www.gamebanshee.com/thewitcher3/walkthrough/whatsoeveramansoweth.php), [Gamestegy: Viper armor](https://gamestegy.com/witcher-3/wiki/1400/viper-armor-diagram-stats-location).
 
-**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 6) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's fast-attack bonus alone, because Cat's crit-damage part adds nothing in the game's damage code (chapter 19). Keep Viper's own Technique ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
+**Why the armor is replaceable.** The Viper set has no set bonus at all, so the only reason to wear it is its stats. That frees the armor slot: any medium armor feeds Viper School Techniques. Two pre-5.0 Viper builds took the other route and used **Levity** (chapter 7) to turn the set light for Cat School Techniques. In 5.0 that route trades Viper School Techniques' poison damage and Vitality for Cat's fast-attack bonus alone, because Cat's crit-damage part adds nothing in the game's damage code (chapter 20). Keep Viper's own Technique ([Console Pulse: Viper build](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-viper-build)).
 
 ## The maths
 
 ![Chance the target is poisoned after a number of hits with a matching oil, at 5%, 15%, 35% and 44.75% per hit](../images/poison-odds.png)
 
-**How fast poison lands.** The game files set Poisoned Blades' chance at 5% per rank plus 10 points per oil tier above basic, and a poison sword rolls separately ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)):
+**How fast poison lands.** The game files set Poisoned Blades' chance at 5% per rank plus 10 points per oil tier above basic, and a poison sword rolls separately ([chapter 20](20-the-maths.md#7-poison-how-many-hits-it-takes)):
 
 ```math
 p = 1 - (1 - p_{\mathrm{skill}})(1 - p_{\mathrm{sword}}),\qquad
@@ -168,7 +168,7 @@ At rank 1 with a basic oil (5%), even odds take 14 hits, which is why poison is 
 
 **Why that matters for Toxic Shock.** Toxic Shock can fire only once every five seconds and uses the poison up, so the goal is to have the target poisoned again each time the cooldown ends. With a superior oil at rank 3, one string of three fast hits does that about three times in four. The poison itself lasts 5 seconds at base, scaled by your attack power, and deals 1.6% of the target's maximum health per second before resistances, so between bursts it's real damage too. Past that point, points do more in Potent Sting or Debilitating Poison.
 
-**Who it can't touch.** Poison lasts `5 s × attack power × (1 − poison resistance)`, so the many monster families with 100% poison resistance, and every enemy 20 or more levels above you, shrug it off entirely. Separately, a shorter list of creature templates is flagged immune: golems, elementals, both expansions' spiders, kikimores, archespores, scolopendromorphs, the toad prince, Iris's nightwraith, the banshees, Dettlaff, Regis and the Caretaker. Only those count as "poison-immune" for Potent Sting's doubled bonus ([chapter 19](19-the-maths.md#7-poison-how-many-hits-it-takes)).
+**Who it can't touch.** Poison lasts `5 s × attack power × (1 − poison resistance)`, so the many monster families with 100% poison resistance, and every enemy 20 or more levels above you, shrug it off entirely. Separately, a shorter list of creature templates is flagged immune: golems, elementals, both expansions' spiders, kikimores, archespores, scolopendromorphs, the toad prince, Iris's nightwraith, the banshees, Dettlaff, Regis and the Caretaker. Only those count as "poison-immune" for Potent Sting's doubled bonus ([chapter 20](20-the-maths.md#7-poison-how-many-hits-it-takes)).
 
 ## Verdict
 
@@ -193,4 +193,4 @@ At rank 1 with a basic oil (5%), even odds take 14 hits, which is why poison is 
 
 ---
 
-[← 12. Manticore: the School of the Manticore](12-manticore.md) · [Contents](../README.md) · [14. Verdict: which school is strongest? →](14-verdict.md)
+[← 13. Manticore: the School of the Manticore](13-manticore.md) · [Contents](../README.md) · [15. Verdict: which school is strongest? →](15-verdict.md)

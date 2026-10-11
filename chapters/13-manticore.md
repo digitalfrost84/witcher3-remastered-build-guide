@@ -1,4 +1,4 @@
-# 12. Manticore: the School of the Manticore
+# 13. Manticore: the School of the Manticore
 
 > Decoctions, bombs and crits: the alchemist's school, and the one that takes longest to come together.
 
@@ -12,7 +12,7 @@ It was founded by **Iwan**, later called Imad Asem, who left the Bear school dur
 
 ## How it plays
 
-A Manticore treats **Toxicity as a resource, not a limit**. Decoctions lock 50 Toxicity each for 30 minutes (chapter 4), and this build stacks as many as it can afford: Acquired Tolerance and Metabolic Control raise the ceiling, Adaptability makes each decoction last longer, Tissue Transmutation adds Vitality while they run, and Endure Pain adds more once Toxicity passes the safe threshold. In Blood and Wine, **Euphoria** turns all that Toxicity into sword damage and Sign intensity, and the Manticore set gives every potion, bomb and decoction an extra charge and lets bombs crit.
+A Manticore treats **Toxicity as a resource, not a limit**. Decoctions lock 50 Toxicity each for 30 minutes (chapter 5), and this build stacks as many as it can afford: Acquired Tolerance and Metabolic Control raise the ceiling, Adaptability makes each decoction last longer, Tissue Transmutation adds Vitality while they run, and Endure Pain adds more once Toxicity passes the safe threshold. In Blood and Wine, **Euphoria** turns all that Toxicity into sword damage and Sign intensity, and the Manticore set gives every potion, bomb and decoction an extra charge and lets bombs crit.
 
 Before then, Manticore plays as a **potion-and-bomb swordsman** in medium armor: Manticore School Techniques boosts sword and bomb damage, a bomb opens the fight, Element of Surprise powers up the melee that follows, and potions heal through Refreshment.
 
@@ -69,7 +69,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 
 ### Phase 4: level 30+ and Blood and Wine
 
-- **Volatile Compound** (Alchemy, from Protective Coating) to rank 3: bomb damage rises 0.1% per rank for every point of Toxicity you carry, decoctions included, so +45% at rank 3 with 150 Toxicity (chapter 19). It turns the decoction stack into bomb damage even before Euphoria.
+- **Volatile Compound** (Alchemy, from Protective Coating) to rank 3: bomb damage rises 0.1% per rank for every point of Toxicity you carry, decoctions included, so +45% at rank 3 with 150 Toxicity (chapter 20). It turns the decoction stack into bomb damage even before Euphoria.
 - **Rend** (Combat, from Razor Focus) to rank 2: the finisher for your Adrenaline.
 - **Acquired Tolerance** to rank 3 once you've learned plenty of enhanced and superior recipes: each one adds 0.5.
 - **Rank 3:** Adaptability (decoctions last twice as long: an hour each), Endure Pain (+30%), Tissue Transmutation (+900), Refreshment (30% per dose), Synergy.
@@ -84,11 +84,11 @@ Cumulative points after each phase:
 | Phase 2 | 2 | 1 | 9 | 8 | 20 |
 | Phase 3 | 6 | 2 | 12 | 8 | 28 |
 
-**What to skip.** **Delayed Recovery** only qualifies while your potion Toxicity alone is above 70/65/55% of your maximum, which two decoctions make unreachable unless your maximum is above 222, and it then adds just 5 seconds to your active effects per drink (chapter 19). **Fast Metabolism** adds 1 point per second per rank to a base drain of 0.25, so even rank 1 empties potion Toxicity five times as fast, which cuts Euphoria's bonus between potions (decoction Toxicity doesn't drain either way). **Side Effects** can only be reached through Fast Metabolism. KeenGamer says to skip Fast Metabolism, though its build lists Side Effects; Hack the Minotaur's expert Euphoria build and VGTimes take Fast Metabolism ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). **High Tolerance** adds crit damage from your Toxicity but makes you take 150% damage at 80% Toxicity or more, where a Euphoria build spends its time. It's for experts only.
+**What to skip.** **Delayed Recovery** only qualifies while your potion Toxicity alone is above 70/65/55% of your maximum, which two decoctions make unreachable unless your maximum is above 222, and it then adds just 5 seconds to your active effects per drink (chapter 20). **Fast Metabolism** adds 1 point per second per rank to a base drain of 0.25, so even rank 1 empties potion Toxicity five times as fast, which cuts Euphoria's bonus between potions (decoction Toxicity doesn't drain either way). **Side Effects** can only be reached through Fast Metabolism. KeenGamer says to skip Fast Metabolism, though its build lists Side Effects; Hack the Minotaur's expert Euphoria build and VGTimes take Fast Metabolism ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [Hack the Minotaur](https://hacktheminotaur.com/the-witcher-3/the-witcher-3-remastered-euphoria-build/)). **High Tolerance** adds crit damage from your Toxicity but makes you take 150% damage at 80% Toxicity or more, where a Euphoria build spends its time. It's for experts only.
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 3).
 
 1. Refreshment
 2. Manticore School Techniques
@@ -119,9 +119,9 @@ Volatile Compound and Rend take the places of Exploding Shield and Element of Su
 
 **Delusion:** if you want Axii's dialogue options, it takes Endure Pain's slot.
 
-**Mutation: Euphoria** (Toxic Blood, then Euphoria: 5 Ability Points and 5 greater green mutagens). In combat it adds 0.75 percentage points of attack power and Sign intensity for every point of current Toxicity, decoctions included, with no cap in the game files (chapter 19). Two research steps open the first extra slot, and it takes Alchemy skills. FinalBoss and VGTimes say 5.0 weakened it, though no patch note says so ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-make-an-alchemy-build-remastered-5-0)); either way it joins the same multiplier as your other bonuses, so it adds less than its label to an already strong build.
+**Mutation: Euphoria** (Toxic Blood, then Euphoria: 5 Ability Points and 5 greater green mutagens). In combat it adds 0.75 percentage points of attack power and Sign intensity for every point of current Toxicity, decoctions included, with no cap in the game files (chapter 20). Two research steps open the first extra slot, and it takes Alchemy skills. FinalBoss and VGTimes say 5.0 weakened it, though no patch note says so ([FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-how-to-make-an-alchemy-build-remastered-5-0)); either way it joins the same multiplier as your other bonuses, so it adds less than its label to an already strong build.
 
-**The Levity alternative.** With a tier 3 Runewright, the **Levity** glyphword on your Manticore chest makes all your armor count as light (chapter 6). That lets you run **Cat School Techniques** instead of Manticore's. KeenGamer's and Console Pulse's 5.0 Manticore builds both do this ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build)), for a crit-damage bonus published as +96%. The game files show that bonus adds nothing (chapter 19), so the trade is Cat's +24% fast attack power against Manticore's +24% fast and strong attack power and +24% bomb damage. The only gain left is light armor's 25% faster Stamina regeneration. **Keep Manticore's own Technique.**
+**The Levity alternative.** With a tier 3 Runewright, the **Levity** glyphword on your Manticore chest makes all your armor count as light (chapter 7). That lets you run **Cat School Techniques** instead of Manticore's. KeenGamer's and Console Pulse's 5.0 Manticore builds both do this ([Console Pulse: Spin to Whirl build](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-remastered-spin-to-whirl-build)), for a crit-damage bonus published as +96%. The game files show that bonus adds nothing (chapter 20), so the trade is Cat's +24% fast attack power against Manticore's +24% fast and strong attack power and +24% bomb damage. The only gain left is light armor's 25% faster Stamina regeneration. **Keep Manticore's own Technique.**
 
 ## Consumables and the fight loop
 
@@ -140,18 +140,18 @@ Volatile Compound and Rend take the places of Exploding Shield and Element of Su
 | Levels | Armor | Swords |
 | --- | --- | --- |
 | 1–10 | Any medium armor: **Armor of a Thousand Flowers** (7) or **White Tiger of the West** (11) if your account has them; **Nilfgaardian** (10) | Whatever has the most damage |
-| 11–39 | **Griffin**, **Wolven** or **Forgotten Wolven**, whichever tier is newest (chapters 9 and 11). All are medium, so they feed Manticore School Techniques | The matching witcher swords, or **Viper Venomous** at 39 |
+| 11–39 | **Griffin**, **Wolven** or **Forgotten Wolven**, whichever tier is newest (chapters 10 and 12). All are medium, so they feed Manticore School Techniques | The matching witcher swords, or **Viper Venomous** at 39 |
 | 40+ | **Grandmaster Manticore**, all six pieces (Toussaint; crafted by Lazare Lafargue) | Both Manticore swords: +250 armor piercing, +50% crit damage, +5% crit chance |
 
-**Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, probably because its screenshot showed a chest enchanted with Levity (chapter 3).
+**Getting the set.** Manticore exists only at Grandmaster level, so its recipes don't need a lower-tier piece. The diagrams come from *Scavenger Hunt: Grandmaster Manticore Gear*, which opens through Lafargue's quest *Master Master Master Master!* in Beauclair ([WitcherHour: Manticore armor](https://witcherhour.com/get-manticore-armor-bw/); [Mobalytics](https://mobalytics.gg/gamebase/guides/witcher-3-how-to-get-manticore-gear-set); [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-manticore-gear-guide)). The set is **medium** armor: one Remastered guide calls it light, probably because its screenshot showed a chest enchanted with Levity (chapter 4).
 
-**Why all six.** Each armor piece adds +5 max Toxicity, +20 for four (confirmed in the game files; older sources give other numbers), and the set's crit stats suit a bomb build that crits: +0.25 crit damage on the chest and boots, +5% crit chance on the gloves and trousers. The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every potion and bomb +1 maximum charge**, so one more Swallow and one more bomb per meditation. Decoctions are excluded: the game skips mutagen potions when it adds the charge ([chapter 3](03-gear-basics.md#set-bonuses-only-at-grandmaster)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
+**Why all six.** Each armor piece adds +5 max Toxicity, +20 for four (confirmed in the game files; older sources give other numbers), and the set's crit stats suit a bomb build that crits: +0.25 crit damage on the chest and boots, +5% crit chance on the gloves and trousers. The 3-piece bonus lets bombs crit and removes their throwing delay; the 6-piece bonus gives **every potion and bomb +1 maximum charge**, so one more Swallow and one more bomb per meditation. Decoctions are excluded: the game skips mutagen potions when it adds the charge ([chapter 4](04-gear-basics.md#set-bonuses-only-at-grandmaster)). For an alchemist that's the defining bonus, and the Manticore swords are strong in their own right, so keep the full set.
 
 ## The maths
 
 ![How many decoctions fit at different maximum Toxicity levels: one with no skills or with Acquired Tolerance alone, two with Metabolic Control and Manticore armor added, and four only with about 150 of the game's 173 eligible recipes learned](../images/toxicity-budget.png)
 
-**The Toxicity budget.** A decoction locks 50 Toxicity until it ends, so the number you can run is your maximum, minus room for a potion or two, divided by 50. The game files put every part of that maximum on record ([chapter 19](19-the-maths.md#6-the-toxicity-budget-and-euphoria)): a base of 100, +10 per Metabolic Control rank, +5 per Manticore armor piece, and **+0.5 per eligible recipe** for Acquired Tolerance, whose rank only decides whether enhanced and superior recipes count. At 40 recipes, rank 3 adds 20, so the full kit reaches 100 + 20 + 30 + 20 = **170**: two decoctions with 70 to spare for potions, or three with 20, not enough for a Thunderbolt. Four decoctions with room to drink need about 150 of the game's 173 eligible recipes.
+**The Toxicity budget.** A decoction locks 50 Toxicity until it ends, so the number you can run is your maximum, minus room for a potion or two, divided by 50. The game files put every part of that maximum on record ([chapter 20](20-the-maths.md#6-the-toxicity-budget-and-euphoria)): a base of 100, +10 per Metabolic Control rank, +5 per Manticore armor piece, and **+0.5 per eligible recipe** for Acquired Tolerance, whose rank only decides whether enhanced and superior recipes count. At 40 recipes, rank 3 adds 20, so the full kit reaches 100 + 20 + 30 + 20 = **170**: two decoctions with 70 to spare for potions, or three with 20, not enough for a Thunderbolt. Four decoctions with room to drink need about 150 of the game's 173 eligible recipes.
 
 **What Euphoria does with it.** It counts your current Toxicity, decoctions included, at 0.75 percentage points each, with no cap:
 
@@ -166,7 +166,7 @@ Volatile Compound and Rend take the places of Exploding Shield and Element of Su
 \text{Euphoria bonus} = 0.0075 \times \text{current Toxicity}
 ```
 
-Those points join the multiplier your other bonuses already raised, so +75 points on a multiplier of 1.5 is a 50% increase, not 75%. For comparison, Thunderbolt adds +30% attack power (+35% superior). Holding that much Toxicity has a price: above half your maximum, decoctions included, you lose 0.5% of your maximum Vitality per second outside meditation. Two decoctions under a 170 maximum therefore mean a constant drain that Refreshment, Endure Pain and healing decoctions like Ekimmara have to cover (chapter 1).
+Those points join the multiplier your other bonuses already raised, so +75 points on a multiplier of 1.5 is a 50% increase, not 75%. For comparison, Thunderbolt adds +30% attack power (+35% superior). Holding that much Toxicity has a price: above half your maximum, decoctions included, you lose 0.5% of your maximum Vitality per second outside meditation. Two decoctions under a 170 maximum therefore mean a constant drain that Refreshment, Endure Pain and healing decoctions like Ekimmara have to cover (chapter 2).
 
 ## Verdict
 
@@ -193,4 +193,4 @@ Those points join the multiplier your other bonuses already raised, so +75 point
 
 ---
 
-[← 11. Wolven: the School of the Wolf](11-wolven.md) · [Contents](../README.md) · [13. Viper: the School of the Viper →](13-viper.md)
+[← 12. Wolven: the School of the Wolf](12-wolven.md) · [Contents](../README.md) · [14. Viper: the School of the Viper →](14-viper.md)

@@ -1,4 +1,4 @@
-# 15. The gear path, region by region
+# 16. The gear path, region by region
 
 This chapter follows the playthrough instead of the schools: what's worth picking up in each region, which witcher tiers to craft and when, and what each set is best used for. The school chapters already say which set each build wants; this is where it all sits on one timeline.
 
@@ -10,14 +10,14 @@ Three things stand out on the timeline:
 - **Every school meets at level 40.** All five Grandmaster tiers, and the whole Manticore set, are crafted by one man in Toussaint.
 - **Master crafters appear at level 24.** Until then, nobody can make a Mastercrafted piece, whatever diagrams you hold.
 
-Every level on the timeline matches the level the 5.0 game files compute for that item (chapter 19). The account reward sets were checked the same way where the files contain them.
+Every level on the timeline matches the level the 5.0 game files compute for that item (chapter 20). The account reward sets were checked the same way where the files contain them.
 
 ## Rules for the whole playthrough
 
-1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 3), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants. If you switch sets often, [chapter 23](23-all-sets-playthrough.md) has a skill plan built for it.
+1. **Weight class first, set second.** Witcher sets give no bonus before Grandmaster (chapter 4), so mixing pieces from different sets costs nothing as long as each one has the weight your School Technique wants. If you switch sets often, [chapter 1](01-all-sets-playthrough.md) has a skill plan built for it.
 2. **You can't skip a tier, but you can wait.** Each recipe consumes the piece below it. Collect diagrams as you find them and craft when the upgrade is worth the materials.
 3. **Never sell or dismantle a Mastercrafted piece** you intend to take to Grandmaster.
-4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 6).
+4. **Single runestones and glyphs move up with your gear; words don't.** Socket stones freely, and save runewords and glyphwords for your final pieces (chapter 7).
 5. **Collect every diagram you pass, even for sets you won't wear.** In 5.0, owning an item or its diagram unlocks its look for **Reforge** at Yoana or Hattori, so you can wear the stats you need under the look you like ([KeenGamer](https://www.keengamer.com/articles/guides/witcher-3-remastered-patch-notes-skill-reset-reforge-and-major-changes/)).
 
 ## White Orchard (levels 1–4)
@@ -27,7 +27,7 @@ Every level on the timeline matches the level the 5.0 game files compute for tha
 
 ## Vizima: the reward chest
 
-Right after White Orchard, the Royal Palace in Vizima has a chest with your **CD PROJEKT RED account rewards**: the **Scarlet Crest** set (new in Remastered, level 40) and, if your account has them, **Armor of a Thousand Flowers** (level 7) and **White Tiger of the West** (level 11) with their swords. The two older sets are medium armor that arrives before any witcher set, and their swords carry crit bonuses. Chapter 16 explains what linking an account means and how to claim them.
+Right after White Orchard, the Royal Palace in Vizima has a chest with your **CD PROJEKT RED account rewards**: the **Scarlet Crest** set (new in Remastered, level 40) and, if your account has them, **Armor of a Thousand Flowers** (level 7) and **White Tiger of the West** (level 11) with their swords. The two older sets are medium armor that arrives before any witcher set, and their swords carry crit bonuses. Chapter 17 explains what linking an account means and how to claim them.
 
 ## Velen and Novigrad (levels 5–25)
 
@@ -36,7 +36,7 @@ Right after White Orchard, the Royal Palace in Vizima has a chest with your **CD
 | **Nilfgaardian** set (free DLC, medium) | 10 | Crow's Perch quartermaster | Every medium school until Griffin |
 | **Griffin** Basic, Enhanced | 11, 18 | Velen; Enhanced also in the Novigrad outskirts | Griffin, Wolven, Manticore, Viper (any medium build) |
 | **Feline** Basic, Enhanced, Superior | 17, 23, 29 | Velen, Novigrad, Oxenfurt; Mad Kiyan guards the Basic diagrams | Feline |
-| **Forgotten Wolven** Basic (all six diagrams) | 20 | *In the Eternal Fire's Shadow* starts with the Eternal Fire priest at Devil's Pit (quest level 15); the spirit Reinald hands over the diagrams. Finish it before the Isle of Mists to be safe (chapter 18) | Wolven |
+| **Forgotten Wolven** Basic (all six diagrams) | 20 | *In the Eternal Fire's Shadow* starts with the Eternal Fire priest at Devil's Pit (quest level 15); the spirit Reinald hands over the diagrams. Finish it before the Isle of Mists to be safe (chapter 19) | Wolven |
 | **Ursine** Superior, Mastercrafted | 30, 34 | Velen | Ursine (after Skellige's Basic and Enhanced) |
 | **Moonblade** (relic silver: Yrden, crit damage, 3 slots) | scales | Underwater chest in the Pontar, southwest of Mulbrydale | Early Sign or crit builds |
 | **Gwyhyr** (relic steel: Yrden, crit damage, armor piercing, bleed) | — | Cave northwest of Hanged Man's Tree | A stopgap; not top-tier |
@@ -57,7 +57,7 @@ Location guides: Mobalytics has one for each of Cat, Griffin, Ursine, Wolven and
 | **Feline** Mastercrafted | 34 | Skellige | Feline |
 | **Wolven** Superior and Mastercrafted diagrams | 29, 34 | Skellige (with Kaer Morhen and Velen) | Wolven |
 | **Hjalmar's steel sword** | — | Win the fistfight in Hjalmar's corner of the Kaer Trolde feast hall during *King's Gambit*, before you go to Crach. Missable | Collectors |
-| **Winter's Blade** (relic steel, levels with you since 4.0) | scales | Ask Crach an Craite during *Brothers in Arms: Skellige*; guides say to do it before you sail to the Isle of Mists (chapter 18). Missable | Crit builds |
+| **Winter's Blade** (relic steel, levels with you since 4.0) | scales | Ask Crach an Craite during *Brothers in Arms: Skellige*; guides say to do it before you sail to the Isle of Mists (chapter 19). Missable | Crit builds |
 
 ## Kaer Morhen (from the main quest *Ugly Baby*)
 
@@ -70,7 +70,7 @@ Kaer Morhen only opens up after *Ugly Baby*. Two sets live here:
 
 | Pickup | Level | Where | Who it's for |
 | --- | --- | --- | --- |
-| **The Runewright** (enchanting) | — | Upper Mill; 30,000 crowns for all three tiers (chapter 6) | Everyone |
+| **The Runewright** (enchanting) | — | Upper Mill; 30,000 crowns for all three tiers (chapter 7) | Everyone |
 | **Ofieri** set (crafted, light; Quen, Yrden and Axii intensity) | 38 (one source says 35) | Four diagrams in the far Novigrad outskirts during *From Ofier's Distant Shores*; Dulla kh'Amanni at Upper Mill translates them | Sign builds that don't need medium armor |
 | **Ofieri saber** (crafted relic steel: crit, Igni, Aard, Axii) | 38 | Diagram sold by Dulla kh'Amanni | Feline, Griffin |
 | **New Moon** set (relic, medium; crit chance and crit damage) | 34–36 | Crane Cape lighthouse, Kilkerinn Ruins, a crypt in the far outskirts, and Vikk Watchtower during *The Royal Air Force* | Crit builds with Levity or in medium armor |
@@ -87,11 +87,11 @@ Sources: [nukesdragons: Ofieri armor](https://nukesdragons.com/witcher-3/db/armo
 | --- | --- | --- | --- |
 | **Grandmaster** Feline, Griffin, Ursine and Wolven, and the **Manticore** set | 40 | Lafargue's hunts | Everyone |
 | **Tesham Mutna** set (heavy; kills heal you with 3+ pieces) | 39 | Only during *La Cage au Fou*. Missable | Ursine |
-| **Hen Gaidth** set *or* **Toussaint relic** set (both heavy) | 40+ | One or the other, depending on your route in *The Night of Long Fangs* (chapter 18) | Ursine |
+| **Hen Gaidth** set *or* **Toussaint relic** set (both heavy) | 40+ | One or the other, depending on your route in *The Night of Long Fangs* (chapter 19) | Ursine |
 | **Toussaint Ducal Guard Captain's** set (crafted, medium, +400 Vitality) | 45 | Diagrams in the Bastoy reward chest, Antoine Straggen's bed at the Arthach Palace Ruins, and a barghest-guarded chest between the Cockatrice Inn and Flovive | Medium builds that want Vitality |
 | **Toussaint Knight's Tourney** set (crafted, heavy, +500 Vitality) | 48 | Diagram from *The Curse of Carnarvon* | Ursine |
 | **Toussaint Knight's Steel Sword** (crafted: +20% crit chance, +100% crit damage, +300 armor piercing) | 48 | Antoine Straggen's chest, upper floor of the central tower at the Arthach Palace Ruins | Every sword build |
-| **Aerondight** (relic silver: charges up, then every hit crits) | scales | *There Can Be Only One* (chapter 17) | Every sword build |
+| **Aerondight** (relic silver: charges up, then every hit crits) | scales | *There Can Be Only One* (chapter 18) | Every sword build |
 | **Gesheft** (crafted silver: crit, Aard), **Belhaven Blade** (steel: crit, Aard), **Black Unicorn** (steel: Aard, bleed) | 45–46 | Werewolf den north of Basane Farm; a river chest in the Sansretour; three diagram spots | Crit and Aard builds |
 
 Sources: [nukesdragons](https://nukesdragons.com/witcher-3/db/weapons/toussaint-knights-steel-sword), [Console Pulse: Non-witcher armor](https://consolepulse.com/multiplatform/the-witcher/guides/witcher-3-non-witcher-armor-sets-unique-outfits), [Console Pulse: Rare armors](https://www.consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-rare-armors), [WitcherHour: Best weapons](https://witcherhour.com/witcher-3-best-weapons/).
@@ -108,7 +108,7 @@ Sources: [nukesdragons](https://nukesdragons.com/witcher-3/db/weapons/toussaint-
 | **Manticore** | Medium | Alchemy, decoctions, bombs | Grandmaster only (40) | All six: +1 charge on every alchemy item | Its own swords |
 | **Viper** | Medium | Poison | Swords at level 1; armor at 39 | No Grandmaster tier or bonus | Venomous swords |
 
-The Grandmaster bonuses themselves are in chapter 3. Two are disputed between sources (Forgotten Wolven and Ursine), so read the tooltip before you spend the materials.
+The Grandmaster bonuses themselves are in chapter 4. Two are disputed between sources (Forgotten Wolven and Ursine), so read the tooltip before you spend the materials.
 
 ## Your school's gear track
 
@@ -137,4 +137,4 @@ The Grandmaster bonuses themselves are in chapter 3. Two are disputed between so
 
 ---
 
-[← 14. Verdict: which school is strongest?](14-verdict.md) · [Contents](../README.md) · [16. Other armor sets: reward sets, free DLC and the expansions →](16-other-armor.md)
+[← 15. Verdict: which school is strongest?](15-verdict.md) · [Contents](../README.md) · [17. Other armor sets: reward sets, free DLC and the expansions →](17-other-armor.md)

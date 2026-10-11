@@ -1,4 +1,4 @@
-# 19. The maths behind the choices
+# 20. The maths behind the choices
 
 This chapter collects every calculation in the book in one place, with the assumptions spelled out. The school chapters use these results; here you can check the working.
 
@@ -143,7 +143,7 @@ How long you last scales with Vitality divided by the share of each hit that rea
 | 2 | 70% | 2.11× |
 | 3 | 55% | 2.69× |
 
-A full bar nearly doubles how long you last compared with an empty one (2.69 against 1.48), which is the trade-off against spending the same three points on a rank-3 Rend. **Mutated Skin (file-verified):** the damage that reaches your Vitality is multiplied by `1 − 0.15 × whole Adrenaline points`. Fractions don't count, unlike Undying: 2.9 points still give −30%. It does nothing while any Quen shield is active and doesn't reduce damage over time such as poison, burning or bleeding. Chapter 10.
+A full bar nearly doubles how long you last compared with an empty one (2.69 against 1.48), which is the trade-off against spending the same three points on a rank-3 Rend. **Mutated Skin (file-verified):** the damage that reaches your Vitality is multiplied by `1 − 0.15 × whole Adrenaline points`. Fractions don't count, unlike Undying: 2.9 points still give −30%. It does nothing while any Quen shield is active and doesn't reduce damage over time such as poison, burning or bleeding. Chapter 11.
 
 ## 6. The Toxicity budget and Euphoria
 
@@ -190,7 +190,7 @@ At the 170 maximum above, rank 3 needs more than 93.5 points of potion Toxicity,
 
 **Potion Toxicity recovery (file-verified):** without modifiers, clearing `T` points takes `T / 0.25` seconds in combat or `T / 0.275` outside it, if the combat state stays unchanged; 20 points take 80 seconds in combat. **Fast Metabolism** adds 1 point per second per rank to that drain, so the same 20 points clear in 16 s at rank 1 and about 6 s at rank 3. That is five times the base speed at rank 1, which strips a Euphoria build of potion Toxicity quickly; decoction Toxicity doesn't drain either way.
 
-**Volatile Compound (file-verified):** bomb damage is multiplied by `1 + 0.001 × rank × current Toxicity`, decoctions included: +45% at rank 3 with 150 Toxicity. It turns a decoction stack into bomb damage with or without Euphoria. Chapter 12.
+**Volatile Compound (file-verified):** bomb damage is multiplied by `1 + 0.001 × rank × current Toxicity`, decoctions included: +45% at rank 3 with 150 Toxicity. It turns a decoction stack into bomb damage with or without Euphoria. Chapter 13.
 
 ## 7. Poison: how many hits it takes
 
@@ -235,13 +235,13 @@ Viper and Toxic Shock builds need another plan for these fights, which include s
 
 **Toxic Shock (file-verified):** a strong melee attack against a target that already has poison adds poison damage equal to **25% / 50% / 75% of that attack's raw damage**, removes the poison and starts a 5-second cooldown. The burst then goes through normal damage processing, so it isn't a guaranteed +25/50/75% of the final hit; Viper School Techniques' poison bonus applies to it. The check runs before Poisoned Blades rolls, so a strong hit can't poison a clean target and consume that poison at once.
 
-**The rest of the poison line (file-verified):** Potent Sting needs a matching oil, not a poisoned target, and multiplies raw melee damage by `1 + 0.05 × rank`, or `1 + 0.10 × rank` against poison-immune enemies. Debilitating Poison adds `0.05 × rank` resistance against attacks from enemies carrying your poison. Ordinary poison you apply also triggers Metamorphosis. Chapter 13.
+**The rest of the poison line (file-verified):** Potent Sting needs a matching oil, not a poisoned target, and multiplies raw melee damage by `1 + 0.05 × rank`, or `1 + 0.10 × rank` against poison-immune enemies. Debilitating Poison adds `0.05 × rank` resistance against attacks from enemies carrying your poison. Ordinary poison you apply also triggers Metamorphosis. Chapter 14.
 
 ## 8. Sign intensity
 
 ![Sign intensity added by each source, fully upgraded: Griffin set inside Yrden +100%, Catalyst +90%, Focus +90%, Chain Reaction +75%, Petri's Philter +25%, Griffin Techniques +24%, Grandmaster chest +22%, Grandmaster steel sword +21%](../images/sign-intensity.png)
 
-The two largest bonuses need Yrden: Catalyst only counts against enemies inside it, and the Griffin set bonus only while you stand in your own trap. Focus needs a full bar, and Chain Reaction five casts in a row, each a different Sign from the one before. The flat sources (potion, Technique, armor, sword) are what you have in every fight. Chapter 9.
+The two largest bonuses need Yrden: Catalyst only counts against enemies inside it, and the Griffin set bonus only while you stand in your own trap. Focus needs a full bar, and Chain Reaction five casts in a row, each a different Sign from the one before. The flat sources (potion, Technique, armor, sword) are what you have in every fight. Chapter 10.
 
 **File-verified:** the Grandmaster Griffin set's Yrden bonus (+100% Sign intensity, +5% of maximum Stamina per second, 20% less damage taken, a 40% larger trap), Griffin School Techniques' Sign intensity and Petri's Philter's +15/20/25%. Catalyst, Focus and Chain Reaction come from witcherhour; their per-rank coefficients in the files match it.
 
@@ -268,7 +268,7 @@ Base sword damage is 372 steel and 524 silver for every set. Every Manticore arm
 | Alchemy | +2% potion duration, which also multiplies bomb damage by the same 2% |
 | General | +1% maximum Vitality |
 
-This settles both disputes in chapter 21: witcherhour was right that only equipped skills count, and the two descriptions of the Signs passive are the same number at 100 Stamina. Hack the Minotaur's "+2% potion duration and bomb damage" is right too: thrown bombs are multiplied by one plus your potion-duration bonus.
+This settles both disputes in chapter 22: witcherhour was right that only equipped skills count, and the two descriptions of the Signs passive are the same number at 100 Stamina. Hack the Minotaur's "+2% potion duration and bomb damage" is right too: thrown bombs are multiplied by one plus your potion-duration bonus.
 
 ## 10. Three Strikes: a bonus to the fourth matching hit
 
@@ -357,7 +357,7 @@ This is why **15/30/45 is not a final-damage table**. Both global power and the 
 | Ancient Leshen decoction | +2/s flat for each Sign cast in combat, stacking until the fight ends |
 | Sun and Stars, at night | +1/s per rank (1% of maximum Stamina per rank) |
 
-Armor multiplies the total: chest and trousers ±10% each, boots ±3%, gloves ±2%, plus for light pieces and minus for heavy ones. Full light armor gives ×1.25, medium ×1 and heavy ×0.75. The weight glyphwords (chapter 6) set this modifier along with the weight class.
+Armor multiplies the total: chest and trousers ±10% each, boots ±3%, gloves ±2%, plus for light pieces and minus for heavy ones. Full light armor gives ×1.25, medium ×1 and heavy ×0.75. The weight glyphwords (chapter 7) set this modifier along with the weight class.
 
 Example: medium armor, Griffin School Techniques rank 3 on four pieces, 18 equipped Signs ranks, superior Tawny Owl, standing in a Grandmaster Griffin Yrden:
 
@@ -502,4 +502,4 @@ The normal-game and NG+ base definitions agree for the reported crit attributes,
 
 ---
 
-[← 18. Missables: one-time gear](18-missables.md) · [Contents](../README.md) · [20. Common mistakes, and how to respec →](20-mistakes-and-respec.md)
+[← 19. Missables: one-time gear](19-missables.md) · [Contents](../README.md) · [21. Common mistakes, and how to respec →](21-mistakes-and-respec.md)

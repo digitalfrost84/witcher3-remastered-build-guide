@@ -1,4 +1,4 @@
-# 3. Gear basics
+# 4. Gear basics
 
 Gear does two jobs in a build. Each armor piece's **weight class** feeds your School Technique, and at the very end of the game the **Grandmaster set bonuses** add the effects that define each school. Everything in between is stats. Once you know that, gear decisions get simple.
 
@@ -15,12 +15,12 @@ Every armor piece is **light, medium or heavy**. In 5.0 all six School Technique
 | **Manticore** | Medium | +2% sword damage, +2% bomb damage | +6% each | +24% each |
 | **Viper** | Medium | +2% max Vitality, +2% poison damage | +6% each | +24% each |
 
-Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks), and the installed 5.0 game files, which confirm every value in the table except the starred crit damage ([chapter 19](19-the-maths.md#2-school-techniques-what-can-be-compared)). \*Cat's crit-damage bonus is stored as a multiplier on a crit-damage base that no item or skill ever sets, so in real attacks it adds nothing; the +96% comes from the character panel's own formula. Witcherhour lists Cat's fast attack bonus at rank 1 as +1%; the files say +2%. Griffin's Stamina figures are 0.2% of maximum Stamina per second for each rank and piece, so 0.2 / 0.4 / 0.6 points per second per piece at the base 100 Stamina, before armor modifiers ([chapter 19](19-the-maths.md#13-stamina-in-combat)); the nukesdragons database's +0.2 at rank 1 agrees, witcherhour's +1 per piece at rank 3 (+4 for four) does not.
+Sources: [WitcherDB planner](https://witcherdb.com/build-planner) (rank 1), [witcherhour.com](https://witcherhour.com/skills/) (all ranks), and the installed 5.0 game files, which confirm every value in the table except the starred crit damage ([chapter 20](20-the-maths.md#2-school-techniques-what-can-be-compared)). \*Cat's crit-damage bonus is stored as a multiplier on a crit-damage base that no item or skill ever sets, so in real attacks it adds nothing; the +96% comes from the character panel's own formula. Witcherhour lists Cat's fast attack bonus at rank 1 as +1%; the files say +2%. Griffin's Stamina figures are 0.2% of maximum Stamina per second for each rank and piece, so 0.2 / 0.4 / 0.6 points per second per piece at the base 100 Stamina, before armor modifiers ([chapter 20](20-the-maths.md#13-stamina-in-combat)); the nukesdragons database's +0.2 at rank 1 agrees, witcherhour's +1 per piece at rank 3 (+4 for four) does not.
 
 Two things follow from this table:
 
 - **A school's style is available long before its set.** Wolf, Griffin, Manticore and Viper Techniques all count *any* medium armor. You can play a Manticore alchemist at level 10 in medium armor from a merchant; the Manticore set itself only matters at level 40.
-- **You can change an armor's weight class.** Three Hearts of Stone glyphwords make all your armor count as one weight: Levity (light), Balance (medium) and Heft (heavy). That's how players wear heavy armor and still use Cat School Techniques (chapter 6).
+- **You can change an armor's weight class.** Three Hearts of Stone glyphwords make all your armor count as one weight: Levity (light), Balance (medium) and Heft (heavy). That's how players wear heavy armor and still use Cat School Techniques (chapter 7).
 
 Heavier armor protects more but slows Stamina regeneration ([Fextralife: Chest armor](https://thewitcher3.wiki.fextralife.com/Chest+Armor)).
 
@@ -38,7 +38,7 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | **Viper** | Medium | Swords 1–2; armor and Venomous swords 39 | White Orchard; Hearts of Stone (missable) |
 | **Manticore** | Medium | Grandmaster only, 40 | Toussaint |
 
-**File-verified:** the game doesn't store an item's level; it computes it from the item's armor or damage value, and every level in this table matches that calculation for the installed 5.0 files (chapter 19). The older guides (Console Pulse, Gamestegy) and a 5.0 KeenGamer article give the same numbers. Chapter 15 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
+**File-verified:** the game doesn't store an item's level; it computes it from the item's armor or damage value, and every level in this table matches that calculation for the installed 5.0 files (chapter 20). The older guides (Console Pulse, Gamestegy) and a 5.0 KeenGamer article give the same numbers. Chapter 16 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
 
 **About Manticore's weight.** One Remastered guide calls the Manticore set light. Every other source, including the 5.0 Manticore School Technique (which rewards medium armor), says medium. The "light" reading most likely came from a chest piece enchanted with the Levity glyphword. This book treats Manticore as medium.
 
@@ -56,7 +56,7 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | **Manticore** | Crit chance and crit damage also apply to bombs, and bombs throw without delay | Every potion and bomb gets +1 maximum charge; decoctions don't |
 | **Viper** | No set bonus | No set bonus |
 
-**File-verified:** the game's scripts implement every bonus above as described, with the refinements in the table; the Feline 6-piece damage bonus needs at least one Adrenaline point and the stun spends it, except during Whirl and Rend. That settles the two disputes in older sources: Forgotten Wolven's bonuses are the potion-duration and Aard-in-Yrden pair, not Wolven's bleed bonus, and Ursine's bonuses are about Quen, not strong attacks and Adrenaline ([chapter 19](19-the-maths.md#8-sign-intensity)). Pre-5.0 descriptions: [Witcher wiki: Cat School Gear](https://witcher.fandom.com/wiki/Cat_School_Gear), [Witcher wiki: Griffin School Gear](https://witcher.fandom.com/wiki/Griffin_School_Gear), [Fextralife: Grandmaster Ursine Armor](https://thewitcher3.wiki.fextralife.com/Grandmaster+Ursine+Armor), [Witcher wiki: Wolf School Gear](https://witcher.fandom.com/wiki/Wolf_School_Gear), [Gamestegy: Grandmaster Forgotten Wolven](https://gamestegy.com/witcher-3/wiki/1383/grandmaster-forgotten-wolven-armor), [Witcher wiki: Manticore School Gear](https://witcher.fandom.com/wiki/Manticore_School_Gear).
+**File-verified:** the game's scripts implement every bonus above as described, with the refinements in the table; the Feline 6-piece damage bonus needs at least one Adrenaline point and the stun spends it, except during Whirl and Rend. That settles the two disputes in older sources: Forgotten Wolven's bonuses are the potion-duration and Aard-in-Yrden pair, not Wolven's bleed bonus, and Ursine's bonuses are about Quen, not strong attacks and Adrenaline ([chapter 20](20-the-maths.md#8-sign-intensity)). Pre-5.0 descriptions: [Witcher wiki: Cat School Gear](https://witcher.fandom.com/wiki/Cat_School_Gear), [Witcher wiki: Griffin School Gear](https://witcher.fandom.com/wiki/Griffin_School_Gear), [Fextralife: Grandmaster Ursine Armor](https://thewitcher3.wiki.fextralife.com/Grandmaster+Ursine+Armor), [Witcher wiki: Wolf School Gear](https://witcher.fandom.com/wiki/Wolf_School_Gear), [Gamestegy: Grandmaster Forgotten Wolven](https://gamestegy.com/witcher-3/wiki/1383/grandmaster-forgotten-wolven-armor), [Witcher wiki: Manticore School Gear](https://witcher.fandom.com/wiki/Manticore_School_Gear).
 
 ## Who crafts what
 
@@ -80,8 +80,8 @@ These follow from the rules above. They're this book's recommendations, not game
 1. **Weight class first, set second.** Before Grandmaster, sets give no bonus, so mixing pieces from different sets costs you nothing as long as every piece has the weight your Technique wants.
 2. **Craft Basic as soon as you can wear it.** It gets the set's stats on you early, and every later tier is crafted from it.
 3. **You can't skip a tier, but you can wait.** Each recipe uses up the piece below it, so reaching Mastercrafted means crafting every tier in order. You don't have to craft each one the day you find the diagram: if your current pieces are holding up, craft two tiers back to back later. Never sell or dismantle a piece you'll upgrade, the Mastercrafted ones above all.
-4. **Socket single runestones and glyphs freely; save runewords and glyphwords for your final tier.** Upgrading keeps single stones but destroys words (chapter 6).
-5. **Count your swords as set pieces.** The 6-piece bonus needs both swords from the same set, which competes with relic swords (chapter 17).
+4. **Socket single runestones and glyphs freely; save runewords and glyphwords for your final tier.** Upgrading keeps single stones but destroys words (chapter 7).
+5. **Count your swords as set pieces.** The 6-piece bonus needs both swords from the same set, which competes with relic swords (chapter 18).
 
 ## Sources
 
@@ -99,4 +99,4 @@ These follow from the rules above. They're this book's recommendations, not game
 
 ---
 
-[← 2. The 5.0 skill system](02-the-skill-system.md) · [Contents](../README.md) · [4. Alchemy basics →](04-alchemy.md)
+[← 3. The 5.0 skill system](03-the-skill-system.md) · [Contents](../README.md) · [5. Alchemy basics →](05-alchemy.md)

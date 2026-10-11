@@ -9,7 +9,7 @@ or ".w2phase") under <outdir>, keeping the internal paths, and prints how many
 files passed and failed their size and CRC32 check. Handles uncompressed,
 zlib and LZ4 entries; entries in other formats are counted as skipped.
 
-The chapter 19 audits used it on content/content0/bundles/xml.bundle (game
+The chapter 20 audits used it on content/content0/bundles/xml.bundle (game
 definitions), ep1.bundle and bob.bundle (the expansions' definitions), and on
 startup, blob, bob, ep1 and dlc0 for the quest graphs. Run Python with -I
 when you point it at game files, and extract into an empty directory.

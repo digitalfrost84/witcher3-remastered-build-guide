@@ -1,6 +1,6 @@
-# 14. Verdict: which school is strongest?
+# 15. Verdict: which school is strongest?
 
-Every school in this book can finish the game on any difficulty. The question here is narrower: in patch 5.0, which one gets the most out of the same skill points, and what does each cost you to get there? This book has not benchmarked the builds. The ranking combines community descriptions with the limited file audit in [chapter 19](19-the-maths.md). That audit corrects the crit calculation and Wolven skill priorities, but does not establish a new school order. Read the ranking as a playstyle judgment, not a measurement.
+Every school in this book can finish the game on any difficulty. The question here is narrower: in patch 5.0, which one gets the most out of the same skill points, and what does each cost you to get there? This book has not benchmarked the builds. The ranking combines community descriptions with the limited file audit in [chapter 20](20-the-maths.md). That audit corrects the crit calculation and Wolven skill priorities, but does not establish a new school order. Read the ranking as a playstyle judgment, not a measurement.
 
 ## The ranking
 
@@ -25,7 +25,7 @@ Manticore's proposed damage ceiling depends on Euphoria, a stack of decoctions a
 
 ### 3. Feline: the best swordsman
 
-Several core Feline skills reward a full Adrenaline bar, which makes the crit plan coherent. The file audit trimmed it: Cat School Techniques' crit-damage line and Doppler add nothing, so crit damage comes from swords and Hunter Instinct, and a full bar against the oiled monster type is worth about +21% per fast attack in chapter 8's worked example, about +6% without Hunter Instinct. It keeps third place on its early start and its crit-chance stack, not on proof that it out-damages every other sword build. It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
+Several core Feline skills reward a full Adrenaline bar, which makes the crit plan coherent. The file audit trimmed it: Cat School Techniques' crit-damage line and Doppler add nothing, so crit damage comes from swords and Hunter Instinct, and a full bar against the oiled monster type is worth about +21% per fast attack in chapter 9's worked example, about +6% without Hunter Instinct. It keeps third place on its early start and its crit-chance stack, not on proof that it out-damages every other sword build. It needs no brewing, and its gear starts at level 4. It ranks below Manticore and Griffin because it's fragile: a hit costs it damage as well as Vitality, and it has little answer to crowds.
 
 ### 4. Wolven: the best playthrough build
 
@@ -33,7 +33,7 @@ Wolven isn't the best at anything, as VGTimes puts it, but it has no bad fights:
 
 ### 5. Ursine: the safest
 
-The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Death March run ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)). With Mutated Skin, Bear School Techniques and Survival Instinct it can absorb about 2.7 times the damage of an unbuffed Geralt (chapter 10). It ranks low on power because its damage ceiling is among the lowest, and its best defensive tool asks you to stop using Rend, its best offensive one.
+The most forgiving school, and KeenGamer's and FinalBoss's pick for a first Death March run ([KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-best-builds-for-every-playstyle/); [FinalBoss](https://finalboss.io/the-witcher-3-wild-hunt-choose-the-best-remastered-build-by-playstyle)). With Mutated Skin, Bear School Techniques and Survival Instinct it can absorb about 2.7 times the damage of an unbuffed Geralt (chapter 11). It ranks low on power because its damage ceiling is among the lowest, and its best defensive tool asks you to stop using Rend, its best offensive one.
 
 ### 6. Viper: the niche
 
@@ -87,4 +87,4 @@ The school chapters (8 to 13) cite the numbers behind each rating. The compariso
 
 ---
 
-[← 13. Viper: the School of the Viper](13-viper.md) · [Contents](../README.md) · [15. The gear path, region by region →](15-gear-path.md)
+[← 14. Viper: the School of the Viper](14-viper.md) · [Contents](../README.md) · [16. The gear path, region by region →](16-gear-path.md)

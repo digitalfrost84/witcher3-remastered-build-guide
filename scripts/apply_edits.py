@@ -8,7 +8,7 @@ my_edits.py defines a list named EDITS of (file, old, new) tuples, with file
 paths relative to the repository root:
 
     EDITS = [
-        ("chapters/04-alchemy.md",
+        ("chapters/05-alchemy.md",
          "| **Blizzard** | ... | 25 |",
          "| **Blizzard** | ... | 20 |"),
     ]

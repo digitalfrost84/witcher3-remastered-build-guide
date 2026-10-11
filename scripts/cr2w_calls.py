@@ -6,7 +6,7 @@ Usage:
 
 Prints every CQuestScriptBlock, or only those calling `functionName`, with
 their properties: comment, caption, function name and the raw parameter and
-connection data. Chapter 19 used it on Blood and Wine's
+connection data. Chapter 20 used it on Blood and Wine's
 mq7023_mutations.w2phase, the only quest graph that calls AddSkillPoints, to
 find the two Moreau lab grants. The condition block in front of them was
 traced by following the cachedConnections chunk indices.

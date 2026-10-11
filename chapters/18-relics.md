@@ -1,6 +1,6 @@
-# 17. Relics and legendary weapons
+# 18. Relics and legendary weapons
 
-Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. Most count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 3). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
+Relic swords are unique items with fixed or rolled bonuses, and a handful of them are among the best weapons in the game. Most count toward no set, so wearing one means giving up a 6-piece set bonus unless your school doesn't need it (chapter 4). No 5.0 patch note changes weapon stats ([KeenGamer: Best swords](https://www.keengamer.com/articles/guides/best-swords-in-the-witcher-3-wild-hunt-remastered-steel-and-silver/)).
 
 Most numbers below come from the nukesdragons database, which is labeled for Remastered but is unofficial; where sources disagree, both values are given.
 
@@ -56,14 +56,14 @@ Sources for both tables: [nukesdragons: weapons](https://nukesdragons.com/witche
 
 | School | Steel | Silver | Note |
 | --- | --- | --- | --- |
-| **Feline** | Toussaint Knight's Steel Sword | Aerondight | Four Grandmaster armor pieces, not six (chapter 8) |
+| **Feline** | Toussaint Knight's Steel Sword | Aerondight | Four Grandmaster armor pieces, not six (chapter 9) |
 | **Griffin** | Grandmaster Griffin | Grandmaster Griffin | The 6-piece bonus beats Vitis and the found Gesheft |
 | **Ursine** | Grandmaster Ursine, or Iris | Grandmaster Ursine, or Aerondight | Iris if you give up the 6-piece Quen bonus |
 | **Wolven** | Grandmaster Forgotten Wolven | Grandmaster Forgotten Wolven | Or Toussaint Knight's Steel and Aerondight; Conductors of Magic likes high sword damage |
 | **Manticore** | Grandmaster Manticore | Grandmaster Manticore | The 6-piece charge bonus is the point of the set |
 | **Viper** | Viper Venomous | Viper Venomous | No set bonus to lose |
 
-**Early crit swords worth knowing:** the account-reward Sword of a Thousand Flowers and White Widow (level 7) and the Nine-Tailed Vixen pair (level 11) if your account has them (chapter 16), Arbitrator once a Master blacksmith can make it, and Moonblade whenever you can dive for it.
+**Early crit swords worth knowing:** the account-reward Sword of a Thousand Flowers and White Widow (level 7) and the Nine-Tailed Vixen pair (level 11) if your account has them (chapter 17), Arbitrator once a Master blacksmith can make it, and Moonblade whenever you can dive for it.
 
 ## Sources
 
@@ -80,4 +80,4 @@ Sources for both tables: [nukesdragons: weapons](https://nukesdragons.com/witche
 
 ---
 
-[← 16. Other armor sets: reward sets, free DLC and the expansions](16-other-armor.md) · [Contents](../README.md) · [18. Missables: one-time gear →](18-missables.md)
+[← 17. Other armor sets: reward sets, free DLC and the expansions](17-other-armor.md) · [Contents](../README.md) · [19. Missables: one-time gear →](19-missables.md)

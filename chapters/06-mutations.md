@@ -1,4 +1,4 @@
-# 5. Mutations (Blood and Wine)
+# 6. Mutations (Blood and Wine)
 
 Mutations are the last layer of a build. They arrive in Toussaint, near the end of most playthroughs, and they do two things: one active mutation adds a strong effect of its own, and researching mutations opens up to **four extra skill slots**. For several schools the mutation is what finally makes the build complete: Euphoria for Manticore, Mutated Skin for Ursine, Conductors of Magic for Wolven.
 
@@ -10,7 +10,7 @@ The secondary quest **Turn and Face the Strange** unlocks the Mutations panel. A
 
 Sources disagree on when the letter arrives. KeenGamer and Console Pulse say after the main quest *Blood Run*, Fextralife lists *The Beast of Toussaint* as the prerequisite (suggested level 35), and Vulkk ties it to *La Cage au Fou*. All three are early Blood and Wine quests, so in practice the letter shows up within the first few hours in Toussaint.
 
-**Tip the boy.** Giving the messenger a tip counts toward the Generosity virtue for Aerondight (chapter 17).
+**Tip the boy.** Giving the messenger a tip counts toward the Generosity virtue for Aerondight (chapter 18).
 
 ## How research works
 
@@ -71,7 +71,7 @@ flowchart LR
 | **Conductors of Magic** | Red + blue | 5 + 3 blue, 2 red | Piercing Cold | With a magic, unique or witcher sword drawn, Signs add half the sword's base damage stat before Sign intensity applies |
 | **Second Life** | All three | 7 + 3 red, 2 blue, 2 green | Adrenaline Rush | At 0 Vitality: brief invulnerability and a full heal, then a 120-second cooldown |
 
-Costs, prerequisites, Euphoria, Magic Sensibilities, Conductors, Metamorphosis and Second Life's cooldown match the game files; chapter 19 has the formulas. Costs are Ability Points plus greater mutagens. Other effects from [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); costs match [Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine) and [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-mutation-system-unlock-order-builds).
+Costs, prerequisites, Euphoria, Magic Sensibilities, Conductors, Metamorphosis and Second Life's cooldown match the game files; chapter 20 has the formulas. Costs are Ability Points plus greater mutagens. Other effects from [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-remastered-all-mutations-how-to-unlock-them/); costs match [Gamer Guides](https://www.gamerguides.com/the-witcher-3-wild-hunt/guide/blood-and-wine-side-quests/turn-and-face-the-strange/how-to-unlock-the-mutations-tree-in-blood-and-wine) and [Console Pulse](https://consolepulse.com/multiplatform/the-witcher/guides/the-witcher-3-mutation-system-unlock-order-builds).
 
 **Numbers that sources disagree on** (check the tooltip):
 
@@ -115,4 +115,4 @@ Two practical rules follow from the slot milestones:
 
 ---
 
-[← 4. Alchemy basics](04-alchemy.md) · [Contents](../README.md) · [6. Enchanting (Hearts of Stone) →](06-enchanting.md)
+[← 5. Alchemy basics](05-alchemy.md) · [Contents](../README.md) · [7. Enchanting (Hearts of Stone) →](07-enchanting.md)
