@@ -12,6 +12,8 @@ It checks both READMEs and every chapter for:
 - table rows whose cell count differs from their header row;
 - images in images/ that nothing references, and references to images that
   don't exist.
+- links to a chapter whose label gives a different number from the file
+  ("[chapter 9](10-griffin.md)", "[9](10-griffin.md)", "[← 9. Griffin](10-griffin.md)").
 
 Web links aren't fetched. Exit status is 1 if anything fails.
 """
@@ -51,6 +53,9 @@ def main():
                 continue
             if fragment and target.suffix == ".md" and fragment not in anchors.get(target, set()):
                 problems.append(f"{name}: link to missing section {url}")
+        for m in re.finditer(r"\[(?:← )?(?:[Cc]hapters? )?(\d+)(?:\.[^\]]*)?(?: →)?\]\((?:\.\./)?(?:chapters/)?(\d{2})-[\w-]+\.md", text):
+            if int(m.group(1)) != int(m.group(2)):
+                problems.append(f"{name}: link labelled {m.group(1)} points to chapter {int(m.group(2))}")
         used_images |= set(re.findall(r"images/([\w\-]+\.png)", text))
 
         lines = text.split("\n")

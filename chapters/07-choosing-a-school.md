@@ -6,7 +6,7 @@ In the books, a witcher's school was where he trained: a keep, a teacher, a set 
 2. **A Grandmaster set**, whose 3- and 6-piece bonuses define the endgame.
 3. **A way of fighting** that the rest of the skill tree, the right mutation and the right consumables push you toward.
 
-The first is available from your first skill point, the third grows over the whole game, and the second only arrives at level 40. That's why this book treats a school as a playstyle you can start in White Orchard, not a set you wait for.
+The first is available from your first skill point, the third grows over the whole game, and the second only arrives at level 40. That's why this book treats a school as a playstyle you can start in White Orchard, not a set you wait for. It also means you don't have to choose yet: chapter 8 is a plan for wearing every set as it comes and picking a school once the Grandmaster sets arrive.
 
 ![The six schools placed by what deals the damage (swords or Signs) and how much you prepare before a fight, colored by armor weight](../images/school-map.png)
 
@@ -21,7 +21,7 @@ The first is available from your first skill point, the third grows over the who
 | **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on potions and bombs | None |
 | **Mutation** | Bloodbath | Magic Sensibilities, then Conductors of Magic | Mutated Skin | Conductors of Magic | Euphoria | Euphoria |
 | **Effort** | High skill, low prep | Medium | Low | Medium | High prep | High prep, missable gear |
-| **Chapter** | [8](09-feline.md) | [9](10-griffin.md) | [10](11-ursine.md) | [11](12-wolven.md) | [12](13-manticore.md) | [13](14-viper.md) |
+| **Chapter** | [9](09-feline.md) | [10](10-griffin.md) | [11](11-ursine.md) | [12](12-wolven.md) | [13](13-manticore.md) | [14](14-viper.md) |
 
 Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 3. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
 
@@ -70,13 +70,12 @@ What that means for each school:
 - **Techniques follow weight, not sets.** Wolf, Griffin, Manticore and Viper Techniques all count any medium armor. A Griffin-armor Wolven build is completely normal before level 40.
 - **Glyphwords change weight.** Levity, Balance and Heft make all your armor count as light, medium or heavy (chapter 6). Two 5.0 guides run Manticore armor with Levity and Cat School Techniques.
 - **Respec is cheap.** A Potion of Clearance costs about 1,000 crowns, and no skill in 5.0 is more than seven points from a starting skill. Switching school at level 30 or at the start of Blood and Wine costs very little (chapter 21).
-- **You don't have to choose yet.** If you'd rather wear every set as it comes, the [next chapter](08-all-sets-playthrough.md) has a plan that works in all of them until you pick a Grandmaster set.
 
-## How each school chapter is laid out
+## How the build chapters are laid out
 
-Every chapter in Part II runs in the same order:
+Chapters 8 to 14 run in the same order:
 
-1. **Lore:** who the school were, and where you meet them in The Witcher 3.
+1. **Lore:** who the school were, and where you meet them in The Witcher 3. Chapter 8 has the idea behind the plan instead.
 2. **How it plays:** the resource loop, in a paragraph.
 3. **Skills by phase:** what to buy, in order, with every prerequisite listed: an opening of 6 points, three phases to 28 points and a free-form late game. The phases assume about one point per level; each Place of Power gives one more the first time you use it, the Magic Acorn two and Blood and Wine's Golden Egg one, so you'll usually be a little ahead.
 4. **Slots, mutagens and mutation:** the order to equip skills while slots are scarce, then the final layout of the 12 slots plus mutation slots.
@@ -84,6 +83,8 @@ Every chapter in Part II runs in the same order:
 6. **Gear path:** armor and swords from White Orchard to Toussaint, with links to diagram location guides.
 7. **The maths**, where sources publish numbers.
 8. **Verdict:** strengths, weaknesses, and who it suits.
+
+Chapter 8 adds one section the school chapters don't need: when and how to reset into a school.
 
 Chapter 15 then ranks all six.
 

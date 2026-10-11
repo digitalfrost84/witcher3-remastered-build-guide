@@ -124,10 +124,10 @@ As Focus, Resonance and Synergy arrive, they take the places of Refreshment, Und
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Muscle Memory, Strength Training, Razor Focus | Red |
-| 2 | Active Shield, Magic Trap, Catalyst | Blue |
-| 3 | Focus, Resonance, Synergy | Blue |
-| 4 | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
+| Top left | Muscle Memory, Strength Training, Razor Focus | Red |
+| Top right | Active Shield, Magic Trap, Catalyst | Blue |
+| Bottom left | Focus, Resonance, Synergy | Blue |
+| Bottom right | Poisoned Blades, Toxic Shock, Wolf School Techniques | Green |
 | Mutation slots (red or blue) | Melt Armor, Undying, Supercharged Glyphs, Aftershock | — |
 
 **Mutation: Conductors of Magic** (Magic Sensibilities, Piercing Cold, then Conductors: 10 Ability Points). With a magic, unique or witcher sword drawn, your Signs add **half of that sword's base damage stat** to their damage before Sign intensity multiplies it; the game files confirm this for every Sign action, Aftershock included (chapter 20). Before 5.0 it applied fully to Igni, to Quen's explosion and reflection, and to the Yrden trap, but not to Yrden's damage over time ([Fextralife: Mutations](https://thewitcher3.wiki.fextralife.com/Mutations)). It's red and blue, so its extra slots take either half of the build; the first one opens with your second research, Piercing Cold. If you'd rather go all in on alchemy, Euphoria is the alternative (chapter 13).

@@ -67,7 +67,7 @@ Sources: [KeenGamer](https://www.keengamer.com/articles/guides/the-witcher-3-rem
 
 ## Recommendations
 
-- **First playthrough:** Wolven, or Griffin if you like casting.
+- **First playthrough:** Wolven, or Griffin if you like casting. If you'd rather wear every set and decide late, the all-sets plan in chapter 8.
 - **First Death March:** Ursine, or Griffin if you're comfortable with Signs.
 - **New Game+ or a long Blood and Wine endgame:** Manticore.
 - **You just want to hit things and feel good about it:** Feline.

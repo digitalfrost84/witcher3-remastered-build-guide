@@ -116,10 +116,10 @@ Refreshment helps in the first levels but has no regular slot to spare after Pha
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
-| 1 | Sustained Glyphs, Magic Trap, Supercharged Glyphs | Blue |
-| 2 | Firestream, Catalyst, Chain Reaction | Blue |
-| 3 | Focus, Active Shield, Sidestep | Blue |
-| 4 | Griffin School Techniques, Synergy, Adrenaline Burst | Blue (base bonus only) |
+| Top left | Sustained Glyphs, Magic Trap, Supercharged Glyphs | Blue |
+| Top right | Firestream, Catalyst, Chain Reaction | Blue |
+| Bottom left | Focus, Active Shield, Sidestep | Blue |
+| Bottom right | Griffin School Techniques, Synergy, Adrenaline Burst | Blue (base bonus only) |
 | Mutation slots (blue) | Aftershock, Fortify Signs, Melt Armor, Far-Reaching Aard | — |
 
 **Delusion:** if you want Axii's dialogue options, it takes Sidestep's slot until you have mutation slots.
