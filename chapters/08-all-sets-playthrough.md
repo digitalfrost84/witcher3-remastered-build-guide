@@ -35,7 +35,7 @@ Two picks come from Griffin and Wolven instead: **Magic Trap**, because wraiths 
 
 ## Skills by phase
 
-Buy each table from the top down; every prerequisite is either already owned or listed higher up.
+Buy each table from the top down; every prerequisite is either already owned or listed higher up. The point total in a phase heading is the gate, not its level range: purchases and slots both run on **Ability Points earned**, and the level estimates assume about one point per level. Each Place of Power gives a point the first time you use it, the Magic Acorn two and Blood and Wine's Golden Egg one (chapter 20), so a thorough player reaches each total several levels early.
 
 ### Opening: the first 6 points
 
@@ -105,7 +105,7 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2 and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2, 10 at 22 points and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
 
 1. Muscle Memory
 2. Razor Focus
@@ -125,6 +125,8 @@ Cumulative points after each phase:
 | Top right | Active Shield, Magic Trap, Melt Armor | Blue |
 | Bottom left | Undying, Wolf School Techniques, Delusion | Blue |
 | Bottom right | Locked until 22 points | — |
+
+**The 10th slot, at 22 points,** is the bottom-right group's first, and the other two arrive at 26 and 30 points (chapter 2). Refreshment, bought in Phase 2, is the skill for it — unless you skipped Delusion, in which case Refreshment is already in the bottom left and this slot takes the free-slot pick below.
 
 **The full layout (from 30 points):**
 
