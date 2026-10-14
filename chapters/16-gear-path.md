@@ -2,7 +2,7 @@
 
 This chapter follows the playthrough instead of the schools: what's worth picking up in each region, which witcher tiers to craft and when, and what each set is best used for. The school chapters already say which set each build wants; this is where it all sits on one timeline.
 
-![Required level for each witcher set tier and for the best bridge armor, with the Master crafters at level 24 and the Grandmaster crafter at 40](../images/gear-timeline.png)
+![Required level for each witcher set tier and for the best bridge armor, with the Master crafters at level 24 and the Grandmaster crafter at 40. Wolven's Basic tier is marked because its diagrams wait behind Kaer Morhen](../images/gear-timeline.png)
 
 Three things stand out on the timeline:
 
@@ -63,7 +63,7 @@ Location guides: Mobalytics has one for each of Cat, Griffin, Ursine, Wolven and
 
 Kaer Morhen only opens up after *Ugly Baby*. Two sets live here:
 
-- **Wolven:** the Basic armor diagrams (level 14) are here, along with Enhanced and Superior diagrams, so the Wolven set realistically arrives mid-game.
+- **Wolven:** the Basic armor diagrams are here, along with Enhanced and Superior diagrams. The Basic tier only needs level 14 to wear, but you reach Kaer Morhen after *Ugly Baby* (suggested level 19), so the set realistically arrives mid-game.
 - **Forgotten Wolven:** Osmund's notes and Vesemir's note, on the upper bookcase in the main hall (climb the ladder), hold the Mastercrafted diagrams and, with Blood and Wine, the Grandmaster ones.
 
 ## Hearts of Stone (levels 30–39)

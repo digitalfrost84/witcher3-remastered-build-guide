@@ -229,6 +229,11 @@ def school_map():
 def gear_timeline():
     # DATA: tier levels, computed from the 5.0 game files by scripts/item_levels.py
     # (they match the older Console Pulse, Gamestegy and KeenGamer figures)
+    # Rows whose Basic tier is level-gated by where its diagrams sit: the number
+    # is what it takes to wear the piece, not when the diagrams become reachable.
+    # Wolven: all diagrams are in Kaer Morhen, which opens after the main quest
+    # Ugly Baby (suggested level 19). Witcher wiki: Scavenger Hunt: Wolf School Gear.
+    gated = {"Wolven": "\u2020"}
     witcher = [
         ("Viper swords", "Medium", [(1, "")], "levels 1 and 2, White Orchard"),
         ("Griffin", "Medium", [(11, "B"), (18, "E"), (26, "S"), (34, "M"), (40, "G")], ""),
@@ -248,7 +253,7 @@ def gear_timeline():
     ]
     rows = [(n, w, t, note) for n, w, t, note in witcher] + [None] + [(n, w, t, "") for n, w, t in bridge]
     fig = plt.figure(figsize=(12, 9.4))
-    ax = fig.add_axes([0.30, 0.09, 0.66, 0.72])
+    ax = fig.add_axes([0.30, 0.13, 0.66, 0.68])
     titled(fig, "The first witcher set fits at level 11; every school meets at Grandmaster, level 40",
            "Required level for each tier (B Basic, E Enhanced, S Superior, M Mastercrafted, G Grandmaster) and for the best bridge armor.", top=0.965)
     n = len(rows)
@@ -275,7 +280,8 @@ def gear_timeline():
         ax.scatter(xs, [i] * len(xs), s=70, color=c, edgecolor=SURFACE, linewidth=1.5, zorder=3)
         for x, lab in tiers:
             if lab:
-                ax.text(x, i + 0.24, f"{lab} {x}", ha="center", va="top", fontsize=8.5, color=INK2)
+                mark = gated.get(name, "") if lab == "B" else ""
+                ax.text(x, i + 0.24, f"{lab} {x}{mark}", ha="center", va="top", fontsize=8.5, color=INK2)
             elif not note:
                 ax.text(x + 0.8, i, str(x), ha="left", va="center", fontsize=9, color=INK2)
         if note:
@@ -289,6 +295,8 @@ def gear_timeline():
     for k, (w, c) in enumerate(WEIGHT.items()):
         fig.text(0.30 + k * 0.1, 0.845, "●", color=c, fontsize=12, va="center")
         fig.text(0.315 + k * 0.1, 0.845, w, color=INK2, fontsize=10, va="center")
+    fig.text(0.04, 0.045, "\u2020 Wolven's Basic diagrams sit in Kaer Morhen, which opens after the main quest Ugly Baby (suggested level 19): 14 is the level needed to wear the set, not when it becomes reachable.",
+             fontsize=8.5, color=MUTED)
     fig.text(0.04, 0.02, "Levels computed from the game files, build 5.0.0.1048522 (scripts/item_levels.py). Reward sets need a linked CD PROJEKT RED account.",
              fontsize=8.5, color=MUTED)
     save(fig, "gear-timeline.png")

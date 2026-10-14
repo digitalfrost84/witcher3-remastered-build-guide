@@ -17,13 +17,13 @@ The first is available from your first skill point, the third grows over the who
 | **Armor** | Light | Medium | Heavy | Medium | Medium | Medium |
 | **Technique, 4 pieces at rank 3** | +24% fast attacks (the published +96% crit damage adds nothing) | +24% Sign intensity, +2.4 Stamina/s | +24% Vitality, +24% strong attacks | +24% weapon damage and Sign intensity | +24% sword and bomb damage | +24% Vitality and poison damage |
 | **Leans on** | Held Adrenaline, crits | Stamina, Yrden | Vitality, Quen | A bit of everything | Toxicity, decoctions | Poison, oils |
-| **First set tier** | Level 17 | Level 11 | Level 20 | Level 14 (Kaer Morhen) | Level 40 only | Swords level 1, armor 39 |
+| **First set tier** | Level 17 | Level 11 | Level 20 | Level 14, but Kaer Morhen opens after *Ugly Baby* | Level 40 only | Swords level 1, armor 39 |
 | **Grandmaster bonus, short** | Strong attacks power up fast attacks; rear attacks stun | Free follow-up Signs; huge bonuses inside Yrden | Free Quen recasts; Quen damage +200% | Bleeding stacks into sword damage | Bombs crit; +1 charge on potions and bombs | None |
 | **Mutation** | Bloodbath | Magic Sensibilities, then Conductors of Magic | Mutated Skin | Conductors of Magic | Euphoria | Euphoria |
 | **Effort** | High skill, low prep | Medium | Low | Medium | High prep | High prep, missable gear |
 | **Chapter** | [9](09-feline.md) | [10](10-griffin.md) | [11](11-ursine.md) | [12](12-wolven.md) | [13](13-manticore.md) | [14](14-viper.md) |
 
-Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 3. The Wolven set's Basic tier is level 14, but its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby*.
+Technique values: [witcherhour.com](https://witcherhour.com/skills/). Set levels and bonuses: chapter 3. The Wolven set's Basic tier is level 14, but that is only the level needed to wear it: its armor diagrams sit in Kaer Morhen, which only opens after the main quest *Ugly Baby* (suggested level 19), so the set arrives around then.
 
 ## Five questions that decide it
 
