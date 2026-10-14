@@ -165,7 +165,7 @@ Wear whichever set has the best stats; before level 40 the only thing a change c
 | Light | Temerian (4), Feline (17, 23, 29, 34) | Cat School Techniques: +2% fast attack damage per light piece per rank | Buy it (1 point, no prerequisite) and slot it in Wolf's place |
 | Heavy | Undvik (16), Ursine (20, 25, 30, 34) | Bear School Techniques: +2% maximum Vitality and +2% strong attack damage per heavy piece per rank | Buy it (1 point, no prerequisite) and slot it in Wolf's place |
 
-Levels are each tier's required level (chapter 3); Wolven's first diagrams wait at Kaer Morhen, so in practice that set arrives mid-game. Chapter 16 has every set's diagram locations, region by region.
+Levels are each tier's required level to wear (chapter 3), not when the set becomes available; Wolven's first diagrams wait at Kaer Morhen, which opens after *Ugly Baby*, so that set arrives mid-game rather than at level 14. Chapter 16 has every set's diagram locations, region by region.
 
 - **A Technique counts pieces, not sets.** Mixing a Feline chest with medium gloves, trousers and boots still leaves three pieces for Wolf.
 - **Weight also changes Stamina.** Light armor refills Stamina 25% faster and heavy 25% slower in combat (chapter 20), which you'll feel in how often you can cast and dodge.

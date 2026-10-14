@@ -31,7 +31,7 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | Set | Weight | Level by tier (B / E / S / M / G) | Where the diagrams are |
 | --- | --- | --- | --- |
 | **Griffin** | Medium | 11 / 18 / 26 / 34 / 40 | Velen and Novigrad, then Skellige, then Toussaint |
-| **Wolven** | Medium | 14 / 21 / 29 / 34 / 40 | Kaer Morhen, Velen and Skellige, then Toussaint |
+| **Wolven** | Medium | 14 / 21 / 29 / 34 / 40 | Kaer Morhen (after *Ugly Baby*), Velen and Skellige, then Toussaint |
 | **Feline** | Light | 17 / 23 / 29 / 34 / 40 | Novigrad and Velen, then Skellige, then Toussaint |
 | **Forgotten Wolven** | Medium | 20 / – / – / 34 / 40 | Velen (quest), then Kaer Morhen notes |
 | **Ursine** | Heavy | 20 / 25 / 30 / 34 / 40 | Skellige, then Velen, then Toussaint |
@@ -39,6 +39,8 @@ Each school's gear comes in up to five tiers: **Basic, Enhanced, Superior, Maste
 | **Manticore** | Medium | Grandmaster only, 40 | Toussaint |
 
 **File-verified:** the game doesn't store an item's level; it computes it from the item's armor or damage value, and every level in this table matches that calculation for the installed 5.0 files (chapter 20). The older guides (Console Pulse, Gamestegy) and a 5.0 KeenGamer article give the same numbers. Chapter 16 draws all of them on one timeline, and each school chapter links a location guide for its diagrams.
+
+**A level is what it takes to wear a piece, not when you can get it.** Wolven is the case that matters: its Basic tier needs level 14, but every diagram of the set sits in Kaer Morhen, which only opens after the main quest *Ugly Baby* (suggested level 19), so the set arrives later than its number suggests (chapter 16).
 
 **About Manticore's weight.** One Remastered guide calls the Manticore set light. Every other source, including the 5.0 Manticore School Technique (which rewards medium armor), says medium. The "light" reading most likely came from a chest piece enchanted with the Levity glyphword. This book treats Manticore as medium.
 
