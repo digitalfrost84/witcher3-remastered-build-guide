@@ -56,7 +56,7 @@ Buy each table from the top down; every prerequisite is either already owned or 
 | Sustained Glyphs | Signs | 1 | start | Stepping stone to Magic Trap; leave it unslotted |
 | Magic Trap | Signs | 1 | Sustained Glyphs | Yrden's alternate mode: damages and slows everything within 14 yards. Your answer to wraiths |
 | Wolf School Techniques | General | 1 | start | +2% weapon damage and +2% Sign intensity per medium armor piece |
-| Delusion | Signs | 1 | start | Axii's dialogue options; rank 1 is very likely enough in 5.0 (chapter 2) |
+| Delusion | Signs | 1 | start | Axii's dialogue options. Some need rank 3, such as *Of Swords and Dumplings*: add two points before those conversations (chapter 2) |
 | Melt Armor | Signs | 1 | start | Igni lowers the target's armor, so your sword hits harder too |
 | Undying | Combat | 2 | — | Adds a flat third of your maximum Vitality: one Adrenaline point brings you back at 43% instead of 10% |
 
