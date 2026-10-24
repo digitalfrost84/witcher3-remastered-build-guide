@@ -105,19 +105,23 @@ Cumulative points after each phase:
 
 ## Slots, mutagens and mutation
 
-**While slots are scarce,** equip in this order and fill new slots from the top of what's left. You have 4 slots after the opening, 7 by the end of Phase 1, 9 by the end of Phase 2, 10 at 22 points and 11 by the end of Phase 3; the 12th opens at 30 Ability Points (chapter 2).
+Slots open by Ability Points earned (chapter 2). Following the phases, that's 4 slots after the opening, 7 by the end of Phase 1 and 9 by the end of Phase 2; then the bottom-right group opens one slot at a time, at 22, 26 and 30 points.
 
-1. Muscle Memory
-2. Razor Focus
-3. Exploding Shield, then Active Shield once you have it
-4. Undying
-5. Strength Training
-6. Magic Trap
-7. Wolf School Techniques (once you're in medium armor)
-8. Melt Armor
-9. Delusion
+**Up to 9 slots,** you own about as many skills worth slotting as you have slots, so slot what you have and rank it up. When a new slot opens, fill it with the highest skill on this list that isn't slotted yet. Put each skill in its final group if that group has a free slot; otherwise use any free slot and move it later.
 
-**At 9 slots (from 18 points):**
+| Priority | Skill | Final group |
+| --- | --- | --- |
+| 1 | Muscle Memory | Top left |
+| 2 | Razor Focus | Top left |
+| 3 | Exploding Shield, then Active Shield once you have it | Top right |
+| 4 | Undying | Bottom left |
+| 5 | Strength Training | Top left |
+| 6 | Magic Trap | Top right |
+| 7 | Wolf School Techniques (once you're in medium armor) | Bottom left |
+| 8 | Melt Armor | Top right |
+| 9 | Delusion | Bottom left |
+
+**At 9 slots (from 18 points),** the first three groups are full, and they stay this way until the reset:
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
@@ -126,9 +130,15 @@ Cumulative points after each phase:
 | Bottom left | Undying, Wolf School Techniques, Delusion | Blue |
 | Bottom right | Locked until 22 points | — |
 
-**The 10th slot, at 22 points,** is the bottom-right group's first, and the other two arrive at 26 and 30 points (chapter 2). Refreshment, bought in Phase 2, is the skill for it — unless you skipped Delusion, in which case Refreshment is already in the bottom left and this slot takes the free-slot pick below.
+**From 22 points,** only the bottom right changes. Each new slot takes a skill you already own, so none of them sits empty:
 
-**The full layout (from 30 points):**
+| Ability Points | Slots | Bottom right | Why this order |
+| --- | --- | --- | --- |
+| 22–25 | 10 | Refreshment | Bought in Phase 2; it heals with every potion you drink |
+| 26–29 | 11 | Refreshment, Acquired Tolerance | Bought at 22 points; it only matters once you drink a decoction |
+| 30+ | 12 | Refreshment, Acquired Tolerance, Survival Instinct | Bought at 24 points |
+
+Put a green mutagen in the bottom right when its first slot opens. That gives you **the full layout:**
 
 | Group | Skills | Mutagen |
 | --- | --- | --- |
@@ -137,9 +147,11 @@ Cumulative points after each phase:
 | Bottom left | Undying, Wolf School Techniques, Delusion | Blue |
 | Bottom right | Refreshment, Acquired Tolerance, Survival Instinct | Green |
 
-Three Strikes, Sustained Glyphs, Exploding Shield and Sun and Stars stay unslotted.
+Three Strikes, Sustained Glyphs, Exploding Shield, Sun and Stars and Hunter Instinct stay unslotted; you bought them only to unlock what's behind them. Hunter Instinct is the exception if you wear crit gear (Phase 4).
 
-**Without Delusion,** buy Refreshment in its place in Phase 1 and slot it in the bottom left with a green mutagen. The bottom right then has a free slot: Hunter Instinct if you wear crit gear, otherwise Three Strikes, whose small bonus to a fourth same-style hit beats an empty slot (chapter 20).
+**Never leave a slot empty.** If you buy in a different order and a slot opens before the skill meant for it, put a stepping stone you already own there until that skill arrives: Sun and Stars (Vitality between fights, and Survival Instinct replaces it anyway), Three Strikes or Hunter Instinct. An unslotted skill gives nothing, not even its branch passive (chapter 2), so even a weak skill in a slot beats an empty one.
+
+**Without Delusion,** buy Refreshment in its place in Phase 1 and slot it in the bottom left with a green mutagen. The bottom right then fills one step earlier: Acquired Tolerance at 22 points, Survival Instinct at 26, and at 30 a free pick: Hunter Instinct if you wear crit gear, otherwise Three Strikes, whose small bonus to a fourth same-style hit beats an empty slot (chapter 20).
 
 **Mutation:** none until the reset. If Blood and Wine comes first, research the mutation of the school you're heading for (chapter 5) and slot its skills when you rebuild.
 
