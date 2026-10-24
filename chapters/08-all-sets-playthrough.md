@@ -87,7 +87,9 @@ Undying's second rank at your 13th point is the moment the build gets safe: from
 | Magic Trap | Signs | 2 | — | +25% trap damage |
 | Undying | Combat | 3 | — | One Adrenaline point brings you back at 77% |
 
-### Phase 4: level 30+ until the reset
+### Phase 4: from 29 points until the reset
+
+By the end of Phase 3 every skill the layout slots is bought, so from here on every point is a rank. Go by points, not level: with Places of Power and the Magic Acorn, all 12 slots can be open by about level 21. Once they are, buy nothing the layout doesn't slot, and spend your points on what's left in the Phase 2 and 3 tables (ranks of slotted skills, plus Sun and Stars and Survival Instinct), then on the ranks below.
 
 - **Rank up what you slot:** Active Shield 3 (no Stamina drain at all), Refreshment, Acquired Tolerance, Magic Trap 3, Razor Focus 3.
 - **Stepping stones stay at rank 1:** Exploding Shield, Three Strikes, Sustained Glyphs, Sun and Stars.
