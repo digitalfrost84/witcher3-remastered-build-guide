@@ -13,7 +13,7 @@ Patch 5.0 rebuilt how Geralt grows: four skill trees with prerequisites and thre
 - **New to 5.0, or coming back from an old save?** Read chapters [1](chapters/01-the-resources.md) to [3](chapters/03-gear-basics.md). Loading an old save refunds all your skill points, so you're starting fresh either way.
 - **Not ready to pick a school?** After those, [chapter 8](chapters/08-all-sets-playthrough.md) has one skill plan that works in whatever set you wear, with a reset once you pick your Grandmaster set.
 - **Picking a school?** Read [chapter 7](chapters/07-choosing-a-school.md), then your school's chapter, then the [verdict](chapters/15-verdict.md).
-- **Mid-playthrough and wondering what to craft?** [Chapter 16](chapters/16-gear-path.md) follows the gear region by region; [chapter 19](chapters/19-missables.md) lists what you can lose for good.
+- **Mid-playthrough and wondering what to craft?** [Chapter 16](chapters/16-gear-path.md) follows the gear region by region; [chapter 19](chapters/19-missables.md) lists what you can lose for good, and every unmarked quest.
 - **Planning a respec?** [Chapter 22](chapters/22-skill-reference.md) has all 80 skills with prerequisites and point costs, and [chapter 21](chapters/21-mistakes-and-respec.md) has the potions.
 - **Starting New Game+?** [Chapter 21](chapters/21-mistakes-and-respec.md#new-game) lists what carries over and which numbers change.
 
@@ -47,7 +47,7 @@ Each build chapter covers its lore (or, for chapter 8, the idea behind it), how 
 16. [The gear path, region by region](chapters/16-gear-path.md): what to pick up and craft from White Orchard to Toussaint, and what each witcher set is for
 17. [Other armor sets](chapters/17-other-armor.md): account rewards (and what "linked account" means), free DLC and expansion sets
 18. [Relics and legendary weapons](chapters/18-relics.md): Aerondight and the best steel and silver swords
-19. [Missables](chapters/19-missables.md): one-time gear and the choices that decide it
+19. [Missables](chapters/19-missables.md): one-time gear and the choices that decide it, plus a checklist of all 38 unmarked quests
 
 ### Part IV: Reference
 
